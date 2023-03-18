@@ -1,0 +1,87 @@
+.elementor-3412 .elementor-element.elementor-element-cfc8545:not(.elementor-motion-effects-element-type-background),
+.elementor-3412 .elementor-element.elementor-element-cfc8545>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var(--e-global-color-primary)
+}
+
+.elementor-3412 .elementor-element.elementor-element-cfc8545 {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    padding: 0
+}
+
+.elementor-3412 .elementor-element.elementor-element-cfc8545>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-3412 .elementor-element.elementor-element-b533846:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var(--e-global-color-text)
+}
+
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-element-populated,
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-element-populated>.elementor-background-overlay,
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-background-slideshow {
+    border-radius: 8px
+}
+
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-element-populated {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin: 0;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 40px
+}
+
+.elementor-3412 .elementor-element.elementor-element-b533846>.elementor-element-populated>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-3412 .elementor-element.elementor-element-373b879>.elementor-widget-container {
+    margin: 0 0 20px
+}
+
+.elementor-3412 .elementor-element.elementor-element-fa7b33e .ae-acf-repeater-item {
+    width: calc(100%/1);
+    margin-bottom: 0
+}
+
+.elementor-3412 .elementor-element.elementor-element-fa7b33e.ae-acf-repeater-layout-grid .ae-acf-repeater-item {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.elementor-3412 .elementor-element.elementor-element-fa7b33e .ae-widget-title-wrap {
+    text-align: center
+}
+
+.elementor-3412 .elementor-element.elementor-element-fa7b33e .ae-widget-title-inner {
+    border-style: solid;
+    border-width: 0 0 1px;
+    padding: 0 10px 5px;
+    margin: 0 0 10px
+}
+
+@media(max-width:1064px) {
+    .elementor-3412 .elementor-element.elementor-element-fa7b33e .ae-acf-repeater-item {
+        width: calc(100%/1)
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-3412 .elementor-element.elementor-element-cfc8545 {
+        padding: 0
+    }
+
+    .elementor-3412 .elementor-element.elementor-element-b533846 {
+        width: 100%
+    }
+
+    .elementor-3412 .elementor-element.elementor-element-b533846>.elementor-element-populated {
+        padding: 1rem
+    }
+
+    .elementor-3412 .elementor-element.elementor-element-fa7b33e .ae-acf-repeater-item {
+        width: calc(100%/1)
+    }
+}

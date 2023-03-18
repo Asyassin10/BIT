@@ -1,0 +1,125 @@
+.elementor-3570 .elementor-element.elementor-element-cca4aff>.elementor-container {
+    max-width: 1172px
+}
+
+.elementor-3570 .elementor-element.elementor-element-cca4aff {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.elementor-3570 .elementor-element.elementor-element-506a90f>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center
+}
+
+.elementor-bc-flex-widget .elementor-3570 .elementor-element.elementor-element-9c2d139.elementor-column .elementor-widget-wrap {
+    align-items: center
+}
+
+.elementor-3570 .elementor-element.elementor-element-9c2d139.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b .elementor-icon-wrapper {
+    text-align: left
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b.elementor-view-stacked .elementor-icon {
+    background-color: #44b351
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b.elementor-view-framed .elementor-icon,
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b.elementor-view-default .elementor-icon {
+    color: #44b351;
+    border-color: #44b351
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b.elementor-view-framed .elementor-icon,
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b.elementor-view-default .elementor-icon svg {
+    fill: #44b351
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b .elementor-icon {
+    font-size: 40px
+}
+
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b .elementor-icon i,
+.elementor-3570 .elementor-element.elementor-element-d8a9c6b .elementor-icon svg {
+    transform: rotate(0deg)
+}
+
+.elementor-bc-flex-widget .elementor-3570 .elementor-element.elementor-element-8bb0752.elementor-column .elementor-widget-wrap {
+    align-items: flex-start
+}
+
+.elementor-3570 .elementor-element.elementor-element-8bb0752.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: flex-start;
+    align-items: flex-start
+}
+
+.elementor-3570 .elementor-element.elementor-element-4ac95f2 .ae-acf-content-wrapper,
+.elementor-3570 .elementor-element.elementor-element-4ac95f2 .ae-acf-content-wrapper a {
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--e-global-color-primary)
+}
+
+.elementor-3570 .elementor-element.elementor-element-4ac95f2>.elementor-widget-container {
+    margin: 0 0 15px
+}
+
+.elementor-3570 .elementor-element.elementor-element-3efd06f {
+    --divider-border-style: solid;
+    --divider-color: #8F929534;
+    --divider-border-width: 1px
+}
+
+.elementor-3570 .elementor-element.elementor-element-3efd06f .elementor-divider-separator {
+    width: 100%
+}
+
+.elementor-3570 .elementor-element.elementor-element-3efd06f .elementor-divider {
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+@media(min-width:768px) {
+    .elementor-3570 .elementor-element.elementor-element-9c2d139 {
+        width: 10%
+    }
+
+    .elementor-3570 .elementor-element.elementor-element-8bb0752 {
+        width: 89.666%
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-3570 .elementor-element.elementor-element-cca4aff {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    .elementor-3570 .elementor-element.elementor-element-9c2d139 {
+        width: 8%
+    }
+
+    .elementor-bc-flex-widget .elementor-3570 .elementor-element.elementor-element-9c2d139.elementor-column .elementor-widget-wrap {
+        align-items: center
+    }
+
+    .elementor-3570 .elementor-element.elementor-element-9c2d139.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+        align-content: center;
+        align-items: center
+    }
+
+    .elementor-3570 .elementor-element.elementor-element-d8a9c6b .elementor-icon {
+        font-size: 17px
+    }
+
+    .elementor-3570 .elementor-element.elementor-element-8bb0752 {
+        width: 92%
+    }
+}
