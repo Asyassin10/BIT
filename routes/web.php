@@ -30,3 +30,8 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
 
 
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

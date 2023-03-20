@@ -7,9 +7,9 @@
             min-height: 1px
         }
     </style>
-    <link rel='stylesheet' id='elementor-post-8-css' href='wp-content/cache/autoptimize/css/style.css' type='text/css'
+    <link rel='stylesheet' id='elementor-post-8-css' href='assets/cache/autoptimize/css/style.css' type='text/css'
         media='all' />
-    <link rel="preload" href="wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+    <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -17,14 +17,14 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
     <!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
-    <link media="all" href="wp-content/cache/autoptimize/css/autoptimize_117b52d80d5c631205b95e4e6a9c9d11.css"
+    <link media="all" href="assets/cache/autoptimize/css/autoptimize_117b52d80d5c631205b95e4e6a9c9d11.css"
         rel="stylesheet" />
-    <link media="all" href="wp-content/cache/autoptimize/css/autoptimize_8aaadfa924c3be8357d06089be7f0d50.css"
+    <link media="all" href="assets/cache/autoptimize/css/autoptimize_8aaadfa924c3be8357d06089be7f0d50.css"
         rel="stylesheet" />
-    <link media="all" href="wp-content/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
+    <link media="all" href="assets/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
         rel="stylesheet" />
     <!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
-    <link media="all" href="../wp-content/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
+    <link media="all" href="assets/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
         rel="stylesheet" />
     <title>{{ $title }}</title>
     <link rel="canonical" href="index.html" />
@@ -298,74 +298,74 @@
     </style>
 
     <link rel='stylesheet' id='stm-stm-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='wp-content/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <style id='elementor-frontend-inline-css' type='text/css'>
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40:not(.elementor-motion-effects-element-type-background),
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("wp-content/uploads/2022/03/nasa-Q1p7bh3SHj8-unsplash-1@2x-5.43.49-PM.png");
+            background-image: url("assets/uploads/2022/03/nasa-Q1p7bh3SHj8-unsplash-1@2x-5.43.49-PM.png");
         }
 
         .elementor-7285 .elementor-element.elementor-element-be38a20:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
         .elementor-7285 .elementor-element.elementor-element-be38a20>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("../wp-content/uploads/2022/01/img-10-e1675870730876.png");
+            background-image: url("../assets/uploads/2022/01/img-10-e1675870730876.png");
         }
 
         .elementor-7285 .elementor-element.elementor-element-3f6900eb:not(.elementor-motion-effects-element-type-background),
         .elementor-7285 .elementor-element.elementor-element-3f6900eb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("../wp-content/uploads/2022/03/BG-2.png");
+            background-image: url("../assets/uploads/2022/03/BG-2.png");
         }
     </style>
 
 
     <link rel='stylesheet' id='elementor-post-73-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
+        href='assets/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-post-8-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <link rel='stylesheet' id='elementor-post-20-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-141-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-127-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-59-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
+        href='assets/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
         type='text/css' media='all' />
 
 
 
 
     <link rel='stylesheet' id='stm-stm-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='wp-content/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <link rel='stylesheet' id='elementor-post-8-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
 
 
@@ -447,15 +447,15 @@
 
 
     <link rel='stylesheet' id='stm-skin-custom-generated-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95013.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95013.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='consulting-theme-options-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_2adcd1670022c9cc74589cc890b27750.css@ver=5.9.2.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_2adcd1670022c9cc74589cc890b27750.css@ver=5.9.2.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='stm-skin-custom-generated-css'
-        href='./wp-content/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95005.css'
+        href='./assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95005.css'
         type='text/css' media='all' />
 
 
@@ -586,29 +586,29 @@
 
 
     <link rel='stylesheet' id='elementor-post-7191-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-6996-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7285-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
+        href='assets/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7690-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single.css' type='text/css' media='all' />
+        href='assets/cache/autoptimize/css/autoptimize_single.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-7230-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
+        href='assets/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
         type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CUbuntu%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=5.9.2'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-5739-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
+        href='assets/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-5214-css'
-        href='wp-content/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
+        href='assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
         type='text/css' media='all' />
 
 
@@ -687,13 +687,13 @@
             vertical-align: top;
             position: relative;
             top: 3px;
-        }
+        
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <link rel="icon" href="wp-content/uploads/2022/01/Logo-1.svg" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2022/01/Logo-1.svg" sizes="192x192" />
-    <link rel="apple-touch-icon" href="wp-content/uploads/2022/01/Logo-1.svg" />
-    <meta name="msapplication-TileImage" content="wp-content/uploads/2022/01/Logo-1.svg" />
+    <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
+    <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
+    <meta name="msapplication-TileImage" content="assets/uploads/2022/01/Logo-1.svg" />
     <style type="text/css" id="wp-custom-css">
         /*general*/
         #main {
@@ -1041,18 +1041,9 @@
         </style>
     </noscript>
 </head>
+{{-- body --}}
+
 @yield('body')
 
+{{-- end body --}}
 </html>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Mise en cache objet de 92/661 objets utilisant disk
-Mise en cache de page à l’aide de disk: enhanced
-Content Delivery Network via N/A
-Chargement lent
-Mise en cache de la base de données de 6/220 requêtes en 0.119 secondes utilisant disk (Request-wide modification query)
-
-Served from: bti-advisory.com @ 2023-03-16 14:50:41 by W3 Total Cache
--->

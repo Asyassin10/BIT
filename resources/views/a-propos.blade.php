@@ -2545,7 +2545,7 @@
 
         </div><!-- #page -->
         <link rel='stylesheet' id='elementor-post-3493-css'
-            href='../wp-content/cache/autoptimize/css/autoptimize_single_364b6e2e350ce9d1c310b1f2a4412e57.css@ver=1675955108.css'
+            href='../assets/cache/autoptimize/css/autoptimize_single_364b6e2e350ce9d1c310b1f2a4412e57.css@ver=1675955108.css'
             type='text/css' media='all' />
 
         <script type='text/javascript' id='ae-pro-js-js-extra'>
@@ -2650,7 +2650,7 @@
         </script>
 
         <script type='module'
-		src='../wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
+		src='../assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
 		id='instant-page-js'></script>
 
 
@@ -2915,6 +2915,6 @@
                 }
             }
         </script>
-        <script async src="../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="../assets/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
     </body>
 @endsection

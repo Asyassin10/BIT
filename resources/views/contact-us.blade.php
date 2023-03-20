@@ -769,7 +769,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='../assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
 
         <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.6.4'
             id='elementor-recaptcha_v3-api-js'></script>
@@ -1035,6 +1035,6 @@
                 }
             }
         </script>
-        <script async src="../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="../assets/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
     </body>
 @endsection
