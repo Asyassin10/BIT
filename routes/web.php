@@ -31,7 +31,20 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
 
 
 
+/* Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+}); */
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
+
+Route::group(['middleware' => ['auth', 'admin']], function () {
+
+    Route::get('/admin/dashboard', function () {
+        return view('admin.pages.dashboard');
+    });
+    Route::get('/admin/login', function () {
+        return view('admin.login');
+    });
+
 });
