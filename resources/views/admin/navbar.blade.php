@@ -207,10 +207,11 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
+              <form class="dropdown-item d-flex align-items-center" action="{{ route('admin_logout') }}" method="POST">
+                @csrf
                 <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
+                <input value="Sign Out" type="submit" style="border: none;background:none;outline: none;">
+              </form>
             </li>
 
           </ul><!-- End Profile Dropdown Items -->

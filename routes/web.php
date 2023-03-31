@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
@@ -38,13 +39,14 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
 }); */
 
 
-Route::group(['middleware' => ['auth', 'admin']], function () {
+Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
 
     Route::get('/admin/dashboard', function () {
         return view('admin.pages.dashboard');
     });
-    Route::get('/admin/login', function () {
-        return view('admin.login');
-    });
-
 });
+Route::get('/admin/login', function () {
+    return view('admin.login');
+});
+Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
+Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
