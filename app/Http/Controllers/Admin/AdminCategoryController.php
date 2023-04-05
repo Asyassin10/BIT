@@ -31,6 +31,7 @@ class AdminCategoryController extends Controller
     public function UpdateCategory(int $category_id)
     {
         $category = Category::find($category_id);
+        //return $category->referenceCategory;
         return view("admin.pages.Category.UpdateCategory")->with("category", $category);
     }
     public function UpdateCategoryPost(Request $request, int $category_id)

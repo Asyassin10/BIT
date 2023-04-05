@@ -27,7 +27,7 @@
                                             @if (is_null($c->categorie_parent_id))
                                                 ----
                                             @else
-                                                reference exists
+                                                {{ $c->referenceCategory->categorie_name }}
                                             @endif
                                         </td>
                                         <td>
