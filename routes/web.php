@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
@@ -44,10 +45,16 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     });
+    Route::get("all_categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
+    Route::get("create_category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
+    Route::post("create_category_post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
+    Route::get("update_category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
+    Route::post("update_category_post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
 });
 Route::get('/admin/login', function () {
+    /* $user = Auth::user();
+    return $user; */
     return view('admin.login');
 });
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
-       
