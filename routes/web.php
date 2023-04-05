@@ -39,9 +39,9 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
 }); */
 
 
-Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
+Route::prefix('admin')->middleware(['admin'])->group(function () {
 
-    Route::get('/admin/dashboard', function () {
+    Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     });
 });
@@ -50,3 +50,4 @@ Route::get('/admin/login', function () {
 });
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
+       
