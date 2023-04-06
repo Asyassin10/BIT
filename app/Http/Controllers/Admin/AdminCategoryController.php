@@ -8,6 +8,11 @@ use App\Models\Category;
 
 class AdminCategoryController extends Controller
 {
+    public function update_articles()
+    {
+        $categorys = Category::all();
+        return view("admin.pages.Category.update_articles")->with("categorys", $categorys);
+    }
 
     public function allCategories()
     {

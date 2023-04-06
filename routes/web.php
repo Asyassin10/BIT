@@ -50,6 +50,7 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::post("create_category_post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
     Route::get("update_category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
     Route::post("update_category_post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
+    Route::get("update_articles", [AdminCategoryController::class, "update_articles"])->name("update_articles");
 });
 Route::get('/admin/login', function () {
     /* $user = Auth::user();
