@@ -15,14 +15,14 @@ class MakeCategorieParentIdNullable extends Migration
     {
         Schema::table('categories', function (Blueprint $table) {
             //
-            $table->unsignedBigInteger("categorie_parent_id")->nullable()->change();
+            $table->unsignedBigInteger("categorie_parent_id")->nullalbe()->change();
         });
     }
 
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void 
      */
     public function down()
     {

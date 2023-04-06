@@ -155,7 +155,7 @@
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%20130'%3E%3C/svg%3E"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     alt="" />
                                                             </div>
@@ -282,8 +282,9 @@
                                                             vertical-align: middle;
                                                             display: inline-block
                                                         }
-                                                    </style> <img width="1366" height="1370"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201366%201370'%3E%3C/svg%3E"
+                                                    </style>
+                                                    <img width="1366" height="1370"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png"
                                                         class="attachment-full size-full lazy" alt=""
                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png 1366w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-1021x1024.png 1021w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-768x770.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-683x685.png 683w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-900x903.png 900w"
@@ -366,7 +367,7 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img width="576" height="339"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20576%20339'%3E%3C/svg%3E"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory.png"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory.png"
                                                         class="attachment-services-bloc-579x339-cropped size-services-bloc-579x339-cropped lazy"
                                                         alt=""
@@ -706,7 +707,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <img width="538"
                                                                                                                 height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
+                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-538x368.jpeg"
                                                                                                                 data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-538x368.jpeg"
                                                                                                                 class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
                                                                                                                 alt="" />
@@ -1046,7 +1047,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <img width="538"
                                                                                                                 height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
+                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/MULTI-SPEED-IT-scaled-1-538x368.jpeg"
                                                                                                                 data-src="https://bti-advisory.com/wp-content/uploads/2022/02/MULTI-SPEED-IT-scaled-1-538x368.jpeg"
                                                                                                                 class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
                                                                                                                 alt="" />
@@ -1367,7 +1368,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <img width="538"
                                                                                                                 height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
+                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-538x368.jpeg"
                                                                                                                 data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-538x368.jpeg"
                                                                                                                 class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
                                                                                                                 alt="" />
@@ -1390,8 +1391,7 @@
                                                                     class="ae-tab-title ae-post-blocks-adv-accordion"
                                                                     data-tab="4" role="tab"
                                                                     aria-controls="ae-tab-content-35043185454">
-                                                                    <span
-                                                                        class="ae-accordion-icon ae-accordion-icon-right"
+                                                                    <span class="ae-accordion-icon ae-accordion-icon-right"
                                                                         aria-hidden="true">
                                                                         <span class="ae-accordion-icon-closed"><svg
                                                                                 xmlns="http://www.w3.org/2000/svg"
@@ -1688,7 +1688,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <img width="538"
                                                                                                                 height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
+                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-UX-scaled-1-538x368.jpeg"
                                                                                                                 data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-UX-scaled-1-538x368.jpeg"
                                                                                                                 class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
                                                                                                                 alt="" />

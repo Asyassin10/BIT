@@ -22,8 +22,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/nous-rejoindre', [JoinUsController::class, 'index'])->name('join-us');
+
+//services
 Route::get('/nos-services', [ServiceController::class, 'index'])->name('services');
-Route::get('/service1', [ServiceController::class, 'show'])->name('service');
+
+Route::prefix('service')->group(function () {
+    Route::get('/technologie-innovation', [ServiceController::class, 'show'])->name('technologie-innovation.service');
+    Route::get('/multi-speed-it', [ServiceController::class, 'multi_speed_it'])->name('multi_speed_it.service');
+    Route::get('/transformation-des-produits-it', [ServiceController::class, 'transformation_produits_it'])->name('transformation-des-produits-it.service');
+    Route::get('/transformation-ux', [ServiceController::class, 'transformation_ux'])->name('transformation-ux.service');
+});
+
+
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
@@ -50,4 +60,3 @@ Route::get('/admin/login', function () {
 });
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
-       

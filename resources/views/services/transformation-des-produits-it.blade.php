@@ -2,7 +2,7 @@
 @section('body')
 
     <body
-        class="stm_service-template-default single single-stm_service postid-5197 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-5197 elementor-page-5214">
+        class="stm_service-template-default single single-stm_service postid-5195 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-5195 elementor-page-5214">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
             style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
@@ -133,7 +133,7 @@
             <div id="page" class="hfeed site">
 
                 <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                    <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
+                    <p class="main-title bhf-hidden" itemprop="headline"><a href="../../index.html"
                             title="BTI &#8211; Advisory" rel="home">BTI &#8211; Advisory</a></p>
                     <div data-elementor-type="wp-post" data-elementor-id="127" class="elementor elementor-127">
                         <header
@@ -151,11 +151,11 @@
                                             <div class="elementor-widget-container">
                                                 <div class="hfe-site-logo">
                                                     <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                    href="{{ route('home') }}" aria-label="home">
+                                                        href="../../index.html" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%20130'%3E%3C/svg%3E"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     alt="" />
                                                             </div>
@@ -167,7 +167,6 @@
                                     </div>
                                 </div>
                                 @include('navbar')
-
                             </div>
                         </header>
                     </div>
@@ -176,7 +175,7 @@
                 <div id="main">
                     <div class="container">
                         <div data-elementor-type="single-post" data-elementor-id="5214"
-                            class="elementor elementor-5214 elementor-location-single post-5197 stm_service type-stm_service status-publish has-post-thumbnail hentry">
+                            class="elementor elementor-5214 elementor-location-single post-5195 stm_service type-stm_service status-publish has-post-thumbnail hentry">
                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-75a75a9f elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="75a75a9f" data-element_type="section">
@@ -229,8 +228,8 @@
                                                 data-id="7faaf0c7" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Technologie
-                                                        &#038; Innovation</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                        Transformation des Produits IT</h1>
                                                 </div>
                                             </div>
                                             <section
@@ -244,7 +243,7 @@
                                                                 data-id="7c3a8553" data-element_type="widget"
                                                                 data-widget_type="ae-acf-repeater.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <div data-pid="5197" data-wid="7c3a8553"
+                                                                    <div data-pid="5195" data-wid="7c3a8553"
                                                                         class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
                                                                         <div class="ae-acf-repeater-wrapper">
@@ -273,8 +272,46 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
+                                                                                                                        class="elementor-heading-title elementor-size-default">Journey
+                                                                                                                        To
+                                                                                                                        Cloud</span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </section>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ae-acf-repeater-item">
+                                                                                <div class="ae-acf-repeater-inner">
+                                                                                    <div
+                                                                                        class="ae_data elementor elementor-4451">
+                                                                                        <div data-elementor-type="wp-post"
+                                                                                            data-elementor-id="4451"
+                                                                                            class="elementor elementor-4451">
+                                                                                            <section
+                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                data-id="c46c6ea"
+                                                                                                data-element_type="section">
+                                                                                                <div
+                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
+                                                                                                        data-id="b34ff96"
+                                                                                                        data-element_type="column">
+                                                                                                        <div
+                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                            <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                                data-id="99cfddb"
+                                                                                                                data-element_type="widget"
+                                                                                                                data-widget_type="heading.default">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-container">
+                                                                                                                    <span
                                                                                                                         class="elementor-heading-title elementor-size-default">Digital
-                                                                                                                        Factory</span>
+                                                                                                                        Workplace</span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -310,46 +347,8 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">IoT
-                                                                                                                        &
-                                                                                                                        Robotics</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="ae-acf-repeater-item">
-                                                                                <div class="ae-acf-repeater-inner">
-                                                                                    <div
-                                                                                        class="ae_data elementor elementor-4451">
-                                                                                        <div data-elementor-type="wp-post"
-                                                                                            data-elementor-id="4451"
-                                                                                            class="elementor elementor-4451">
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="c46c6ea"
-                                                                                                data-element_type="section">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                        data-id="b34ff96"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                data-id="99cfddb"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="heading.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Data
-                                                                                                                        Intelligence</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">Architecture
+                                                                                                                        digitale</span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -399,7 +398,7 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img class="lazy"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201176%20804'%3E%3C/svg%3E"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG.svg"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG.svg"
                                                         title="IMG" alt="IMG" />
                                                 </div>
@@ -421,11 +420,11 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img width="1172" height="653"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201172%20653'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-1172x653.jpeg"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg"
+                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg"
                                                         class="attachment-service-cover-1172x653-cropped size-service-cover-1172x653-cropped lazy"
                                                         alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-1172x653.jpeg 1172w, https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-350x195.jpeg 350w"
+                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg 1172w, https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-350x195.jpeg 350w"
                                                         data-sizes="(max-width: 1172px) 100vw, 1172px" />
                                                 </div>
                                             </div>
@@ -463,10 +462,10 @@
                                         data-id="449225ba" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-5b20fd39 ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                data-id="5b20fd39" data-element_type="widget" id="Digital Factory"
+                                                data-id="5b20fd39" data-element_type="widget" id="Journey To Cloud"
                                                 data-widget_type="ae-acf-repeater.default">
                                                 <div class="elementor-widget-container">
-                                                    <div data-pid="5197" data-wid="5b20fd39"
+                                                    <div data-pid="5195" data-wid="5b20fd39"
                                                         class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
                                                         <div class="ae-acf-repeater-wrapper">
@@ -480,7 +479,7 @@
                                                                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-4278cb89 elementor-section-content-top elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                 data-id="4278cb89"
                                                                                 data-element_type="section"
-                                                                                id="Digital Factory"
+                                                                                id="Journey To Cloud"
                                                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                                                 <div
                                                                                     class="elementor-container elementor-column-gap-no">
@@ -519,8 +518,9 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Digital
-                                                                                                                Factory<span
+                                                                                                                    class="ae-prefix"></span>Journey
+                                                                                                                To
+                                                                                                                Cloud<span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -535,13 +535,13 @@
                                                                                                     class="elementor-widget-container">
                                                                                                     <div
                                                                                                         class="ae_acf_image_wrapper">
-                                                                                                        <img width="212"
-                                                                                                            height="204"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20212%20204'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/digital-factory-BTI-Advisory.svg"
+                                                                                                        <img width="230"
+                                                                                                            height="175"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Journey-To-Cloud-BTI-Advisory.svg"
+                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Journey-To-Cloud-BTI-Advisory.svg"
                                                                                                             class="attachment-medium size-medium lazy"
-                                                                                                            alt="digital factory &#8211; BTI Advisory"
-                                                                                                            title="digital factory &#8211; BTI Advisory" />
+                                                                                                            alt="Journey To Cloud &#8211; BTI Advisory"
+                                                                                                            title="Journey To Cloud &#8211; BTI Advisory" />
                                                                                                         <div
                                                                                                             class="ae-acf-overlay-block">
                                                                                                             <div
@@ -570,25 +570,30 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Que vous
-                                                                                                                soyez dans
+                                                                                                            <p>Face aux
+                                                                                                                besoins
+                                                                                                                métiers
+                                                                                                                croissants
+                                                                                                                d’agilité
+                                                                                                                pour le
+                                                                                                                traitement
+                                                                                                                des demandes
+                                                                                                                d’évolution,
+                                                                                                                répondant au
+                                                                                                                virage de
+                                                                                                                l’ère de la
+                                                                                                                révolution
+                                                                                                                digitale,
+                                                                                                                les
+                                                                                                                entreprises
+                                                                                                                se doivent
+                                                                                                                d’engager
                                                                                                                 une démarche
-                                                                                                                de
-                                                                                                                construction
-                                                                                                                d’un nouveau
-                                                                                                                produit à
-                                                                                                                destination
-                                                                                                                de vos
-                                                                                                                utilisateurs
-                                                                                                                où de
-                                                                                                                transformation
-                                                                                                                de son
-                                                                                                                système
-                                                                                                                d’information
-                                                                                                                en mettant
-                                                                                                                en place des
-                                                                                                                solutions de
-                                                                                                                modernisation.
+                                                                                                                en rupture
+                                                                                                                dans la
+                                                                                                                gestion de
+                                                                                                                ses
+                                                                                                                infrastructures.
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -604,26 +609,33 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Avec la
-                                                                                                                Digital
-                                                                                                                Factory,
-                                                                                                                nous
-                                                                                                                répondons à
-                                                                                                                un besoin
-                                                                                                                très
-                                                                                                                précis :
-                                                                                                                accélérer la
-                                                                                                                mise sur le
-                                                                                                                marché des
-                                                                                                                produits en
-                                                                                                                nous
-                                                                                                                concentrant
-                                                                                                                sur les
-                                                                                                                fonctionnalités
+                                                                                                            <p>Le Cloud
+                                                                                                                apparaît
+                                                                                                                comme une
+                                                                                                                solution
+                                                                                                                innovante
+                                                                                                                majeure pour
+                                                                                                                penser et
+                                                                                                                consommer
+                                                                                                                les
+                                                                                                                ressources
+                                                                                                                informatiques
+                                                                                                                de manière
+                                                                                                                optimale.
+                                                                                                                Nous nous
+                                                                                                                dirigeons
+                                                                                                                tout droit
+                                                                                                                vers l’IT as
+                                                                                                                a Business,
+                                                                                                                un
+                                                                                                                changement
+                                                                                                                de paradigme
                                                                                                                 qui
-                                                                                                                apportent le
-                                                                                                                plus de
-                                                                                                                valeur.</p>
+                                                                                                                affectera
+                                                                                                                l’ensemble
+                                                                                                                des
+                                                                                                                entreprises.
+                                                                                                            </p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -656,9 +668,9 @@
                                                                                                                                 associées
                                                                                                                                 au
                                                                                                                                 service
-                                                                                                                                Agile
-                                                                                                                                at
-                                                                                                                                Scale<span
+                                                                                                                                Journey
+                                                                                                                                to
+                                                                                                                                Cloud<span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>
@@ -671,7 +683,7 @@
                                                                                                                 data-widget_type="ae-acf-repeater.default">
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
-                                                                                                                    <div data-pid="5197"
+                                                                                                                    <div data-pid="5195"
                                                                                                                         data-wid="d124b46"
                                                                                                                         class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
@@ -770,35 +782,9 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Construction
+                                                                                                                                                                                            <p>Diagnostic
                                                                                                                                                                                                 de
-                                                                                                                                                                                                votre
-                                                                                                                                                                                                produit,
-                                                                                                                                                                                                chez
-                                                                                                                                                                                                vous
-                                                                                                                                                                                                ou
-                                                                                                                                                                                                chez
-                                                                                                                                                                                                nous,
-                                                                                                                                                                                                sur
-                                                                                                                                                                                                un
-                                                                                                                                                                                                temps
-                                                                                                                                                                                                limité
-                                                                                                                                                                                                et
-                                                                                                                                                                                                un
-                                                                                                                                                                                                budget
-                                                                                                                                                                                                maitrisé
-                                                                                                                                                                                                grâce
-                                                                                                                                                                                                à
-                                                                                                                                                                                                une
-                                                                                                                                                                                                approche
-                                                                                                                                                                                                basée
-                                                                                                                                                                                                sur
-                                                                                                                                                                                                les
-                                                                                                                                                                                                méthodes
-                                                                                                                                                                                                éprouvées
-                                                                                                                                                                                                (Lean,
-                                                                                                                                                                                                Agile,
-                                                                                                                                                                                                DevOps)
+                                                                                                                                                                                                maturité
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1059,21 +1045,1760 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p> L’apport
-                                                                                                                                                                                                d’expertise
-                                                                                                                                                                                                technique
-                                                                                                                                                                                                ponctuelle
-                                                                                                                                                                                                pour
-                                                                                                                                                                                                accélérer
-                                                                                                                                                                                                la
-                                                                                                                                                                                                réalisation
-                                                                                                                                                                                                et
-                                                                                                                                                                                                le
-                                                                                                                                                                                                déploiement
+                                                                                                                                                                                            <p>Définition
+                                                                                                                                                                                                du
+                                                                                                                                                                                                modèle
+                                                                                                                                                                                                opérationnel
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Définition
                                                                                                                                                                                                 de
-                                                                                                                                                                                                vos
+                                                                                                                                                                                                la
+                                                                                                                                                                                                stratégie,
+                                                                                                                                                                                                business
+                                                                                                                                                                                                case
+                                                                                                                                                                                                et
+                                                                                                                                                                                                feuille
+                                                                                                                                                                                                de
+                                                                                                                                                                                                route
+                                                                                                                                                                                                Cloud
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Étude
+                                                                                                                                                                                                de
+                                                                                                                                                                                                faisabilité
+                                                                                                                                                                                                et
+                                                                                                                                                                                                conception
+                                                                                                                                                                                                de
+                                                                                                                                                                                                la
+                                                                                                                                                                                                plateforme
+                                                                                                                                                                                                Cloud
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Pilotage
+                                                                                                                                                                                                de
+                                                                                                                                                                                                la
+                                                                                                                                                                                                migration
+                                                                                                                                                                                                des
+                                                                                                                                                                                                applications
+                                                                                                                                                                                                et
+                                                                                                                                                                                                des
                                                                                                                                                                                                 produits
                                                                                                                                                                                                 IT
+                                                                                                                                                                                                vers
+                                                                                                                                                                                                le
+                                                                                                                                                                                                Cloud
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </section>
+                                                                                            <div class="elementor-element elementor-element-7947a28 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="7947a28"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <span
+                                                                                                            itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>BTI
+                                                                                                                Advisory
+                                                                                                                propose de
+                                                                                                                vous
+                                                                                                                accompagner
+                                                                                                                dans ce
+                                                                                                                parcours de
+                                                                                                                transformation
+                                                                                                                de vos
+                                                                                                                produits IT
+                                                                                                                avec une
+                                                                                                                démarche
+                                                                                                                innovante et
+                                                                                                                collaborative,
+                                                                                                                tout en
+                                                                                                                assurant la
+                                                                                                                mobilisation
+                                                                                                                et la
+                                                                                                                participation
+                                                                                                                de toutes
+                                                                                                                les parties
+                                                                                                                prenantes.<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ae-acf-repeater-item">
+                                                                <div class="ae-acf-repeater-inner">
+                                                                    <div class="ae_data elementor elementor-3896">
+                                                                        <div data-elementor-type="wp-post"
+                                                                            data-elementor-id="3896"
+                                                                            class="elementor elementor-3896">
+                                                                            <section
+                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-4278cb89 elementor-section-content-top elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                data-id="4278cb89"
+                                                                                data-element_type="section"
+                                                                                id="Journey To Cloud"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-509ec9bb ae-bg-gallery-type-default"
+                                                                                        data-id="509ec9bb"
+                                                                                        data-element_type="column">
+                                                                                        <div
+                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                            <div class="elementor-element elementor-element-119084d elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="119084d"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <span
+                                                                                                            itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>02<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-1b69f02 elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="1b69f02"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>Digital
+                                                                                                                Workplace<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-67e8af0 overlay-never elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="67e8af0"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.image">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae_acf_image_wrapper">
+                                                                                                        <img width="190"
+                                                                                                            height="199"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-Workplace-BTI-Advisory.svg"
+                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-Workplace-BTI-Advisory.svg"
+                                                                                                            class="attachment-medium size-medium lazy"
+                                                                                                            alt="Digital Workplace &#8211; BTI Advisory"
+                                                                                                            title="Digital Workplace &#8211; BTI Advisory" />
+                                                                                                        <div
+                                                                                                            class="ae-acf-overlay-block">
+                                                                                                            <div
+                                                                                                                class="ae-acf-overlay">
+                                                                                                            </div>
+                                                                                                            <i
+                                                                                                                class="fa fa-link"></i>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-52dd5a01 ae-bg-gallery-type-default"
+                                                                                        data-id="52dd5a01"
+                                                                                        data-element_type="column">
+                                                                                        <div
+                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                            <div class="elementor-element elementor-element-508e090 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="508e090"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p>À mesure que
+                                                                                                                la
+                                                                                                                transition
+                                                                                                                digitale
+                                                                                                                s’accélère,
+                                                                                                                une évidence
+                                                                                                                s’impose :
+                                                                                                                l’expérience
+                                                                                                                collaborateur
+                                                                                                                devient un
+                                                                                                                pilier de la
+                                                                                                                transformation
+                                                                                                                digitale des
+                                                                                                                entreprises,
+                                                                                                                notamment à
+                                                                                                                travers le
+                                                                                                                Digital
+                                                                                                                Workplace. Personnalisation
+                                                                                                                des
+                                                                                                                parcours,
+                                                                                                                contractualisation
+                                                                                                                à la
+                                                                                                                mission,
+                                                                                                                virtualisation
+                                                                                                                de l’espace
+                                                                                                                de travail
+                                                                                                                et du
+                                                                                                                management,
+                                                                                                                mobilité
+                                                                                                                généralisée
+                                                                                                                et modes
+                                                                                                                collaboratifs
+                                                                                                                innovants
+                                                                                                                sont autant
+                                                                                                                de nouveaux
+                                                                                                                enjeux au
+                                                                                                                sein des
+                                                                                                                entreprises.
+                                                                                                            </p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-dbc15d6 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="dbc15d6"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p>La
+                                                                                                                transformation
+                                                                                                                des produits
+                                                                                                                IT doit être
+                                                                                                                pensée sous
+                                                                                                                le prisme de
+                                                                                                                l’usage et
+                                                                                                                de son
+                                                                                                                apport de
+                                                                                                                valeur avant
+                                                                                                                de
+                                                                                                                déterminer
+                                                                                                                les outils
+                                                                                                                qui
+                                                                                                                soutiendront
+                                                                                                                ce
+                                                                                                                changement.
+                                                                                                            </p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <section
+                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-5f73d1c elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                data-id="5f73d1c"
+                                                                                                data-element_type="section"
+                                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                <div
+                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2024e218 ae-bg-gallery-type-default"
+                                                                                                        data-id="2024e218"
+                                                                                                        data-element_type="column">
+                                                                                                        <div
+                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                            <div class="elementor-element elementor-element-ba7af38 elementor-widget elementor-widget-ae-acf"
+                                                                                                                data-id="ba7af38"
+                                                                                                                data-element_type="widget"
+                                                                                                                data-widget_type="ae-acf.text">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-container">
+                                                                                                                    <div
+                                                                                                                        class="ae-acf-wrapper">
+                                                                                                                        <h4 itemprop="name"
+                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                            <p><span
+                                                                                                                                    class="ae-prefix"></span>Les
+                                                                                                                                prestations
+                                                                                                                                associées
+                                                                                                                                au
+                                                                                                                                service
+                                                                                                                                Digital
+                                                                                                                                Workplace<span
+                                                                                                                                    class="ae-suffix"></span>
+                                                                                                                            </p>
+                                                                                                                        </h4>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="elementor-element elementor-element-d124b46 ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
+                                                                                                                data-id="d124b46"
+                                                                                                                data-element_type="widget"
+                                                                                                                data-widget_type="ae-acf-repeater.default">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-container">
+                                                                                                                    <div data-pid="5195"
+                                                                                                                        data-wid="d124b46"
+                                                                                                                        class="ae-acf-repeater-widget-wrapper ae-masonry-">
+
+                                                                                                                        <div
+                                                                                                                            class="ae-acf-repeater-wrapper">
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Diagnostic
+                                                                                                                                                                                                de
+                                                                                                                                                                                                maturité
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Définition
+                                                                                                                                                                                                de
+                                                                                                                                                                                                la
+                                                                                                                                                                                                stratégie,
+                                                                                                                                                                                                business
+                                                                                                                                                                                                case
+                                                                                                                                                                                                et
+                                                                                                                                                                                                feuille
+                                                                                                                                                                                                de
+                                                                                                                                                                                                route
+                                                                                                                                                                                                Cloud
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Cadrage
+                                                                                                                                                                                                et
+                                                                                                                                                                                                pilotage
+                                                                                                                                                                                                du
+                                                                                                                                                                                                déploiement
+                                                                                                                                                                                                de
+                                                                                                                                                                                                projets
+                                                                                                                                                                                                collaboratifs
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Pilotage
+                                                                                                                                                                                                de
+                                                                                                                                                                                                la
+                                                                                                                                                                                                mise
+                                                                                                                                                                                                en
+                                                                                                                                                                                                œuvre
+                                                                                                                                                                                                du
+                                                                                                                                                                                                Digital
+                                                                                                                                                                                                Workplace
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </section>
+                                                                                            <div class="elementor-element elementor-element-7947a28 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="7947a28"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <span
+                                                                                                            itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>Pour
+                                                                                                                vous
+                                                                                                                accompagner
+                                                                                                                dans cette
+                                                                                                                transformation,
+                                                                                                                nous avons
+                                                                                                                développé
+                                                                                                                une approche
+                                                                                                                structurée
+                                                                                                                en 3 grandes
+                                                                                                                phases afin
+                                                                                                                d’engager
+                                                                                                                d’accélérer
+                                                                                                                l’innovation,
+                                                                                                                réduire les
+                                                                                                                coûts et
+                                                                                                                améliorer la
+                                                                                                                satisfaction
+                                                                                                                des
+                                                                                                                utilisateurs
+                                                                                                                du Digital
+                                                                                                                Workplace.<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ae-acf-repeater-item">
+                                                                <div class="ae-acf-repeater-inner">
+                                                                    <div class="ae_data elementor elementor-3896">
+                                                                        <div data-elementor-type="wp-post"
+                                                                            data-elementor-id="3896"
+                                                                            class="elementor elementor-3896">
+                                                                            <section
+                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-4278cb89 elementor-section-content-top elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                data-id="4278cb89"
+                                                                                data-element_type="section"
+                                                                                id="Journey To Cloud"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-509ec9bb ae-bg-gallery-type-default"
+                                                                                        data-id="509ec9bb"
+                                                                                        data-element_type="column">
+                                                                                        <div
+                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                            <div class="elementor-element elementor-element-119084d elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="119084d"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <span
+                                                                                                            itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>03<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-1b69f02 elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="1b69f02"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p><span
+                                                                                                                    class="ae-prefix"></span>Architecture
+                                                                                                                digitale<span
+                                                                                                                    class="ae-suffix"></span>
+                                                                                                            </p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-67e8af0 overlay-never elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="67e8af0"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.image">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae_acf_image_wrapper">
+                                                                                                        <img width="300"
+                                                                                                            height="211"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-architecture-BTI-Advisory.svg"
+                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-architecture-BTI-Advisory.svg"
+                                                                                                            class="attachment-medium size-medium lazy"
+                                                                                                            alt="Icône Digital Architecture"
+                                                                                                            title="Digital Architecture &#8211; BTI Advisory" />
+                                                                                                        <div
+                                                                                                            class="ae-acf-overlay-block">
+                                                                                                            <div
+                                                                                                                class="ae-acf-overlay">
+                                                                                                            </div>
+                                                                                                            <i
+                                                                                                                class="fa fa-link"></i>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-52dd5a01 ae-bg-gallery-type-default"
+                                                                                        data-id="52dd5a01"
+                                                                                        data-element_type="column">
+                                                                                        <div
+                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                            <div class="elementor-element elementor-element-508e090 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="508e090"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p>La
+                                                                                                                transformation
+                                                                                                                des produits
+                                                                                                                IT impose la
+                                                                                                                mise en
+                                                                                                                œuvre d’un
+                                                                                                                SI à
+                                                                                                                plusieurs
+                                                                                                                vitesses
+                                                                                                                pour
+                                                                                                                permettre la
+                                                                                                                cohabitation
+                                                                                                                entre les
+                                                                                                                différents
+                                                                                                                produits de
+                                                                                                                l’entreprise.
+                                                                                                                Sa
+                                                                                                                flexibilité
+                                                                                                                n’est pas
+                                                                                                                seulement
+                                                                                                                l’enjeu de
+                                                                                                                la DSI mais
+                                                                                                                aussi celui
+                                                                                                                de
+                                                                                                                l’entreprise
+                                                                                                                dans
+                                                                                                                laquelle un
+                                                                                                                certain
+                                                                                                                nombre de
+                                                                                                                parties
+                                                                                                                prenantes
+                                                                                                                partagent
+                                                                                                                des
+                                                                                                                objectifs
+                                                                                                                communs.</p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-dbc15d6 elementor-widget elementor-widget-ae-acf"
+                                                                                                data-id="dbc15d6"
+                                                                                                data-element_type="widget"
+                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                <div
+                                                                                                    class="elementor-widget-container">
+                                                                                                    <div
+                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                        <h2 itemprop="name"
+                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                            <p>Aujourd’hui,
+                                                                                                                l’architecture
+                                                                                                                digitale
+                                                                                                                d’entreprise
+                                                                                                                se
+                                                                                                                positionne
+                                                                                                                définitivement
+                                                                                                                comme
+                                                                                                                l’orchestrateur
+                                                                                                                de la
+                                                                                                                transformation
+                                                                                                                digitale en
+                                                                                                                proposant un
+                                                                                                                modèle Agile
+                                                                                                                du SI
+                                                                                                                partagé.</p>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <section
+                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-5f73d1c elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                data-id="5f73d1c"
+                                                                                                data-element_type="section"
+                                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                <div
+                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2024e218 ae-bg-gallery-type-default"
+                                                                                                        data-id="2024e218"
+                                                                                                        data-element_type="column">
+                                                                                                        <div
+                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                            <div class="elementor-element elementor-element-ba7af38 elementor-widget elementor-widget-ae-acf"
+                                                                                                                data-id="ba7af38"
+                                                                                                                data-element_type="widget"
+                                                                                                                data-widget_type="ae-acf.text">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-container">
+                                                                                                                    <div
+                                                                                                                        class="ae-acf-wrapper">
+                                                                                                                        <h4 itemprop="name"
+                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                            <p><span
+                                                                                                                                    class="ae-prefix"></span>Les
+                                                                                                                                prestations
+                                                                                                                                associées
+                                                                                                                                au
+                                                                                                                                service
+                                                                                                                                Architecture
+                                                                                                                                Digitale<span
+                                                                                                                                    class="ae-suffix"></span>
+                                                                                                                            </p>
+                                                                                                                        </h4>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="elementor-element elementor-element-d124b46 ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
+                                                                                                                data-id="d124b46"
+                                                                                                                data-element_type="widget"
+                                                                                                                data-widget_type="ae-acf-repeater.default">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-container">
+                                                                                                                    <div data-pid="5195"
+                                                                                                                        data-wid="d124b46"
+                                                                                                                        class="ae-acf-repeater-widget-wrapper ae-masonry-">
+
+                                                                                                                        <div
+                                                                                                                            class="ae-acf-repeater-wrapper">
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Définition
+                                                                                                                                                                                                du
+                                                                                                                                                                                                schéma
+                                                                                                                                                                                                directeur
+                                                                                                                                                                                                pour
+                                                                                                                                                                                                la
+                                                                                                                                                                                                transformation
+                                                                                                                                                                                                du
+                                                                                                                                                                                                SI
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Coaching
+                                                                                                                                                                                                et
+                                                                                                                                                                                                accompagnement
+                                                                                                                                                                                                des
+                                                                                                                                                                                                architectes
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1199,1555 +2924,277 @@
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                                                                                             <p>Mise
-                                                                                                                                                                                                à
-                                                                                                                                                                                                disposition
-                                                                                                                                                                                                de
-                                                                                                                                                                                                capacités
-                                                                                                                                                                                                de
-                                                                                                                                                                                                veille
-                                                                                                                                                                                                et
-                                                                                                                                                                                                d’innovation
-                                                                                                                                                                                                pour
-                                                                                                                                                                                                votre
-                                                                                                                                                                                                organisation
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-
-                                                                                                                    </div>
-
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                            <div class="elementor-element elementor-element-7947a28 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="7947a28"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <span
-                                                                                                            itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>Nous
-                                                                                                                avons une
-                                                                                                                approche
-                                                                                                                agile, lean
-                                                                                                                et moderne
-                                                                                                                couplée à
-                                                                                                                des outils
-                                                                                                                adéquats
-                                                                                                                pour monter
-                                                                                                                rapidement
-                                                                                                                en maturité
-                                                                                                                sur vos
-                                                                                                                produits et
-                                                                                                                vous aider à
-                                                                                                                accélérer la
-                                                                                                                mise en
-                                                                                                                place sur le
-                                                                                                                marché.<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ae-acf-repeater-item">
-                                                                <div class="ae-acf-repeater-inner">
-                                                                    <div class="ae_data elementor elementor-3896">
-                                                                        <div data-elementor-type="wp-post"
-                                                                            data-elementor-id="3896"
-                                                                            class="elementor elementor-3896">
-                                                                            <section
-                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-4278cb89 elementor-section-content-top elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                data-id="4278cb89"
-                                                                                data-element_type="section"
-                                                                                id="Digital Factory"
-                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-509ec9bb ae-bg-gallery-type-default"
-                                                                                        data-id="509ec9bb"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-119084d elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="119084d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <span
-                                                                                                            itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>02<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-1b69f02 elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="1b69f02"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>IoT
-                                                                                                                &#038;
-                                                                                                                Robotics<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-67e8af0 overlay-never elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="67e8af0"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.image">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae_acf_image_wrapper">
-                                                                                                        <img width="178"
-                                                                                                            height="195"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20178%20195'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-BTI-Advisory.svg"
-                                                                                                            class="attachment-medium size-medium lazy"
-                                                                                                            alt="Iot &#8211; BTI Advisory"
-                                                                                                            title="Iot &#8211; BTI Advisory" />
-                                                                                                        <div
-                                                                                                            class="ae-acf-overlay-block">
-                                                                                                            <div
-                                                                                                                class="ae-acf-overlay">
-                                                                                                            </div>
-                                                                                                            <i
-                                                                                                                class="fa fa-link"></i>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-52dd5a01 ae-bg-gallery-type-default"
-                                                                                        data-id="52dd5a01"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-508e090 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="508e090"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p>Dans un
-                                                                                                                contexte de
-                                                                                                                révolution
-                                                                                                                numérique,
-                                                                                                                le design UX
-                                                                                                                est devenu
-                                                                                                                un composant
-                                                                                                                central dans
-                                                                                                                la réussite
-                                                                                                                de la mise
-                                                                                                                en œuvre
-                                                                                                                d’un produit
-                                                                                                                informatique
-                                                                                                                auprès d’un
-                                                                                                                public
-                                                                                                                d’utilisateurs
-                                                                                                                métiers.
-                                                                                                                Hier,
-                                                                                                                l’utilisateur
-                                                                                                                s’adaptait
-                                                                                                                aux
-                                                                                                                applications
-                                                                                                                qui lui
-                                                                                                                étaient
-                                                                                                                fournies.
-                                                                                                                Aujourd’hui,
-                                                                                                                ce sont les
-                                                                                                                applications
-                                                                                                                qui doivent
-                                                                                                                être
-                                                                                                                adaptées aux
-                                                                                                                utilisateurs,
-                                                                                                                centrées sur
-                                                                                                                leurs
-                                                                                                                besoins
-                                                                                                                réels et
-                                                                                                                leurs
-                                                                                                                parcours.
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-dbc15d6 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="dbc15d6"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p>Ainsi,
-                                                                                                                l’intégration
-                                                                                                                de la
-                                                                                                                technologie
-                                                                                                                et de
-                                                                                                                l’innovation
-                                                                                                                dans
-                                                                                                                l’ensemble
-                                                                                                                des
-                                                                                                                activités de
-                                                                                                                l’entreprise
-                                                                                                                passe
-                                                                                                                dorénavant
-                                                                                                                par
-                                                                                                                l’amélioration
-                                                                                                                de
-                                                                                                                l’expérience
-                                                                                                                utilisateur
-                                                                                                                à intégrer
-                                                                                                                dès le début
-                                                                                                                de la
-                                                                                                                conception
-                                                                                                                des
-                                                                                                                produits.
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-5f73d1c elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="5f73d1c"
-                                                                                                data-element_type="section"
-                                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2024e218 ae-bg-gallery-type-default"
-                                                                                                        data-id="2024e218"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-ba7af38 elementor-widget elementor-widget-ae-acf"
-                                                                                                                data-id="ba7af38"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="ae-acf.text">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-wrapper">
-                                                                                                                        <h4 itemprop="name"
-                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                            <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                IoT
-                                                                                                                                &#038;
-                                                                                                                                Robotics<span
-                                                                                                                                    class="ae-suffix"></span>
-                                                                                                                            </p>
-                                                                                                                        </h4>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="elementor-element elementor-element-d124b46 ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                                                                                data-id="d124b46"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="ae-acf-repeater.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <div data-pid="5197"
-                                                                                                                        data-wid="d124b46"
-                                                                                                                        class="ae-acf-repeater-widget-wrapper ae-masonry-">
-
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-wrapper">
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Conception
-                                                                                                                                                                                                des
-                                                                                                                                                                                                produits
-                                                                                                                                                                                                du
-                                                                                                                                                                                                point
-                                                                                                                                                                                                de
-                                                                                                                                                                                                vue
-                                                                                                                                                                                                des
-                                                                                                                                                                                                clients
-                                                                                                                                                                                                :
-                                                                                                                                                                                                Design
-                                                                                                                                                                                                Thinking,
-                                                                                                                                                                                                User
-                                                                                                                                                                                                safari,
-                                                                                                                                                                                                Personas…
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Amélioration
-                                                                                                                                                                                                de
-                                                                                                                                                                                                l’ergonomie
-                                                                                                                                                                                                des
-                                                                                                                                                                                                produits
-                                                                                                                                                                                                :
-                                                                                                                                                                                                test
-                                                                                                                                                                                                utilisateur,
-                                                                                                                                                                                                eye-tracking…
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Optimisation
-                                                                                                                                                                                                du
-                                                                                                                                                                                                comportement
-                                                                                                                                                                                                utilisateurs
-                                                                                                                                                                                                :
-                                                                                                                                                                                                tag
-                                                                                                                                                                                                management
-                                                                                                                                                                                                systems,
-                                                                                                                                                                                                web
-                                                                                                                                                                                                analytics…
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-
-                                                                                                                    </div>
-
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                            <div class="elementor-element elementor-element-7947a28 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="7947a28"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <span
-                                                                                                            itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>Nous
-                                                                                                                vous
-                                                                                                                accompagnons
-                                                                                                                dans ces
-                                                                                                                projets de
-                                                                                                                transformation
-                                                                                                                basés sur la
-                                                                                                                technologie
-                                                                                                                et
-                                                                                                                l’innovation
-                                                                                                                pour vous
-                                                                                                                aider à
-                                                                                                                intégrer les
-                                                                                                                éléments de
-                                                                                                                compréhension
-                                                                                                                des
-                                                                                                                comportements
-                                                                                                                de vos
-                                                                                                                utilisateurs
-                                                                                                                dans le
-                                                                                                                cycle de vie
-                                                                                                                de votre
-                                                                                                                entreprise
-                                                                                                                et à faire
-                                                                                                                évoluer
-                                                                                                                l’expérience
-                                                                                                                fournie.<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ae-acf-repeater-item">
-                                                                <div class="ae-acf-repeater-inner">
-                                                                    <div class="ae_data elementor elementor-3896">
-                                                                        <div data-elementor-type="wp-post"
-                                                                            data-elementor-id="3896"
-                                                                            class="elementor elementor-3896">
-                                                                            <section
-                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-4278cb89 elementor-section-content-top elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                data-id="4278cb89"
-                                                                                data-element_type="section"
-                                                                                id="Digital Factory"
-                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-509ec9bb ae-bg-gallery-type-default"
-                                                                                        data-id="509ec9bb"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-119084d elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="119084d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <span
-                                                                                                            itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>03<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-1b69f02 elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="1b69f02"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>Data
-                                                                                                                Intelligence<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-67e8af0 overlay-never elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="67e8af0"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.image">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae_acf_image_wrapper">
-                                                                                                        <img width="253"
-                                                                                                            height="300"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20253%20300'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/data-intelligence-BTI-Advisory.svg"
-                                                                                                            class="attachment-medium size-medium lazy"
-                                                                                                            alt="data intelligence &#8211; BTI Advisory"
-                                                                                                            title="data intelligence &#8211; BTI Advisory" />
-                                                                                                        <div
-                                                                                                            class="ae-acf-overlay-block">
-                                                                                                            <div
-                                                                                                                class="ae-acf-overlay">
-                                                                                                            </div>
-                                                                                                            <i
-                                                                                                                class="fa fa-link"></i>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-52dd5a01 ae-bg-gallery-type-default"
-                                                                                        data-id="52dd5a01"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-508e090 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="508e090"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p>L’analytics
-                                                                                                                est là pour
-                                                                                                                vous. En
-                                                                                                                raison de la
-                                                                                                                masse de
-                                                                                                                données
-                                                                                                                présentes
-                                                                                                                dans les
-                                                                                                                entreprises
-                                                                                                                et des
-                                                                                                                enjeux
-                                                                                                                business
-                                                                                                                associés, on
-                                                                                                                remarque une
-                                                                                                                montée en
-                                                                                                                puissance
-                                                                                                                des projets
-                                                                                                                BI, Big data
-                                                                                                                et data labs
-                                                                                                                dans les
-                                                                                                                directions
-                                                                                                                informatiques.
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-dbc15d6 elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="dbc15d6"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p>Notre marque
-                                                                                                                de fabrique
-                                                                                                                est de
-                                                                                                                construire
-                                                                                                                pour vous un
-                                                                                                                flux
-                                                                                                                régulier
-                                                                                                                d’informations
-                                                                                                                qui alimente
-                                                                                                                vos
-                                                                                                                technologies
-                                                                                                                intelligentes
-                                                                                                                pour fournir
-                                                                                                                une vue à
-                                                                                                                360° de
-                                                                                                                votre
-                                                                                                                écosystème
-                                                                                                                et permettre
-                                                                                                                d’anticiper
-                                                                                                                les virages
-                                                                                                                à venir.</p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-5f73d1c elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="5f73d1c"
-                                                                                                data-element_type="section"
-                                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2024e218 ae-bg-gallery-type-default"
-                                                                                                        data-id="2024e218"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-ba7af38 elementor-widget elementor-widget-ae-acf"
-                                                                                                                data-id="ba7af38"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="ae-acf.text">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-wrapper">
-                                                                                                                        <h4 itemprop="name"
-                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                            <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                Data
-                                                                                                                                Intelligence<span
-                                                                                                                                    class="ae-suffix"></span>
-                                                                                                                            </p>
-                                                                                                                        </h4>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="elementor-element elementor-element-d124b46 ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                                                                                data-id="d124b46"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="ae-acf-repeater.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <div data-pid="5197"
-                                                                                                                        data-wid="d124b46"
-                                                                                                                        class="ae-acf-repeater-widget-wrapper ae-masonry-">
-
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-wrapper">
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Construire
-                                                                                                                                                                                                votre
-                                                                                                                                                                                                chaîne
-                                                                                                                                                                                                d’acquisition
-                                                                                                                                                                                                de
-                                                                                                                                                                                                données
-                                                                                                                                                                                                performante
-                                                                                                                                                                                                et
-                                                                                                                                                                                                adaptée
-                                                                                                                                                                                                aux
-                                                                                                                                                                                                différents
-                                                                                                                                                                                                usages
-                                                                                                                                                                                                (Spark,
-                                                                                                                                                                                                Kafka,
-                                                                                                                                                                                                MapReduce…)
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Construire
-                                                                                                                                                                                                votre
-                                                                                                                                                                                                système
-                                                                                                                                                                                                de
-                                                                                                                                                                                                stockage
-                                                                                                                                                                                                des
-                                                                                                                                                                                                données
-                                                                                                                                                                                                (HDFS,
-                                                                                                                                                                                                MongoDB,
-                                                                                                                                                                                                Hbase,
-                                                                                                                                                                                                Storm)
-                                                                                                                                                                                                avec
-                                                                                                                                                                                                la
-                                                                                                                                                                                                couche
-                                                                                                                                                                                                de
-                                                                                                                                                                                                supervision
-                                                                                                                                                                                                et
-                                                                                                                                                                                                de
-                                                                                                                                                                                                sécurité
-                                                                                                                                                                                                adéquate
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Construire
-                                                                                                                                                                                                vos
-                                                                                                                                                                                                banques
-                                                                                                                                                                                                de
-                                                                                                                                                                                                données
-                                                                                                                                                                                                avec
-                                                                                                                                                                                                la
-                                                                                                                                                                                                mise
                                                                                                                                                                                                 en
                                                                                                                                                                                                 place
-                                                                                                                                                                                                des
-                                                                                                                                                                                                agrégations
-                                                                                                                                                                                                et
-                                                                                                                                                                                                des
-                                                                                                                                                                                                enrichissements
-                                                                                                                                                                                                nécessaires
-                                                                                                                                                                                            </p>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </section>
-                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                                                                                                                                data-id="729f5736"
-                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                data-widget_type="divider.default">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                    <div
-                                                                                                                                                                        class="elementor-divider">
-                                                                                                                                                                        <span
-                                                                                                                                                                            class="elementor-divider-separator">
-                                                                                                                                                                        </span>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </section>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div
-                                                                                                                                class="ae-acf-repeater-item">
-                                                                                                                                <div
-                                                                                                                                    class="ae-acf-repeater-inner">
-                                                                                                                                    <div
-                                                                                                                                        class="ae_data elementor elementor-3810">
-                                                                                                                                        <div data-elementor-type="wp-post"
-                                                                                                                                            data-elementor-id="3810"
-                                                                                                                                            class="elementor elementor-3810">
-                                                                                                                                            <section
-                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                data-id="56cf64ed"
-                                                                                                                                                data-element_type="section">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
-                                                                                                                                                        data-id="47068b7c"
-                                                                                                                                                        data-element_type="column">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                            <section
-                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                                                data-id="ce08134"
-                                                                                                                                                                data-element_type="section">
-                                                                                                                                                                <div
-                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="1e46b11e"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                                                                                                                                                                data-id="32d096e5"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="icon.default">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="elementor-icon-wrapper">
-                                                                                                                                                                                        <div
-                                                                                                                                                                                            class="elementor-icon">
-                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                                                                                width="40"
-                                                                                                                                                                                                height="40"
-                                                                                                                                                                                                viewBox="0 0 40 40">
-                                                                                                                                                                                                <defs>
-                                                                                                                                                                                                    <style>
-                                                                                                                                                                                                        .a {
-                                                                                                                                                                                                            fill: #44b351;
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    </style>
-                                                                                                                                                                                                </defs>
-                                                                                                                                                                                                <g
-                                                                                                                                                                                                    transform="translate(9.089 9.089)">
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
-                                                                                                                                                                                                            transform="translate(9.089 9.089)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                    <g
-                                                                                                                                                                                                        transform="translate(2.515 5.175)">
-                                                                                                                                                                                                        <path
-                                                                                                                                                                                                            class="a"
-                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
-                                                                                                                                                                                                        </path>
-                                                                                                                                                                                                    </g>
-                                                                                                                                                                                                </g>
-                                                                                                                                                                                            </svg>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
-                                                                                                                                                                        data-id="112aaf3b"
-                                                                                                                                                                        data-element_type="column">
-                                                                                                                                                                        <div
-                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                                                                                                data-id="2e1af30b"
-                                                                                                                                                                                data-element_type="widget"
-                                                                                                                                                                                data-widget_type="ae-acf.text-area">
-                                                                                                                                                                                <div
-                                                                                                                                                                                    class="elementor-widget-container">
-                                                                                                                                                                                    <div
-                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
-                                                                                                                                                                                        <h2 itemprop="name"
-                                                                                                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p> Mettre
-                                                                                                                                                                                                en
-                                                                                                                                                                                                place
-                                                                                                                                                                                                votre
-                                                                                                                                                                                                outil
                                                                                                                                                                                                 de
-                                                                                                                                                                                                restitution
-                                                                                                                                                                                                des
-                                                                                                                                                                                                données
-                                                                                                                                                                                                grâce
-                                                                                                                                                                                                à
-                                                                                                                                                                                                des
-                                                                                                                                                                                                solutions
-                                                                                                                                                                                                de
-                                                                                                                                                                                                Dataviz
-                                                                                                                                                                                                (Power
-                                                                                                                                                                                                BI,
-                                                                                                                                                                                                Tableau,
-                                                                                                                                                                                                Qlik)
-                                                                                                                                                                                                ou
-                                                                                                                                                                                                des
-                                                                                                                                                                                                couches
+                                                                                                                                                                                                l’offre
                                                                                                                                                                                                 de
                                                                                                                                                                                                 services
-                                                                                                                                                                                                (ElasticSearch,
-                                                                                                                                                                                                API…)
+                                                                                                                                                                                                et
+                                                                                                                                                                                                de
+                                                                                                                                                                                                la
+                                                                                                                                                                                                gouvernance
+                                                                                                                                                                                                de
+                                                                                                                                                                                                l’architecture
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Cadrage
+                                                                                                                                                                                                et
+                                                                                                                                                                                                accompagnement
+                                                                                                                                                                                                des
+                                                                                                                                                                                                projets
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </h2>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </section>
+                                                                                                                                                            <div class="elementor-element elementor-element-729f5736 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                                                                                                                                data-id="729f5736"
+                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                data-widget_type="divider.default">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                    <div
+                                                                                                                                                                        class="elementor-divider">
+                                                                                                                                                                        <span
+                                                                                                                                                                            class="elementor-divider-separator">
+                                                                                                                                                                        </span>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </section>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="ae-acf-repeater-item">
+                                                                                                                                <div
+                                                                                                                                    class="ae-acf-repeater-inner">
+                                                                                                                                    <div
+                                                                                                                                        class="ae_data elementor elementor-3810">
+                                                                                                                                        <div data-elementor-type="wp-post"
+                                                                                                                                            data-elementor-id="3810"
+                                                                                                                                            class="elementor elementor-3810">
+                                                                                                                                            <section
+                                                                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-56cf64ed elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                data-id="56cf64ed"
+                                                                                                                                                data-element_type="section">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47068b7c ae-bg-gallery-type-default"
+                                                                                                                                                        data-id="47068b7c"
+                                                                                                                                                        data-element_type="column">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                            <section
+                                                                                                                                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-ce08134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                                                data-id="ce08134"
+                                                                                                                                                                data-element_type="section">
+                                                                                                                                                                <div
+                                                                                                                                                                    class="elementor-container elementor-column-gap-no">
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1e46b11e ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="1e46b11e"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-32d096e5 elementor-widget-mobile__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                                                                                                                                                data-id="32d096e5"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="icon.default">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="elementor-icon-wrapper">
+                                                                                                                                                                                        <div
+                                                                                                                                                                                            class="elementor-icon">
+                                                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                                                                                width="40"
+                                                                                                                                                                                                height="40"
+                                                                                                                                                                                                viewBox="0 0 40 40">
+                                                                                                                                                                                                <defs>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .a {
+                                                                                                                                                                                                            fill: #44b351;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                </defs>
+                                                                                                                                                                                                <g
+                                                                                                                                                                                                    transform="translate(9.089 9.089)">
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(-9.089 -9.089)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M10.911,30.911a20,20,0,1,1,20-20A20.027,20.027,0,0,1,10.911,30.911Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.362,18.362,0,0,0,10.911-7.431Z"
+                                                                                                                                                                                                            transform="translate(9.089 9.089)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                    <g
+                                                                                                                                                                                                        transform="translate(2.515 5.175)">
+                                                                                                                                                                                                        <path
+                                                                                                                                                                                                            class="a"
+                                                                                                                                                                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,0,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                                                                                                                                                            transform="translate(-10.11 -14.51)">
+                                                                                                                                                                                                        </path>
+                                                                                                                                                                                                    </g>
+                                                                                                                                                                                                </g>
+                                                                                                                                                                                            </svg>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="has_ae_slider elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-112aaf3b ae-bg-gallery-type-default"
+                                                                                                                                                                        data-id="112aaf3b"
+                                                                                                                                                                        data-element_type="column">
+                                                                                                                                                                        <div
+                                                                                                                                                                            class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                                            <div class="elementor-element elementor-element-2e1af30b elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
+                                                                                                                                                                                data-id="2e1af30b"
+                                                                                                                                                                                data-element_type="widget"
+                                                                                                                                                                                data-widget_type="ae-acf.text-area">
+                                                                                                                                                                                <div
+                                                                                                                                                                                    class="elementor-widget-container">
+                                                                                                                                                                                    <div
+                                                                                                                                                                                        class="ae-acf-wrapper ae-acf-unfold-">
+                                                                                                                                                                                        <h2 itemprop="name"
+                                                                                                                                                                                            class="ae-acf-content-wrapper">
+                                                                                                                                                                                            <p>Digitaliser,
+                                                                                                                                                                                                fluidifier,
+                                                                                                                                                                                                sécuriser
+                                                                                                                                                                                                vos
+                                                                                                                                                                                                processus
+                                                                                                                                                                                                internes
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2801,30 +3248,24 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Nous
-                                                                                                                avons
-                                                                                                                développé au
-                                                                                                                cours de ces
-                                                                                                                dernières
-                                                                                                                années un
-                                                                                                                savoir-faire
-                                                                                                                très
-                                                                                                                précieux en
-                                                                                                                nous
-                                                                                                                appuyant sur
-                                                                                                                un socle
-                                                                                                                d’activités
-                                                                                                                techniques
-                                                                                                                que nos
-                                                                                                                consultants
-                                                                                                                maîtrisent
-                                                                                                                et sauront
-                                                                                                                mettre à
-                                                                                                                disposition
-                                                                                                                de vos
-                                                                                                                spécificités
-                                                                                                                métiers et
-                                                                                                                organisationnelles.<span
+                                                                                                                    class="ae-prefix"></span>BTI
+                                                                                                                – Advisory
+                                                                                                                vous
+                                                                                                                accompagne
+                                                                                                                dans la
+                                                                                                                transformation
+                                                                                                                de vos silos
+                                                                                                                applicatifs
+                                                                                                                vers une
+                                                                                                                logique de
+                                                                                                                plateformes
+                                                                                                                digitales
+                                                                                                                permettant
+                                                                                                                l’émergence
+                                                                                                                des modes
+                                                                                                                “Fast IT” et
+                                                                                                                “Core
+                                                                                                                IT”.<span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>
@@ -3025,7 +3466,7 @@
             /* <![CDATA[ */
             var aepro = {
                 "ajaxurl": "https:\/\/bti-advisory.com\/wp-admin\/admin-ajax.php",
-                "current_url": "https%3A%2F%2Fbti-advisory.com%2Fservice%2Ftechnologie-innovation%2F",
+                "current_url": "https%3A%2F%2Fbti-advisory.com%2Fservice%2Ftransformation-des-produits-it%2F",
                 "breakpoints": {
                     "xs": 0,
                     "sm": 480,
@@ -3036,7 +3477,7 @@
                 },
                 "plugin_url": "https:\/\/bti-advisory.com\/wp-content\/plugins\/anywhere-elementor-pro",
                 "queried_page": {
-                    "ID": 5197,
+                    "ID": 5195,
                     "page_type": "single"
                 },
                 "access_level": "2"
@@ -3048,7 +3489,7 @@
             /* <![CDATA[ */
             var aepro = {
                 "ajaxurl": "https:\/\/bti-advisory.com\/wp-admin\/admin-ajax.php",
-                "current_url": "https%3A%2F%2Fbti-advisory.com%2Fservice%2Ftechnologie-innovation%2F",
+                "current_url": "https%3A%2F%2Fbti-advisory.com%2Fservice%2Ftransformation-des-produits-it%2F",
                 "breakpoints": {
                     "xs": 0,
                     "sm": 480,
@@ -3059,7 +3500,7 @@
                 },
                 "plugin_url": "https:\/\/bti-advisory.com\/wp-content\/plugins\/anywhere-elementor-pro",
                 "queried_page": {
-                    "ID": 5197,
+                    "ID": 5195,
                     "page_type": "single"
                 },
                 "access_level": "2"
@@ -3119,6 +3560,16 @@
                 "header_view": "",
                 "header_position": ""
             };
+            var consulting_ehf_position_3810 = {
+                "id": "3810",
+                "header_view": "",
+                "header_position": ""
+            };
+            var consulting_ehf_position_3810 = {
+                "id": "3810",
+                "header_view": "",
+                "header_position": ""
+            };
             var consulting_ehf_position_3896 = {
                 "id": "3896",
                 "header_view": "",
@@ -3139,8 +3590,18 @@
                 "header_view": "",
                 "header_position": ""
             };
+            var consulting_ehf_position_3810 = {
+                "id": "3810",
+                "header_view": "",
+                "header_position": ""
+            };
             var consulting_ehf_position_3896 = {
                 "id": "3896",
+                "header_view": "",
+                "header_position": ""
+            };
+            var consulting_ehf_position_3810 = {
+                "id": "3810",
                 "header_view": "",
                 "header_position": ""
             };
@@ -3407,10 +3868,10 @@
                     "lightbox_description_src": "description"
                 },
                 "post": {
-                    "id": 5197,
-                    "title": "Technologie%20%26%20Innovation%20-%20BTI%20-%20Advisory",
-                    "excerpt": "Tout notre savoir-faire technologique au service de l\u2019innovation de nos clients.",
-                    "featuredImage": "https:\/\/bti-advisory.com\/wp-content\/uploads\/2022\/02\/TECHNOLOGIE-ET-INNOVATION-scaled-1-1024x417.jpeg"
+                    "id": 5195,
+                    "title": "Transformation%20des%20Produits%20IT%20-%20BTI%20-%20Advisory",
+                    "excerpt": "Nous accompagnons les DSI \u00e0 maximiser la cr\u00e9ation de valeur et \u00e0 se positionner comme partenaires du m\u00e9tier gr\u00e2ce \u00e0 la transformation des produits IT.",
+                    "featuredImage": "https:\/\/bti-advisory.com\/wp-content\/uploads\/2022\/02\/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1024x506.jpeg"
                 }
             };
         </script>

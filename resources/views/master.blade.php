@@ -7,7 +7,7 @@
             min-height: 1px
         }
     </style>
-    <link rel='stylesheet' id='elementor-post-8-css' href='assets/cache/autoptimize/css/style.css' type='text/css'
+    <link rel='stylesheet' id='elementor-post-8-css' href='/assets/cache/autoptimize/css/style.css' type='text/css'
         media='all' />
     <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
     <meta charset="UTF-8" />
@@ -298,12 +298,12 @@
     </style>
 
     <link rel='stylesheet' id='stm-stm-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='/assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <style id='elementor-frontend-inline-css' type='text/css'>
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40:not(.elementor-motion-effects-element-type-background),
@@ -324,48 +324,48 @@
 
 
     <link rel='stylesheet' id='elementor-post-73-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
+        href='/assets/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-post-8-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='/assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <link rel='stylesheet' id='elementor-post-20-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-141-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-127-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-59-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
+        href='/assets/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
         type='text/css' media='all' />
 
 
 
 
     <link rel='stylesheet' id='stm-stm-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='/assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
     <link rel='stylesheet' id='elementor-post-8-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        href='/assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
 
 
@@ -447,10 +447,10 @@
 
 
     <link rel='stylesheet' id='stm-skin-custom-generated-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95013.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95013.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='consulting-theme-options-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_2adcd1670022c9cc74589cc890b27750.css@ver=5.9.2.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_2adcd1670022c9cc74589cc890b27750.css@ver=5.9.2.css'
         type='text/css' media='all' />
 
 
@@ -586,29 +586,29 @@
 
 
     <link rel='stylesheet' id='elementor-post-7191-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-6996-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7285-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7690-css'
-        href='assets/cache/autoptimize/css/autoptimize_single.css' type='text/css' media='all' />
+        href='/assets/cache/autoptimize/css/autoptimize_single.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-7230-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
+        href='/assets/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
         type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CUbuntu%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=5.9.2'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-5739-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
+        href='/assets/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-5214-css'
-        href='assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
+        href='/assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
         type='text/css' media='all' />
 
 
@@ -638,7 +638,7 @@
     </script> --}}
 
     <!-- End Google Analytics snippet added by Site Kit -->
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel="https://api.w.org/" href="/wp-json/index.html" />
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6988" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bti-advisory.com/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />

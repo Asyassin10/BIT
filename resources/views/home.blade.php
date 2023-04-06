@@ -209,24 +209,24 @@
                                                                     </li>
                                                                     <li id="menu-item-5705"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="service/transformation-des-produits-it/index.html"
+                                                                        <a href="{{ route('transformation-des-produits-it.service') }}"
                                                                             class="hfe-sub-menu-item">Transformation des
                                                                             produits IT</a>
                                                                     </li>
                                                                     <li id="menu-item-5707"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('service') }}"
+                                                                        <a href="{{ route('multi_speed_it.service') }}"
                                                                             class="hfe-sub-menu-item">Multi-Speed IT</a>
                                                                     </li>
                                                                     <li id="menu-item-5708"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('service') }}"
+                                                                        <a href="{{ route('technologie-innovation.service') }}"
                                                                             class="hfe-sub-menu-item">Technologie &#038;
                                                                             Innovation</a>
                                                                     </li>
                                                                     <li id="menu-item-5710"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a hhref="{{ route('service') }}"
+                                                                        <a href="{{ route('transformation-ux.service') }}"
                                                                             class="hfe-sub-menu-item">Transformation UX</a>
                                                                     </li>
                                                                 </ul>

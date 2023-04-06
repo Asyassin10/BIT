@@ -155,7 +155,7 @@
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%20130'%3E%3C/svg%3E"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     alt="" />
                                                             </div>
@@ -362,7 +362,7 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img width="683" height="685"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%20685'%3E%3C/svg%3E"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/img-2.png"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/02/img-2.png"
                                                         class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped lazy"
                                                         alt=""
@@ -387,7 +387,7 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img width="447" height="447"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20447%20447'%3E%3C/svg%3E"
+                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-447x447.png"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-447x447.png"
                                                         class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy"
                                                         alt=""
