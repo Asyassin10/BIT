@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
@@ -55,11 +56,15 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     });
+    //categories
     Route::get("all_categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
     Route::get("create_category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
     Route::post("create_category_post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
     Route::get("update_category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
     Route::post("update_category_post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
+    //articles
+
+    Route::get("AllArticles", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
     Route::get("update_articles", [AdminCategoryController::class, "update_articles"])->name("update_articles");
 });
 Route::get('/admin/login', function () {

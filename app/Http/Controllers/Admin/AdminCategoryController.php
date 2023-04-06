@@ -9,6 +9,9 @@ use App\Models\Category;
 
 class AdminCategoryController extends Controller
 {
+    public function Home(){
+        return view("admin.pages.Home");
+    }
     public function update_articles()
     {
         $categorys = Category::all();
