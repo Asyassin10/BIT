@@ -34,7 +34,7 @@ Route::prefix('service')->group(function () {
     Route::get('/transformation-ux', [ServiceController::class, 'transformation_ux'])->name('transformation-ux.service');
 });
 
-
+Route::view("heek","admin.layout.AdminLayout");
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
