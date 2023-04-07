@@ -65,6 +65,8 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     //articles
 
     Route::get("AllArticles/{category_id}", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
+    Route::get("AddArticle/{category_id}", [AdminArticleController::class, "AddArticle"])->name("AddArticle");
+    Route::post("AddArticlePost/{category_id}", [AdminArticleController::class, "AddArticlePost"])->name("AddArticlePost");
     Route::get("update_articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
     Route::post("update_articlesPost", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
 });
