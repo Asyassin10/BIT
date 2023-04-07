@@ -221,7 +221,8 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Service</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {{ $articles[0]->article_text }}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-7faaf0c7 elementor-widget elementor-widget-heading"
@@ -229,7 +230,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h1 class="elementor-heading-title elementor-size-default">
-                                                        Transformation des Produits IT</h1>
+                                                        {{ $articles[1]->article_text }}</h1>
                                                 </div>
                                             </div>
                                             <section
@@ -272,9 +273,9 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Journey
-                                                                                                                        To
-                                                                                                                        Cloud</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">
+                                                                                                                        {{ $articles[2]->article_text }}
+                                                                                                                    </span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -310,8 +311,9 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Digital
-                                                                                                                        Workplace</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">
+                                                                                                                        {{ $articles[3]->article_text }}
+                                                                                                                    </span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -347,8 +349,9 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Architecture
-                                                                                                                        digitale</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">
+                                                                                                                        {{ $articles[4]->article_text }}
+                                                                                                                    </span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -518,9 +521,9 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Journey
-                                                                                                                To
-                                                                                                                Cloud<span
+                                                                                                                    class="ae-prefix"></span>
+                                                                                                                {!! $articles[6]->article_text !!}
+                                                                                                                <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -570,30 +573,8 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Face aux
-                                                                                                                besoins
-                                                                                                                métiers
-                                                                                                                croissants
-                                                                                                                d’agilité
-                                                                                                                pour le
-                                                                                                                traitement
-                                                                                                                des demandes
-                                                                                                                d’évolution,
-                                                                                                                répondant au
-                                                                                                                virage de
-                                                                                                                l’ère de la
-                                                                                                                révolution
-                                                                                                                digitale,
-                                                                                                                les
-                                                                                                                entreprises
-                                                                                                                se doivent
-                                                                                                                d’engager
-                                                                                                                une démarche
-                                                                                                                en rupture
-                                                                                                                dans la
-                                                                                                                gestion de
-                                                                                                                ses
-                                                                                                                infrastructures.
+                                                                                                            <p>
+                                                                                                                {!! $articles[5]->article_text !!}
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -609,32 +590,8 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Le Cloud
-                                                                                                                apparaît
-                                                                                                                comme une
-                                                                                                                solution
-                                                                                                                innovante
-                                                                                                                majeure pour
-                                                                                                                penser et
-                                                                                                                consommer
-                                                                                                                les
-                                                                                                                ressources
-                                                                                                                informatiques
-                                                                                                                de manière
-                                                                                                                optimale.
-                                                                                                                Nous nous
-                                                                                                                dirigeons
-                                                                                                                tout droit
-                                                                                                                vers l’IT as
-                                                                                                                a Business,
-                                                                                                                un
-                                                                                                                changement
-                                                                                                                de paradigme
-                                                                                                                qui
-                                                                                                                affectera
-                                                                                                                l’ensemble
-                                                                                                                des
-                                                                                                                entreprises.
+                                                                                                            <p>
+                                                                                                                {!! $articles[7]->article_text !!}
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -663,14 +620,9 @@
                                                                                                                         <h4 itemprop="name"
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                Journey
-                                                                                                                                to
-                                                                                                                                Cloud<span
+                                                                                                                                    class="ae-prefix"></span>
+                                                                                                                                      {!! $articles[8]->article_text !!}
+                                                                                                                                    <span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>

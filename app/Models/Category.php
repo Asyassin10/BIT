@@ -14,4 +14,7 @@ class Category extends Model
     {
         return $this->belongsTo(Category::class, "categorie_parent_id");
     }
+    public function articles(){
+        return $this->hasMany(Article::class,"categorie_id");
+    }
 }
