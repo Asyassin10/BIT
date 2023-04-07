@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('melody/css/style.css') }}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{ asset('melody/images/favicon.png') }}/" />
+    @yield('css')
 </head>
 
 <body>
@@ -429,6 +430,7 @@
     <script src="{{ asset('melody/vendors/js/vendor.bundle.addons.js') }}"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
+    @yield('costomJsPlugons')
     <!-- End plugin js for this page-->
     <!-- inject:js -->
     <script src="{{ asset('melody/js/off-canvas.js') }}"></script>
@@ -436,9 +438,12 @@
     <script src="{{ asset('melody/js/misc.js') }}"></script>
     <script src="{{ asset('melody/js/settings.js') }}"></script>
     <script src="{{ asset('melody/js/todolist.js') }}"></script>
+
+
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="{{ asset('melody/js/dashboard.js') }}"></script>
+    @yield('js')
+
     <!-- End custom js for this page-->
 </body>
 

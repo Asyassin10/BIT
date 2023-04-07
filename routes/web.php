@@ -64,8 +64,9 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::post("update_category_post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
     //articles
 
-    Route::get("AllArticles", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
-    Route::get("update_articles", [AdminCategoryController::class, "update_articles"])->name("update_articles");
+    Route::get("AllArticles/{category_id}", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
+    Route::get("update_articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
+    Route::post("update_articlesPost", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
 });
 Route::get('/admin/login', function () {
     /* $user = Auth::user();

@@ -88,7 +88,11 @@
                                                 <td>{{ $article->article_slug }}</td>
                                                 {{-- <td>53275531</td>
                                             <td>12 May 2017</td> --}}
-                                                <td><label class="badge badge-danger badge-pill">Pending</label></td>
+                                                <td>
+
+                                                    <a href="{{ route('update_articles', ['article_id' => $article->article_id]) }}"
+                                                        class="btn btn-primary">update article</a>
+                                                </td>
                                             </tr>
                                         @endforeach
 

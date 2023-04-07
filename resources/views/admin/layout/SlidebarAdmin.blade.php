@@ -22,6 +22,12 @@
             </a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="{{ route('allCategories') }}">
+                <i class="fa fa-home menu-icon"></i>
+                <span class="menu-title">Les Categories</span>
+            </a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="pages/widgets.html">
                 <i class="fa fa-puzzle-piece menu-icon"></i>
                 <span class="menu-title">Widgets</span>
@@ -81,7 +87,8 @@
                     <li class="nav-item"> <a class="nav-link" href="pages/ui-features/badges.html">Badges</a></li>
                     <li class="nav-item"> <a class="nav-link" href="pages/ui-features/breadcrumbs.html">Breadcrumbs</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a>
+                    </li>
                     <li class="nav-item"> <a class="nav-link" href="pages/ui-features/modals.html">Modals</a></li>
                     <li class="nav-item"> <a class="nav-link" href="pages/ui-features/progress.html">Progress bar</a>
                     </li>
