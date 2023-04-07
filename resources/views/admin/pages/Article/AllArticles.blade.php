@@ -17,6 +17,12 @@
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
+                            <h4 class="card-title">Articles</h4>
+                            <p class="card-description">
+                                Add class <code>.table</code>
+                            </p>
+                            <a href="{{ route('AddArticle', ['category_id' => $category_id]) }}" class="btn btn-primary">Add
+                                Article</a>
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
