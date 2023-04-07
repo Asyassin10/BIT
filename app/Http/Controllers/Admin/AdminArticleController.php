@@ -8,24 +8,27 @@ use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
+use function PHPUnit\Framework\isNull;
+
 class AdminArticleController extends Controller
 {
     //
-    public function AllArticles(int $category_id){
+    public function AllArticles(int $category_id ){
+
         $all_articles = Article::where("categorie_id",$category_id)->get();
+        return view("admin.pages.Article.AllArticles")->with("all_articles", $all_articles);
+    }
+    public function ListArticles(){
+
+        $all_articles = Article::orderBy('article_id', 'desc')->get();
         return view("admin.pages.Article.AllArticles")->with("all_articles", $all_articles);
     }
      public function update_articles(int $article_id)
     {
         $categorys = Category::all();
         $first_article = Article::find($article_id);
-
         $oneLineString = str_replace(array("\r", "\n", "\t"), '', $first_article->article_text);
         $oneLineString = preg_replace('/\s+/', ' ', $oneLineString);
-
-
-
-
         return view("admin.pages.Category.update_articles")->with("categorys", $categorys)->with("text_html",$oneLineString);
     }
 

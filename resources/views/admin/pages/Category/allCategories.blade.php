@@ -1,67 +1,15 @@
-{{-- @extends('admin.master')
-@section('content')
-    <section class="section">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Default Table</h5>
-                        <a href="{{ route('CreateCategory') }}" class="btn btn-primary">add category</a>
-
-                        <!-- Default Table -->
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">reference</th>
-                                    <th scope="col">Operations</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach ($all_categories as $c)
-                                    <tr>
-                                        <th scope="row">{{ $c->categorie_id }}</th>
-                                        <td>{{ $c->categorie_name }}</td>
-                                        <td>
-                                            @if (is_null($c->categorie_parent_id))
-                                                ----
-                                            @else
-                                                {{ $c->referenceCategory->categorie_name }}
-                                            @endif
-                                        </td>
-                                        <td>
-                                            <a href="{{ route('UpdateCategory', ['category_id' => $c->categorie_id]) }}"
-                                                class="btn btn-primary">update</a>
-                                        </td>
-                                    </tr>
-                                @endforeach
-
-
-
-                            </tbody>
-                        </table>
-                        <!-- End Default Table Example -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-@endsection
- --}}
 @extends('admin\layout\AdminLayout')
 @section('content')
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="page-header">
                 <h3 class="page-title">
-                    Basic Tables
+                    Catégories
                 </h3>
-
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Tables</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Basic tables</li>
+                        <li class="breadcrumb-item active" aria-current="page">Catégories</li>
                     </ol>
                 </nav>
             </div>
@@ -69,44 +17,37 @@
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Basic Table</h4>
-                            <p class="card-description">
-                                Add class <code>.table</code>
-                            </p>
                             <a href="{{ route('CreateCategory') }}" class="btn btn-primary">add category</a>
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
-                                        <tr>
-                                            <th>Category Name</th>
-                                            <th>Category Reference</th>
-                                            <th>Operations</th>
-                                        </tr>
+                                      <tr>
+                                          <th>#</th>
+                                          <th>Nom de Catégorie</th>
+                                          <th>Référence de catégorie</th>
+                                          <th>Opérations</th>
+                                      </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($all_categories as $c)
-                                            <tr>
-                                                <td>{{ $c->categorie_name }}</td>
-                                                <td>
-                                                    @if (is_null($c->categorie_parent_id))
-                                                        ----
-                                                    @else
-                                                        {{ $c->referenceCategory->categorie_name }}
-                                                    @endif
-                                                </td>
-                                                <td>
-                                                    <a href="{{ route('UpdateCategory', ['category_id' => $c->categorie_id]) }}"
-                                                        class="btn btn-primary">update</a>
-                                                    <a href="{{ route('AllArticles', ['category_id' => $c->categorie_id]) }}"
-                                                        class="btn btn-primary">Articles</a>
-                                                </td>
-                                            </tr>
-                                        @endforeach
-
-
-
+                                        @foreach ($all_categories as $key => $c)
+                                      <tr>
+                                          <td>{{ $key }}</td>
+                                          <td>{{ $c->categorie_name }}</td>
+                                          <td>
+                                            @if (is_null($c->categorie_parent_id))
+                                            ----
+                                            @else
+                                                {{ $c->referenceCategory->categorie_name }}
+                                            @endif
+                                          </td>
+                                          <td>
+                                            <a href="{{ route('UpdateCategory', ['category_id' => $c->categorie_id]) }}" class="btn btn-outline-success">Modifier</a>
+                                            <a href="{{ route('AllArticles', ['category_id' => $c->categorie_id]) }}" class="btn btn-outline-info " >Articles </a>
+                                          </td>
+                                      </tr>
+                                      @endforeach
                                     </tbody>
-                                </table>
+                                  </table>
                             </div>
                         </div>
                     </div>
@@ -115,15 +56,5 @@
             </div>
         </div>
         <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
-            <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2018 <a
-                        href="https://www.urbanui.com/" target="_blank">Urbanui</a>. All rights reserved.</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i
-                        class="far fa-heart text-danger"></i></span>
-            </div>
-        </footer>
-        <!-- partial -->
     </div>
 @endsection

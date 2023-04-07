@@ -35,7 +35,7 @@ Route::prefix('service')->group(function () {
     Route::get('/transformation-ux', [ServiceController::class, 'transformation_ux'])->name('transformation-ux.service');
 });
 
-Route::view("heek","admin.layout.AdminLayout");
+Route::view("heek", "admin.layout.AdminLayout");
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
@@ -55,18 +55,20 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
 
     Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
-    });
+    })->name('admin.dashboard');
     //categories
-    Route::get("all_categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
-    Route::get("create_category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
-    Route::post("create_category_post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
-    Route::get("update_category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
-    Route::post("update_category_post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
+    Route::get("all-categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
+    Route::get("create-category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
+    Route::post("create-category-post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
+    Route::get("update-category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
+    Route::post("update-category-post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
     //articles
 
-    Route::get("AllArticles/{category_id}", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
-    Route::get("update_articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
-    Route::post("update_articlesPost", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
+    Route::get("all-articles/{category_id?}", [AdminArticleController::class, "AllArticles"])->name("AllArticles");
+    Route::get("update-articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
+    Route::post("update-articlesPost", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
+    Route::get("articles", [AdminArticleController::class, "ListArticles"])->name("ListArticles");
+
 });
 Route::get('/admin/login', function () {
     /* $user = Auth::user();
