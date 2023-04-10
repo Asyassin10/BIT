@@ -9,6 +9,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JoinUsController;
 use App\Http\Controllers\ServiceController;
+use App\Models\Article;
 use Illuminate\Support\Facades\Route;
 
 /*

@@ -16,6 +16,7 @@ class ServiceController extends Controller
 
     public function show()
     {
+
         $title = "Technologie & Innovation - BTI - Advisory";
         return view('services.technologie-innovation')->with('title', $title);
     }
