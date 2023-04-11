@@ -1,3 +1,7 @@
+@php
+    use App\Models\Article;
+    $data = Article::where('categorie_id', 16)->get();
+@endphp
 <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
     <div class='footer-width-fixer'>
         <div data-elementor-type="wp-post" data-elementor-id="141" class="elementor elementor-141">
@@ -10,11 +14,11 @@
                         data-id="a19c940" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-3372839 elementor-widget elementor-widget-heading"
-                                data-id="3372839" data-element_type="widget"
-                                data-widget_type="heading.default">
+                                data-id="3372839" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">Notre
-                                        écosystème</h1>
+                                    <h1 class="elementor-heading-title elementor-size-default">
+                                        {!! $data[16]->article_text !!}
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -23,19 +27,16 @@
                         data-id="adde5c2" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-029f0b8 elementor-widget elementor-widget-image"
-                                data-id="029f0b8" data-element_type="widget"
-                                data-widget_type="image.default">
+                                data-id="029f0b8" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <a href="https://www.bti-lab.com" target="_blank">
                                         <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20331%20303'%3E%3C/svg%3E"
                                             data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-bti-lab-blanc.svg"
-                                            title="BTI Lab" alt="BTI Lab"
-                                            class="elementor-animation-grow lazy" /> </a>
+                                            title="BTI Lab" alt="BTI Lab" class="elementor-animation-grow lazy" /> </a>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-b0bec5b elementor-widget elementor-widget-image"
-                                data-id="b0bec5b" data-element_type="widget"
-                                data-widget_type="image.default">
+                                data-id="b0bec5b" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <a href="https://bti-studio.com" target="_blank">
                                         <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20408%20181'%3E%3C/svg%3E"
@@ -45,8 +46,7 @@
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-3f0a4d3 elementor-widget elementor-widget-image"
-                                data-id="3f0a4d3" data-element_type="widget"
-                                data-widget_type="image.default">
+                                data-id="3f0a4d3" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <a href="https://www.yellow-it.fr" target="_blank">
                                         <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20548%2091'%3E%3C/svg%3E"
@@ -68,10 +68,9 @@
                         data-id="064eb58" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-e23c21c elementor-widget elementor-widget-heading"
-                                data-id="e23c21c" data-element_type="widget"
-                                data-widget_type="heading.default">
+                                data-id="e23c21c" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">BTI - Advisory
+                                    <h1 class="elementor-heading-title elementor-size-default">{!! $data[0]->article_text !!}
                                     </h1>
                                 </div>
                             </div>
@@ -91,20 +90,28 @@
                                             <ul id="menu-1-4a23e70" class="hfe-nav-menu">
                                                 <li id="menu-item-362"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../a-propos/index.html"
-                                                        class="hfe-menu-item">À propos</a></li>
+                                                    <a href="../../a-propos/index.html" class="hfe-menu-item">
+                                                        {!! $data[2]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-361"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent parent hfe-creative-menu">
-                                                    <a href="../../blog/index.html"
-                                                        class="hfe-menu-item">Blog</a></li>
+                                                    <a href="../../blog/index.html" class="hfe-menu-item">
+                                                        {!! $data[3]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-360"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../nous-rejoindre/index.html"
-                                                        class="hfe-menu-item">Nous rejoindre</a></li>
+                                                    <a href="../../nous-rejoindre/index.html" class="hfe-menu-item">
+                                                        {!! $data[4]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-6151"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../index.html@p=75.html"
-                                                        class="hfe-menu-item">Contactez-nous</a></li>
+                                                    <a href="../../index.html@p=75.html" class="hfe-menu-item">
+                                                        {!! $data[5]->article_text !!}
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -116,10 +123,10 @@
                         data-id="532d179" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-d937ea1 elementor-widget elementor-widget-heading"
-                                data-id="d937ea1" data-element_type="widget"
-                                data-widget_type="heading.default">
+                                data-id="d937ea1" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">Nos services
+                                    <h1 class="elementor-heading-title elementor-size-default">
+                                        {!! $data[1]->article_text !!}
                                     </h1>
                                 </div>
                             </div>
@@ -140,20 +147,28 @@
                                                 <li id="menu-item-6166"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
                                                     <a href="../transformation-des-produits-it/index.html"
-                                                        class="hfe-menu-item">Transformation des produits IT</a>
+                                                        class="hfe-menu-item">
+                                                        {!! $data[6]->article_text !!}
+                                                    </a>
                                                 </li>
                                                 <li id="menu-item-6167"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="../multi-speed-it/index.html"
-                                                        class="hfe-menu-item">Multi-Speed IT</a></li>
+                                                    <a href="../multi-speed-it/index.html" class="hfe-menu-item">
+                                                        {!! $data[7]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-6168"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
-                                                    <a href="index.html" class="hfe-menu-item">Technologie
-                                                        &#038; Innovation</a></li>
+                                                    <a href="index.html" class="hfe-menu-item">
+
+                                                        {!! $data[8]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-6169"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
                                                     <a href="../transformation-ux/index.html"
-                                                        class="hfe-menu-item">Transformation UX</a></li>
+                                                        class="hfe-menu-item">{!! $data[9]->article_text !!}</a>
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -172,15 +187,14 @@
                         data-id="4fa06d7" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-9b23dc5 elementor-view-default elementor-widget elementor-widget-icon"
-                                data-id="9b23dc5" data-element_type="widget"
-                                data-widget_type="icon.default">
+                                data-id="9b23dc5" data-element_type="widget" data-widget_type="icon.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-icon-wrapper">
                                         <a class="elementor-icon"
-                                            href="https://www.linkedin.com/company/bti---advisory/"
-                                            target="_blank" aria-label="linkedin">
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="ic_LinkedIN"
-                                                width="32" height="32" viewBox="0 0 32 32">
+                                            href="https://www.linkedin.com/company/bti---advisory/" target="_blank"
+                                            aria-label="linkedin">
+                                            <svg xmlns="http://www.w3.org/2000/svg" id="ic_LinkedIN" width="32"
+                                                height="32" viewBox="0 0 32 32">
                                                 <path id="Combined-Shape"
                                                     d="M16,32A15.995,15.995,0,0,1,4.687,4.687,16,16,0,1,1,22.228,30.742,15.9,15.9,0,0,1,16,32Zm2.92-16.145c.838,0,1.837.427,1.837,2.463v5.828h3.626V17.9a5.3,5.3,0,0,0-1.193-3.707A3.927,3.927,0,0,0,20.209,13a3.747,3.747,0,0,0-2.175.621A4.063,4.063,0,0,0,16.941,14.8V13.252H13.314c.047,1.011,0,10.8,0,10.894h3.626V18.063a2.4,2.4,0,0,1,.119-.884,2.258,2.258,0,0,1,.653-.906A1.865,1.865,0,0,1,18.921,15.855Zm-11.239-2.6V24.147h3.626V13.252ZM9.518,8a1.888,1.888,0,1,0-.047,3.765h.023a2.116,2.116,0,0,0,1.5-.549,1.825,1.825,0,0,0,.551-1.334A1.881,1.881,0,0,0,9.518,8Z"
                                                     fill="#fff"></path>
@@ -194,17 +208,18 @@
                         data-id="5fc0d2b" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-6a7a328 footer-link elementor-widget__width-auto elementor-widget elementor-widget-text-editor"
-                                data-id="6a7a328" data-element_type="widget"
-                                data-widget_type="text-editor.default">
+                                data-id="6a7a328" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <p><a
-                                            href="https://www.google.fr/maps/place/18+Rue+Drouot,+75009+Paris/@48.8735952,2.3386294,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e3ed72cc90b:0x11fc4579a67a3aaf!8m2!3d48.8735917!4d2.3408234">18
-                                            rue Drouot, 75009 Paris</a></p>
-                                    <p><a class="footer-link"
-                                            href="mailto:contact@bti-advisory.com">contact@bti-advisory.com</a>
+                                            href="https://www.google.fr/maps/place/18+Rue+Drouot,+75009+Paris/@48.8735952,2.3386294,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e3ed72cc90b:0x11fc4579a67a3aaf!8m2!3d48.8735917!4d2.3408234">
+                                            {!! $data[10]->article_text !!}
+                                        </a></p>
+                                    <p><a class="footer-link" href="mailto:contact@bti-advisory.com">
+                                            {!! $data[12]->article_text !!}</a>
                                     </p>
-                                    <p><a class="footer-link" href="tel:+33 1 40 90 30 77">(+33)
-                                            1.40.90.30.77</a></p>
+                                    <p><a class="footer-link" href="tel:+33 1 40 90 30 77">
+                                            {!! $data[11]->article_text !!}
+                                        </a></p>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +236,7 @@
                         data-id="aada253" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-ba723d9 elementor-widget elementor-widget-html"
-                                data-id="ba723d9" data-element_type="widget"
-                                data-widget_type="html.default">
+                                data-id="ba723d9" data-element_type="widget" data-widget_type="html.default">
                                 <div class="elementor-widget-container">
 
                                     <script>
@@ -284,12 +298,15 @@
                                             <ul id="menu-1-c8be929" class="hfe-nav-menu">
                                                 <li id="menu-item-508"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../index.html@p=503.html"
-                                                        class="hfe-menu-item">Mentions légales</a></li>
+                                                    <a href="../../index.html@p=503.html" class="hfe-menu-item">
+                                                        {!! $data[14]->article_text !!}
+                                                    </a>
+                                                </li>
                                                 <li id="menu-item-507"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://bti-advisory.com/cgu/"
-                                                        class="hfe-menu-item">CGU</a></li>
+                                                        class="hfe-menu-item">{!! $data[15]->article_text !!}</a>
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -306,7 +323,9 @@
                                 data-widget_type="copyright.default">
                                 <div class="elementor-widget-container">
                                     <div class="hfe-copyright-wrapper">
-                                        <span>Copyright © 2023 BTI - Advisory</span>
+                                        <span>
+                                            {!! $data[13]->article_text !!}
+                                        </span>
                                     </div>
                                 </div>
                             </div>

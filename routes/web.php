@@ -50,7 +50,34 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
         return view('dashboard');
     })->name('dashboard');
 }); */
-
+Route::get("hhh",function(){
+    $cat_id = 16;
+    $data=[
+        "BTI - ADVISORY",
+        "NOS SERVICES",
+        "À propos",
+        "Blog",
+        "Nous rejoindre",
+        "Contactez-nous",
+        "Transformation des produits IT",
+        "Multi-Speed IT",
+        "Technologie & Innovation",
+        "Transformation UX",
+        "18 rue Drouot, 75009 Paris",
+        "(+33) 1.40.90.30.77",
+        "contact@bti-advisory.com",
+        "Copyright © 2023 BTI - Advisory",
+        "Mentions légales",
+        "CGU"
+    ];
+    $daa = Article::where("categorie_id",16)->get();
+    $index = 0;
+    foreach($daa as $d){
+        $d["index"]=$index;
+        $index++;
+    }
+    return $daa;
+});
 
 Route::prefix('admin')->middleware(['admin'])->group(function () {
 
