@@ -221,16 +221,14 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Qui
-                                                        sommes-nous ?</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3e448e8f elementor-widget elementor-widget-heading"
                                                 data-id="3e448e8f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Bâtir de
-                                                        manière durable les transformations numériques de nos clients</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-9581629 elementor-widget elementor-widget-text-editor"
@@ -270,11 +268,7 @@
                                                             display: inline-block
                                                         }
                                                     </style>
-                                                    <p>Fondée en 2016, BTI Advisory est une société 100% indépendante, qui
-                                                        possède de nombreuses expertises IT et qui intervient sur des
-                                                        missions à forte valeur ajoutée dans différents secteurs d’activités
-                                                        : secteur bancaire, assurances, secteur énergétique, secteur public,
-                                                        transports, etc.</p>
+                                                    <p>{!! $articles[2]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -301,11 +295,7 @@
                                                 data-widget_type="theme-post-content.default">
                                                 <div class="elementor-widget-container">
 
-                                                    <p>À l’heure où tout s’accélère, les entreprises font face à de nouveaux
-                                                        défis : les technologies et les services deviennent plus rapidement
-                                                        obsolètes que par le passé, la concurrence s’accroît, le flot
-                                                        d’innovations devient continu et les entreprises sont de plus en
-                                                        plus agiles.</p>
+                                                    <p>{!! $articles[3]->article_text !!} </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -324,20 +314,14 @@
                                                 data-id="74555f82" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Forte de ses
-                                                        expériences et de son expertise IT, BTI - Advisory accompagne ses
-                                                        clients dans le conseil, la transformation et la modernisation des
-                                                        organisations ainsi que de leurs projets digitaux.</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[4]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-16010652 elementor-widget elementor-widget-text-editor"
                                                 data-id="16010652" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Notre compréhension des enjeux métiers et technologiques nous permet
-                                                        d’intervenir sur la stratégie et la performance opérationnelle des
-                                                        systèmes d’information, le pilotage de programmes ou projets et sur
-                                                        des sujets d’expertises pointus.</p>
+                                                    <p>{!! $articles[5]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -439,12 +423,7 @@
                                                 data-id="66c7e10e" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Notre succès se construit principalement autour de la qualité de nos
-                                                        collaborateurs et notre esprit d’équipe. Avec BTI &#8211; Advisory,
-                                                        vous avez des équipes de personnes motivées et engagées dans la
-                                                        réussite de vos projets. Nous choisir, c’est mobiliser les
-                                                        compétences de toute une entreprise pour vous aider à transformer
-                                                        vos idées en valeur !</p>
+                                                    <p>{!! $articles[6]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -512,7 +491,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <h2
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Des valeurs fondamentales qui portent les projets
+                                                                        {!! $articles[7]->article_text !!}
                                                                     </h2>
                                                                 </div>
                                                             </div>
@@ -520,10 +499,7 @@
                                                                 data-id="40c08848" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <p>BTI &#8211; Advisory est une société de conseil en IT
-                                                                        à taille humaine, prônant l’importance des
-                                                                        compétences techniques alliées à des valeurs fortes
-                                                                        pour la réussite globale des projets.</p>
+                                                                    <p>{!! $articles[8]->article_text !!}</p>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-3dd939ae elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -712,11 +688,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    Excellence : </span>
+                                                                                    {!! $articles[9]->article_text !!}</span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Apporter le meilleur service possible, en
-                                                                                mêlant qualité et innovation ; </p>
+                                                                                 </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -773,11 +748,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    Engagement : </span>
+                                                                                    {!! $articles[11]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                S’impliquer durablement envers nos clients
-                                                                                et pour la société ; </p>
+                                                                                {!! $articles[12]->article_text !!} </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -836,12 +810,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    Ouverture : </span>
+                                                                                    {!! $articles[13]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Être curieux et s’enrichir de la diversité
-                                                                                pour rester réceptifs à de nouvelles
-                                                                                opportunités ; </p>
+                                                                                {!! $articles[14]->article_text !!} </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -921,11 +893,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    Solidarité : </span>
+                                                                                    {!! $articles[15]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Avoir une communauté sur le partage et
-                                                                                l’échange entre nous et avec nos clients.
+                                                                                {!! $articles[16]->article_text !!}
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -982,17 +953,14 @@
                                                                 <div class="elementor-widget-container">
                                                                     <h2
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Des engagements forts pour nos clients</h2>
+                                                                        {!! $articles[17]->article_text !!}</h2>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6bc364bc elementor-widget elementor-widget-text-editor"
                                                                 data-id="6bc364bc" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <p>La clé de la réussite pour la transformation digitale
-                                                                        des entreprises réside avant tout dans des
-                                                                        engagements concrets au niveau des projets chez BTI
-                                                                        &#8211; Advisory :</p>
+                                                                    <p>{!! $articles[18]->article_text !!}</p>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-4b95cc23 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -1035,12 +1003,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    La qualité : </span>
+                                                                                    {!! $articles[19]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Nous mettons en œuvre une démarche qualité
-                                                                                pour la satisfaction de nos clients mais
-                                                                                aussi pour nos collaborateurs ; </p>
+                                                                                {!! $articles[20]->article_text !!} </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1111,12 +1077,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    L'innovation : </span>
+                                                                                    {!! $articles[21]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Nous plaçons l’innovation au cœur de notre
-                                                                                activité afin d’offrir les services de
-                                                                                demain ; </p>
+                                                                                {!! $articles[22]->article_text !!} </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1158,12 +1122,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    La transparence : </span>
+                                                                                    {!! $articles[23]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
-                                                                                Nous prônons une transparence à tous les
-                                                                                niveaux pour atteindre une parfaite
-                                                                                accessibilité de l’information. </p>
+                                                                                {!! $articles[24]->article_text !!} </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1188,44 +1150,29 @@
                                                 data-id="2f686ffc" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Les BTI
-                                                        Advisors</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[25]->article_text !!}s</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3018a847 elementor-widget elementor-widget-heading"
                                                 data-id="3018a847" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Une équipe
-                                                        d’experts IT dédiée chez BTI - Advisory</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[26]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-74d2ff28 elementor-widget elementor-widget-heading"
                                                 data-id="74d2ff28" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">BTI -
-                                                        Advisory accompagne ses clients dans leurs problématiques de système
-                                                        d’information les plus complexes, notamment grâce à son expertise
-                                                        IT, afin de garantir que leurs décisions contribuent pleinement à la
-                                                        réalisation de leurs objectifs stratégiques, opérationnels et
-                                                        financiers.</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[27]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-f049adb elementor-widget elementor-widget-text-editor"
                                                 data-id="f049adb" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>De ce fait, nos équipes sont structurées de façon à intégrer un large
-                                                        éventail d’expertises IT et de perspectives. Nous sommes très
-                                                        attachés à la diversité de nos collaborateurs qui proviennent de
-                                                        différents horizons.</p>
-                                                    <p>Chez BTI &#8211; Advisory, nous considérons que la qualité de service
-                                                        est indissociable du bien-être de chacun et des meilleures
-                                                        conditions de travail. C’est pourquoi nous nous investissons pour
-                                                        l’épanouissement de nos collaborateurs en instaurant une culture de
-                                                        dialogue permanent afin de connaître leurs aspirations et permettre
-                                                        l’atteinte de leurs propres objectifs.</p>
+                                                    <p>{!! $articles[28]->article_text !!}</p>
+                                                    <p>{!! $articles[29]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1268,45 +1215,32 @@
                                                 data-id="525c9a85" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Les BTI
-                                                        Advisors</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[30]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-158fbe15 elementor-widget elementor-widget-heading"
                                                 data-id="158fbe15" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Notre
-                                                        système
-                                                        de gestion des Ressources Humaines repose sur les valeurs
-                                                        fondatrices de BTI - Advisory : la transparence et la qualité.</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[31]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1ce77ce5 elementor-widget elementor-widget-heading"
                                                 data-id="1ce77ce5" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Dans ce
-                                                        cadre, nous avons construit avec les collaborateurs un système de
-                                                        gestion des Ressources Humaines pour encourager le développement des
-                                                        talents tout au long de leur apprentissage : recrutement,
-                                                        intégration, gestion des carrières, formation et gestion des
-                                                        connaissances.</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[32]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1d63c857 elementor-widget elementor-widget-text-editor"
                                                 data-id="1d63c857" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="animated fadeInUp">Ce système est structuré autour de deux
-                                                        grands axes :</p>
+                                                    <p class="animated fadeInUp">{!! $articles[33]->article_text !!}</p>
                                                     <hr />
-                                                    <h5><span style="color: #e99b17;">L’accompagnement dans le
-                                                            développement
-                                                            du potentiel</span></h5>
+                                                    <h5><span style="color: #e99b17;">{!! $articles[34]->article_text !!}</span></h5>
                                                     <hr />
-                                                    <h5><span style="color: #e99b17;">L’accompagnement dans l’atteinte des
-                                                            objectifs</span></h5>
+                                                    <h5><span style="color: #e99b17;">{!! $articles[35]->article_text !!}</span></h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -1326,10 +1260,7 @@
                                                 data-id="13e6db35" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>La personnalisation du suivi des collaborateurs se traduit par une
-                                                        relation de proximité avec les interlocuteurs groupe, formalisée par
-                                                        des outils, tels que les points missions, les bilans annuels où les
-                                                        entretiens de carrière.</p>
+                                                    <p>{!! $articles[36]->article_text !!}</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5db3c690 elementor-widget elementor-widget-button"
@@ -1367,18 +1298,14 @@
                                                 data-id="33ce4a60" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Nos
-                                                        références</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[37]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-26018694 elementor-widget elementor-widget-heading"
                                                 data-id="26018694" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Nous avons
-                                                        à
-                                                        cœur de mettre nos expertises au service de la transformation
-                                                        digitale des entreprises.</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[38]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2a2a2228 elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -2397,22 +2324,15 @@
                                                 data-id="38ec9606" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Notre
-                                                        politique de partenariat</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[39]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-46d34417 elementor-widget elementor-widget-text-editor"
                                                 data-id="46d34417" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Nous souhaitons nouer des partenariats éditeurs pour avoir accès à
-                                                        des informations disponibles uniquement chez les partenaires et
-                                                        connaître en détail les outils des éditeurs.</p>
-                                                    <p>Cependant, nous privilégions notre indépendance par rapport à nos
-                                                        partenariats et refusons ainsi toute commission pour la
-                                                        recommandation d’un outil spécifique. Nous préconisons toujours ce
-                                                        que nous pensons être la meilleure approche pour nos clients et nous
-                                                        ne divulguons pas d’informations confidentielles à nos partenaires.
+                                                    <p>{!! $articles[40]->article_text !!}</p>
+                                                    <p>{!! $articles[41]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -2420,10 +2340,7 @@
                                                 data-id="d10b3c7" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Si, sur une mission, une clause d’un contrat de partenariat devenait
-                                                        contraire à nos principes d’indépendance, nous n’hésiterions pas à
-                                                        dénoncer immédiatement le partenariat concerné comme le prévoient
-                                                        ces contrats.</p>
+                                                    <p>{!! $articles[42]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>

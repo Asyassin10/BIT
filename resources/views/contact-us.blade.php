@@ -224,15 +224,14 @@
                                                         }
                                                     </style>
                                                     <h6 class="elementor-heading-title elementor-size-default">
-                                                        Contactez-nous</h6>
+                                                        {!! $articles[0]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5b365d30 elementor-widget elementor-widget-heading"
                                                 data-id="5b365d30" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Vous avez un
-                                                        projet ? Vous souhaitez nous rencontrer ?</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3a108a76 elementor-widget elementor-widget-button"
@@ -249,7 +248,7 @@
                                                                     class="elementor-button-icon elementor-align-icon-right">
                                                                     <i aria-hidden="true" class="fas fa-arrow-down"></i>
                                                                 </span>
-                                                                <span class="elementor-button-text">Écrivez-nous</span>
+                                                                <span class="elementor-button-text">{!! $articles[2]->article_text !!}</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -301,7 +300,7 @@
                                                 data-id="7cc118" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Échangeons
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}
                                                     </h2>
                                                 </div>
                                             </div>

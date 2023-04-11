@@ -150,7 +150,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="hfe-site-logo">
                                                     <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                        href="{{ route('home') }}" aria-label="home">
+                                                        href="{{ route('home')  }}" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
@@ -398,7 +398,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:-80,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>BTI &#8211; Advisory, une société de conseil IT 100% indépendante.
+                                                    <p>{!! $articles[0]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -419,8 +419,7 @@
                                                 data-widget_type="theme-post-content.default">
                                                 <div class="elementor-widget-container">
 
-                                                    <p>Nous pensons que la transformation digitale fera partie intégrante du
-                                                        monde de demain et qu’elle doit avoir un impact sociétal positif.
+                                                    <p>{!! $articles[1]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -474,8 +473,7 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Notre
-                                                        mission
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[2]->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -483,18 +481,14 @@
                                                 data-id="f9103c5" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">En tant que
-                                                        jeune société de conseil IT, nous souhaitons devenir les bâtisseurs
-                                                        de ces grandes transformations durables.</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-4490ec56 elementor-widget elementor-widget-text-editor"
                                                 data-id="4490ec56" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Derrière BTI &#8211; Advisory se trouve une équipe
-                                                        pluridisciplinaire, qui allie des compétences et expertises IT et de
-                                                        fortes valeurs.</p>
+                                                    <p>{!! $articles[4]->article_text !!}</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2ed07fb0 elementor-widget elementor-widget-button"
@@ -568,7 +562,7 @@
                                                 data-id="38f80f8b" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Nos services
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[5]->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -576,8 +570,7 @@
                                                 data-id="6e92e0fd" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">L’excellence
-                                                        collective au service de la transformation digitale et durable</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[6]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-16efb198 elementor-align-left elementor-widget elementor-widget-button"
@@ -722,7 +715,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">Transformation des Produits IT</a>
+                                                                    <a href="#">{!! $articles[7]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224191" t_id="38497224191"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion ae-active"
@@ -786,9 +779,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Journey
-                                                                                                                                                                To
-                                                                                                                                                                Cloud</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[8]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -826,8 +817,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Digital
-                                                                                                                                                                Workplace</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[9]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -865,8 +855,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Architecture
-                                                                                                                                                                digitale</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[10]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -889,21 +878,7 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>Nous
-                                                                                                                accompagnons
-                                                                                                                les DSI à
-                                                                                                                maximiser la
-                                                                                                                création de
-                                                                                                                valeur et à
-                                                                                                                se
-                                                                                                                positionner
-                                                                                                                comme
-                                                                                                                partenaires
-                                                                                                                du métier
-                                                                                                                grâce à la
-                                                                                                                transformation
-                                                                                                                des produits
-                                                                                                                IT.</p>
+                                                                                                            <p>{!! $articles[11]->article_text !!}</p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -1050,7 +1025,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">Multi-Speed IT</a>
+                                                                    <a href="#">{!! $articles[12]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224192" t_id="38497224192"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1114,9 +1089,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Agile
-                                                                                                                                                                at
-                                                                                                                                                                Scale</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[13]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1154,11 +1127,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Lean
-                                                                                                                                                                IT
-                                                                                                                                                                et
-                                                                                                                                                                Green
-                                                                                                                                                                IT</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[14]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1196,10 +1165,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Culture
-                                                                                                                                                                et
-                                                                                                                                                                plateforme
-                                                                                                                                                                DevOps</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[15]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1222,27 +1188,7 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>Nous
-                                                                                                                accompagnons
-                                                                                                                les DSI à
-                                                                                                                ancrer une
-                                                                                                                culture
-                                                                                                                durable et à
-                                                                                                                mettre en
-                                                                                                                place des
-                                                                                                                pratiques
-                                                                                                                permettant
-                                                                                                                d&#8217;adapter
-                                                                                                                des cycles
-                                                                                                                de
-                                                                                                                réalisation
-                                                                                                                aux enjeux
-                                                                                                                de
-                                                                                                                l&#8217;entreprise
-                                                                                                                afin de
-                                                                                                                rester
-                                                                                                                compétitif
-                                                                                                                et innovant.
+                                                                                                            <p>{!! $articles[16]->article_text !!}
                                                                                                             </p>
                                                                                                         </div>
                                                                                                     </div>
@@ -1390,7 +1336,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">Technologie &#038; Innovation</a>
+                                                                    <a href="#">{!! $articles[17]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224193" t_id="38497224193"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1454,8 +1400,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Digital
-                                                                                                                                                                Factory</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[18]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1493,9 +1438,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">IoT
-                                                                                                                                                                &
-                                                                                                                                                                Robotics</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[19]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1533,8 +1476,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Data
-                                                                                                                                                                Intelligence</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[20]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1557,14 +1499,7 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>Tout notre
-                                                                                                                savoir-faire
-                                                                                                                technologique
-                                                                                                                au service
-                                                                                                                de
-                                                                                                                l’innovation
-                                                                                                                de nos
-                                                                                                                clients.</p>
+                                                                                                            <p>{!! $articles[21]->article_text !!}</p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -1712,7 +1647,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">Transformation UX</a>
+                                                                    <a href="#">{!! $articles[22]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224194" t_id="38497224194"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1776,8 +1711,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Stratégie
-                                                                                                                                                                Omnicanale</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[23]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1815,8 +1749,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">UX
-                                                                                                                                                                Design</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[24]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1854,8 +1787,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">Changement
-                                                                                                                                                                Management</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[25]->article_text !!}</span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1878,13 +1810,7 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>L’expérience
-                                                                                                                utilisateur
-                                                                                                                au cœur de
-                                                                                                                la
-                                                                                                                construction
-                                                                                                                des
-                                                                                                                produits.
+                                                                                                            <p>{!! $articles[26]->article_text !!}
                                                                                                             </p>
                                                                                                         </div>
                                                                                                     </div>
@@ -1968,18 +1894,14 @@
                                                 data-id="128285f0" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Nos
-                                                        références</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[27]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-13dc6efb elementor-widget elementor-widget-heading"
                                                 data-id="13dc6efb" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Nous avons
-                                                        à
-                                                        cœur de mettre nos expertises au service de la transformation
-                                                        digitale des entreprises.</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[28]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6151fcfe elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -2844,7 +2766,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span
-                                                        class="elementor-heading-title elementor-size-default">90%</span>
+                                                        class="elementor-heading-title elementor-size-default">{!! $articles[29]->article_text !!}%</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6cf4b191 animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2852,9 +2774,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">de
-                                                        croissance
-                                                        en 2022</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[30]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -2867,7 +2787,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <span class="elementor-heading-title elementor-size-default">4M</span>
+                                                    <span class="elementor-heading-title elementor-size-default">{!! $articles[31]->article_text !!}</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5f3b2582 animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2875,8 +2795,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">de CA en
-                                                        2022
+                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[32]->article_text !!}
                                                     </h5>
                                                 </div>
                                             </div>
@@ -2891,7 +2810,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span
-                                                        class="elementor-heading-title elementor-size-default">+40</span>
+                                                        class="elementor-heading-title elementor-size-default">{!! $articles[33]->article_text !!}</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3602b316 animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2900,7 +2819,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h5 class="elementor-heading-title elementor-size-default">
-                                                        collaborateurs</h5>
+                                                        {!! $articles[34]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -2913,7 +2832,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <span class="elementor-heading-title elementor-size-default">45</span>
+                                                    <span class="elementor-heading-title elementor-size-default"> {!! $articles[35]->article_text !!}</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c05807b animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2921,8 +2840,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">projets
-                                                        réalisés en 2022</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default"> {!! $articles[36]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -2941,17 +2859,14 @@
                                                 data-id="28ba64f6" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Nous
-                                                        rejoindre</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default"> {!! $articles[37]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-105e5817 elementor-widget elementor-widget-heading"
                                                 data-id="105e5817" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Travailler
-                                                        chez BTI - Advisory, c’est rejoindre un collectif où le savoir-être
-                                                        est aussi valorisé que le savoir-faire.</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default"> {!! $articles[38]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-61a39c28 elementor-widget elementor-widget-html"

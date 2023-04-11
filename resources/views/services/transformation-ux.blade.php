@@ -221,15 +221,14 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Service</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-7faaf0c7 elementor-widget elementor-widget-heading"
                                                 data-id="7faaf0c7" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
-                                                        Transformation UX</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!} </h1>
                                                 </div>
                                             </div>
                                             <section
@@ -272,8 +271,7 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Stratégie
-                                                                                                                        Omnicanale</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">{!! $articles[2]->article_text !!}</span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -309,8 +307,7 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">UX
-                                                                                                                        Design</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -346,8 +343,7 @@
                                                                                                                 <div
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">Changement
-                                                                                                                        Management</span>
+                                                                                                                        class="elementor-heading-title elementor-size-default">{!! $articles[4]->article_text !!}</span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -444,8 +440,7 @@
                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Innover,
-                                                        accélérer et industrialiser</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[5]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -517,8 +512,7 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Stratégie
-                                                                                                                Omnicanale<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[7]->article_text !!}<span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -568,38 +562,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>La
-                                                                                                                digitalisation
-                                                                                                                de la
-                                                                                                                société a
-                                                                                                                poussé les
-                                                                                                                entreprises
-                                                                                                                vers le
-                                                                                                                chemin de
-                                                                                                                l’innovation,
-                                                                                                                développant
-                                                                                                                de nouveaux
-                                                                                                                outils pour
-                                                                                                                toucher le
-                                                                                                                consommateur
-                                                                                                                via
-                                                                                                                différents
-                                                                                                                canaux
-                                                                                                                supplémentaires.
-                                                                                                                Depuis, le
-                                                                                                                consommateur
-                                                                                                                a bien
-                                                                                                                évolué et
-                                                                                                                recherche de
-                                                                                                                la cohérence
-                                                                                                                et de la
-                                                                                                                qualité,
-                                                                                                                quel que
-                                                                                                                soit le
-                                                                                                                canal
-                                                                                                                utilisé : Un
-                                                                                                                omni-consommateur
-                                                                                                                est né !</p>
+                                                                                                            <p>{!! $articles[6]->article_text !!} </p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -614,25 +577,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Avec ces
-                                                                                                                évolutions
-                                                                                                                de pratiques
-                                                                                                                la stratégie
-                                                                                                                omnicanale,
-                                                                                                                qui s’est
-                                                                                                                très
-                                                                                                                rapidement
-                                                                                                                imposée,
-                                                                                                                permet de
-                                                                                                                répondre aux
-                                                                                                                attentes en
-                                                                                                                utilisant
-                                                                                                                les forces
-                                                                                                                du digital
-                                                                                                                et celles
-                                                                                                                des points
-                                                                                                                de vente
-                                                                                                                physiques.
+                                                                                                            <p>{!! $articles[8]->article_text !!}
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -661,13 +606,7 @@
                                                                                                                         <h4 itemprop="name"
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                Stratégie
-                                                                                                                                Omnicanale<span
+                                                                                                                                    class="ae-prefix"></span>{!! $articles[9]->article_text !!} <span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>
@@ -779,9 +718,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Diagnostic
-                                                                                                                                                                                                de
-                                                                                                                                                                                                maturité
+                                                                                                                                                                                            <p>{!! $articles[10]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1042,16 +979,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Coaching
-                                                                                                                                                                                                et
-                                                                                                                                                                                                accompagnement
-                                                                                                                                                                                                sur
-                                                                                                                                                                                                la
-                                                                                                                                                                                                montée
-                                                                                                                                                                                                en
-                                                                                                                                                                                                maturité
-                                                                                                                                                                                                des
-                                                                                                                                                                                                équipes
+                                                                                                                                                                                            <p>{!! $articles[11]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1176,13 +1104,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Définition
-                                                                                                                                                                                                des
-                                                                                                                                                                                                scénarios
-                                                                                                                                                                                                de
-                                                                                                                                                                                                parcours
-                                                                                                                                                                                                clients
-                                                                                                                                                                                                omnicanaux
+                                                                                                                                                                                            <p>{!! $articles[12]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1236,27 +1158,7 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Nous
-                                                                                                                avons les
-                                                                                                                outils
-                                                                                                                nécessaires
-                                                                                                                pour évaluer
-                                                                                                                rapidement
-                                                                                                                la maturité
-                                                                                                                de votre
-                                                                                                                organisation
-                                                                                                                en termes de
-                                                                                                                stratégie
-                                                                                                                d’architecture
-                                                                                                                et de
-                                                                                                                pratiques
-                                                                                                                pour vous
-                                                                                                                aider à
-                                                                                                                évoluer vers
-                                                                                                                celle qui
-                                                                                                                vous
-                                                                                                                convient le
-                                                                                                                mieux.<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[13]->article_text !!} <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>
@@ -1320,8 +1222,7 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>UX
-                                                                                                                Design<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[15]->article_text !!}<span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -1371,25 +1272,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Dans un
-                                                                                                                contexte de
-                                                                                                                révolution
-                                                                                                                numérique,
-                                                                                                                la
-                                                                                                                transformation
-                                                                                                                UX est
-                                                                                                                devenue un
-                                                                                                                composant
-                                                                                                                central dans
-                                                                                                                la réussite
-                                                                                                                de la mise
-                                                                                                                en œuvre
-                                                                                                                d’un produit
-                                                                                                                informatique
-                                                                                                                auprès d’un
-                                                                                                                public
-                                                                                                                d’utilisateurs
-                                                                                                                métiers.</p>
+                                                                                                            <p>{!! $articles[14]->article_text !!}</p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -1404,29 +1287,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Ainsi,
-                                                                                                                l’intégration
-                                                                                                                des
-                                                                                                                technologies
-                                                                                                                digitales
-                                                                                                                dans
-                                                                                                                l’ensemble
-                                                                                                                des
-                                                                                                                activités de
-                                                                                                                l’entreprise
-                                                                                                                passe
-                                                                                                                dorénavant
-                                                                                                                par
-                                                                                                                l’amélioration
-                                                                                                                de
-                                                                                                                l’expérience
-                                                                                                                utilisateur
-                                                                                                                à intégrer
-                                                                                                                dès le début
-                                                                                                                de la
-                                                                                                                conception
-                                                                                                                des
-                                                                                                                produits.
+                                                                                                            <p>{!! $articles[16]->article_text !!} 
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -1455,13 +1316,7 @@
                                                                                                                         <h4 itemprop="name"
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                UX
-                                                                                                                                Design<span
+                                                                                                                                    class="ae-prefix"></span>{!! $articles[17]->article_text !!} <span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>
@@ -1573,21 +1428,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Conception
-                                                                                                                                                                                                des
-                                                                                                                                                                                                produits
-                                                                                                                                                                                                du
-                                                                                                                                                                                                point
-                                                                                                                                                                                                de
-                                                                                                                                                                                                vue
-                                                                                                                                                                                                des
-                                                                                                                                                                                                clients
-                                                                                                                                                                                                :
-                                                                                                                                                                                                Design
-                                                                                                                                                                                                Thinking,
-                                                                                                                                                                                                User
-                                                                                                                                                                                                safari,
-                                                                                                                                                                                                Personas…
+                                                                                                                                                                                            <p>{!! $articles[18]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1712,15 +1553,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Amélioration
-                                                                                                                                                                                                de
-                                                                                                                                                                                                l’ergonomie
-                                                                                                                                                                                                des
-                                                                                                                                                                                                produits
-                                                                                                                                                                                                :
-                                                                                                                                                                                                test
-                                                                                                                                                                                                utilisateur,
-                                                                                                                                                                                                eye-tracking…
+                                                                                                                                                                                            <p>{!! $articles[19]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1845,16 +1678,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Optimisation
-                                                                                                                                                                                                du
-                                                                                                                                                                                                comportement
-                                                                                                                                                                                                utilisateurs
-                                                                                                                                                                                                :
-                                                                                                                                                                                                tag
-                                                                                                                                                                                                management
-                                                                                                                                                                                                systems,
-                                                                                                                                                                                                web
-                                                                                                                                                                                                analytics…
+                                                                                                                                                                                            <p>{!! $articles[20]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1908,29 +1732,7 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Nous
-                                                                                                                vous
-                                                                                                                accompagnons
-                                                                                                                dans ces
-                                                                                                                projets de
-                                                                                                                transformation
-                                                                                                                pour vous
-                                                                                                                aider à
-                                                                                                                intégrer les
-                                                                                                                éléments de
-                                                                                                                compréhension
-                                                                                                                des
-                                                                                                                comportements
-                                                                                                                de vos
-                                                                                                                utilisateurs
-                                                                                                                dans le
-                                                                                                                cycle de vie
-                                                                                                                de votre
-                                                                                                                entreprise
-                                                                                                                et à faire
-                                                                                                                évoluer
-                                                                                                                l’expérience
-                                                                                                                fournie.<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[21]->article_text !!} <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>
@@ -1994,8 +1796,7 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Changement
-                                                                                                                Management<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[23]->article_text !!}<span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -2045,33 +1846,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>À l’heure du
-                                                                                                                numérique,
-                                                                                                                notre
-                                                                                                                approche de
-                                                                                                                conduite et
-                                                                                                                d’accompagnement
-                                                                                                                au
-                                                                                                                changement
-                                                                                                                tire les
-                                                                                                                fruits de
-                                                                                                                l’intelligence
-                                                                                                                collective
-                                                                                                                au travers
-                                                                                                                des leviers
-                                                                                                                technologiques.
-                                                                                                                Notre
-                                                                                                                ambition est
-                                                                                                                de centrer
-                                                                                                                l’accompagnement
-                                                                                                                autour de
-                                                                                                                l’humain
-                                                                                                                grâce à une
-                                                                                                                méthodologie
-                                                                                                                éprouvée et
-                                                                                                                adaptable au
-                                                                                                                contexte
-                                                                                                                client.</p>
+                                                                                                            <p>{!! $articles[22]->article_text !!}</p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -2086,28 +1861,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>Notre valeur
-                                                                                                                réside dans
-                                                                                                                l’acculturation
-                                                                                                                des
-                                                                                                                collaborateurs
-                                                                                                                au réflexe
-                                                                                                                “Change” sur
-                                                                                                                tous nos
-                                                                                                                projets et
-                                                                                                                côté client,
-                                                                                                                dans la
-                                                                                                                valorisation
-                                                                                                                de la mesure
-                                                                                                                de la
-                                                                                                                performance
-                                                                                                                des
-                                                                                                                transformations,
-                                                                                                                sujet au
-                                                                                                                cœur des
-                                                                                                                problématiques
-                                                                                                                de
-                                                                                                                transformation.
+                                                                                                            <p>{!! $articles[24]->article_text !!}
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -2136,13 +1890,7 @@
                                                                                                                         <h4 itemprop="name"
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
-                                                                                                                                    class="ae-prefix"></span>Les
-                                                                                                                                prestations
-                                                                                                                                associées
-                                                                                                                                au
-                                                                                                                                service
-                                                                                                                                Change
-                                                                                                                                Management<span
+                                                                                                                                    class="ae-prefix"></span>{!! $articles[25]->article_text !!}<span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>
@@ -2254,11 +2002,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Stratégie
-                                                                                                                                                                                                de
-                                                                                                                                                                                                conduite
-                                                                                                                                                                                                du
-                                                                                                                                                                                                changement
+                                                                                                                                                                                            <p>{!! $articles[26]->article_text !!} 
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2383,17 +2127,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Mise
-                                                                                                                                                                                                en
-                                                                                                                                                                                                œuvre
-                                                                                                                                                                                                opérationnelle
-                                                                                                                                                                                                de
-                                                                                                                                                                                                la
-                                                                                                                                                                                                stratégie
-                                                                                                                                                                                                de
-                                                                                                                                                                                                conduite
-                                                                                                                                                                                                du
-                                                                                                                                                                                                changement
+                                                                                                                                                                                            <p>{!! $articles[27]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2518,15 +2252,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Suivi
-                                                                                                                                                                                                et
-                                                                                                                                                                                                le
-                                                                                                                                                                                                pilotage
-                                                                                                                                                                                                du
-                                                                                                                                                                                                plan
-                                                                                                                                                                                                d’accompagnement
-                                                                                                                                                                                                au
-                                                                                                                                                                                                changement
+                                                                                                                                                                                            <p>{!! $articles[28]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2651,14 +2377,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>Création
-                                                                                                                                                                                                de
-                                                                                                                                                                                                cellules
-                                                                                                                                                                                                de
-                                                                                                                                                                                                conduite
-                                                                                                                                                                                                du
-                                                                                                                                                                                                changement
-                                                                                                                                                                                                transverses
+                                                                                                                                                                                            <p>{!! $articles[29]->article_text !!} 
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2712,26 +2431,7 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>Cette
-                                                                                                                démarche
-                                                                                                                nous permet
-                                                                                                                de nous
-                                                                                                                adapter
-                                                                                                                rapidement
-                                                                                                                et de
-                                                                                                                personnaliser
-                                                                                                                la conduite
-                                                                                                                du
-                                                                                                                changement
-                                                                                                                dans le
-                                                                                                                cadre d’une
-                                                                                                                transformation
-                                                                                                                digitale, à
-                                                                                                                l’échelle de
-                                                                                                                l’entreprise,
-                                                                                                                d’une région
-                                                                                                                ou du
-                                                                                                                pays.<span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[30]->article_text !!} <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>

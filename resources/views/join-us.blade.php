@@ -222,16 +222,14 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Nous
-                                                        rejoindre</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-66304b20 elementor-widget elementor-widget-heading"
                                                 data-id="66304b20" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Nos offres
-                                                        d’emploi</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-ed4eaf4 elementor-widget elementor-widget-text-editor"
@@ -271,11 +269,7 @@
                                                             display: inline-block
                                                         }
                                                     </style>
-                                                    <p>Vous souhaitez évoluer dans un environnement de travail stimulant,
-                                                        dans lequel vous aurez des opportunités de progression de premier
-                                                        ordre ? Rejoignez-nous pour cultiver votre goût d’entreprendre et
-                                                        révéler votre personnalité au sein d’une équipe ambitieuse et
-                                                        volontaire.</p>
+                                                    <p>{!! $articles[2]->article_text !!}</p>
                                                 </div>
                                             </div>
                                             <section
@@ -404,19 +398,14 @@
                                                 data-id="7904e" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Travailler
-                                                        chez BTI - Advisory c’est rejoindre un collectif où le savoir-être
-                                                        est autant valorisé que le savoir-faire.</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3e8bb0d7 elementor-widget elementor-widget-text-editor"
                                                 data-id="3e8bb0d7" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Vous êtes une personne passionnée, dynamique, riche d’idées et
-                                                        d’envies, désireuse de les communiquer et de les réaliser avec
-                                                        l’entreprise, vous aimez contribuer à des projets passionnants
-                                                        autour des défis de transformation. Alors n’hésitez pas !</p>
+                                                    <p>{!! $articles[4]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -435,7 +424,7 @@
                                                 data-id="74cd36b4" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">Les offres
+                                                    <h3 class="elementor-heading-title elementor-size-default">{!! $articles[5]->article_text !!}
                                                     </h3>
                                                 </div>
                                             </div>
@@ -443,8 +432,7 @@
                                                 data-id="7ed99c82" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">Découvrez nos
-                                                        offres d’emploi et postez votre candidature en ligne !</p>
+                                                    <p class="elementor-heading-title elementor-size-default">{!! $articles[6]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -538,26 +526,21 @@
                                                 data-id="3f7c0030" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">Candidature
-                                                        spontanée</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[14]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1015537f elementor-widget elementor-widget-heading"
                                                 data-id="1015537f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Vous ne
-                                                        trouvez pas votre bonheur ?</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[15]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1f5d2a03 elementor-widget elementor-widget-text-editor"
                                                 data-id="1f5d2a03" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>BTI &#8211; Advisory est toujours à la recherche de personnes
-                                                        talentueuses. Remplissez le formulaire ci-dessous en y joignant
-                                                        votre CV ainsi qu’en expliquant vos motivations. Nous vous
-                                                        contacterons dans les plus brefs délais !</p>
+                                                    <p>{!! $articles[16]->article_text !!}</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-77902d82 form-candidate elementor-button-align-stretch elementor-widget elementor-widget-form"
