@@ -10,6 +10,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JoinUsController;
 use App\Http\Controllers\ServiceController;
 use App\Models\Article;
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -78,3 +79,15 @@ Route::get('/admin/login', function () {
 });
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
+
+
+Route::get("hhh",function(){
+    
+    $daa = Category::all();
+    $index = 0;
+    foreach($daa as $d){
+        $d["index"]=$index;
+        $index++;
+    }
+    return $daa;
+});

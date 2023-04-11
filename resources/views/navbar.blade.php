@@ -1,3 +1,7 @@
+@php
+    use App\Models\Category;
+    $data = Category::all();
+@endphp
 <nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
     data-id="e935e7c" data-element_type="column">
     <div class="elementor-widget-wrap elementor-element-populated">
@@ -25,87 +29,81 @@
                         <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                             <li id="menu-item-86"
                                 class="menu-item menu-item-type-post_type menu-item-object-page parent {{ request()->is('a-propos') ? 'current-menu-ancestor' : '' }} hfe-creative-menu">
-                                <a href="{{ route('about-us') }}" class="hfe-menu-item">À
-                                    propos</a>
+                                <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
+                                </a>
                             </li>
                             <li id="menu-item-6494"
                                 class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
-                                        class="hfe-menu-item">Nos
-                                        services<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} <span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-6493"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('services') }}" class="hfe-sub-menu-item">Tous nos
-                                            services</a>
+                                        <a href="{{ route('services') }}" class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-5705"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a href="{{ route('transformation-des-produits-it.service') }}"
-                                            class="hfe-sub-menu-item">Transformation des
-                                            produits IT</a>
+                                            class="hfe-sub-menu-item">{{ $data[4]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-5707"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a href="{{ route('multi_speed_it.service') }}"
-                                            class="hfe-sub-menu-item">Multi-Speed IT</a>
+                                            class="hfe-sub-menu-item">{{ $data[5]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-5708"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a href="{{ route('technologie-innovation.service') }}"
-                                            class="hfe-sub-menu-item">Technologie &#038;
-                                            Innovation</a>
+                                            class="hfe-sub-menu-item">{{ $data[6]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-5710"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a href="{{ route('transformation-ux.service') }}"
-                                            class="hfe-sub-menu-item">Transformation UX</a>
+                                            class="hfe-sub-menu-item">{{ $data[7]->categorie_name }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-4710"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
-                                        class="hfe-menu-item">Notre
-                                        écosystème<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                        class="hfe-menu-item">{{ $data[10]->categorie_name }}<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-4706"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://bti-studio.com/"
-                                            class="hfe-sub-menu-item">BTI Studio</a>
+                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4705"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.bti-lab.com/"
-                                            class="hfe-sub-menu-item">BTI Lab</a>
+                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4704"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
-                                            class="hfe-sub-menu-item">Yellow IT</a>
+                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-78"
                                 class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}   page_item page-item-73 current_page_item parent hfe-creative-menu">
-                                <a href="{{ route('join-us') }}" class="hfe-menu-item">Nous
-                                    rejoindre</a>
+                                <a href="{{ route('join-us') }}" class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
                             </li>
                             <li id="menu-item-6495"
                                 class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                <div class="hfe-has-submenu-container"><a class="hfe-menu-item">Blog<span
+                                <div class="hfe-has-submenu-container"><a class="hfe-menu-item">{{ $data[8]->categorie_name }}<span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-80"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('blog') }}" class="hfe-sub-menu-item">Nos publications</a>
+                                        <a href="{{ route('blog') }}" class="hfe-sub-menu-item">{{ $data[17]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-79"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="#" class="hfe-sub-menu-item">Nos études de cas</a>
+                                        <a href="#" class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
                                     </li>
                                 </ul>
                             </li>
@@ -139,7 +137,7 @@
                                         d="M10.8,24c5.8-0.1,10.8-7.4,10.8-13.2C21.5,4.8,16.7,0,10.8,0S0,4.8,0,10.8 c0,5.9,4.8,10.8,10.8,10.8c0,0,0,0,0,0c0,0.4,0,0.8,0,1.2L10.8,24z M15.7,9.9c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4 c-0.8,0-1.4-0.6-1.4-1.4c0-0.4,0.1-0.7,0.4-1C14.9,10,15.3,9.9,15.7,9.9z M5.9,12.7c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4 c0.8,0,1.4,0.6,1.4,1.4c0,0,0,0,0,0C7.3,12,6.7,12.7,5.9,12.7z M10.8,12.7c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4 c0.8,0,1.4,0.6,1.4,1.4C12.1,12,11.5,12.7,10.8,12.7L10.8,12.7z">
                                     </path>
                                 </svg> </span>
-                            <span class="elementor-button-text">Contactez-nous</span>
+                            <span class="elementor-button-text">{{ $data[3]->categorie_name }}</span>
                         </span>
                     </a>
                 </div>
