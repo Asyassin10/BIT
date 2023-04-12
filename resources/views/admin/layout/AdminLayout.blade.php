@@ -27,10 +27,10 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="{{ route('admin.dashboard') }}">
-                <img src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg"
-                        alt="logo" height="100" width="100" /></a>
-                <a class="navbar-brand brand-logo-mini"  href="#"><img
-                        src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg"  alt="logo" /></a>
+                    <img src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg" alt="logo" height="100"
+                        width="100" /></a>
+                <a class="navbar-brand brand-logo-mini" href="#"><img
+                        src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -38,9 +38,9 @@
                 </button>
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-                            id="profileDropdown">
-                            <img src="https://cdn.icon-icons.com/icons2/3409/PNG/512/avatar_user_icon_217188.png" alt="profile" />
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="https://images.unsplash.com/photo-1623230590824-f39e31a0a608?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                alt="profile" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                             aria-labelledby="profileDropdown">

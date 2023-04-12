@@ -3,11 +3,12 @@
         <li class="nav-item nav-profile">
             <div class="nav-link">
                 <div class="profile-image">
-                    <img src="https://cdn.icon-icons.com/icons2/3409/PNG/512/avatar_user_icon_217188.png" alt="image" />
+                    <img src="https://images.unsplash.com/photo-1623230590824-f39e31a0a608?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="image" />
                 </div>
                 <div class="profile-name">
                     <p class="name">
-                        Bonjour  {{ Auth::user()->name }}
+                        Bonjour {{ Auth::user()->name }}
                     </p>
                     <p class="designation">
                         Super administrateur
