@@ -76,13 +76,13 @@ Route::get('/admin/login', function () {
     /* $user = Auth::user();
     return $user; */
     return view('admin.login');
-});
+})->middleware("AuthNoLoginMiddleware");
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
 
 
 Route::get("hhh",function(){
-    
+
     $daa = Category::all();
     $index = 0;
     foreach($daa as $d){
