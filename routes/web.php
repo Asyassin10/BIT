@@ -69,7 +69,7 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get("add-article/{category_id}", [AdminArticleController::class, "AddArticle"])->name("AddArticle");
     Route::post("add-articlePost/{category_id}", [AdminArticleController::class, "AddArticlePost"])->name("AddArticlePost");
     Route::get("update-articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
-    Route::post("update-articlesPost", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
+    Route::post("update-articlesPost/{article_id}", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
     Route::get("articles", [AdminArticleController::class, "ListArticles"])->name("ListArticles");
 });
 Route::get('/admin/login', function () {

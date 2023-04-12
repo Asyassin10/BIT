@@ -26,12 +26,12 @@ class AdminArticleController extends Controller
      public function update_articles(int $article_id)
     {
         $categorys = Category::all();
-        $first_article = Article::find($article_id);
-        $oneLineString = str_replace(array("\r", "\n", "\t"), '', $first_article->article_text);
+        $article = Article::find($article_id);
+        $oneLineString = str_replace(array("\r", "\n", "\t"), '', $article->article_text);
         $oneLineString = preg_replace('/\s+/', ' ', $oneLineString);
-        return view("admin.pages.Category.update_articles")->with("categorys", $categorys)->with("text_html",$oneLineString);
+        return view("admin.pages.Category.update_articles")->with("categorys", $categorys)->with("text_html",$oneLineString)->with("article",$article);
     }
-    public function update_articlesPost(Request $request){
+    public function update_articlesPost(Request $request,int $article_id){
         //$html = '<html><body><h1>Hello, world!</h1><p>This is some text.</p></body></html>';
 
         $text = preg_replace('#<[^>]+>#', ' ', $request->data_content_html);
@@ -42,7 +42,7 @@ class AdminArticleController extends Controller
         $first_three_words = array_slice($words, 0, 3);
         $slug = implode(' ', $first_three_words);
 
-        $first_article = Article::first();
+        $first_article = Article::find($article_id);
         $first_article->article_text = $request->data_content_html;
         $first_article->article_slug = $slug;
         $first_article->save();

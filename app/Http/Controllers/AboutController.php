@@ -10,6 +10,7 @@ class AboutController extends Controller
     public function index(){
         $title = "À propos - BTI - Advisory";
         $categories = Category::where("url_presentation",$title)->first();
+        //return $categories->articles;
         return view('a-propos')->with('title', $title)->with("articles",$categories->articles);;
     }
 }

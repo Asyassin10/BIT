@@ -21,7 +21,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">summernote Editor</h4>
-                            <form action="{{ route('update_articlesPost') }}" method="post">
+                            <form action="{{ route('update_articlesPost', ['article_id' => $article->article_id]) }}"
+                                method="post">
                                 @csrf
                                 <textarea name="data_content_html" id="summernoteExample" cols="30" rows="10"></textarea>
                                 <button tye="submit" id="" class="btn btn-success my-4">Enregistré</button>
