@@ -5,9 +5,11 @@ use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\cgu;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JoinUsController;
+use App\Http\Controllers\LegalNotice;
 use App\Http\Controllers\ServiceController;
 use App\Models\Article;
 use App\Models\Category;
@@ -81,13 +83,7 @@ Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
 Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('admin_logout');
 
 
-Route::get("hhh",function(){
+Route::get("/cgu", [cgu::class, 'index'])->name('cgu');
+Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_notice');
 
-    $daa = Category::all();
-    $index = 0;
-    foreach($daa as $d){
-        $d["index"]=$index;
-        $index++;
-    }
-    return $daa;
-});
+

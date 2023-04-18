@@ -1,0 +1,75 @@
+.elementor-6790 .elementor-element.elementor-element-b2fd4d6 {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    padding: 2rem 14rem 0
+}
+
+.elementor-6790 .elementor-element.elementor-element-b2fd4d6>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-6790 .elementor-element.elementor-element-42896f2:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-6790 .elementor-element.elementor-element-42896f2>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var(--e-global-color-text)
+}
+
+.elementor-6790 .elementor-element.elementor-element-42896f2>.elementor-element-populated {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    padding: 2rem 1rem 4rem
+}
+
+.elementor-6790 .elementor-element.elementor-element-42896f2>.elementor-element-populated>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-6790 .elementor-element.elementor-element-0dbd06e {
+    text-align: center
+}
+
+.elementor-6790 .elementor-element.elementor-element-0dbd06e .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-size: 5rem
+}
+
+.elementor-6790 .elementor-element.elementor-element-0dbd06e>.elementor-widget-container {
+    padding: 0 0 1rem
+}
+
+.elementor-6790 .elementor-element.elementor-element-6c8814f {
+    text-align: center
+}
+
+.elementor-6790 .elementor-element.elementor-element-6c8814f>.elementor-widget-container {
+    padding: 0 0 1rem
+}
+
+.elementor-6790 .elementor-element.elementor-element-17ad721 .elementor-button .elementor-align-icon-right {
+    margin-left: 16px
+}
+
+.elementor-6790 .elementor-element.elementor-element-17ad721 .elementor-button .elementor-align-icon-left {
+    margin-right: 16px
+}
+
+.elementor-6790 .elementor-element.elementor-element-17ad721>.elementor-widget-container {
+    padding: 0 0 1rem
+}
+
+@media(max-width:1064px) {
+    .elementor-6790 .elementor-element.elementor-element-b2fd4d6 {
+        padding: 3rem 10rem 0
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-6790 .elementor-element.elementor-element-b2fd4d6 {
+        padding: 2rem 1.5rem 0
+    }
+
+    .elementor-6790 .elementor-element.elementor-element-42896f2>.elementor-element-populated {
+        padding: 2rem 1rem 1rem
+    }
+}
+
+div.container:has(.elementor-6790) {
+    width: 100vw
+}
