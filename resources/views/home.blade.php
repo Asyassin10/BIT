@@ -324,7 +324,7 @@
                 </header>
 
                 <div id="main">
-                    <div class="container">
+                    <div class="container-fluid m-0 p-0">
                         <div data-elementor-type="single-page" data-elementor-id="6996"
                             class="elementor elementor-6996 elementor-location-single post-6988 page type-page status-publish has-post-thumbnail hentry">
                             <section
@@ -428,13 +428,14 @@
                                 </div>
                             </section>
                             <section
-                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-5855c891 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                class="has_ae_slider d-flex mx-2 justify-content-center elementor-section elementor-top-section elementor-element elementor-element-5855c891 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="5855c891" data-element_type="section"
+
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-698022b1 ae-bg-gallery-type-default"
-                                        data-id="698022b1" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="   d-flex justify-content-start container elementor-column-gap-no">
+                                    <div class="  has_ae_slider elementor-column elementor-col-70 m-0 p-0  elementor-top-column elementor-element elementor-element-698022b1 ae-bg-gallery-type-default"
+                                        data-id="698022b1"  data-element_type="column" style="width:100%;">
+                                        <div class="elementor-widget-wrap m-0 p-0 w-100  elementor-element-populated">
                                             <div class="elementor-element elementor-element-324bc58c elementor-widget elementor-widget-heading"
                                                 data-id="324bc58c" data-element_type="widget"
                                                 data-widget_type="heading.default">
@@ -477,17 +478,17 @@
                                                     </h6>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-f9103c5 elementor-widget elementor-widget-heading"
+                                            <div class="elementor-element m-0 p-0   elementor-element-f9103c5 elementor-widget elementor-widget-heading"
                                                 data-id="f9103c5" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-4490ec56 elementor-widget elementor-widget-text-editor"
+                                            <div class="elementor-element  elementor-element-4490ec56 elementor-widget elementor-widget-text-editor"
                                                 data-id="4490ec56" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
+                                                <div class="elementor-widget-container" style="width: 100%;">
                                                     <p>{!! $articles[4]->article_text !!}</p>
                                                 </div>
                                             </div>
@@ -512,15 +513,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
+                                    {{--  --}}
+                                    <div  class="  has_ae_slider elementor-top-column elementor-column elementor-col-30   elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
                                         data-id="660ad67c" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-76c25822 img-circle elementor-widget elementor-widget-image"
                                                 data-id="76c25822" data-element_type="widget"
+                                                style="float: right;"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <style>
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
+                                                        /* .elementor-element{
+
+                                                        } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -530,14 +536,31 @@
                                                         }
 
                                                         .elementor-widget-image a img[src$=".svg"] {
-                                                            width: 48px
+                                                            width: 48px;
+                                                            margin-left: 200px;
+                                                            background: gold;
                                                         }
 
                                                         .elementor-widget-image img {
                                                             vertical-align: middle;
-                                                            display: inline-block
+                                                            display: inline-block;
+                                                            float: right;
+                                                            width: 300px;
+
                                                         }
-                                                    </style> <img width="447" height="447"
+                                                        @media (max-width: 800px) {
+
+                                                        .elementor-widget-image img {
+                                                            vertical-align: middle;
+                                                            display: inline-block;
+                                                            float: left;
+                                                            width:75px;
+                                                            height: 100px;
+
+
+                                                        }
+                                                        }
+                                                    </style> <img width="800" height="447"
                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20447%20447'%3E%3C/svg%3E"
                                                         data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-447x447.png"
                                                         class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy"
