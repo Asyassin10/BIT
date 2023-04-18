@@ -1,0 +1,17 @@
+.elementor-6952 .elementor-element.elementor-element-316f622>.elementor-container {
+    max-width: 1172px
+}
+
+.elementor-6952 .elementor-element.elementor-element-316f622 {
+    padding: 12rem 0 4rem
+}
+
+.elementor-6952 .elementor-element.elementor-element-be0a9cd>.elementor-widget-container {
+    padding: 0 0 4rem
+}
+
+@media(max-width:1064px) {
+    .elementor-6952 .elementor-element.elementor-element-316f622 {
+        padding: 10rem 1.25rem 4rem
+    }
+}

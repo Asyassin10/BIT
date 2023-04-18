@@ -453,6 +453,10 @@
         href='/assets/cache/autoptimize/css/autoptimize_single_2adcd1670022c9cc74589cc890b27750.css@ver=5.9.2.css'
         type='text/css' media='all' />
 
+    <link rel='stylesheet' id='elementor-post-6952-css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_a02acc35f7939774a00b5e60b0fa7ae3.css'
+        type='text/css' media='all' />
+
 
     <link rel='stylesheet' id='stm-skin-custom-generated-css'
         href='./assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95005.css'
@@ -586,16 +590,19 @@
 
 
     <link rel='stylesheet' id='elementor-post-7191-css'
-        href='/assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
-        type='text/css' media='all' />
+        href='/assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css' type='text/css'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-6996-css'
         href='/assets/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7285-css'
         href='/assets/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-7690-css'
-        href='/assets/cache/autoptimize/css/autoptimize_single.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='elementor-post-7285-css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_e4fa627ab7bd256bb0dfe063001b31c5.css' type='text/css'
+        media='all' />
+
 
     <link rel='stylesheet' id='elementor-post-7230-css'
         href='/assets/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
@@ -618,7 +625,7 @@
 
 
     <!-- Google Analytics snippet added by Site Kit -->
-{{--     <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-221375537-1' id='google_gtagjs-js'
+    {{--     <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-221375537-1' id='google_gtagjs-js'
         async></script>
     <script type='text/javascript' id='google_gtagjs-js-after'>
         window.dataLayer = window.dataLayer || [];
@@ -687,7 +694,6 @@
             vertical-align: top;
             position: relative;
             top: 3px;
-        
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
@@ -1046,4 +1052,5 @@
 @yield('body')
 
 {{-- end body --}}
+
 </html>
