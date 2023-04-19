@@ -417,9 +417,19 @@
                                             <div class="elementor-element elementor-element-bda4aff elementor-widget elementor-widget-theme-post-content"
                                                 data-id="bda4aff" data-element_type="widget"
                                                 data-widget_type="theme-post-content.default">
-                                                <div class="elementor-widget-container">
+                                                <div class="">
+                                                    <style>
+                                                        @media (max-width: 700px) {
+                                                            #paragraph_section{
+                                                                margin: 0px;
+                                                                padding: 5%;
+                                                            }
+                                                        }
 
-                                                    <p>{!! $articles[1]->article_text !!}
+
+                                                    </style>
+
+                                                    <p id="paragraph_section">{!! $articles[1]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -555,7 +565,7 @@
                                                             display: inline-block;
                                                             float: left;
                                                             width:75px;
-                                                            height: 100px;
+                                                            height: 90px;
 
 
                                                         }
@@ -580,8 +590,18 @@
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7f449b9c ae-bg-gallery-type-default"
                                         data-id="7f449b9c" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-38f80f8b elementor-widget elementor-widget-heading"
+                                        <style>
+                                            @media (max-width: 700px) {
+                                                /* #nos_services_section_app{
+                                                    margin: 0px;
+                                                    padding: 5%;
+                                                } */
+                                            }
+
+
+                                        </style>
+                                        <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0" id="nos_services_section_app">
+                                            <div class=" elementor-element elementor-element-38f80f8b elementor-widget elementor-widget-heading"
                                                 data-id="38f80f8b" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
@@ -589,14 +609,14 @@
                                                     </h6>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-6e92e0fd elementor-widget elementor-widget-heading"
+                                            <div class=" elementor-element elementor-element-6e92e0fd elementor-widget elementor-widget-heading"
                                                 data-id="6e92e0fd" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h1 class="elementor-heading-title elementor-size-default">{!! $articles[6]->article_text !!}</h1>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-16efb198 elementor-align-left elementor-widget elementor-widget-button"
+                                            <div class="  elementor-element elementor-element-16efb198 elementor-align-left elementor-widget elementor-widget-button"
                                                 data-id="16efb198" data-element_type="widget"
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
@@ -1912,7 +1932,17 @@
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d9ea87f ae-bg-gallery-type-default"
                                         data-id="2d9ea87f" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                             <style>
+                                            @media (max-width: 700px) {
+                                                #nos_stadies_app{
+                                                    margin: 0px;
+                                                    padding: 5%;
+                                                }
+                                            }
+
+
+                                        </style>
+                                        <div class="elementor-widget-wrap elementor-element-populated" id="nos_stadies_app">
                                             <div class="elementor-element elementor-element-128285f0 elementor-widget elementor-widget-heading"
                                                 data-id="128285f0" data-element_type="widget"
                                                 data-widget_type="heading.default">
@@ -2877,7 +2907,17 @@
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-201fec57 ae-bg-gallery-type-default"
                                         data-id="201fec57" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                             <style>
+                                            @media (max-width: 700px) {
+                                                #nos_offres_app{
+                                                    margin: 0px;
+                                                    padding: 5%;
+                                                }
+                                            }
+
+
+                                        </style>
+                                        <div class="elementor-widget-wrap elementor-element-populated" id="nos_offres_app">
                                             <div class="elementor-element elementor-element-28ba64f6 elementor-widget elementor-widget-heading"
                                                 data-id="28ba64f6" data-element_type="widget"
                                                 data-widget_type="heading.default">

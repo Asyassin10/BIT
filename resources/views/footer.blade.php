@@ -25,7 +25,7 @@
                     </div>
                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-adde5c2 footer-logos ae-bg-gallery-type-default"
                         data-id="adde5c2" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-widget-wrap elementor-element-populated d-flex">
                             <div class="elementor-element elementor-element-029f0b8 elementor-widget elementor-widget-image"
                                 data-id="029f0b8" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
