@@ -136,7 +136,7 @@
             <div id="page" class="hfeed site">
 
                 <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                    <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
+                    <p class="main-title bhf-hidden " itemprop="headline"><a href="{{ route('home') }}"
                             title="BTI &#8211; Advisory" rel="home">BTI &#8211; Advisory</a></p>
                     <div data-elementor-type="wp-post" data-elementor-id="20" class="elementor elementor-20">
                         <header
@@ -398,7 +398,7 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:-80,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>{!! $articles[0]->article_text !!}
+                                                    <p class="mx-4 mx-lg-0 mx-md-0">{!! $articles[0]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -418,18 +418,9 @@
                                                 data-id="bda4aff" data-element_type="widget"
                                                 data-widget_type="theme-post-content.default">
                                                 <div class="">
-                                                    <style>
-                                                        @media (max-width: 700px) {
-                                                            #paragraph_section{
-                                                                margin: 0px;
-                                                                padding: 5%;
-                                                            }
-                                                        }
 
 
-                                                    </style>
-
-                                                    <p id="paragraph_section">{!! $articles[1]->article_text !!}
+                                                    <p class="mx-4 mx-lg-0 mx-md-0" id="paragraph_section">{!! $articles[1]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -600,7 +591,7 @@
 
 
                                         </style>
-                                        <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0" id="nos_services_section_app">
+                                        <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0" id="nos_services_section_app">
                                             <div class=" elementor-element elementor-element-38f80f8b elementor-widget elementor-widget-heading"
                                                 data-id="38f80f8b" data-element_type="widget"
                                                 data-widget_type="heading.default">
@@ -1933,16 +1924,11 @@
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d9ea87f ae-bg-gallery-type-default"
                                         data-id="2d9ea87f" data-element_type="column">
                                              <style>
-                                            @media (max-width: 700px) {
-                                                #nos_stadies_app{
-                                                    margin: 0px;
-                                                    padding: 5%;
-                                                }
-                                            }
+
 
 
                                         </style>
-                                        <div class="elementor-widget-wrap elementor-element-populated" id="nos_stadies_app">
+                                        <div class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0">
                                             <div class="elementor-element elementor-element-128285f0 elementor-widget elementor-widget-heading"
                                                 data-id="128285f0" data-element_type="widget"
                                                 data-widget_type="heading.default">
@@ -2907,17 +2893,8 @@
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-201fec57 ae-bg-gallery-type-default"
                                         data-id="201fec57" data-element_type="column">
-                                             <style>
-                                            @media (max-width: 700px) {
-                                                #nos_offres_app{
-                                                    margin: 0px;
-                                                    padding: 5%;
-                                                }
-                                            }
 
-
-                                        </style>
-                                        <div class="elementor-widget-wrap elementor-element-populated" id="nos_offres_app">
+                                        <div class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0" >
                                             <div class="elementor-element elementor-element-28ba64f6 elementor-widget elementor-widget-heading"
                                                 data-id="28ba64f6" data-element_type="widget"
                                                 data-widget_type="heading.default">
