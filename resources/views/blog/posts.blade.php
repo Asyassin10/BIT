@@ -152,7 +152,7 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
                                                                     src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
-                                                                    data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     alt="" />
                                                             </div>
                                                         </div>
@@ -275,7 +275,7 @@
                                                                 title="Les mesures Green IT">
                                                                 <img width="683" height="685"
                                                                     src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
-                                                                    data-src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
                                                                     class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped wp-post-image lazy"
                                                                     alt=""
                                                                     data-srcset="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg 683w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-150x150.jpeg 150w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-447x447.jpeg 447w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-148x148.jpeg 148w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-50x50.jpeg 50w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-320x320.jpeg 320w"
@@ -325,8 +325,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="204"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20204'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-1024x697.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-768x523.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-1536x1046.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-2048x1395.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-538x368.jpeg 538w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-118x80.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-900x613.jpeg 900w"
@@ -345,8 +345,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="200"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20200'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-1024x683.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-768x512.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-1536x1024.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-2048x1365.jpg 2048w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-118x79.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-900x600.jpg 900w"
@@ -366,8 +366,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="170"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20170'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt="VRM"
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-1024x579.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-768x435.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-1536x869.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-2048x1159.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-118x67.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-900x509.jpeg 900w"
@@ -387,8 +387,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="233" height="300"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20233%20300'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg 233w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-797x1024.jpeg 797w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-768x987.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-1195x1536.jpeg 1195w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-1593x2048.jpeg 1593w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-118x152.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-493x632.jpeg 493w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-900x1157.jpeg 900w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-scaled.jpeg 1991w"
@@ -407,8 +407,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="200"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20200'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-1024x682.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-768x512.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-1536x1024.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-118x79.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-900x600.jpg 900w, https://bti-advisory.com/wp-content/uploads/2022/02/IA.jpg 1550w"
@@ -427,8 +427,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="199"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20199'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20199'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-1024x681.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-768x511.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-1536x1021.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-2048x1361.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-118x78.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-900x598.png 900w"
@@ -448,8 +448,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="169"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-1024x576.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-768x432.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-1536x864.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-2048x1152.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-118x66.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-900x506.jpeg 900w"
@@ -469,8 +469,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="300"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1.png 683w"
@@ -489,8 +489,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="167"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20167'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20167'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1024x571.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-768x428.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1536x856.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-2048x1141.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1172x653.png 1172w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-118x66.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-350x195.png 350w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-900x501.png 900w"
@@ -509,8 +509,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="190"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20190'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20190'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-1024x650.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-768x487.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-1536x975.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-2048x1300.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-118x75.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-900x571.jpeg 900w"
@@ -530,8 +530,8 @@
                                                                 <div
                                                                     class="elementor-portfolio-item__img elementor-post__thumbnail">
                                                                     <img width="300" height="169"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg"
+                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
+                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg"
                                                                         class="attachment-medium size-medium lazy"
                                                                         alt=""
                                                                         data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-1024x576.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-768x432.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-1536x864.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-2048x1152.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-118x66.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-900x506.jpeg 900w"
@@ -666,8 +666,8 @@
                                                                                                         </style> <img
                                                                                                             width="819"
                                                                                                             height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/AdobeStock_92129373-819x346.jpeg"
+                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/AdobeStock_92129373-819x346.jpeg"
                                                                                                             class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                             alt="" />
                                                                                                     </div>
@@ -693,8 +693,8 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <img width="118"
                                                                                                                             height="127"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%20127'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-118x127.png"
+                                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%20127'%3E%3C/svg%3E"
+                                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-118x127.png"
                                                                                                                             class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
                                                                                                                             alt=""
                                                                                                                             data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-118x127.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-279x300.png 279w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-495x527.png 495w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647.png 500w"
@@ -817,8 +817,8 @@
                                                                                                         class="elementor-widget-container">
                                                                                                         <img width="819"
                                                                                                             height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ENEDIS-scaled-1-819x346.jpeg"
+                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ENEDIS-scaled-1-819x346.jpeg"
                                                                                                             class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                             alt="" />
                                                                                                     </div>
@@ -844,8 +844,8 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <img width="118"
                                                                                                                             height="44"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2044'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-118x44.png"
+                                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2044'%3E%3C/svg%3E"
+                                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-118x44.png"
                                                                                                                             class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
                                                                                                                             alt=""
                                                                                                                             data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-118x44.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-300x112.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-358x137.png 358w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS.png 367w"
@@ -980,8 +980,8 @@
                                                                                                         class="elementor-widget-container">
                                                                                                         <img width="819"
                                                                                                             height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-DISNEYLAND-PARIS-scaled-1-819x346.jpeg"
+                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-DISNEYLAND-PARIS-scaled-1-819x346.jpeg"
                                                                                                             class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                             alt="Castle of Sleeping Beauty at Disneyland Paris August 28, 2019, Paris, France." />
                                                                                                     </div>
@@ -1007,8 +1007,8 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <img width="118"
                                                                                                                             height="34"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2034'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-118x34.png"
+                                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2034'%3E%3C/svg%3E"
+                                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-118x34.png"
                                                                                                                             class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
                                                                                                                             alt=""
                                                                                                                             data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-118x34.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-300x85.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-1024x291.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-768x218.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-1536x436.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-2048x582.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-900x256.png 900w"
@@ -1131,8 +1131,8 @@
                                                                                                         class="elementor-widget-container">
                                                                                                         <img width="819"
                                                                                                             height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-DOCAPOSTE-819x346.jpg"
+                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
+                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-DOCAPOSTE-819x346.jpg"
                                                                                                             class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                             alt="" />
                                                                                                     </div>
@@ -1158,8 +1158,8 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <img width="118"
                                                                                                                             height="40"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2040'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-118x40.png"
+                                                                                                                            data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2040'%3E%3C/svg%3E"
+                                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-118x40.png"
                                                                                                                             class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
                                                                                                                             alt=""
                                                                                                                             data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-118x40.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-300x100.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-1024x343.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-768x257.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-1536x514.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-2048x686.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DOCAPOSTE-900x301.png 900w"

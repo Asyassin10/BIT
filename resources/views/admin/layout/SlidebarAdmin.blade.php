@@ -3,7 +3,7 @@
         <li class="nav-item nav-profile">
             <div class="nav-link">
                 <div class="profile-image">
-                    <img src="https://images.unsplash.com/photo-1623230590824-f39e31a0a608?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    <img src="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x.png"
                         alt="image" />
                 </div>
                 <div class="profile-name">

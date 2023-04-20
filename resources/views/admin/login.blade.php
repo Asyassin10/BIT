@@ -56,7 +56,7 @@
                                 src="/assets/admin/img/logo.svg" alt="Logo Icon">
                             <div class="copy animated fadeIn">
                                 <h1>BTI – Advisory</h1>
-                                <p>Welcome to BTI – Advisory. The Missing Admin for Laravel</p>
+                                <p>Bienvenue chez to BTI – Advisory. L'administrateur manquant pour BTI</p>
                             </div>
                         </div> <!-- .logo-title-container -->
                     </div>

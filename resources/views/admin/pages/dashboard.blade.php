@@ -7,10 +7,10 @@
                     Tableau de bord
                 </h3>
             </div>
-            <div class="row grid-margin">
-                <div class="col-12">
-                    <div class="card card-statistics">
-                        <div class="card-body">
+            <div class="row grid-margin ">
+                <div class="col-12 ">
+                    <div class="card card-statistics ">
+                        <div class="card-body" style="background-color: #e99b17">
                             <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
                                 <div class="statistics-item">
                                     <p>
