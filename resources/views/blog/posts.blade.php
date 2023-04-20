@@ -151,7 +151,7 @@
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%20130'%3E%3C/svg%3E"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
                                                                     alt="" />
                                                             </div>
@@ -274,7 +274,7 @@
                                                             <a href="https://bti-advisory.com/les-mesures-green-it/"
                                                                 title="Les mesures Green IT">
                                                                 <img width="683" height="685"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%20685'%3E%3C/svg%3E"
+                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
                                                                     data-src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
                                                                     class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped wp-post-image lazy"
                                                                     alt=""

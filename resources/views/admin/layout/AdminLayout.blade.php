@@ -27,10 +27,10 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="{{ route('admin.dashboard') }}">
-                    <img src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg" alt="logo" height="100"
+                    <img src="{{ asset('assets/uploads/2022/01/Logo-1.svg') }}" alt="logo" height="100"
                         width="100" /></a>
                 <a class="navbar-brand brand-logo-mini" href="#"><img
-                        src="http://127.0.0.1:8000/assets/uploads/2022/01/Logo-1.svg" alt="logo" /></a>
+                        src="{{ asset('assets/uploads/2022/01/Logo-1.svg') }}" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -53,10 +53,14 @@
                                 Settings
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item">
-                                <i class="fas fa-power-off text-primary"></i>
-                                Logout
-                            </a>
+                            <form action="{{ route('logout') }}" method="post">
+                                @csrf
+                                <button type="submit" class="dropdown-item">
+                                    <i class="fas fa-power-off text-primary"></i>
+                                    Logout
+                                </button>
+                            </form>
+
                         </div>
                     </li>
                 </ul>
