@@ -174,7 +174,7 @@
                 </header>
 
                 <div id="main">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div data-elementor-type="single-page" data-elementor-id="7191"
                             class="elementor elementor-7191 elementor-location-single post-73 page type-page status-publish has-post-thumbnail hentry">
                             <section
@@ -222,14 +222,16 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[0]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-66304b20 elementor-widget elementor-widget-heading"
                                                 data-id="66304b20" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[1]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-ed4eaf4 elementor-widget elementor-widget-text-editor"
@@ -398,7 +400,8 @@
                                                 data-id="7904e" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3e8bb0d7 elementor-widget elementor-widget-text-editor"
@@ -413,7 +416,7 @@
                                 </div>
                             </section>
                             <section
-                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-42e18c46 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                class="has_ae_slider elementor-section  elementor-top-section elementor-element elementor-element-42e18c46 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="42e18c46" data-element_type="section" id="offres"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="elementor-container elementor-column-gap-no">
@@ -424,7 +427,8 @@
                                                 data-id="74cd36b4" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">{!! $articles[5]->article_text !!}
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[5]->article_text !!}
                                                     </h3>
                                                 </div>
                                             </div>
@@ -432,7 +436,8 @@
                                                 data-id="7ed99c82" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">{!! $articles[6]->article_text !!}</p>
+                                                    <p class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[6]->article_text !!}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -526,14 +531,16 @@
                                                 data-id="3f7c0030" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[14]->article_text !!}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[14]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1015537f elementor-widget elementor-widget-heading"
                                                 data-id="1015537f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[15]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[15]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1f5d2a03 elementor-widget elementor-widget-text-editor"

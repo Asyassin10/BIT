@@ -173,7 +173,7 @@
                 </header>
 
                 <div id="main">
-                    <div class="container">
+                    <div class="element-widget-container">
                         <div data-elementor-type="single-page" data-elementor-id="7285"
                             class="elementor elementor-7285 elementor-location-single post-56 page type-page status-publish has-post-thumbnail hentry">
                             <section
@@ -228,7 +228,7 @@
                                                 data-id="3e448e8f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default ">{!! $articles[1]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-9581629 elementor-widget elementor-widget-text-editor"
@@ -1304,7 +1304,7 @@
                                             <div class="elementor-element elementor-element-26018694 elementor-widget elementor-widget-heading"
                                                 data-id="26018694" data-element_type="widget"
                                                 data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
+                                                <div class="elementor-widget-container m-0">
                                                     <h1 class="elementor-heading-title elementor-size-default">{!! $articles[38]->article_text !!}</h1>
                                                 </div>
                                             </div>

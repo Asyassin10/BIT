@@ -35,12 +35,14 @@
                             <li id="menu-item-6494"
                                 class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
-                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} <span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} <span
+                                            class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-6493"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('services') }}" class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
+                                        <a href="{{ route('services') }}"
+                                            class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-5705"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
@@ -67,7 +69,8 @@
                             <li id="menu-item-4710"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
-                                        class="hfe-menu-item">{{ $data[10]->categorie_name }}<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                        class="hfe-menu-item">{{ $data[10]->categorie_name }}<span
+                                            class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-4706"
@@ -89,21 +92,25 @@
                             </li>
                             <li id="menu-item-78"
                                 class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}   page_item page-item-73 current_page_item parent hfe-creative-menu">
-                                <a href="{{ route('join-us') }}" class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
+                                <a href="{{ route('join-us') }}"
+                                    class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
                             </li>
                             <li id="menu-item-6495"
                                 class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                <div class="hfe-has-submenu-container"><a class="hfe-menu-item">{{ $data[8]->categorie_name }}<span
+                                <div class="hfe-has-submenu-container"><a
+                                        class="hfe-menu-item">{{ $data[8]->categorie_name }}<span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
                                 <ul class="sub-menu">
                                     <li id="menu-item-80"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('blog') }}" class="hfe-sub-menu-item">{{ $data[17]->categorie_name }}</a>
+                                        <a href="{{ route('blog') }}"
+                                            class="hfe-sub-menu-item">{{ $data[17]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-79"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="#" class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
+                                        <a href="#"
+                                            class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
                                     </li>
                                 </ul>
                             </li>
