@@ -1,41 +1,42 @@
 version: '3'
+
 services:
   app:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "8080:80"
+    image: my-bti-project
+    container_name: my-bti-project
+    restart: always
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+      - APP_ENV=${APP_ENV}
+      - APP_KEY=${APP_KEY}
+      - APP_DEBUG=${APP_DEBUG}
+      - APP_URL=${APP_URL}
+      - LOG_CHANNEL=${LOG_CHANNEL}
+      - DB_CONNECTION=${DB_CONNECTION}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}sl
+      - DB_DATABASE=${DB_DATABASE}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
     volumes:
       - .:/var/www/html
-    environment:
-      - DB_HOST=db
-      - DB_PORT=3306
-      - DB_DATABASE=bti
-      - DB_USERNAME=root
-      - DB_PASSWORD=
-  db:
-    image: mysql:5.7
-    restart: always
-    environment:
-      MYSQL_DATABASE: exampledb
-      MYSQL_USER: exampleuser
-      MYSQL_PASSWORD: examplepass
-      MYSQL_RANDOM_ROOT_PASSWORD: '1'
-    volumes:
-      - db:/var/lib/mysql
-      - ./schema/:/docker-entrypoint-initdb.d
+    ports:
+      - "8080:80"
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: pma
-    links:
-      - db
+    container_name: my-phpmyadmin-container
     environment:
-      PMA_HOST: db
-      PMA_PORT: 3306
-      PMA_ARBITRARY: 1
-    restart: always
+      - PMA_HOST=${DB_HOST}
+      - PMA_PORT=${DB_PORT}sl
+      - PMA_USER=${DB_USERNAME}
+      - PMA_PASSWORD=${DB_PASSWORD}
     ports:
-      - 8081:80
-volumes:
-  db:
+      - "8083:80"
