@@ -1,8 +1,8 @@
 @extends('master')
 @section('body')
-@php
-    $title = "Page not found - BTI - Advisory";
-@endphp
+    @php
+        $title = 'Page not found - BTI - Advisory';
+    @endphp
 
     <body
         class="page-template-default page page-id-75 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-75 elementor-page-7690">
@@ -199,34 +199,37 @@
                                                             margin: 0;
                                                             line-height: 1
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
                                                             color: inherit;
                                                             font-size: inherit;
                                                             line-height: inherit
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-small {
                                                             font-size: 15px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
                                                             font-size: 19px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-large {
                                                             font-size: 29px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
                                                             font-size: 39px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h1 class="elementor-heading-title elementor-size-default">404</h1>
+                                                    <h1
+                                                        class="elementor-heading-title elementor-size-default my-4 my-lg-0 my-md-0">
+                                                        404
+                                                    </h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6c8814f elementor-widget elementor-widget-text-editor"
@@ -239,29 +242,29 @@
                                                             background-color: #818a91;
                                                             color: #fff
                                                         }
-                
+
                                                         .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
                                                             color: #818a91;
                                                             border: 3px solid;
                                                             background-color: transparent
                                                         }
-                
+
                                                         .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
                                                             margin-top: 8px
                                                         }
-                
+
                                                         .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
                                                             width: 1em;
                                                             height: 1em
                                                         }
-                
+
                                                         .elementor-widget-text-editor .elementor-drop-cap {
                                                             float: left;
                                                             text-align: center;
                                                             line-height: 1;
                                                             font-size: 50px
                                                         }
-                
+
                                                         .elementor-widget-text-editor .elementor-drop-cap-letter {
                                                             display: inline-block
                                                         }
@@ -298,15 +301,15 @@
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
-                
+
                                                         .elementor-widget-image a {
                                                             display: inline-block
                                                         }
-                
+
                                                         .elementor-widget-image a img[src$=".svg"] {
                                                             width: 48px
                                                         }
-                
+
                                                         .elementor-widget-image img {
                                                             vertical-align: middle;
                                                             display: inline-block
@@ -324,7 +327,7 @@
                                 </div>
                             </section>
                         </div>
-                
+
                     </div>
                     <!--.container-->
                 </div>

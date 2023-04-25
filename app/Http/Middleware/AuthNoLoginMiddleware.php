@@ -20,6 +20,6 @@ class AuthNoLoginMiddleware
         if(!Auth::check()){
             return $next($request);
         }
-        return abort(500);
+        return redirect()->route("admin.dashboard");
     }
 }

@@ -274,7 +274,7 @@
                                                                                                                     class="elementor-widget-container">
                                                                                                                     <span
                                                                                                                         class="elementor-heading-title elementor-size-default">
-                                                                                                                        {{ $articles[2]->article_text }} 
+                                                                                                                        {{ $articles[2]->article_text }}
                                                                                                                     </span>
                                                                                                                 </div>
                                                                                                             </div>
@@ -313,7 +313,7 @@
                                                                                                                     <span
                                                                                                                         class="elementor-heading-title elementor-size-default">
                                                                                                                         {{ $articles[3]->article_text }}
-                                                                                                                    </span> 
+                                                                                                                    </span>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -449,7 +449,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h1 class="elementor-heading-title elementor-size-default">
-                                                        {!! $articles[5]->article_text !!}                                                                                                                     
+                                                        {!! $articles[5]->article_text !!}
                                                     </h1>
                                                 </div>
                                             </div>
@@ -523,7 +523,7 @@
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
                                                                                                                     class="ae-prefix"></span>
-                                                                                                                {!! $articles[2]->article_text !!} 
+                                                                                                                {!! $articles[2]->article_text !!}
                                                                                                                 <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
@@ -622,7 +622,7 @@
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
                                                                                                                                     class="ae-prefix"></span>
-                                                                                                                                      {!! $articles[9]->article_text !!} 
+                                                                                                                                      {!! $articles[9]->article_text !!}
                                                                                                                                     <span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
@@ -735,7 +735,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                        {!! $articles[10]->article_text !!} 
+                                                                                                                                                                                        {!! $articles[10]->article_text !!}
 
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
@@ -997,7 +997,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p> {!! $articles[11]->article_text !!} 
+                                                                                                                                                                                            <p> {!! $articles[11]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1372,7 +1372,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>{!! $articles[14]->article_text !!} 
+                                                                                                                                                                                            <p>{!! $articles[14]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -1540,7 +1540,7 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>{!! $articles[16]->article_text !!} 
+                                                                                                            <p>{!! $articles[16]->article_text !!}
                                                                                                             </p>
                                                                                                         </h2>
                                                                                                     </div>
@@ -1947,7 +1947,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>{!! $articles[22]->article_text !!} 
+                                                                                                                                                                                            <p>{!! $articles[22]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2072,7 +2072,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>{!! $articles[23]->article_text !!} 
+                                                                                                                                                                                            <p>{!! $articles[23]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>
@@ -2770,7 +2770,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                            <p>{!! $articles[33]->article_text !!} 
+                                                                                                                                                                                            <p>{!! $articles[33]->article_text !!}
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
                                                                                                                                                                                     </div>

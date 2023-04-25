@@ -11,8 +11,5 @@ class BlogController extends Controller
         return view('blog.posts')->with('title',$title);
     }
 
-    public function show(){
-        $title = "Blog 1 - BTI - Advisory";
-        return view('blog.posts')->with('title',$title);
-    }
+
 }
