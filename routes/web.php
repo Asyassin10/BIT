@@ -89,17 +89,4 @@ Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_noti
 
 
 
-use Illuminate\Support\Facades\Redis;
 
-Route::get('/ddddddd', function () {
-    /* Cache::put('key', 'value', 10);
-    $value = Cache::get('key'); */
-    //$data = Redis::get("age");
-    //return $data;
-     //Cache::put('key', 'value', 60);
-    //Redis::set('age', '222');
-    return Redis::get('mail');
-
-    //return $value;
-    //return view('welcome');
-});
