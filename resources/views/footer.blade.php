@@ -1,6 +1,13 @@
 @php
     use App\Models\Article;
-    $data = Article::where('categorie_id', 16)->get();
+    $redis_data = json_decode(Redis::get('client_footer'));
+    if ($redis_data) {
+        $data = $redis_data;
+    } else {
+        $data = Article::where('categorie_id', 16)->get();
+        Redis::set('client_footer', json_encode($data));
+    }
+    
 @endphp
 <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
     <div class='footer-width-fixer'>

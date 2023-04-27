@@ -40,3 +40,8 @@ services:
       - PMA_PASSWORD=${DB_PASSWORD}
     ports:
       - "8083:80"
+  redis:
+    image: redis:latest
+    container_name: redis_rdb
+    ports:
+      - "6379:6379"

@@ -13,6 +13,7 @@ use App\Http\Controllers\LegalNotice;
 use App\Http\Controllers\ServiceController;
 use App\Models\Article;
 use App\Models\Category;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -87,3 +88,18 @@ Route::get("/cgu", [cgu::class, 'index'])->name('cgu');
 Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_notice');
 
 
+
+use Illuminate\Support\Facades\Redis;
+
+Route::get('/ddddddd', function () {
+    /* Cache::put('key', 'value', 10);
+    $value = Cache::get('key'); */
+    //$data = Redis::get("age");
+    //return $data;
+     //Cache::put('key', 'value', 60);
+    //Redis::set('age', '222');
+    return Redis::get('mail');
+
+    //return $value;
+    //return view('welcome');
+});

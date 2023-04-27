@@ -1,4 +1,4 @@
-@extends('master')
+{{-- @extends('master')
 @section('body')
 
     <body
@@ -223,7 +223,7 @@
                                                         }
                                                     </style>
                                                     <h6 class="elementor-heading-title elementor-size-default">
-                                                         {!! $articles[0]->article_text !!}
+                                                         {!! json_decode($articles[0])->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -2379,3 +2379,8 @@
         <script async src="../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
     </body>
 @endsection
+ --}}
+
+<h1>
+    {{ json_decode($articles[0])->article_text }}
+</h1>

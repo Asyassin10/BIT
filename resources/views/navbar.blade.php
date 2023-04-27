@@ -1,6 +1,13 @@
 @php
     use App\Models\Category;
-    $data = Category::all();
+    $redis_data = json_decode(Redis::get('client_navbar'));
+    if ($redis_data) {
+        $data = $redis_data;
+    } else {
+        $data = Category::all();
+        Redis::set('client_navbar', json_encode($data));
+    }
+    
 @endphp
 <nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
     data-id="e935e7c" data-element_type="column">
