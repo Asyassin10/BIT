@@ -1,45 +1,6 @@
 version: '3'
 
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: my-bti-project
-    container_name: my-bti-project
-    restart: always
-    environment:
-      - MYSQL_HOST=mysql
-      - MYSQL_PORT=3306
-      - MYSQL_DATABASE=${DB_DATABASE}
-      - MYSQL_USER=${DB_USERNAME}
-      - MYSQL_PASSWORD=${DB_PASSWORD}
-      - APP_ENV=${APP_ENV}
-      - APP_KEY=${APP_KEY}
-      - APP_DEBUG=${APP_DEBUG}
-      - APP_URL=${APP_URL}
-      - LOG_CHANNEL=${LOG_CHANNEL}
-      - DB_CONNECTION=${DB_CONNECTION}
-      - DB_HOST=${DB_HOST}
-      - DB_PORT=${DB_PORT}sl
-      - DB_DATABASE=${DB_DATABASE}
-      - DB_USERNAME=${DB_USERNAME}
-      - DB_PASSWORD=${DB_PASSWORD}
-    volumes:
-      - .:/var/www/html
-    ports:
-      - "8080:80"
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: my-phpmyadmin-container
-    environment:
-      - PMA_HOST=${DB_HOST}
-      - PMA_PORT=${DB_PORT}sl
-      - PMA_USER=${DB_USERNAME}
-      - PMA_PASSWORD=${DB_PASSWORD}
-    ports:
-      - "8083:80"
   redis:
     image: redis:latest
     container_name: redis_rdb

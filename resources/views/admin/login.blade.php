@@ -26,6 +26,27 @@
             }
         }
 
+        section {
+            margin-top: 40px;
+        }
+
+        section:last-of-type {
+            margin-bottom: 40px;
+        }
+
+
+
+        .x-icon {
+            height: 1em;
+            width: 1em;
+            top: .125em;
+            position: relative;
+        }
+
+        .x-alt {
+            color: #324389;
+        }
+
         body.login .form-group-default.focused {
             border-color: #e99b17;
         }
@@ -99,14 +120,26 @@
                         @if ($message = Session::get('error'))
                             <h4 class="text-center text-red">{{ $message }}</h4>
                         @endif
-
                         <button type="submit" class="btn btn-block  login-button" style="background-color: #e99b17">
                             <span class="signingin hidden"><span class="voyager-refresh"></span>
                                 Logging in...</span>
                             <span class="signin">Connexion</span>
                         </button>
-
+                        <br>
                     </form>
+                    <center>
+                        <section>
+                            <div class="bsk-container">
+                                <a href="{{ route('connect') }}">
+                                    <button class="bsk-btn bsk-btn-default text-white">
+                                        <object type="image/svg+xml"
+                                            data="https://cdn.worldvectorlogo.com/logos/office-1.svg"
+                                            class="x-icon"></object>
+                                        Connectez-vous avec Office 365</button>
+                                </a>
+                            </div>
+                        </section>
+                    </center>
 
                     <div style="clear:both"></div>
 

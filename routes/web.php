@@ -4,6 +4,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\cgu;
 use App\Http\Controllers\ContactController;
@@ -89,4 +90,12 @@ Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_noti
 
 
 
+Route::group(['middleware' => ['web', 'guest'], 'namespace' => 'App\Http\Controllers'], function () {
+    Route::get('connect', [AuthController::class, 'connect_office'])->name('connect');
+});
+Route::get('redirect/office', [AuthController::class, 'redirect'])->name('app');
 
+Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app', 'namespace' => 'App\Http\Controllers'], function () {
+    Route::get('app', [AuthController::class, 'app'])->name('app');
+    Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
+});

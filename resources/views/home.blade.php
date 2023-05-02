@@ -154,7 +154,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="hfe-site-logo">
                                                     <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                        href="{{ route('home')  }}" aria-label="home">
+                                                        href="{{ route('home') }}" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <img class="hfe-site-logo-img elementor-animation- lazy"
@@ -196,7 +196,9 @@
                                                         <ul id="menu-1-46fc6f23" class="hfe-nav-menu">
                                                             <li id="menu-item-86"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                                <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }} </a>
+                                                                <a href="{{ route('about-us') }}"
+                                                                    class="hfe-menu-item">{{ $data[0]->categorie_name }}
+                                                                </a>
                                                             </li>
                                                             <li id="menu-item-6494"
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
@@ -278,7 +280,8 @@
                                                                     </li>
                                                                     <li id="menu-item-79"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="#" class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
+                                                                        <a href="#"
+                                                                            class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -310,7 +313,8 @@
                                                                         fill="#1c1c1a" />
                                                                 </svg>
                                                             </span>
-                                                            <span class="elementor-button-text">{{ $data[3]->categorie_name }}</span>
+                                                            <span
+                                                                class="elementor-button-text">{{ $data[3]->categorie_name }}</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -420,7 +424,8 @@
                                                 <div class="">
 
 
-                                                    <p class="mx-4 mx-lg-0 mx-md-0" id="paragraph_section">{!! $articles[1]->article_text !!}
+                                                    <p class="mx-4 mx-lg-0 mx-md-0" id="paragraph_section">
+                                                        {!! $articles[1]->article_text !!}
                                                     </p>
                                                 </div>
                                             </div>
@@ -431,11 +436,10 @@
                             <section
                                 class="has_ae_slider d-flex mx-2 justify-content-center elementor-section elementor-top-section elementor-element elementor-element-5855c891 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="5855c891" data-element_type="section"
-
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="   d-flex justify-content-start container elementor-column-gap-no">
                                     <div class="  has_ae_slider elementor-column elementor-col-70 m-0 p-0  elementor-top-column elementor-element elementor-element-698022b1 ae-bg-gallery-type-default"
-                                        data-id="698022b1"  data-element_type="column" style="width:100%;">
+                                        data-id="698022b1" data-element_type="column" style="width:100%;">
                                         <div class="elementor-widget-wrap m-0 p-0 w-100  elementor-element-populated">
                                             <div class="elementor-element elementor-element-324bc58c elementor-widget elementor-widget-heading"
                                                 data-id="324bc58c" data-element_type="widget"
@@ -475,7 +479,8 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[2]->article_text !!}
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[2]->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -483,7 +488,8 @@
                                                 data-id="f9103c5" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element  elementor-element-4490ec56 elementor-widget elementor-widget-text-editor"
@@ -515,19 +521,18 @@
                                         </div>
                                     </div>
                                     {{--  --}}
-                                    <div  class="  has_ae_slider elementor-top-column elementor-column elementor-col-30   elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
+                                    <div class="  has_ae_slider elementor-top-column elementor-column elementor-col-30   elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
                                         data-id="660ad67c" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-76c25822 img-circle elementor-widget elementor-widget-image"
-                                                data-id="76c25822" data-element_type="widget"
-                                                style="float: right;"
+                                                data-id="76c25822" data-element_type="widget" style="float: right;"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <style>
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                        } */
+                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -549,17 +554,18 @@
                                                             width: 300px;
 
                                                         }
+
                                                         @media (max-width: 800px) {
 
-                                                        .elementor-widget-image img {
-                                                            vertical-align: middle;
-                                                            display: inline-block;
-                                                            float: left;
-                                                            width:75px;
-                                                            height: 90px;
+                                                            .elementor-widget-image img {
+                                                                vertical-align: middle;
+                                                                display: inline-block;
+                                                                float: left;
+                                                                width: 75px;
+                                                                height: 90px;
 
 
-                                                        }
+                                                            }
                                                         }
                                                     </style> <img width="800" height="447"
                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20447%20447'%3E%3C/svg%3E"
@@ -584,19 +590,19 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                    margin: 0px;
-                                                    padding: 5%;
-                                                } */
+                                                        margin: 0px;
+                                                        padding: 5%;
+                                                    } */
                                             }
-
-
                                         </style>
-                                        <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0" id="nos_services_section_app">
+                                        <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
+                                            id="nos_services_section_app">
                                             <div class=" elementor-element elementor-element-38f80f8b elementor-widget elementor-widget-heading"
                                                 data-id="38f80f8b" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[5]->article_text !!}
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[5]->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -604,7 +610,8 @@
                                                 data-id="6e92e0fd" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[6]->article_text !!}</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[6]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="  elementor-element elementor-element-16efb198 elementor-align-left elementor-widget elementor-widget-button"
@@ -912,7 +919,8 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[11]->article_text !!}</p>
+                                                                                                            <p>{!! $articles[11]->article_text !!}
+                                                                                                            </p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -1533,7 +1541,8 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[21]->article_text !!}</p>
+                                                                                                            <p>{!! $articles[21]->article_text !!}
+                                                                                                            </p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -1923,24 +1932,27 @@
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d9ea87f ae-bg-gallery-type-default"
                                         data-id="2d9ea87f" data-element_type="column">
-                                             <style>
+                                        <style>
 
 
 
                                         </style>
-                                        <div class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0">
+                                        <div
+                                            class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0">
                                             <div class="elementor-element elementor-element-128285f0 elementor-widget elementor-widget-heading"
                                                 data-id="128285f0" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[27]->article_text !!}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[27]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-13dc6efb elementor-widget elementor-widget-heading"
                                                 data-id="13dc6efb" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">{!! $articles[28]->article_text !!}</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[28]->article_text !!}</h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6151fcfe elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -2813,7 +2825,8 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[30]->article_text !!}</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[30]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -2826,7 +2839,8 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <span class="elementor-heading-title elementor-size-default">{!! $articles[31]->article_text !!}</span>
+                                                    <span
+                                                        class="elementor-heading-title elementor-size-default">{!! $articles[31]->article_text !!}</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5f3b2582 animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2834,7 +2848,8 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">{!! $articles[32]->article_text !!}
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[32]->article_text !!}
                                                     </h5>
                                                 </div>
                                             </div>
@@ -2871,7 +2886,8 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <span class="elementor-heading-title elementor-size-default"> {!! $articles[35]->article_text !!}</span>
+                                                    <span class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[35]->article_text !!}</span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c05807b animated-slow elementor-invisible elementor-widget elementor-widget-heading"
@@ -2879,7 +2895,8 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:600}"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default"> {!! $articles[36]->article_text !!}</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[36]->article_text !!}</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -2894,19 +2911,22 @@
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-201fec57 ae-bg-gallery-type-default"
                                         data-id="201fec57" data-element_type="column">
 
-                                        <div class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0" >
+                                        <div
+                                            class="elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0">
                                             <div class="elementor-element elementor-element-28ba64f6 elementor-widget elementor-widget-heading"
                                                 data-id="28ba64f6" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default"> {!! $articles[37]->article_text !!}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[37]->article_text !!}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-105e5817 elementor-widget elementor-widget-heading"
                                                 data-id="105e5817" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default"> {!! $articles[38]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[38]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-61a39c28 elementor-widget elementor-widget-html"
