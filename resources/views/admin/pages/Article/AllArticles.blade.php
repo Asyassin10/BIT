@@ -21,8 +21,10 @@
                             <p class="card-description">
                                 Add class <code>.table</code>
                             </p>
-                            <a href="{{ route('AddArticle', ['category_id' => $category_id]) }}" class="btn btn-primary">Add
+                            <a href="{{ route('AddArticle', ['category_id' => $category_id]) }}"
+                                class="btn btn-primary">Ajouter
                                 Article</a>
+
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
