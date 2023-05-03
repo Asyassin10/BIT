@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\Admin\AdminPermissionsController;
 use App\Http\Controllers\Admin\AdminRolesController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\cgu;
 use App\Http\Controllers\ContactController;
@@ -109,24 +110,12 @@ Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_noti
 
 
 
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+Route::group(['middleware' => ['web', 'guest'], 'namespace' => 'App\Http\Controllers'], function () {
+    Route::get('connect', [AuthController::class, 'connect_office'])->name('connect');
+});
+Route::get('redirect/office', [AuthController::class, 'redirect'])->name('app');
 
-Route::get("/gggg",function(){
-    Role::create(['name' => 'Admin']);
-    Role::create(['name' => 'User']);
-    /* User::create([
-        "name"=>"reda",
-        "email"=>"reda@gmail.com",
-        "password"=>Hash::make("password"),
-    ]);
-    User::create([
-        "name"=>"ahmad02",
-        "email"=>"ahmad02@gmail.com",
-        "password"=>Hash::make("password"),
-    ]); */
-
-    /* Permission::create(['name' => 'edit articles']);
-    Permission::create(['name' => 'create articles']); */
-    return "hh";
+Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app', 'namespace' => 'App\Http\Controllers'], function () {
+    Route::get('app', [AuthController::class, 'app'])->name('app');
+    Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
 });
