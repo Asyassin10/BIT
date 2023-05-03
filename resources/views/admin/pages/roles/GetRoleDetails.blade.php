@@ -92,13 +92,12 @@
                                                 <td>{{ $r->name }}</td>
 
                                                 <td>
-                                                    ....
                                                     @if ($role->hasPermissionTo($r))
                                                         <a href="{{ route('UnAssignPermissionToRole', ['role_id' => $role->id, 'permission_id' => $r->id]) }}"
-                                                            class="btn btn-primary ">remove access </a>
+                                                            class="btn btn-primary ">supprimer l'accès </a>
                                                     @else
                                                         <a href="{{ route('AssignPermissionToRole', ['role_id' => $role->id, 'permission_id' => $r->id]) }}"
-                                                            class="btn btn-primary ">add access </a>
+                                                            class="btn btn-primary ">ajouter un accès </a>
                                                     @endif
                                                     {{-- <a href="{{ route('UpdateCategory', ['category_id' => $c->categorie_id]) }}"
                                                         class="btn btn-outline-success">Modifier</a>
