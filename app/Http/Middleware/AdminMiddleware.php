@@ -19,13 +19,14 @@ class AdminMiddleware
 
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check()) {
+        /* if (Auth::check()) {
             if (Auth::user()->role_id == 1) {
 
                 return $next($request);
 
             }
         }
-        return abort(404);
+        return abort(404); */
+        return $next($request);
     }
 }

@@ -3,6 +3,8 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminCategoryController;
+use App\Http\Controllers\Admin\AdminPermissionsController;
+use App\Http\Controllers\Admin\AdminRolesController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\cgu;
@@ -13,7 +15,10 @@ use App\Http\Controllers\LegalNotice;
 use App\Http\Controllers\ServiceController;
 use App\Models\Article;
 use App\Models\Category;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -74,6 +79,21 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get("update-articles/{article_id}", [AdminArticleController::class, "update_articles"])->name("update_articles");
     Route::post("update-articlesPost/{article_id}", [AdminArticleController::class, "update_articlesPost"])->name("update_articlesPost");
     Route::get("articles", [AdminArticleController::class, "ListArticles"])->name("ListArticles");
+    //authorizations
+    Route::prefix("roles")->group(function(){
+        // -- roles
+        Route::get("get_all_roles",[AdminRolesController::class,"GetAllRoles"])->name("GetAllRoles");
+        Route::get("get_role_details/{role_id}",[AdminRolesController::class,"GetRoleDetails"])->name("GetRoleDetails");
+        Route::get("assign_permission_to_role/{role_id}/{permission_id}",[AdminRolesController::class,"AssignPermissionToRole"])->name("AssignPermissionToRole");
+        Route::get("un_assign_permission_to_role/{role_id}/{permission_id}",[AdminRolesController::class,"UnAssignPermissionToRole"])->name("UnAssignPermissionToRole");
+        Route::post("save_role_permission_data/{role_id}",[AdminRolesController::class,"SaveRolePermissionData"])->name("SaveRolePermissionData");
+        Route::get("create_role",[AdminRolesController::class,"CreateRole"])->name("CreateRole");
+        Route::post("create_role_post",[AdminRolesController::class,"CreateRolePost"])->name("CreateRolePost");
+        // -- permissions
+        Route::get("get_all_permissions",[AdminPermissionsController::class,"GetAllPermissions"])->name("GetAllPermissions");
+        Route::get("create_permission",[AdminPermissionsController::class,"CreatePermission"])->name("CreatePermission");
+        Route::post("create_permission_post",[AdminPermissionsController::class,"CreatePermissionPost"])->name("CreatePermissionPost");
+    });
 });
 Route::get('/admin/login', function () {
     /* $user = Auth::user();
@@ -89,4 +109,24 @@ Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_noti
 
 
 
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
+Route::get("/gggg",function(){
+    Role::create(['name' => 'Admin']);
+    Role::create(['name' => 'User']);
+    /* User::create([
+        "name"=>"reda",
+        "email"=>"reda@gmail.com",
+        "password"=>Hash::make("password"),
+    ]);
+    User::create([
+        "name"=>"ahmad02",
+        "email"=>"ahmad02@gmail.com",
+        "password"=>Hash::make("password"),
+    ]); */
+
+    /* Permission::create(['name' => 'edit articles']);
+    Permission::create(['name' => 'create articles']); */
+    return "hh";
+});

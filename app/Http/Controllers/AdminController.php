@@ -16,7 +16,6 @@ class AdminController extends Controller
         $userdata = array(
             'email' => $request->email,
             'password' => $request->password,
-            'role_id' => 1
         );
 
         if(Auth::attempt($userdata)) {

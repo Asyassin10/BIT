@@ -34,5 +34,17 @@
                 <span class="menu-title">Les Articles</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('GetAllRoles') }}">
+                <i class="fa fa-font  menu-icon"></i>
+                <span class="menu-title">roles</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('GetAllPermissions') }}">
+                <i class="fa fa-font  menu-icon"></i>
+                <span class="menu-title">permissions</span>
+            </a>
+        </li>
     </ul>
 </nav>
