@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminCategoryController;
 use App\Http\Controllers\Admin\AdminPermissionsController;
 use App\Http\Controllers\Admin\AdminRolesController;
+use App\Http\Controllers\Admin\AdminUserAuthorizationController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\BlogController;
@@ -82,6 +83,8 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get("articles", [AdminArticleController::class, "ListArticles"])->name("ListArticles");
     //authorizations
     Route::prefix("roles")->group(function(){
+        //users
+        Route::get("get_all_users",[AdminUserAuthorizationController::class,"getAllUser"])->name("getAllUser");
         // -- roles
         Route::get("get_all_roles",[AdminRolesController::class,"GetAllRoles"])->name("GetAllRoles");
         Route::get("get_role_details/{role_id}",[AdminRolesController::class,"GetRoleDetails"])->name("GetRoleDetails");

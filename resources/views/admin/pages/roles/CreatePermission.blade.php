@@ -19,7 +19,7 @@
                                             <label for="exampleInputUsername1">Nom du permission</label>
                                             <input type="text" name="permission_name"
                                                 class="form-control @error('permission_name') is-invalid @enderror"
-                                                id="exampleInputUsername1" placeholder="role..."
+                                                id="exampleInputUsername1" placeholder="permission..."
                                                 value="{{ old('permission_name') }}">
 
                                             @error('permission_name')

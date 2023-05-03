@@ -46,5 +46,11 @@
                 <span class="menu-title">permissions</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('getAllUser') }}">
+                <i class="fa fa-font  menu-icon"></i>
+                <span class="menu-title">les utilisateurs</span>
+            </a>
+        </li>
     </ul>
 </nav>

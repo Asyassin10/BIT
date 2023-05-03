@@ -221,7 +221,7 @@
                                                             font-size: 59px
                                                         }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{!! $articles[0]->article_text !!} </h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3e448e8f elementor-widget elementor-widget-heading"
