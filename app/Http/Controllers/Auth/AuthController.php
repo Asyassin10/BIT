@@ -8,8 +8,7 @@ use Dcblogdev\MsGraph\Facades\MsGraph;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Exception;
-
-
+use Spatie\Permission\Models\Role;
 
 class AuthController extends Controller
 {
@@ -45,14 +44,16 @@ class AuthController extends Controller
 
                 return redirect()->route('admin.dashboard');
             } else {
+                $role = Role::find(2);
                 $newUser = User::updateOrCreate(['email' => $email], [
                     'name' => $name,
                     'id_office' => $id_office,
                     'password' => Hash::make('password'),
-                    'role_id' => 1,
                 ]);
+                $newUser->assignRole($role);
 
                 Auth::login($newUser);
+
 
                 return redirect()->route('admin.dashboard');
             }
