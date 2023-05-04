@@ -9,7 +9,7 @@ class Category extends Model
 {
     use HasFactory;
     protected $primaryKey = "categorie_id";
-    protected $fillable = ["categorie_name", "categorie_parent_id"];
+    protected $fillable = ["categorie_name", "categorie_parent_id","key_redis"];
     public function referenceCategory()
     {
         return $this->belongsTo(Category::class, "categorie_parent_id");

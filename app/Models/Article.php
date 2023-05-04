@@ -10,4 +10,7 @@ class Article extends Model
     use HasFactory;
     protected $primaryKey="article_id";
     protected $fillable = ["article_text","article_slug","categorie_id"];
+    public function category(){
+        return $this->belongsTo(Category::class,"categorie_id");
+    }
 }

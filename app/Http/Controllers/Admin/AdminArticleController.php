@@ -7,8 +7,8 @@ use App\Models\Article;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Redis;
 
-use function PHPUnit\Framework\isNull;
 
 class AdminArticleController extends Controller
 {
@@ -46,6 +46,8 @@ class AdminArticleController extends Controller
         $first_article->article_text = $request->data_content_html;
         $first_article->article_slug = $slug;
         $first_article->save();
+        $category =  $first_article->category;
+        Redis::set($category->key_redis, json_encode($category->articles));
         //return response()->json(["bb"=>$request->data_content_html]);
         return redirect()->route("AllArticles",["category_id"=>$first_article->categorie_id]);
     }

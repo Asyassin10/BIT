@@ -12,7 +12,6 @@
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
-                            <a href="{{ route('CreateRole') }}" class="btn btn-primary">ajouter un role</a>
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>

@@ -122,3 +122,39 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
     Route::get('app', [AuthController::class, 'app'])->name('app');
     Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
 });
+
+/*
+Route::get("/kkk",function(){
+    $titles = [
+        "À propos - BTI - Advisory",
+        "Nos service - BTI - Advisory",
+        "Technologie & Innovation - BTI - Advisory",
+        "Multi-Speed IT - BTI - Advisory",
+        "Transformation des Produits IT - BTI - Advisory",
+        "Transformation UX - BTI - Advisory",
+        "Nous rejoindre - BTI - Advisory",
+        "BTI - Advisory - Cabinet de conseil en IT",
+        "Contactez-nous - BTI - Advisory"
+    ];
+    $titles_redis_keys = [
+        "a_propos_BTI_Advisory",
+        "Nos_service_BTI_Advisory",
+        "Technologie_Innovation_BTI_Advisory",
+        "Multi_Speed_IT_BTI_Advisory",
+        "Transformation_des_Produits_IT_BTI_Advisory",
+        "Transformation_UX_BTI_Advisory",
+        "Nous_rejoindre_BTI_Advisory",
+        "BTI_Advisory_Cabinet_de_conseil_en_IT",
+        "Contactez_nous_BTI_Advisory"
+
+    ];
+    for($i=0 ; $i< count($titles);$i++){
+        $title = $titles[$i];
+        $categorie = Category::where("url_presentation",$title)->first();
+        $categorie->key_redis = $titles_redis_keys[$i];
+        $categorie->save();
+
+    }
+    return "kkk";
+});
+ */
