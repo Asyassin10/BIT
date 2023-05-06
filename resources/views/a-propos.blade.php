@@ -366,13 +366,15 @@
                                                             vertical-align: middle;
                                                             display: inline-block
                                                         }
-                                                    </style> <img width="148" height="148"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20148%20148'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x.png"
-                                                        class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x.png 218w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/03/elementor/thumbs/BTI-ADVISORY-11@2x-pm03r6ohvq058o312f5w1zzodgpjpmqykl30g4knsy.png 109w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x-50x50.png 50w"
-                                                        data-sizes="(max-width: 148px) 100vw, 148px" />
+                                                    </style>
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10016.webp') }}">
+                                                        <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
+                                                            src="{{ asset('images/a_propos/10016.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10016.png') }}"
+                                                            data-sizes="(max-width: 148px) 100vw, 148px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3102f731 elementor-invisible elementor-widget elementor-widget-image"
@@ -380,10 +382,14 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInRight&quot;}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img class="lazy"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/elementor/thumbs/BTI-ADVISORY-21@2x-pm03r6ohlmvrkj09r2kbki21xoc9tj0cf2mmflrhzw.png"
-                                                        title="BTI-ADVISORY-21@2x" alt="BTI-ADVISORY-21@2x" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10018.webp') }}">
+                                                        <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
+                                                            src="{{ asset('images/a_propos/10018.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10018.png') }}"
+                                                            data-sizes="(max-width: 148px) 100vw, 148px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5ac616a4 elementor-invisible elementor-widget elementor-widget-image"
@@ -391,10 +397,14 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInRight&quot;}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img class="lazy"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/elementor/thumbs/BTI-ADVISORY-23@2x-pm03r6oi7k9zdj34yizwmjh8gcg35em7cyx7ib040g.png"
-                                                        title="BTI-ADVISORY-23@2x" alt="BTI-ADVISORY-23@2x" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10019.webp') }}">
+                                                        <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
+                                                            src="{{ asset('images/a_propos/10019.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10019.png') }}"
+                                                            data-sizes="(max-width: 148px) 100vw, 148px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -443,12 +453,15 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="150" height="150"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-150x150.png"
-                                                        class="attachment-thumbnail size-thumbnail lazy" alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/03/elementor/thumbs/BTI-ADVISORY-25@2x-pm03r6oictqcrov6osp8vo51dmjvsf039l2mn9uz7s.png 148w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-25@2x.png 296w"
-                                                        data-sizes="(max-width: 150px) 100vw, 150px" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10020.webp') }}">
+                                                        <img width="150" height="150"
+                                                            class="attachment-thumbnail size-thumbnail lazy"
+                                                            src="{{ asset('images/a_propos/10020.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10020.png') }}"
+                                                            data-sizes="(max-width: 150px) 100vw, 150px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-7ee8dde8 elementor-invisible elementor-widget elementor-widget-image"
@@ -456,10 +469,14 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img class="lazy"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/elementor/thumbs/BTI-ADVISORY-22@2x-pm03r6oi5dc5smog8kyciqjbeh8i7tgf2doy78h90e.png"
-                                                        title="BTI-ADVISORY-22@2x" alt="BTI-ADVISORY-22@2x" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10021.webp') }}">
+                                                        <img class="lazy"
+                                                            src="{{ asset('images/a_propos/10021.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10021.png') }}"
+                                                            data-sizes="(max-width: 150px) 100vw, 150px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6aeb4a31 elementor-invisible elementor-widget elementor-widget-image"
@@ -467,10 +484,14 @@
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img class="lazy"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/elementor/thumbs/BTI-ADVISORY-09@2x-pm03r6oi1v18v6tr32hgcnfg4ahz4h75smxc3x8o7i.png"
-                                                        title="BTI-ADVISORY-09@2x" alt="BTI-ADVISORY-09@2x" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10022.webp') }}">
+                                                        <img class="lazy"
+                                                            src="{{ asset('images/a_propos/10022.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10022.png') }}"
+                                                            data-sizes="(max-width: 150px) 100vw, 150px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -918,11 +939,15 @@
                                                                 data-id="57e3e540" data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <img width="578" height="639"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20578%20639'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-578x639.png"
-                                                                        class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
-                                                                        alt="" />
+                                                                    <picture>
+                                                                        <source type="image/webp"
+                                                                            srcset="{{ asset('images/a_propos/10023.webp') }}">
+                                                                        <img width="578" height="639"
+                                                                            class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
+                                                                            src="{{ asset('images/a_propos/10023.png') }}"
+                                                                            data-src="{{ asset('images/a_propos/10023.png') }}"
+                                                                            alt="">
+                                                                    </picture>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -940,13 +965,16 @@
                                                                 data-id="739b29d4" data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <img width="578" height="639"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20578%20639'%3E%3C/svg%3E"
-                                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/img-12.png"
-                                                                        class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/img-12.png 578w, https://bti-advisory.com/wp-content/uploads/2022/01/img-12-271x300.png 271w, https://bti-advisory.com/wp-content/uploads/2022/01/img-12-118x130.png 118w"
-                                                                        data-sizes="(max-width: 578px) 100vw, 578px" />
+                                                                    <picture>
+                                                                        <source type="image/webp"
+                                                                            srcset="{{ asset('images/a_propos/10024.webp') }}">
+                                                                        <img width="578" height="639"
+                                                                            class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
+                                                                            src="{{ asset('images/a_propos/10024.png') }}"
+                                                                            data-src="{{ asset('images/a_propos/10024.png') }}"
+                                                                            data-sizes="(max-qwidth: 578px) 100vw, 578px"
+                                                                            alt="">
+                                                                    </picture>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1201,12 +1229,15 @@
                                                 data-id="6bbabcbf" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="1366" height="821"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201366%20821'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/img-13.png"
-                                                        class="attachment-full size-full lazy" alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/img-13.png 1366w, https://bti-advisory.com/wp-content/uploads/2022/01/img-13-300x180.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/img-13-1024x615.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/01/img-13-768x462.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/img-13-118x71.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/img-13-900x541.png 900w"
-                                                        data-sizes="(max-width: 1366px) 100vw, 1366px" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10025.webp') }}">
+                                                        <img width="1366" height="821"
+                                                            class="attachment-full size-full lazy"
+                                                            src="{{ asset('images/a_propos/10025.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10025.png') }}"
+                                                            data-sizes="(max-width: 1366px) 100vw, 1366px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -1392,12 +1423,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-DISNEYLAND-PARIS-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="Castle of Sleeping Beauty at Disneyland Paris August 28, 2019, Paris, France." />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10031.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10031.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10031.jpeg') }}"
+                                                                                                                alt="Castle of Sleeping Beauty at Disneyland Paris August 28, 2019, Paris, France.">
+                                                                                                        </picture>
+
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -1419,14 +1456,16 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="34"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2034'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-118x34.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-118x34.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-300x85.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-1024x291.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-768x218.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-1536x436.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-2048x582.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-DISNEYLAND-PARIS-900x256.png 900w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.webp') }}">
+                                                                                                                            <img class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -1543,12 +1582,17 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ELIOR-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10034.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10034.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10034.jpeg') }}"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -1570,14 +1614,19 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="82"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2082'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ELIOR-GROUP-118x82.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ELIOR-GROUP-118x82.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ELIOR-GROUP.png 234w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="82"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy""
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -1707,12 +1756,17 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/AdobeStock_92129373-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10037.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10037.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10037.jpeg') }}"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -1734,14 +1788,18 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="127"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%20127'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-118x127.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-118x127.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-279x300.png 279w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647-495x527.png 495w, https://bti-advisory.com/wp-content/uploads/2022/02/1200px-Logo_Federation_Francaise_Football_2018.svg-e1645107523647.png 500w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="127"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -1858,12 +1916,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ENDERED-819x346.jpg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10039.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10039.jpg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10039.jpg') }}"
+                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -1885,14 +1949,19 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="76"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2076'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-118x76.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-118x76.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-300x193.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-1024x658.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-768x493.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-1536x987.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED-900x578.png 900w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-EDENRED.png 1723w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-EDENRED.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="76"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-EDENRED.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-EDENRED.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2010,12 +2079,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-RAPT-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10027.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10027.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10027.jpeg') }}"
+                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2037,14 +2112,18 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="81"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2081'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-118x81.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-118x81.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-300x205.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-1024x699.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-768x524.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-538x368.png 538w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-900x614.png 900w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT-358x250.png 358w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-RAPT.png 1500w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-RAPT.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="81"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-RAPT.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-RAPT.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2167,12 +2246,19 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ENTORIA-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/a_propos/10029.webp') }}">
+                                                                                                            <img width="819"
+                                                                                                                height="346"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                src="{{ asset('images/a_propos/10029.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10029.jpeg') }}"
+                                                                                                                alt="">
+                                                                                                        </picture>
+
+
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2194,14 +2280,19 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="36"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2036'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENTORIA-118x36.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENTORIA-118x36.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENTORIA-300x93.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENTORIA.png 389w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/a_propos/10030.webp') }}">
+                                                                                                                            <img width="819"
+                                                                                                                                height="346"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/a_propos/10030.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/10030.png') }}"
+                                                                                                                                data-sizes="(max-width: 118px) 100vw, 118px"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
+
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2320,13 +2411,15 @@
                                                 data-id="15ae472e" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="495" height="527"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20495%20527'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/img-15.png"
-                                                        class="attachment-apropos-partenariat-495x527-cropped size-apropos-partenariat-495x527-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/img-15.png 495w, https://bti-advisory.com/wp-content/uploads/2022/01/img-15-282x300.png 282w, https://bti-advisory.com/wp-content/uploads/2022/01/img-15-118x126.png 118w"
-                                                        data-sizes="(max-width: 495px) 100vw, 495px" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/a_propos/10041.webp') }}">
+                                                        <img width="495" height="527"
+                                                            class="attachment-apropos-partenariat-495x527-cropped size-apropos-partenariat-495x527-cropped lazy"
+                                                            src="{{ asset('images/a_propos/10041.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10041.png') }}"
+                                                            data-sizes="(max-width: 495px) 100vw, 495px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
