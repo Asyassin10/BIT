@@ -295,12 +295,29 @@
 
         .elementor-7285 .elementor-element.elementor-element-be38a20:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
         .elementor-7285 .elementor-element.elementor-element-be38a20>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("../images/a_propos/10044.webp");
+            background-image: url("{{ asset('images/a_propos/10044.webp') }}");
         }
 
         .elementor-7285 .elementor-element.elementor-element-3f6900eb:not(.elementor-motion-effects-element-type-background),
         .elementor-7285 .elementor-element.elementor-element-3f6900eb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("../images/a_propos/10045.webp");
+            background-image: url("{{ asset('images/a_propos/10045.webp') }}");
+        }
+
+        .elementor-7285 .elementor-element.elementor-element-77f0bf33>.elementor-widget-container {
+            margin: 0;
+            padding: 0 0 5rem;
+            background-image: url("{{ asset('images/a_propos/10046.webp') }}");
+            background-repeat: repeat-x
+        }
+
+        .elementor-7690 .elementor-element.elementor-element-2e94bd2>.elementor-background-overlay {
+            background-image: url("{{ asset('images/join_us/Pattern.webp') }}");
+            background-position: center center;
+            background-repeat: repeat-x;
+            background-size: 13% auto;
+            opacity: .1;
+            mix-blend-mode: multiply;
+            transition: background .3s, border-radius .3s, opacity .3s
         }
     </style>
 

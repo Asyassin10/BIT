@@ -362,12 +362,10 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img width="683" height="685"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/img-2.png"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/img-2.png"
+                                                        src="{{ asset('images/join_us/img-2.webp') }}"
+                                                        data-src="{{ asset('images/join_us/img-2.webp') }}"
                                                         class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/img-2.png 683w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/02/img-2-320x320.png 320w"
-                                                        data-sizes="(max-width: 683px) 100vw, 683px" />
+                                                        alt="" data-sizes="(max-width: 683px) 100vw, 683px" />
                                                 </div>
                                             </div>
                                         </div>
@@ -387,12 +385,10 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img width="447" height="447"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-447x447.png"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-447x447.png"
+                                                        src="{{ asset('images/join_us/img-1.webp') }}"
+                                                        data-src="{{ asset('images/join_us/img-1.webp') }}"
                                                         class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-683x685.png 683w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-10@2x-1-136x136.png 136w"
-                                                        data-sizes="(max-width: 447px) 100vw, 447px" />
+                                                        alt="" data-sizes="(max-width: 447px) 100vw, 447px" />
                                                 </div>
                                             </div>
                                         </div>
