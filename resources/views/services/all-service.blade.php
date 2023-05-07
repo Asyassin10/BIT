@@ -227,7 +227,7 @@
                                                         }
                                                     </style>
                                                     <h6 class="elementor-heading-title elementor-size-default">
-                                                         {!! $articles[0]->article_text !!}
+                                                        {!! $articles[0]->article_text !!}
                                                     </h6>
                                                 </div>
                                             </div>
@@ -235,7 +235,8 @@
                                                 data-id="5c92fdb" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[1]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-06adfcc elementor-align-left elementor-widget elementor-widget-button"
@@ -286,12 +287,17 @@
                                                             display: inline-block
                                                         }
                                                     </style>
-                                                    <img width="1366" height="1370"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png"
-                                                        class="attachment-full size-full lazy" alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x.png 1366w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-1021x1024.png 1021w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-768x770.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-683x685.png 683w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/Header_Services@2x-900x903.png 900w"
-                                                        data-sizes="(max-width: 1366px) 100vw, 1366px" />
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/service/10001.webp') }}">
+                                                        <img width="1366" height="1370"
+                                                            class="attachment-full size-full lazy"
+                                                            src="{{ asset('images/service/10001.png') }}"
+                                                            data-src="{{ asset('images/service/10001.png') }}"
+                                                            data-sizes="(max-width: 1366px) 100vw, 1366px" alt="">
+                                                    </picture>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -309,7 +315,8 @@
                                                 data-id="ce96803" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">{!! $articles[2]->article_text !!}</h3>
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[2]->article_text !!}</h3>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-599aeefd elementor-widget elementor-widget-text-editor"
@@ -361,13 +368,16 @@
                                                 data-id="1bf85428" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="576" height="339"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory.png"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory.png"
-                                                        class="attachment-services-bloc-579x339-cropped size-services-bloc-579x339-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory.png 1854w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-300x177.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-1024x603.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-768x452.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-1536x905.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-118x70.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Diagramme-BTI-Advisory-900x530.png 900w"
-                                                        data-sizes="(max-width: 576px) 100vw, 576px" />
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/service/10002.webp') }}">
+                                                        <img width="576" height="339"
+                                                            class="attachment-services-bloc-579x339-cropped size-services-bloc-579x339-cropped lazy"
+                                                            src="{{ asset('images/service/10002.png') }}"
+                                                            data-src="{{ asset('images/service/10002.png') }}"
+                                                            data-sizes="(max-width: 576px) 100vw, 576px" alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -476,7 +486,7 @@
                                                                             </svg></span>
                                                                     </span>
                                                                     <a href="index.html#">{!! $articles[4]->article_text !!}
-                                                                        </a>
+                                                                    </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-35043185451" t_id="35043185451"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion ae-active"
@@ -639,7 +649,8 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[8]->article_text !!}</p>
+                                                                                                            <p>{!! $articles[8]->article_text !!}
+                                                                                                            </p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -682,12 +693,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-538x368.jpeg"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10011.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10011.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10011.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -993,12 +1008,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/MULTI-SPEED-IT-scaled-1-538x368.jpeg"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/MULTI-SPEED-IT-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10012.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10012.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10012.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1260,7 +1279,8 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[18]->article_text !!}</p>
+                                                                                                            <p>{!! $articles[18]->article_text !!}
+                                                                                                            </p>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
@@ -1303,12 +1323,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-538x368.jpeg"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10013.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10013.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10013.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1614,12 +1638,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-UX-scaled-1-538x368.jpeg"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-UX-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10014.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10014.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10014.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1701,7 +1729,8 @@
                                                                                                         class="fas fa-genderless"></i>
                                                                                                 </span>
                                                                                                 <span
-                                                                                                    class="elementor-button-text">{!! $articles[26]->article_text !!} </span>
+                                                                                                    class="elementor-button-text">{!! $articles[26]->article_text !!}
+                                                                                                </span>
                                                                                             </span>
                                                                                         </a>
                                                                                     </div>
@@ -1725,7 +1754,8 @@
                                                                                                         class="fas fa-genderless"></i>
                                                                                                 </span>
                                                                                                 <span
-                                                                                                    class="elementor-button-text">{!! $articles[27]->article_text !!} </span>
+                                                                                                    class="elementor-button-text">{!! $articles[27]->article_text !!}
+                                                                                                </span>
                                                                                             </span>
                                                                                         </a>
                                                                                     </div>
@@ -1749,7 +1779,8 @@
                                                                                                         class="fas fa-genderless"></i>
                                                                                                 </span>
                                                                                                 <span
-                                                                                                    class="elementor-button-text">{!! $articles[28]->article_text !!} </span>
+                                                                                                    class="elementor-button-text">{!! $articles[28]->article_text !!}
+                                                                                                </span>
                                                                                             </span>
                                                                                         </a>
                                                                                     </div>
@@ -1773,7 +1804,8 @@
                                                                                                         class="fas fa-genderless"></i>
                                                                                                 </span>
                                                                                                 <span
-                                                                                                    class="elementor-button-text">{!! $articles[29]->article_text !!}  </span>
+                                                                                                    class="elementor-button-text">{!! $articles[29]->article_text !!}
+                                                                                                </span>
                                                                                             </span>
                                                                                         </a>
                                                                                     </div>
@@ -1902,7 +1934,8 @@
                                                 data-id="1abc2a8c" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">{!! $articles[31]->article_text !!}</h3>
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[31]->article_text !!}</h3>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2435b820 elementor-widget elementor-widget-text-editor"

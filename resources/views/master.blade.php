@@ -319,6 +319,13 @@
             mix-blend-mode: multiply;
             transition: background .3s, border-radius .3s, opacity .3s
         }
+
+
+        .elementor-7230 .elementor-element.elementor-element-1f98ce95>.elementor-widget-container {
+            margin: 120px 0 80px;
+            padding: 0;
+            background-image: url("{{ asset('images/service/pattern-2.webp') }}");
+        }
     </style>
 
 
