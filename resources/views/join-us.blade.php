@@ -1,9 +1,5 @@
 @extends('master')
-@section('css_app')
-    {{-- <link rel='stylesheet' id='elementor-post-73-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
-        type='text/css' media='all' /> --}}
-@endsection
+
 @section('body')
 
     <body

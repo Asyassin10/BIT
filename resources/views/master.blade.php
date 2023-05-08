@@ -7,6 +7,10 @@
             min-height: 1px
         }
     </style>
+    {{--  <link rel='stylesheet' id='elementor-post-8-css' href='{{ asset('assets/cache/autoptimize/css/style.css') }}'
+        type='text/css' media='all' /> --}}
+    <link rel='stylesheet' id='elementor-post-8-css' href='assets/cache/autoptimize/css/style.css' type='text/css'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-8-css'
         href='https://bti-advisory.com/wp-content/cache/autoptimize/css/style.css' type='text/css' media='all' />
     <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
@@ -279,13 +283,13 @@
     </style>
 
     <link rel='stylesheet' id='stm-stm-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_a843f837dea1d9d59bc6ace717dd0e44.css@ver=1.0.css'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='https://bti-advisory.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css'
-        type='text/css' media='all' />
+        href='/assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        media='all' />
     <style id='elementor-frontend-inline-css' type='text/css'>
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40:not(.elementor-motion-effects-element-type-background),
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40>.elementor-motion-effects-container>.elementor-motion-effects-layer {
@@ -336,30 +340,30 @@
 
 
     <link rel='stylesheet' id='elementor-post-73-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
+        href='/assets/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
         type='text/css' media='all' />
 
 
     <link rel='stylesheet' id='elementor-post-8-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_d8b89fa005d32607de5d18797f219193.css@ver=1675955104.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='https://bti-advisory.com/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css'
-        type='text/css' media='all' />
+        href='/assets/uploads/elementor/css/custom-pro-frontend-lite.min.css@ver=1675955104.css' type='text/css'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-20-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_f8ec20044751b6097e8ede126cc1b0a8.css@ver=1675955140.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-141-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_266fa186721810443b8cd2f00bb1c6e7.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-127-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_dd4c0a6165ddb2557083c2e095c54f59.css@ver=1675955105.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-59-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
+        href='/assets/cache/autoptimize/css/autoptimize_single_e83912579ae23b5602885b3493fd0953.css?ver=1675955454'
         type='text/css' media='all' />
 
 
@@ -599,9 +603,8 @@
             background-color: #E99B17;
         }
     </style>
-    <link media="all"
-        href="https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
-        rel="stylesheet" />
+
+    {{-- https://bti-advisory.com/wp-content --}}
     <link rel='stylesheet' id='elementor-post-7191-css'
         href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
         type='text/css' media='all' />
@@ -617,27 +620,22 @@
         type='text/css' media='all' />
 
 
-    {{--  <link rel='stylesheet' id='elementor-post-7230-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
+    <link rel='stylesheet' id='elementor-post-7230-css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_b756abdd1c3d040e7d70f3eaa13f2c72.css?ver=1675955454'
         type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CUbuntu%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=5.9.2'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-5739-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
+        href='/assets/cache/autoptimize/css/autoptimize_single_373e617cc1e950978eed130dcaa03cf6.css?ver=1675973565'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-5214-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
-        type='text/css' media='all' /> --}}
-    {{-- @ver=3.6.0 --}}
-    {{--  <script type='text/javascript' src='https://bti-advisory.com/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'>
-    </script> --}}
-    <script type='text/javascript' src='https://bti-advisory.com/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'>
-    </script>
+        href='/assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
+        type='text/css' media='all' />
 
-    {{--  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script> --}}
+    <script type='text/javascript' src='https://bti-advisory.com/wp-includes/js/jquery/jquery.min.js@ver=3.6.0'
+        id='jquery-core-js'></script>
 
 
 
@@ -661,7 +659,6 @@
             vertical-align: top;
             position: relative;
             top: 3px;
-        }
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
@@ -669,8 +666,7 @@
     <link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
     <meta name="msapplication-TileImage" content="assets/uploads/2022/01/Logo-1.svg" />
     <style type="text/css" id="wp-custom-css">
-        /*general*/
-        #main {
+        /general/ #main {
             padding: 0;
         }
 
@@ -752,8 +748,7 @@
             color: #E99B17;
         }
 
-        /*reference card*/
-        .reference-content-card {
+        /reference card/ .reference-content-card {
             border-radius: 8px;
             transform: translate(5%, -50%);
             width: 75% !important;
@@ -767,8 +762,7 @@
             transform: translate(-4rem, -3rem) !important;
         }
 
-        /*form candidature spontanée*/
-        .form-candidate input::file-selector-button {
+        /form candidature spontanée/ .form-candidate input::file-selector-button {
             border: 2px solid #fff;
             color: #1C1C1A;
             font-size: 0.9rem;
@@ -800,8 +794,7 @@
             border-color: #E99B17;
         }
 
-        /*blog*/
-        article.elementor-portfolio-item {
+        /blog/ article.elementor-portfolio-item {
             box-shadow: 3px 4px 10px #c1c1c1;
             border-radius: 8px;
         }
@@ -813,12 +806,11 @@
             justify-content: flex-start !important;
         }
 
-        .elementor-portfolio-item__overlay:hover .elementor-portfolio-item__title {
+        .elementor-portfolio-item_overlay:hover .elementor-portfolio-item_title {
             color: #E99B17 !important;
         }
 
-        /*orange circle accueil*/
-        .img-circle {
+        /orange circle accueil/ .img-circle {
             z-index: 0
         }
 
@@ -839,8 +831,7 @@
             left: -10px;
         }
 
-        /*list chifre-texte accueil*/
-        div.list-datas ul {
+        /list chifre-texte accueil/ div.list-datas ul {
             padding: 40px 60px !important;
             margin: 0 !important;
         }
@@ -899,8 +890,7 @@
             top: -10px;
         }
 
-        /*footer*/
-        .footer-logos .elementor-widget-wrap {
+        /footer/ .footer-logos .elementor-widget-wrap {
             display: flex;
         }
 
@@ -925,7 +915,7 @@
                 left: 160px;
             }
 
-            /*a propos*/
+            /a propos/
             .apropos-img-bg {
                 height: 527Px;
             }
@@ -933,7 +923,7 @@
 
         @media only screen and (max-width: 767px) {
 
-            /*nav*/
+            /nav/
             .nav div.elementor-container div {
                 display: flex !important;
                 flex-direction: row-reverse !important;
@@ -945,12 +935,12 @@
                 margin: 0 !important;
             }
 
-            /*a propos*/
+            /a propos/
             .apropos-img-bg {
                 height: 268px;
             }
 
-            /*Reference slider*/
+            /Reference slider/
             .reference-content-card {
                 transform: translate(5%, -20%);
                 width: 90% !important;
@@ -995,7 +985,7 @@
                 }
             }
 
-            /*accordeon services*/
+            /accordeon services/
             .services-accordeon h6 {
                 padding: 1.25rem 1.25rem 1.25rem 0rem;
             }
@@ -1005,6 +995,7 @@
                 line-height: 1.4rem;
                 padding-right: 1.25rem;
             }
+            */
         }
     </style>
     <noscript>
@@ -1017,7 +1008,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    @yield('css_app')
+
 </head>
 {{-- body --}}
 
