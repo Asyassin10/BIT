@@ -326,6 +326,12 @@
             padding: 0;
             background-image: url("{{ asset('images/service/pattern-2.webp') }}");
         }
+
+        .elementor-element-2d69a539 {
+            margin: 120px 0 80px;
+            padding: 0;
+            background-image: url("{{ asset('images/service/pattern-2.webp') }}");
+        }
     </style>
 
 
