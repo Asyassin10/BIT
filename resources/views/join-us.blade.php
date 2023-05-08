@@ -1,4 +1,9 @@
 @extends('master')
+@section('css_app')
+    {{-- <link rel='stylesheet' id='elementor-post-73-css'
+        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
+        type='text/css' media='all' /> --}}
+@endsection
 @section('body')
 
     <body
@@ -178,9 +183,9 @@
                 </header>
 
                 <div id="main">
-                    <div class="container-fluid">
+                    <div class="p-0 m-0">
                         <div data-elementor-type="single-page" data-elementor-id="7191"
-                            class="elementor elementor-7191 elementor-location-single post-73 page type-page status-publish has-post-thumbnail hentry">
+                            class="elementor m-0 p-0 elementor-7191 elementor-location-single post-73 page type-page status-publish has-post-thumbnail hentry">
                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-2c2aeee1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="2c2aeee1" data-element_type="section">
@@ -421,7 +426,7 @@
                             </section>
                             <section
                                 class="has_ae_slider elementor-section  elementor-top-section elementor-element elementor-element-42e18c46 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                data-id="42e18c46" data-element_type="section" id="offres"
+                                data-id="42e18c46" data-element_type="section" id="offres" style="width: 100%;"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e053774 ae-bg-gallery-type-default"
@@ -462,159 +467,10 @@
                                                             wk.locale('fr')
                                                             wk.website('wttj_fr')
                                                             wk.render()
-                                                        })
+                                                        });
                                                     </script>
-                                                    {{-- <div id='welcomekit-embed'></div> --}}
-                                                    <div id="welcomekit-embed">
-                                                        <ul class="welcomekit-jobs-list">
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/office-manager_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name"> Office manager</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Fonction
-                                                                            support</li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/architecte-si_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Architecte SI</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/data-engineer-bi-senior-h-f_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Data Engineer BI</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/developpeur-junior-java-angular_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Développeur Java
-                                                                        Angular Junior </h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/developpeur-fullstack_levallois-perret"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Développeur react.js
-                                                                        /node.js </h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/ingenieur-devops_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Ingénieur DevOps</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Cloud</li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/lead-developpeur-net-core_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Lead Développeur .Net
-                                                                        Core</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/lead-developpeurjava-angular_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Lead Développeur Java
-                                                                        Angular</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Réalisation
-                                                                        </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/product-owner-senior_levallois-perret"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Product Owner</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Pilotage</li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/product-owner-senior_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Project Management
-                                                                        Officer (PMO)</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Pilotage</li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/talent-acquisition_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">Talent Acquisition</h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Fonction
-                                                                            support</li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                            <li class="welcomekit-jobs-list-item"><a
-                                                                    class="welcomekit-jobs-list-item-link"
-                                                                    href="https://www.welcometothejungle.com/companies/bti-advisory/jobs/ux-designer-senior-h-f_paris"
-                                                                    target="_blank">
-                                                                    <h3 class="welcomekit-job-name">UX Designer </h3>
-                                                                    <ul class="welcomekit-job-infos">
-                                                                        <li class="welcomekit-job-department">Expérience
-                                                                            Utilisateur </li>
-                                                                        <li class="welcomekit-job-officeCity">Paris</li>
-                                                                        <li class="welcomekit-job-contractType">CDI</li>
-                                                                    </ul>
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
+                                                    <div id='welcomekit-embed'></div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1185,7 +1041,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='https://bti-advisory.com/wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js' id='instant-page-js'></script>
 
         <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.6.4'
             id='elementor-recaptcha_v3-api-js'></script>
@@ -1428,9 +1284,9 @@
         </script>
 
 
-        <script defer
+        {{--  <script defer
             src="https://bti-advisory.com/wp-content/cache/autoptimize/js/autoptimize_f70d68afa8c6d2423bd04bd57daf8d28.js">
-        </script>
+        </script> --}}
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -1451,6 +1307,6 @@
                 }
             }
         </script>
-        <script async src="../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="https://bti-advisory.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
     </body>
 @endsection
