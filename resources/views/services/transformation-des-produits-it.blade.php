@@ -404,10 +404,14 @@
                                                             vertical-align: middle;
                                                             display: inline-block
                                                         }
-                                                    </style> <img class="lazy"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG.svg"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG.svg"
-                                                        title="IMG" alt="IMG" />
+                                                    </style>
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/service/IMG.webp') }}">
+                                                        <img class="lazy" src="{{ asset('images/service/IMG.svg') }}"
+                                                            data-src="{{ asset('images/service/IMG.svg') }}"
+                                                            title="IMG" alt="IMG">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -426,13 +430,14 @@
                                                 data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:-44,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="1172" height="653"
-                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg"
-                                                        class="attachment-service-cover-1172x653-cropped size-service-cover-1172x653-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-1172x653.jpeg 1172w, https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-350x195.jpeg 350w"
-                                                        data-sizes="(max-width: 1172px) 100vw, 1172px" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.webp') }}">
+                                                        <img class="lazy" width="1172" height="653"
+                                                            src="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.jpg') }}"
+                                                            data-src="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.jpg') }}"
+                                                            data-sizes="(max-width: 1172px) 100vw, 1172px">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -543,13 +548,18 @@
                                                                                                     class="elementor-widget-container">
                                                                                                     <div
                                                                                                         class="ae_acf_image_wrapper">
-                                                                                                        <img width="230"
-                                                                                                            height="175"
-                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Journey-To-Cloud-BTI-Advisory.svg"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Journey-To-Cloud-BTI-Advisory.svg"
-                                                                                                            class="attachment-medium size-medium lazy"
-                                                                                                            alt="Journey To Cloud &#8211; BTI Advisory"
-                                                                                                            title="Journey To Cloud &#8211; BTI Advisory" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.webp') }}">
+                                                                                                            <img class="attachment-medium size-medium lazy"
+                                                                                                                width="230"
+                                                                                                                height="175"
+                                                                                                                src="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.svg') }}"
+                                                                                                                data-src="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.svg') }}"
+                                                                                                                alt="Journey To Cloud &#8211; BTI Advisory"
+                                                                                                                title="Journey To Cloud &#8211; BTI Advisory">
+                                                                                                        </picture>
                                                                                                         <div
                                                                                                             class="ae-acf-overlay-block">
                                                                                                             <div
@@ -626,8 +636,8 @@
                                                                                                                             class="ae-acf-content-wrapper">
                                                                                                                             <p><span
                                                                                                                                     class="ae-prefix"></span>
-                                                                                                                                      {!! $articles[9]->article_text !!}
-                                                                                                                                    <span
+                                                                                                                                {!! $articles[9]->article_text !!}
+                                                                                                                                <span
                                                                                                                                     class="ae-suffix"></span>
                                                                                                                             </p>
                                                                                                                         </h4>
@@ -739,7 +749,7 @@
                                                                                                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                                                                                                         <h2 itemprop="name"
                                                                                                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                                                                                                        {!! $articles[10]->article_text !!}
+                                                                                                                                                                                            {!! $articles[10]->article_text !!}
 
                                                                                                                                                                                             </p>
                                                                                                                                                                                         </h2>
@@ -1430,7 +1440,8 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>{!! $articles[15]->article_text !!} <span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[15]->article_text !!}
+                                                                                                                <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>
@@ -1494,7 +1505,8 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>{!! $articles[3]->article_text !!} <span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[3]->article_text !!}
+                                                                                                                <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -1509,13 +1521,19 @@
                                                                                                     class="elementor-widget-container">
                                                                                                     <div
                                                                                                         class="ae_acf_image_wrapper">
-                                                                                                        <img width="190"
-                                                                                                            height="199"
-                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-Workplace-BTI-Advisory.svg"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-Workplace-BTI-Advisory.svg"
-                                                                                                            class="attachment-medium size-medium lazy"
-                                                                                                            alt="Digital Workplace &#8211; BTI Advisory"
-                                                                                                            title="Digital Workplace &#8211; BTI Advisory" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/service/Digital-Workplace-BTI-Advisory.webp') }}">
+                                                                                                            <img class="attachment-medium size-medium lazy"
+                                                                                                                width="190"
+                                                                                                                height="199"
+                                                                                                                src="{{ asset('images/service/Digital-Workplace-BTI-Advisory.svg') }}"
+                                                                                                                data-src="{{ asset('images/service/Digital-Workplace-BTI-Advisory.svg') }}"
+                                                                                                                alt="Journey To Cloud &#8211; BTI Advisory"
+                                                                                                                title="Journey To Cloud &#8211; BTI Advisory">
+
+                                                                                                        </picture>
                                                                                                         <div
                                                                                                             class="ae-acf-overlay-block">
                                                                                                             <div
@@ -2130,7 +2148,8 @@
                                                                                                             itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>{!! $articles[24]->article_text !!}  <span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[24]->article_text !!}
+                                                                                                                <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </span>
@@ -2194,7 +2213,8 @@
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
                                                                                                             <p><span
-                                                                                                                    class="ae-prefix"></span>{!! $articles[4]->article_text !!}   <span
+                                                                                                                    class="ae-prefix"></span>{!! $articles[4]->article_text !!}
+                                                                                                                <span
                                                                                                                     class="ae-suffix"></span>
                                                                                                             </p>
                                                                                                         </h2>
@@ -2209,13 +2229,20 @@
                                                                                                     class="elementor-widget-container">
                                                                                                     <div
                                                                                                         class="ae_acf_image_wrapper">
-                                                                                                        <img width="300"
-                                                                                                            height="211"
-                                                                                                            src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-architecture-BTI-Advisory.svg"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/Digital-architecture-BTI-Advisory.svg"
-                                                                                                            class="attachment-medium size-medium lazy"
-                                                                                                            alt="Icône Digital Architecture"
-                                                                                                            title="Digital Architecture &#8211; BTI Advisory" />
+
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/service/Digital-architecture-BTI-Advisory.webp') }}">
+                                                                                                            <img class="attachment-medium size-medium lazy"
+                                                                                                                width="300"
+                                                                                                                height="211"
+                                                                                                                src="{{ asset('images/service/Digital-architecture-BTI-Advisory.svg') }}"
+                                                                                                                data-src="{{ asset('images/service/Digital-architecture-BTI-Advisory.svg') }}"
+                                                                                                                alt="Icône Digital Architecture"
+                                                                                                                title="Journey To Cloud &#8211; BTI Advisory">
+
+                                                                                                        </picture>
                                                                                                         <div
                                                                                                             class="ae-acf-overlay-block">
                                                                                                             <div
@@ -2244,7 +2271,8 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>{!! $articles[25]->article_text !!}  </p>
+                                                                                                            <p>{!! $articles[25]->article_text !!}
+                                                                                                            </p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -2259,7 +2287,8 @@
                                                                                                         class="ae-acf-wrapper ae-acf-unfold-">
                                                                                                         <h2 itemprop="name"
                                                                                                             class="ae-acf-content-wrapper">
-                                                                                                            <p>{!! $articles[28]->article_text !!}  </p>
+                                                                                                            <p>{!! $articles[28]->article_text !!}
+                                                                                                            </p>
                                                                                                         </h2>
                                                                                                     </div>
                                                                                                 </div>
@@ -3050,7 +3079,8 @@
                                                 data-id="3af7bc27" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">{!! $articles[37]->article_text !!}</h3>
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[37]->article_text !!}</h3>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-6e8b9864 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor"

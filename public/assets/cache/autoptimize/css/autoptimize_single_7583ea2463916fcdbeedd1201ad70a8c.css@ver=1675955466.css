@@ -63,15 +63,7 @@
     background-color: #fafafa
 }
 
-.elementor-75 .elementor-element.elementor-element-448afbc>.elementor-background-overlay {
-    background-image: url("http://bti-advisory.fr/wp-btiadvisory/wp-content/uploads/2022/02/Pattern.svg");
-    background-position: center center;
-    background-repeat: repeat-x;
-    background-size: 13% auto;
-    opacity: .1;
-    mix-blend-mode: multiply;
-    transition: background .3s, border-radius .3s, opacity .3s
-}
+
 
 .elementor-75 .elementor-element.elementor-element-448afbc {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
