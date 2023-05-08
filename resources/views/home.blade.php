@@ -157,10 +157,14 @@
                                                         href="{{ route('home') }}" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
-                                                                <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%20130'%3E%3C/svg%3E"
-                                                                    data-src="assets/uploads/2022/03/Logo.svg"
-                                                                    alt="" />
+                                                                <picture>
+                                                                    <source type="image/webp"
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                    <img class="hfe-site-logo-img elementor-animation- lazy"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        alt="">
+                                                                </picture>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -377,6 +381,15 @@
                                                             display: inline-block
                                                         }
                                                     </style>
+                                                    <style>
+                                                        .elementor-6996 .elementor-element.elementor-element-731a00b2:not(.elementor-motion-effects-element-type-background),
+                                                        .elementor-6996 .elementor-element.elementor-element-731a00b2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+                                                            background-color: var(--e-global-color-primary);
+                                                            background-image: url("{{ asset('images/home/10029.webp') }}");
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover
+                                                        }
+                                                    </style>
                                                     <p><span style="color: #e99b17;">B</span>​usiness​</p>
                                                 </div>
                                             </div>
@@ -389,6 +402,7 @@
                                                             style="color: #e99b17;">T</span>echnology</p>
                                                 </div>
                                             </div>
+
                                             <div class="elementor-element elementor-element-245a550e elementor-invisible elementor-widget elementor-widget-text-editor"
                                                 data-id="245a550e" data-element_type="widget"
                                                 data-settings="{&quot;_animation&quot;:&quot;slideInRight&quot;,&quot;_animation_mobile&quot;:&quot;none&quot;}"
@@ -532,7 +546,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                            } */
+                                                                                                                                                                                                } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -567,13 +581,18 @@
 
                                                             }
                                                         }
-                                                    </style> <img width="800" height="447"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20447%20447'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-447x447.png"
-                                                        class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-768x768.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-683x685.png 683w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-17@2x.png 894w"
-                                                        data-sizes="(max-width: 447px) 100vw, 447px" />
+                                                    </style>
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/home/10009.webp') }}">
+                                                        <img width="800" height="447"
+                                                            class="hfe-site-logo-img elementor-animation- lazy"
+                                                            src="{{ asset('images/home/10009.png') }}"
+                                                            data-src="{{ asset('images/home/10009.png') }}"
+                                                            alt=""
+                                                            class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -590,9 +609,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                        margin: 0px;
-                                                        padding: 5%;
-                                                    } */
+                                                                                                                                                                                            margin: 0px;
+                                                                                                                                                                                            padding: 5%;
+                                                                                                                                                                                        } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
@@ -642,13 +661,15 @@
                                                 data-id="2fecf1e3" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="683" height="601"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%20601'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x.png"
-                                                        class="attachment-accueil-nosservices-683x601-cropped size-accueil-nosservices-683x601-cropped lazy"
-                                                        alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x.png 1366w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-300x264.png 300w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-1024x901.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-768x676.png 768w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-118x104.png 118w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-683x601.png 683w, https://bti-advisory.com/wp-content/uploads/2022/03/AdobeStock_240245083-1@2x-900x792.png 900w"
-                                                        data-sizes="(max-width: 683px) 100vw, 683px" />
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/home/10010.webp') }}">
+                                                        <img style="height: 100%;width: 100%;"
+                                                            class="attachment-accueil-nosservices-683x601-cropped size-accueil-nosservices-683x601-cropped lazy"
+                                                            src="{{ asset('images/home/10010.png') }}"
+                                                            data-src="{{ asset('images/home/10010.png') }}"
+                                                            alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>
@@ -963,12 +984,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-DES-PRODUITS-IT-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10011.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10011.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10011.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1274,12 +1299,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/MULTI-SPEED-IT-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10012.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10012.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10012.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1585,12 +1614,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TECHNOLOGIE-ET-INNOVATION-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10013.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%""
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10013.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10013.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1897,12 +1930,16 @@
                                                                                                         data-widget_type="image.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <img width="538"
-                                                                                                                height="368"
-                                                                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20368'%3E%3C/svg%3E"
-                                                                                                                data-src="https://bti-advisory.com/wp-content/uploads/2022/02/TRANSFORMATION-UX-scaled-1-538x368.jpeg"
-                                                                                                                class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                alt="" />
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/10014.webp') }}">
+                                                                                                                <img style="height: 100%;width: 100%"
+                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
+                                                                                                                    src="{{ asset('images/home/10014.png') }}"
+                                                                                                                    data-src="{{ asset('images/home/10014.png') }}"
+                                                                                                                    alt="">
+                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -2025,12 +2062,19 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="683"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/img-4-683x346.png"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/home/10019.webp') }}">
+                                                                                                            <img width="683"
+                                                                                                                height="346"
+                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                src="{{ asset('images/home/10019.svg') }}"
+                                                                                                                data-src="{{ asset('images/home/10019.svg') }}"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                alt="">
+                                                                                                        </picture>
+
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2052,14 +2096,18 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="93"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2093'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-118x93.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-118x93.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-300x237.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-1024x809.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-768x607.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-1536x1214.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB-900x711.png 900w, https://bti-advisory.com/wp-content/uploads/2022/01/TotalEnergies_Logo_RGB.png 1832w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="93"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                data-src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2181,12 +2229,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="683"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-683x346.png"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/home/10021.webp') }}">
+                                                                                                            <img width="683"
+                                                                                                                height="346"
+                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                src="{{ asset('images/home/10021.svg') }}"
+                                                                                                                data-src="{{ asset('images/home/10021.svg') }}"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2208,14 +2262,17 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="70"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2070'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-118x70.jpg"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-118x70.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-300x177.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-1024x604.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-768x453.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-1536x907.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-579x339.jpg 579w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-350x204.jpg 350w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux-900x531.jpg 900w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-Conseil-national-des-barreaux.jpg 2004w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="93"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                data-src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2344,12 +2401,19 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ROUSSELET-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/home/10023.webp') }}">
+                                                                                                            <img width="683"
+                                                                                                                height="346"
+                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                src="{{ asset('images/home/10023.svg') }}"
+                                                                                                                data-src="{{ asset('images/home/10023.svg') }}"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2371,14 +2435,17 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="89"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2089'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ROUSSELET-118x89.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ROUSSELET-118x89.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ROUSSELET.png 258w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/home/LOGO_ROUSSELET.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="93"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                data-src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2499,12 +2566,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-ENEDIS-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/home/10015.webp') }}">
+                                                                                                            <img width="683"
+                                                                                                                height="346"
+                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                src="{{ asset('images/home/10015.svg') }}"
+                                                                                                                data-src="{{ asset('images/home/10015.svg') }}"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2526,14 +2599,17 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="44"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2044'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-118x44.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-118x44.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-300x112.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS-358x137.png 358w, https://bti-advisory.com/wp-content/uploads/2022/02/LOGO-ENEDIS.png 367w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/home/LOGO_ENEDIS.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="93"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                data-src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2662,12 +2738,18 @@
                                                                                                     data-widget_type="image.default">
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
-                                                                                                        <img width="819"
-                                                                                                            height="346"
-                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20819%20346'%3E%3C/svg%3E"
-                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/BTI-x-SNCF-scaled-1-819x346.jpeg"
-                                                                                                            class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                            alt="" />
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/home/10017.webp') }}">
+                                                                                                            <img width="683"
+                                                                                                                height="346"
+                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                src="{{ asset('images/home/10017.svg') }}"
+                                                                                                                data-src="{{ asset('images/home/10017.svg') }}"
+                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                alt="">
+                                                                                                        </picture>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
@@ -2689,14 +2771,17 @@
                                                                                                                     data-widget_type="image.default">
                                                                                                                     <div
                                                                                                                         class="elementor-widget-container">
-                                                                                                                        <img width="118"
-                                                                                                                            height="41"
-                                                                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%2041'%3E%3C/svg%3E"
-                                                                                                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-118x41.png"
-                                                                                                                            class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                            alt=""
-                                                                                                                            data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-118x41.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-300x104.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-1024x356.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-768x267.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg-900x313.png 900w, https://bti-advisory.com/wp-content/uploads/2022/02/1280px-Logo_Oui_sncf.svg.png 1280w"
-                                                                                                                            data-sizes="(max-width: 118px) 100vw, 118px" />
+                                                                                                                        <picture>
+                                                                                                                            <source
+                                                                                                                                type="image/webp"
+                                                                                                                                srcset="{{ asset('images/home/Logo_Oui_sncf.webp') }}">
+                                                                                                                            <img width="118"
+                                                                                                                                height="93"
+                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                data-src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                alt="">
+                                                                                                                        </picture>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -2977,13 +3062,17 @@
                                                 data-id="42d6b4c9" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="493" height="632"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20493%20632'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x.png"
-                                                        class="attachment-accueil-nousrejoindre-493x632-cropped size-accueil-nousrejoindre-493x632-cropped lazy"
-                                                        alt="Consultantes travaillant devant un ordinateur"
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x.png 986w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-234x300.png 234w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-799x1024.png 799w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-768x985.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-118x151.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-493x632.png 493w, https://bti-advisory.com/wp-content/uploads/2022/01/BTI-ADVISORY-07@2x-900x1154.png 900w"
-                                                        data-sizes="(max-width: 493px) 100vw, 493px" />
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="{{ asset('images/home/10025.webp') }}">
+                                                        <img style="width: 100%;height:100%;" width="493"
+                                                            height="632"
+                                                            class="attachment-accueil-nousrejoindre-493x632-cropped size-accueil-nousrejoindre-493x632-cropped lazy"
+                                                            src="{{ asset('images/home/10025.png') }}"
+                                                            data-src="{{ asset('images/home/10025.png') }}"
+                                                            alt="">
+                                                    </picture>
                                                 </div>
                                             </div>
                                         </div>

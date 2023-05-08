@@ -154,10 +154,14 @@
                                                         href="{{ route('home') }}" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
-                                                                <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
-                                                                    data-src="https://bti-advisory.com/wp-content/uploads/2022/03/Logo.svg"
-                                                                    alt="" />
+                                                                <picture>
+                                                                    <source type="image/webp"
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                    <img class="hfe-site-logo-img elementor-animation- lazy"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        alt="">
+                                                                </picture>
                                                             </div>
                                                         </div>
                                                     </a>

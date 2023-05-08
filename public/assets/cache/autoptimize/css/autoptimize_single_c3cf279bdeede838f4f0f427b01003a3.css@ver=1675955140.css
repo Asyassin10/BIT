@@ -1,10 +1,4 @@
-.elementor-6996 .elementor-element.elementor-element-731a00b2:not(.elementor-motion-effects-element-type-background),
-.elementor-6996 .elementor-element.elementor-element-731a00b2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-primary);
-    background-image: url("../../../uploads/2022/01/BG_Header@2x.png");
-    background-repeat: no-repeat;
-    background-size: cover
-}
+
 
 .elementor-6996 .elementor-element.elementor-element-731a00b2 {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;

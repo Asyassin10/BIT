@@ -35,31 +35,44 @@
                         <div class="elementor-widget-wrap elementor-element-populated d-flex">
                             <div class="elementor-element elementor-element-029f0b8 elementor-widget elementor-widget-image"
                                 data-id="029f0b8" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
+                                <div class="elementor-widget-container ">
                                     <a href="https://www.bti-lab.com" target="_blank">
-                                        <img src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-bti-lab-blanc.svg"
-                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-bti-lab-blanc.svg"
-                                            title="BTI Lab" alt="BTI Lab" class="elementor-animation-grow lazy" /> </a>
+                                        <picture>
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10026.webp') }}">
+                                            <img class="elementor-animation-grow lazy "
+                                                style="background-color: transparent;"
+                                                src="{{ asset('images/footer/10026.svg') }}"
+                                                data-src="{{ asset('images/footer/10026.svg') }}" alt="">
+                                        </picture>
+                                    </a>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-b0bec5b elementor-widget elementor-widget-image"
                                 data-id="b0bec5b" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <a href="https://bti-studio.com" target="_blank">
-                                        <img src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-btistudio.svg"
-                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-btistudio.svg"
-                                            title="Logo-btistudio" alt="Logo-btistudio"
-                                            class="elementor-animation-grow lazy" /> </a>
+                                        <picture>
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10027.webp') }}">
+                                            <img class="elementor-animation-grow lazy"
+                                                style="background-color: transparent;"
+                                                src="{{ asset('images/footer/10027.svg') }}"
+                                                data-src="{{ asset('images/footer/10027.svg') }}" alt="">
+                                        </picture>
+                                    </a>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-3f0a4d3 elementor-widget elementor-widget-image"
                                 data-id="3f0a4d3" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <a href="https://www.yellow-it.fr" target="_blank">
-                                        <img src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-Yellow-IT-blanc.svg"
-                                            data-src="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-Yellow-IT-blanc.svg"
-                                            title="Yellow IT" alt="Logo Yellow IT"
-                                            class="elementor-animation-grow lazy" /> </a>
+                                        <picture>
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10028.webp') }}">
+                                            <img class="elementor-animation-grow lazy"
+                                                style="background-color: transparent;"
+                                                src="{{ asset('images/footer/10028.svg') }}"
+                                                data-src="{{ asset('images/footer/10028.svg') }}" alt="">
+                                        </picture>
+                                    </a>
                                 </div>
                             </div>
                         </div>

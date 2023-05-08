@@ -31,26 +31,7 @@
     <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
-    <link rel="pingback" href="https://bti-advisory.com/xmlrpc.php" />
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-    <!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
-    <link media="all" href="assets/cache/autoptimize/css/autoptimize_117b52d80d5c631205b95e4e6a9c9d11.css"
-        rel="stylesheet" />
-    <link media="all" href="assets/cache/autoptimize/css/autoptimize_8aaadfa924c3be8357d06089be7f0d50.css"
-        rel="stylesheet" />
-    <link media="all" href="assets/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
-        rel="stylesheet" />
-    <!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
-    <link media="all" href="assets/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
-        rel="stylesheet" />
-    <title>{{ $title }}</title>
-    <link rel="canonical" href="index.html" />
-    <!-- / Yoast SEO plugin. -->
-
-
-
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -327,7 +308,8 @@
     <style id='elementor-frontend-inline-css' type='text/css'>
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40:not(.elementor-motion-effects-element-type-background),
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("assets/uploads/2022/03/nasa-Q1p7bh3SHj8-unsplash-1@2x-5.43.49-PM.png");
+            background-image: url("{{ asset('images/home/10030.webp') }}");
+
         }
 
         .elementor-7285 .elementor-element.elementor-element-be38a20:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
@@ -670,89 +652,37 @@
 
 
 
-
-<!-- Google Analytics snippet added by Site Kit -->
-{{--     <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-221375537-1' id='google_gtagjs-js'
-        async></script>
-    <script type='text/javascript' id='google_gtagjs-js-after'>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
+    <style type='text/css'>
+        .ae_data .elementor-editor-element-setting {
+            display: none !important;
         }
-        gtag('set', 'linker', {
-            "domains": ["bti-advisory.com"]
-        });
-        gtag("js", new Date());
-        gtag("set", "developer_id.dZTNiMT", true);
-        gtag("config", "UA-221375537-1", {
-            "anonymize_ip": true
-        });
-        gtag("config", "G-T0FT4BSS64");
-    </script> --}}
-
-<!-- End Google Analytics snippet added by Site Kit -->
-<link rel="https://api.w.org/" href="/wp-json/index.html" />
-<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6988" />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bti-advisory.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
-<link rel='shortlink' href='index.html' />
-<link rel="alternate" type="application/json+oembed"
-    href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fbti-advisory.com%252F" />
-<link rel="alternate" type="text/xml+oembed"
-    href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fbti-advisory.com%252F&amp;format=xml" />
-<style type='text/css'>
-    .ae_data .elementor-editor-element-setting {
-        display: none !important;
-    }
-</style>
-<meta name="generator" content="Site Kit by Google 1.93.0" />
-<script type="text/javascript">
-    var stm_wpcfto_ajaxurl = 'https://bti-advisory.com/wp-admin/admin-ajax.php';
-</script>
-
-<style>
-    .vue_is_disabled {
-        display: none;
-    }
-</style>
-<script>
-    var stm_wpcfto_nonces = {
-        "wpcfto_save_settings": "7d07f1a5a5",
-        "get_image_url": "1af614c7b1",
-        "wpcfto_upload_file": "3b0311ed1b",
-        "wpcfto_search_posts": "df829d12bc"
-    };
-</script>
-{{--     <script async defer data-website-id="3077af5b-189e-45b0-9f92-d1196480af26" src="https://s.abla.io/abla.js"></script>
+    </style>
     <script type="text/javascript">
-        var ajaxurl = 'https://bti-advisory.com/wp-admin/admin-ajax.php';
-        var stm_ajax_load_events = '9dd432e649';
-        var stm_ajax_load_portfolio = '3493f0ceff';
-        var stm_ajax_add_event_member_sc = '7ed5e4149a';
-        var stm_custom_register = '584bba66a4';
-        var stm_get_prices = 'b20671d6d1';
-        var stm_get_history = 'b13bb641a4';
-        var stm_ajax_add_review = '84fe4fb684';
-    </script> --}}
-<style>
-    #wp-admin-bar-consulting_settings img {
-        max-width: 25px;
-        vertical-align: top;
-        position: relative;
-        top: 3px;
-    }
-</style>
-<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-<link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
-<link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="192x192" />
-<link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
-<meta name="msapplication-TileImage" content="assets/uploads/2022/01/Logo-1.svg" />
-<style type="text/css" id="wp-custom-css">
-    /*general*/
-    #main {
-        padding: 0;
-    }
+        var stm_wpcfto_ajaxurl = 'https://bti-advisory.com/wp-admin/admin-ajax.php';
+    </script>
+
+    <style>
+        .vue_is_disabled {
+            display: none;
+        }
+    </style>
+    <style>
+        #wp-admin-bar-consulting_settings img {
+            max-width: 25px;
+            vertical-align: top;
+            position: relative;
+            top: 3px;
+    </style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
+    <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
+    <meta name="msapplication-TileImage" content="assets/uploads/2022/01/Logo-1.svg" />
+    <style type="text/css" id="wp-custom-css">
+        /*general*/
+        #main {
+            padding: 0;
+        }
 
     ul li:before {
         display: none !important;
