@@ -7,12 +7,8 @@
             min-height: 1px
         }
     </style>
-    {{--  <link rel='stylesheet' id='elementor-post-8-css' href='{{ asset('assets/cache/autoptimize/css/style.css') }}'
-        type='text/css' media='all' /> --}}
-    <link rel='stylesheet' id='elementor-post-8-css' href='assets/cache/autoptimize/css/style.css' type='text/css'
+    <link rel='stylesheet' id='elementor-post-8-css' href='/assets/cache/autoptimize/css/style.css' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='elementor-post-8-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/style.css' type='text/css' media='all' />
     <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -604,7 +600,7 @@
         }
     </style>
 
-    {{-- https://bti-advisory.com/wp-content --}}
+
     <link rel='stylesheet' id='elementor-post-7191-css'
         href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
         type='text/css' media='all' />
@@ -634,8 +630,7 @@
         href='/assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
         type='text/css' media='all' />
 
-    <script type='text/javascript' src='https://bti-advisory.com/wp-includes/js/jquery/jquery.min.js@ver=3.6.0'
-        id='jquery-core-js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js@ver=3.6.0' id='jquery-core-js'></script>
 
 
 
@@ -918,13 +913,12 @@
             /a propos/
             .apropos-img-bg {
                 height: 527Px;
-            }
+            }*/
         }
 
         @media only screen and (max-width: 767px) {
 
-            /nav/
-            .nav div.elementor-container div {
+            /nav/ .nav div.elementor-container div {
                 display: flex !important;
                 flex-direction: row-reverse !important;
             }
@@ -935,13 +929,11 @@
                 margin: 0 !important;
             }
 
-            /a propos/
-            .apropos-img-bg {
+            /a propos/ .apropos-img-bg {
                 height: 268px;
             }
 
-            /Reference slider/
-            .reference-content-card {
+            /Reference slider/ .reference-content-card {
                 transform: translate(5%, -20%);
                 width: 90% !important;
             }
@@ -985,8 +977,7 @@
                 }
             }
 
-            /accordeon services/
-            .services-accordeon h6 {
+            /accordeon services/ .services-accordeon h6 {
                 padding: 1.25rem 1.25rem 1.25rem 0rem;
             }
 
@@ -995,7 +986,6 @@
                 line-height: 1.4rem;
                 padding-right: 1.25rem;
             }
-            */
         }
     </style>
     <noscript>
