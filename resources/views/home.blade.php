@@ -518,7 +518,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="a-propos/index.html"
+                                                        <a href="{{ route('about-us') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -546,7 +546,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                } */
+                                                                                                                                                                                                                } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -609,9 +609,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                            margin: 0px;
-                                                                                                                                                                                            padding: 5%;
-                                                                                                                                                                                        } */
+                                                                                                                                                                                                            margin: 0px;
+                                                                                                                                                                                                            padding: 5%;
+                                                                                                                                                                                                        } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
@@ -638,7 +638,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="nos-services/index.html"
+                                                        <a href="{{ route('services') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -952,7 +952,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="service/transformation-des-produits-it/index.html"
+                                                                                                                <a href="{{ route('transformation-des-produits-it.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1267,7 +1267,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="service/multi-speed-it/index.html"
+                                                                                                                <a href="{{ route('multi_speed_it.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1582,7 +1582,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="service/technologie-innovation/index.html"
+                                                                                                                <a href="{{ route('technologie-innovation.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1898,7 +1898,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="service/transformation-ux/index.html"
+                                                                                                                <a href="{{ route('transformation-ux.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1997,7 +1997,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="references/index.html"
+                                                        <a href="#"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -2172,7 +2172,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="index.html@p=2875.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2344,7 +2344,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="index.html@p=3377.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2509,7 +2509,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="index.html@p=5359.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2681,7 +2681,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="index.html@p=5382.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2839,7 +2839,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="index.html@p=5394.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -3037,7 +3037,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="nous-rejoindre/index.html"
+                                                        <a href="{{ route('join-us') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">

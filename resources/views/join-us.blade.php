@@ -292,7 +292,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div
                                                                         class="elementor-button-wrapper icon_align_right  ">
-                                                                        <a href="index.html#offres"
+                                                                        <a href="#offres"
                                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                                             role="button">
                                                                             <span class="elementor-button-content-wrapper">
@@ -314,7 +314,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div
                                                                         class="elementor-button-wrapper icon_align_right  ">
-                                                                        <a href="index.html#candidature_spontanee"
+                                                                        <a href="#candidature_spontanee"
                                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                                             role="button">
                                                                             <span class="elementor-button-content-wrapper">
