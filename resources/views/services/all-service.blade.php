@@ -244,7 +244,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="index.html#services-acc"
+                                                        <a href="#services-acc"
                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -485,7 +485,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="index.html#">{!! $articles[4]->article_text !!}
+                                                                    <a href="#">{!! $articles[4]->article_text !!}
                                                                     </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-35043185451" t_id="35043185451"
@@ -661,7 +661,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="../service/transformation-des-produits-it/index.html"
+                                                                                                                <a href="{{ route('transformation-des-produits-it.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -801,7 +801,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="index.html#">{!! $articles[9]->article_text !!}</a>
+                                                                    <a href="#">{!! $articles[9]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-35043185452" t_id="35043185452"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -976,7 +976,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="../service/multi-speed-it/index.html"
+                                                                                                                <a href="{{ route('multi_speed_it.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1116,7 +1116,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="index.html#">{!! $articles[14]->article_text !!} </a>
+                                                                    <a href="#">{!! $articles[14]->article_text !!} </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-35043185453" t_id="35043185453"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1291,7 +1291,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="../service/technologie-innovation/index.html"
+                                                                                                                <a href="{{ route('technologie-innovation.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1431,7 +1431,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="index.html#">{!! $articles[19]->article_text !!}</a>
+                                                                    <a href="#">{!! $articles[19]->article_text !!}</a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-35043185454" t_id="35043185454"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1606,7 +1606,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="../service/transformation-ux/index.html"
+                                                                                                                <a href="{{ route('transformation-ux.service') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1718,7 +1718,7 @@
                                                                                 <div class="elementor-widget-container">
                                                                                     <div
                                                                                         class="elementor-button-wrapper icon_align_left  ">
-                                                                                        <a href="../service/multi-speed-it/index.html"
+                                                                                        <a href="{{ route('multi_speed_it.service') }}"
                                                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                                                             role="button">
                                                                                             <span
@@ -1743,7 +1743,7 @@
                                                                                 <div class="elementor-widget-container">
                                                                                     <div
                                                                                         class="elementor-button-wrapper icon_align_left  ">
-                                                                                        <a href="../service/transformation-des-produits-it/index.html"
+                                                                                        <a href="{{ route('transformation-des-produits-it.service') }}"
                                                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                                                             role="button">
                                                                                             <span
@@ -1768,7 +1768,7 @@
                                                                                 <div class="elementor-widget-container">
                                                                                     <div
                                                                                         class="elementor-button-wrapper icon_align_left  ">
-                                                                                        <a href="../service/transformation-ux/index.html"
+                                                                                        <a href="{{ route('transformation-ux.service') }}"
                                                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                                                             role="button">
                                                                                             <span
@@ -1793,7 +1793,7 @@
                                                                                 <div class="elementor-widget-container">
                                                                                     <div
                                                                                         class="elementor-button-wrapper icon_align_left  ">
-                                                                                        <a href="../service/technologie-innovation/index.html"
+                                                                                        <a href="{{ route('technologie-innovation.service') }}"
                                                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                                                             role="button">
                                                                                             <span
@@ -1951,7 +1951,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../index.html@p=75.html"
+                                                        <a href="{{ route('connect') }}"
                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">

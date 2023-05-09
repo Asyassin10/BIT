@@ -440,7 +440,7 @@
                                                     <p class="elementor-heading-title elementor-size-default">
                                                         {!! $articles[6]->article_text !!}</p>
                                                 </div>
-                                            </div>
+                                            </div>  
                                         </div>
                                     </div>
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f00ff6b ae-bg-gallery-type-default"

@@ -110,25 +110,25 @@
                                             <ul id="menu-1-4a23e70" class="hfe-nav-menu">
                                                 <li id="menu-item-362"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../a-propos/index.html" class="hfe-menu-item">
+                                                    <a href="{{ route('about-us') }}" class="hfe-menu-item">
                                                         {!! $data[2]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-361"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent parent hfe-creative-menu">
-                                                    <a href="../../blog/index.html" class="hfe-menu-item">
+                                                    <a href="{{ route('blog') }}" class="hfe-menu-item">
                                                         {!! $data[3]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-360"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../nous-rejoindre/index.html" class="hfe-menu-item">
+                                                    <a href="{{ route('join-us') }}" class="hfe-menu-item">
                                                         {!! $data[4]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6151"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="../../index.html@p=75.html" class="hfe-menu-item">
+                                                    <a href="{{ route('connect') }}" class="hfe-menu-item">
                                                         {!! $data[5]->article_text !!}
                                                     </a>
                                                 </li>
@@ -166,27 +166,29 @@
                                             <ul id="menu-1-337e6fb" class="hfe-nav-menu">
                                                 <li id="menu-item-6166"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="../transformation-des-produits-it/index.html"
+                                                    <a href="{{ route('transformation-des-produits-it.service') }}"
                                                         class="hfe-menu-item">
                                                         {!! $data[6]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6167"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="../multi-speed-it/index.html" class="hfe-menu-item">
+                                                    <a href="{{ route('multi_speed_it.service') }}l"
+                                                        class="hfe-menu-item">
                                                         {!! $data[7]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6168"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
-                                                    <a href="index.html" class="hfe-menu-item">
+                                                    <a href="{{ route('technologie-innovation.service') }}"
+                                                        class="hfe-menu-item">
 
                                                         {!! $data[8]->article_text !!}
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6169"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="../transformation-ux/index.html"
+                                                    <a href="{{ route('transformation-ux.service') }}"
                                                         class="hfe-menu-item">{!! $data[9]->article_text !!}</a>
                                                 </li>
                                             </ul>

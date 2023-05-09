@@ -3131,7 +3131,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../../index.html@p=75.html"
+                                                        <a href="{{ route('connect') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">

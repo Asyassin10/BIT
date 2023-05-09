@@ -1312,7 +1312,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../nous-rejoindre/index.html"
+                                                        <a href="{{ route('join-us') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -1359,7 +1359,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../references/index.html"
+                                                        <a href="#"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -1437,8 +1437,7 @@
 
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/disneyland-paris/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -1525,7 +1524,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/disneyland-paris/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -1595,8 +1594,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/elior-group/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -1699,7 +1697,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/elior-group/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -1769,8 +1767,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/fff/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -1859,7 +1856,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/fff/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -1930,8 +1927,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/edenred/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2022,7 +2018,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/edenred/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2093,8 +2089,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/rapt/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2189,7 +2184,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/rapt/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2261,8 +2256,7 @@
 
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/entoria/"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2349,7 +2343,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="https://bti-advisory.com/references/entoria/"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -2533,7 +2527,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../index.html@p=75.html"
+                                                        <a href="{{ route('connect') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
