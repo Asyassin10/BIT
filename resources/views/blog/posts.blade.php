@@ -229,7 +229,7 @@
                                                 data-id="2ae593c0" data-element_type="widget"
                                                 data-widget_type="ae-post-title.default">
                                                 <div class="elementor-widget-container">
-                                                    <a href="https://bti-advisory.com/les-mesures-green-it/">
+                                                    <a href="#">
                                                         <h1 itemprop="name" class="ae-element-post-title">Les mesures
                                                             Green IT</h1>
                                                     </a>
@@ -275,7 +275,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="ae-element-post-image ae-element-post-image">
                                                         <div class="ae_thumb_wrapper">
-                                                            <a href="https://bti-advisory.com/les-mesures-green-it/"
+                                                            <a href="#"
                                                                 title="Les mesures Green IT">
                                                                 <img width="683" height="685"
                                                                     src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
@@ -1633,6 +1633,6 @@
                 }
             }
         </script>
-        <script async src="../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

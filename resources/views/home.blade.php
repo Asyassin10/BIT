@@ -2078,7 +2078,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/total-marketing-france/"
+                                                                                                    data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2244,7 +2244,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/conseil-national-des-barreaux/"
+                                                                                                    data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2417,7 +2417,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/rousselet/"
+                                                                                                    data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2581,7 +2581,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/enedis-2/"
+                                                                                                    data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2753,7 +2753,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section
-                                                                                                    data-ae-url="https://bti-advisory.com/references/oui-sncf/"
+                                                                                                    data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -3541,6 +3541,6 @@
                 }
             }
         </script>
-        <script async src="assets/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

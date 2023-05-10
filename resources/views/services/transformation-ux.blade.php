@@ -126,8 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-1.svg"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -3075,6 +3074,6 @@
                 }
             }
         </script>
-        <script async src="../../wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

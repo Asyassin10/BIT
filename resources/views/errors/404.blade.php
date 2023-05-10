@@ -129,8 +129,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-1.svg"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -319,10 +318,9 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img width="1024" height="683"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20683'%3E%3C/svg%3E"
-                                                        data-src="https://bti-advisory.com/wp-content/uploads/2022/03/5802664-1024x683.jpg"
+                                                        src="{{ asset('images/404/5802664-1024x683.webp') }}"
+                                                        data-src="{{ asset('images/404/5802664-1024x683.webp') }}"
                                                         class="attachment-large size-large lazy" alt=""
-                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/03/5802664-1024x683.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-300x200.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-768x512.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-1536x1024.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-2048x1365.jpg 2048w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-118x79.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/03/5802664-900x600.jpg 900w"
                                                         data-sizes="(max-width: 1024px) 100vw, 1024px" />
                                                 </div>
                                             </div>
@@ -656,9 +654,7 @@
         </script>
 
 
-        <script defer
-            src="https://bti-advisory.com/wp-content/cache/autoptimize/js/autoptimize_f70d68afa8c6d2423bd04bd57daf8d28.js">
-        </script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -679,6 +675,6 @@
                 }
             }
         </script>
-        <script async src="../assets/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

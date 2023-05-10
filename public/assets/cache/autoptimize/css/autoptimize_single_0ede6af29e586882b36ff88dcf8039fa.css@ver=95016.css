@@ -703,7 +703,6 @@ body .wpb_image_grid .wpb_image_grid_ul {
 }
 
 body .vc_separator.type_2 {
-    background: url(https://bti-advisory.com/wp-content/images/pattern_3.png) repeat-x;
     background-size: 8px 5px;
     height: 5px
 }
@@ -3069,7 +3068,6 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 .project_info .project_info_wr:after {
     right: 0;
     bottom: 0;
-    background: url(https://bti-advisory.com/wp-content/images/pattern_4.png) 100% 100% no-repeat
 }
 
 .project_info .project_info_wr table {

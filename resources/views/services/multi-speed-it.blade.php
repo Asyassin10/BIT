@@ -127,7 +127,7 @@
         <div id="wrapper">
 
             <e-page-transition preloader-type="image"
-                preloader-image-url="https://bti-advisory.com/wp-content/uploads/2022/01/Logo-1.svg"
+                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -3283,13 +3283,11 @@
             <!--.content_wrapper-->
             @include('footer')
         </div><!-- #page -->
-        <link rel='stylesheet' id='elementor-post-4451-css'
-            href='../../wp-content/cache/autoptimize/css/autoptimize_single_d0fac9539d316c6349a95ab26544b3c1.css@ver=1675955142.css'
-            type='text/css' media='all' />
+
         <link rel='stylesheet' id='elementor-post-3896-css'
             href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_40a82eae3e4d0c118f2b3400b2e2eaba.css?ver=1675955468'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='elementor-post-3810-css'
+            <link rel='stylesheet' id='elementor-post-3810-css'
             href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_78e88e8f943d53a35b453aedf1b0ebf0.css?ver=1675955469'
             type='text/css' media='all' />
 

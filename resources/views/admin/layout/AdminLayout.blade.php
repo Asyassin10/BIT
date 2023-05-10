@@ -39,7 +39,7 @@
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img src="https://bti-advisory.com/wp-content/uploads/2022/03/BTI-ADVISORY-11@2x.png"
+                            <img src="{{ asset('images/a_propos/10016.webp') }}"
                                 alt="profile" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
