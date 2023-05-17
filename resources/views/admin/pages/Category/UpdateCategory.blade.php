@@ -1,4 +1,4 @@
-@extends('admin\layout\AdminLayout')
+{{-- @extends('admin\layout\AdminLayout')
 @section('content')
     <div class="main-panel">
         <div class="content-wrapper">
@@ -57,4 +57,72 @@
         @include('admin.footer')
 
     </div>
+@endsection
+ --}}
+
+@extends('layouts/contentLayoutMaster')
+
+@section('title', 'Form Validation')
+
+@section('vendor-style')
+    {{-- Vendor Css files --}}
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/pickers/flatpickr/flatpickr.min.css')) }}">
+@endsection
+@section('page-style')
+    {{-- Page Css files --}}
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/pickers/form-flat-pickr.css')) }}">
+
+@endsection
+
+@section('content')
+    <!-- Validation -->
+    <section class="bs-validation">
+        <div class="row">
+            <!-- jQuery Validation -->
+            <div class="col-md-6 col-12" style="width: 100%;">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">jQuery Validation</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="jquery-val-form" method="post">
+                            <div class="mb-1">
+                                <label class="d-block form-label" for="validationBio">Bio</label>
+                                <textarea id="my-editor" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
+                            <br><br>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- /jQuery Validation -->
+        </div>
+    </section>
+    <!-- /Validation -->
+@endsection
+
+@section('vendor-script')
+    <!-- vendor files -->
+    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/pickers/flatpickr/flatpickr.min.js')) }}"></script>
+@endsection
+@section('page-script')
+    <!-- Page js files -->
+    <script src="{{ asset(mix('js/scripts/forms/form-validation.js')) }}"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#my-editor'))
+            .then(editor => {
+                console.log('Editor initialized');
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+
 @endsection

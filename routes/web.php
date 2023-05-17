@@ -159,21 +159,6 @@ Route::group(['prefix' => 'dashboard'], function () {
 
 /* Route Apps */
 Route::group(['prefix' => 'app'], function () {
-    Route::get('email', [AppsController::class, 'emailApp'])->name('app-email');
-    Route::get('chat', [AppsController::class, 'chatApp'])->name('app-chat');
-    Route::get('todo', [AppsController::class, 'todoApp'])->name('app-todo');
-    Route::get('calendar', [AppsController::class, 'calendarApp'])->name('app-calendar');
-    Route::get('kanban', [AppsController::class, 'kanbanApp'])->name('app-kanban');
-    Route::get('invoice/list', [AppsController::class, 'invoice_list'])->name('app-invoice-list');
-    Route::get('invoice/preview', [AppsController::class, 'invoice_preview'])->name('app-invoice-preview');
-    Route::get('invoice/edit', [AppsController::class, 'invoice_edit'])->name('app-invoice-edit');
-    Route::get('invoice/add', [AppsController::class, 'invoice_add'])->name('app-invoice-add');
-    Route::get('invoice/print', [AppsController::class, 'invoice_print'])->name('app-invoice-print');
-    Route::get('ecommerce/shop', [AppsController::class, 'ecommerce_shop'])->name('app-ecommerce-shop');
-    Route::get('ecommerce/details', [AppsController::class, 'ecommerce_details'])->name('app-ecommerce-details');
-    Route::get('ecommerce/wishlist', [AppsController::class, 'ecommerce_wishlist'])->name('app-ecommerce-wishlist');
-    Route::get('ecommerce/checkout', [AppsController::class, 'ecommerce_checkout'])->name('app-ecommerce-checkout');
-    Route::get('file-manager', [AppsController::class, 'file_manager'])->name('app-file-manager');
     Route::get('access-roles', [AppsController::class, 'access_roles'])->name('app-access-roles');
     Route::get('access-permission', [AppsController::class, 'access_permission'])->name('app-access-permission');
     Route::get('user/list', [AppsController::class, 'user_list'])->name('app-user-list');

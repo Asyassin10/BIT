@@ -21,40 +21,23 @@
         }
       ]
     },
-
     {
-      "navheader": "Apps & Pages",
-      "slug": ""
+      "url": "admin/all-categories",
+      "name": "Categories",
+      "icon": "server",
+      "slug": "admin-categories"
     },
     {
-      "url": "app/email",
-      "name": "Email",
-      "icon": "mail",
-      "slug": "app-email"
-    },
-    {
-      "url": "app/chat",
-      "name": "Chat",
-      "icon": "message-square",
-      "slug": "app-chat"
-    },
-    {
-      "url": "app/todo",
-      "name": "Todo",
-      "icon": "check-square",
-      "slug": "app-todo"
+      "url": "admin/articles",
+      "name": "Articles",
+      "icon": "grid",
+      "slug": "admin-article"
     },
     {
       "url": "app/calendar",
       "name": "Calendar",
       "icon": "calendar",
       "slug": "app-calendar"
-    },
-    {
-      "url": "app/kanban",
-      "name": "Kanban",
-      "icon": "grid",
-      "slug": "app-kanban"
     },
     {
       "name": "Invoice",
@@ -109,37 +92,6 @@
           "name": "Permission",
           "icon": "circle",
           "slug": "app-access-permission"
-        }
-      ]
-    },
-    {
-      "name": "eCommerce",
-      "icon": "shopping-cart",
-      "slug": "",
-      "submenu": [
-        {
-          "url": "app/ecommerce/shop",
-          "name": "Shop",
-          "icon": "circle",
-          "slug": "app-ecommerce-shop"
-        },
-        {
-          "url": "app/ecommerce/details",
-          "name": "Details",
-          "icon": "circle",
-          "slug": "app-ecommerce-details"
-        },
-        {
-          "url": "app/ecommerce/wishlist",
-          "name": "Wishlist",
-          "icon": "circle",
-          "slug": "app-ecommerce-wishlist"
-        },
-        {
-          "url": "app/ecommerce/checkout",
-          "name": "Checkout",
-          "icon": "circle",
-          "slug": "app-ecommerce-checkout"
         }
       ]
     },
@@ -266,9 +218,21 @@
           "icon": "circle",
           "slug": "",
           "submenu": [
-            { "url": "page/blog/list", "name": "List", "slug": "page-blog-list" },
-            { "url": "page/blog/detail", "name": "Detail", "slug": "page-blog-detail" },
-            { "url": "page/blog/edit", "name": "Edit", "slug": "page-blog-edit" }
+            {
+              "url": "page/blog/list",
+              "name": "List",
+              "slug": "page-blog-list"
+            },
+            {
+              "url": "page/blog/detail",
+              "name": "Detail",
+              "slug": "page-blog-detail"
+            },
+            {
+              "url": "page/blog/edit",
+              "name": "Edit",
+              "slug": "page-blog-edit"
+            }
           ]
         },
         {
@@ -981,7 +945,5 @@
       "navheader": "Misc",
       "slug": ""
     }
-
-
   ]
 }
