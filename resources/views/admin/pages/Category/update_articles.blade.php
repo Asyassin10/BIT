@@ -88,13 +88,19 @@
 @endsection
  --}}
 
+
 @extends('layouts/contentLayoutMaster')
 
-@section('title', 'Form Validation')
+@section('title', "modifier l'article")
 
 @section('vendor-style')
     {{-- Vendor Css files --}}
     <link rel="stylesheet" href="{{ asset(mix('vendors/css/pickers/flatpickr/flatpickr.min.css')) }}">
+    <style>
+        .ck.ck-editor__main .ck-content {
+            height: 239px;
+        }
+    </style>
 @endsection
 @section('page-style')
     {{-- Page Css files --}}
@@ -111,15 +117,17 @@
             <div class="col-md-6 col-12" style="width: 100%;">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">jQuery Validation</h4>
                     </div>
                     <div class="card-body">
-                        <form id="jquery-val-form" method="post">
+                        <form id="jquery-val-form"
+                            action="{{ route('update_articlesPost', ['article_id' => $article->article_id]) }}"
+                            method="post">
+                            @csrf
                             <div class="mb-1">
-                                <label class="d-block form-label" for="validationBio">Bio</label>
-                                <textarea id="my-editor" class="form-control"></textarea>
+                                <label class="d-block form-label" for="validationBio"></label>
+                                <textarea id="my-editor" class="form-control " name="data_content_html" cols="30" rows="10">{!! $text_html !!}</textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
+                            <button type="submit" class="btn btn-primary" name="submit" value="Submit">Enregistré</button>
                             <br><br>
 
                         </form>
@@ -152,5 +160,6 @@
                 console.error(error);
             });
     </script>
+
 
 @endsection

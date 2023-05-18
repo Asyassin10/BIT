@@ -6,13 +6,13 @@
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item me-auto">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ route('admin.dashboard') }}">
                     <span class="brand-logo">
                         <picture>
-                            <source type="image/webp" srcset="http://127.0.0.1:8000/images/navbar/logo.webp">
+                            <source type="image/webp" srcset="{{ asset('images/navbar/logo.webp') }}">
                             <img class="hfe-site-logo-img elementor-animation- lazy loaded" style="border-radius: 10%;"
-                                src="http://127.0.0.1:8000/images/navbar/logo.svg"
-                                data-src="http://127.0.0.1:8000/images/navbar/logo.svg" alt=""
+                                src="{{ asset('images/navbar/logo.svg') }}"
+                                data-src="{{ asset('images/navbar/logo.svg') }}" alt=""
                                 data-was-processed="true">
                         </picture>
                     </span>

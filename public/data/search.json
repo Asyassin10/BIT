@@ -2,37 +2,37 @@
   "listItems": [
     {
       "name": "Roles",
-      "url": "app/access-roles",
+      "url": "admin/access-roles",
       "icon": "shield"
     },
     {
       "name": "Permission",
-      "url": "app/access-permission",
+      "url": "admin/access-permission",
       "icon": "shield"
     },
     {
       "name": "Users View - Account",
-      "url": "app/user/view/account",
+      "url": "admin/user/view/account",
       "icon": "user"
     },
     {
       "name": "Users View - Security",
-      "url": "app/user/view/security",
+      "url": "admin/user/view/security",
       "icon": "lock"
     },
     {
       "name": "Users View - Billings & Plans",
-      "url": "app/user/view/billing",
+      "url": "admin/user/view/billing",
       "icon": "bookmark"
     },
     {
       "name": "Users View - Notifications",
-      "url": "app/user/view/notifications",
+      "url": "admin/user/view/notifications",
       "icon": "bell"
     },
     {
       "name": "Users View - Connections",
-      "url": "app/user/view/connections",
+      "url": "admin/user/view/connections",
       "icon": "link"
     },
     {

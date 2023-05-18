@@ -1,4 +1,4 @@
-{{-- @extends('admin\layout\AdminLayout')
+ @extends('admin\layout\AdminLayout')
 @section('content')
     <div class="main-panel">
         <div class="content-wrapper">
@@ -58,18 +58,16 @@
 
     </div>
 @endsection
- --}}
 
+{{-- 
 @extends('layouts/contentLayoutMaster')
 
 @section('title', 'Form Validation')
 
 @section('vendor-style')
-    {{-- Vendor Css files --}}
     <link rel="stylesheet" href="{{ asset(mix('vendors/css/pickers/flatpickr/flatpickr.min.css')) }}">
 @endsection
 @section('page-style')
-    {{-- Page Css files --}}
     <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
     <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/pickers/form-flat-pickr.css')) }}">
 
@@ -86,7 +84,9 @@
                         <h4 class="card-title">jQuery Validation</h4>
                     </div>
                     <div class="card-body">
-                        <form id="jquery-val-form" method="post">
+                        <form method="POST"
+                            action="{{ route('UpdateCategoryPost', ['category_id' => $category->categorie_id]) }}">
+                            @csrf
                             <div class="mb-1">
                                 <label class="d-block form-label" for="validationBio">Bio</label>
                                 <textarea id="my-editor" class="form-control"></textarea>
@@ -126,3 +126,4 @@
     </script>
 
 @endsection
+ --}}

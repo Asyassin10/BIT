@@ -1,51 +1,38 @@
 {
   "menu": [
     {
-      "name": "Dashboards",
-      "badge": "2",
+      "name": "Tableau de bord",
+      "badge": "",
       "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
       "icon": "home",
-      "slug": "",
-      "submenu": [
-        {
-          "url": "dashboard/analytics",
-          "name": "Analytics",
-          "icon": "circle",
-          "slug": "dashboard-analytics"
-        },
-        {
-          "url": "/",
-          "name": "eCommerce",
-          "icon": "circle",
-          "slug": "dashboard-ecommerce"
-        }
-      ]
+      "url": "admin/dashboard",
+      "slug": "admin.dashboard"
     },
     {
       "url": "admin/all-categories",
       "name": "Categories",
       "icon": "server",
-      "slug": "admin-categories"
+      "slug": "allCategories"
     },
     {
       "url": "admin/articles",
       "name": "Articles",
       "icon": "grid",
-      "slug": "admin-article"
+      "slug": "ListArticles"
     },
     {
-      "name": "Roles & Permission",
+      "name": "Rôles & Autorisations",
       "icon": "shield",
       "slug": "",
       "submenu": [
         {
-          "url": "app/access-roles",
+          "url": "admin/access-roles",
           "name": "Roles",
           "icon": "circle",
           "slug": "app-access-roles"
         },
         {
-          "url": "app/access-permission",
+          "url": "admin/access-permission",
           "name": "Permission",
           "icon": "circle",
           "slug": "app-access-permission"
@@ -58,49 +45,10 @@
       "slug": "",
       "submenu": [
         {
-          "url": "app/user/list",
+          "url": "admin/user/list",
           "name": "List",
           "icon": "circle",
           "slug": "app-user-list"
-        }
-      ]
-    },
-    {
-      "name": "Pages",
-      "icon": "file-text",
-      "slug": "",
-      "submenu": [
-        {
-          "name": "Account Settings",
-          "icon": "circle",
-          "slug": "",
-          "submenu": [
-            {
-              "url": "page/account-settings-account",
-              "name": "Account",
-              "slug": "page-account-settings-account"
-            },
-            {
-              "url": "page/account-settings-security",
-              "name": "Security",
-              "slug": "page-account-settings-security"
-            },
-            {
-              "url": "page/account-settings-billing",
-              "name": "Billings & Plans",
-              "slug": "page-account-settings-billing"
-            },
-            {
-              "url": "page/account-settings-notifications",
-              "name": "Notifications",
-              "slug": "page-account-settings-notifications"
-            },
-            {
-              "url": "page/account-settings-connections",
-              "name": "Connections",
-              "slug": "page-account-settings-connections"
-            }
-          ]
         }
       ]
     }
