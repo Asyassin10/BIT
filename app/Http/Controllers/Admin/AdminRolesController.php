@@ -24,6 +24,13 @@ class AdminRolesController extends Controller
             ->with("users",$users)
             ->with("roles",$roles);
     }
+    public function CreateRolePost(Request $request){
+        $request->validate([
+            "name"=>"required|string"
+        ]);
+        $role = Role::create(['name' => $request->name]);
+        return redirect()->back();
+    }
     public function RemovePermissionFromRole(int $role_id,int $permission_id){
         $permission = Permission::findOrFail($permission_id);
         $role = Role::findOrFail($role_id);
@@ -83,7 +90,7 @@ class AdminRolesController extends Controller
         }
         return redirect()->route("GetRoleDetails",["role_id"=>$role_id]);
     }
-    public function CreateRole(){
+    /* public function CreateRole(){
         return view("admin.pages.roles.CreateRole");
     }
     public function CreateRolePost(Request $request){
@@ -94,7 +101,7 @@ class AdminRolesController extends Controller
             'name' => $request->role_name
         ]);
         return redirect()->route("GetAllRoles");
-    }
+    } */
     public function UpdateRole(){}
     public function UpdateRolePost(){}
 }
