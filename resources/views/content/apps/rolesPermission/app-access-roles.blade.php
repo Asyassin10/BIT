@@ -60,10 +60,15 @@
                                     data-bs-target="#perManage{{ $r->id }}">
                                     <small class="fw-bolder">Edit permissions</small>
                                 </a>
+                                |
+                                <a href="javascript:;" class="role-edit-modal" data-bs-toggle="modal"
+                                    data-bs-target="#usersModal{{ $r->id }}">
+                                    <small class="fw-bolder">Manager les roles</small>
+                                </a>
                             </div>
-                            <a href="javascript:void(0);" class="text-body" data-bs-toggle="modal"
+                            {{-- <a href="javascript:void(0);" class="text-body" data-bs-toggle="modal"
                                 data-bs-target="#usersModal{{ $r->id }}"><i data-feather="copy"
-                                    class="font-medium-5"></i></a>
+                                    class="font-medium-5"></i></a> --}}
                         </div>
                     </div>
                 </div>

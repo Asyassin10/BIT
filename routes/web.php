@@ -122,6 +122,7 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::post('UpdatesRolePermisssions/{role_id}', [AdminRolesController::class, 'UpdatesRolePermisssions'])->name('UpdatesRolePermisssions');
     Route::get('access-permission', [AppsController::class, 'access_permission'])->name('app-access-permission');
     Route::get('user/list', [AppsController::class, 'user_list'])->name('app-user-list');
+    Route::post('user/create', [AppsController::class, 'CreateUser'])->name('app-user-create');
     Route::get('user/view/account', [AppsController::class, 'user_view_account'])->name('app-user-view-account');
     Route::get('user/view/security', [AppsController::class, 'user_view_security'])->name('app-user-view-security');
     Route::get('user/view/billing', [AppsController::class, 'user_view_billing'])->name('app-user-view-billing');

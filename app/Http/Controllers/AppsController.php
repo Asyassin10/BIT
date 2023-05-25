@@ -3,21 +3,36 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use Hash;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 class AppsController extends Controller
 {
 
-
+    public function CreateUser(Request $request){
+        $request->validate([
+            "name"=>"required|max:255",
+            "email"=>"required|email|max:255",
+            "password"=>"required|max:255",
+        ]);
+        $user = User::create([
+            "name"=>$request->name,
+            "email"=>$request->email,
+            "password"=>Hash::make($request->password),
+            ]);
+        return redirect()->back();
+    }
     // User List Page
     public function user_list()
     {
         $pageConfigs = ['pageHeader' => false];
         $users_count = User::all();
         $permissions = Permission::all();
+        $roles = Role::all();
         return view('.content.apps.user.app-user-list', ['pageConfigs' => $pageConfigs])
         ->with("permissions",$permissions)
+        ->with("roles",$roles)
         ->with("users_count",$users_count);
     }
 

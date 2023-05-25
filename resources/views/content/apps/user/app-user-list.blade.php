@@ -19,6 +19,55 @@
 @section('content')
     <!-- users list start -->
     <section class="app-user-list">
+        <a type="nutton" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create_user">Créer un
+            utilisateur</a>
+        <br>
+        <br>
+        <div class="modal fade text-start" id="create_user" tabindex="-1" aria-labelledby="myModalLabel33"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel33">créer un utlisateur
+                        </h4>
+
+                    </div>
+                    <form class="forms-sample" method="POST" action="{{ route('app-user-create') }}">
+                        @csrf
+                        <div class="modal-body">
+                            <div class="mb-1">
+                                <input type="text" placeholder="Nom" class="form-control" name="name" required />
+                            </div>
+                            <div class="mb-1">
+                                <input type="email" placeholder="email" class="form-control" name="email" required />
+                            </div>
+                            <div class="mb-1">
+                                <input type="password" placeholder="mot de passe" class="form-control" name="password"
+                                    required />
+                            </div>
+                            {{-- <div class="mb-1">
+                                <input type="text" placeholder="confirmer mot de passe" class="form-control"
+                                    name="confirmation_password" required />
+                            </div> --}}
+                            {{--   <div class="mb-1">
+                                <select class="form-select" aria-label="Default select example">
+                                    @foreach ($roles as $r)
+                                        <option value="{{ $r->id }}">{{ $r->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div> --}}
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Enregistrer</button>
+                            <button type="button" class="btn btn-outline-secondary waves-effect "
+                                data-bs-dismiss="modal"aria-label="Close">Annuler</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
@@ -44,6 +93,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">nom</th>
+                                    <th scope="col">permissions</th>
                                     <th scope="col">actions</th>
                                 </tr>
                             </thead>
@@ -57,8 +107,7 @@
                                                     {{ $p->name }} |
                                                 @endforeach
                                             </p>
-                                            <br>
-                                            <a href="{{ route('app-access-permission') }}">Manager les permissions</a>
+
                                             {{-- @if ($user->hasPermissionTo($c->name))
                                                 <a href="{{ route('DeleteUserToPermission', ['permission_id' => $c->id, 'user_id' => $user->id]) }}"
                                                     class="btn btn-primary">Retirer l'access</a>
@@ -66,6 +115,11 @@
                                                 <a href="{{ route('AssignUserToPermission', ['permission_id' => $c->id, 'user_id' => $user->id]) }}"
                                                     class="btn btn-primary">Ajouter l'access</a>
                                             @endif --}}
+                                        </td>
+                                        <td>
+                                            <a href="{{ route('app-access-permission') }}">Manager les permissions</a>
+                                            |
+                                            <a href="{{ route('app-access-roles') }}">Manager les roles</a>
                                         </td>
 
                                     </tr>
