@@ -24,35 +24,35 @@
     <ul class="nav nav-pills mb-2">
       <!-- Account -->
       <li class="nav-item">
-        <a class="nav-link" href="{{asset('page/account-settings-account')}}">
+        <a class="nav-link" href="{{asset('admin/account-settings-account')}}">
           <i data-feather="user" class="font-medium-3 me-50"></i>
           <span class="fw-bold">Account</span>
         </a>
       </li>
       <!-- security -->
       <li class="nav-item">
-        <a class="nav-link" href="{{asset('page/account-settings-security')}}">
+        <a class="nav-link" href="{{asset('admin/account-settings-security')}}">
           <i data-feather="lock" class="font-medium-3 me-50"></i>
           <span class="fw-bold">Security</span>
         </a>
       </li>
       <!-- billing and plans -->
       <li class="nav-item">
-        <a class="nav-link active" href="{{asset('page/account-settings-billing')}}">
+        <a class="nav-link active" href="{{asset('admin/account-settings-billing')}}">
           <i data-feather="bookmark" class="font-medium-3 me-50"></i>
           <span class="fw-bold">Billings &amp; Plans</span>
         </a>
       </li>
       <!-- notification -->
       <li class="nav-item">
-        <a class="nav-link" href="{{asset('page/account-settings-notifications')}}">
+        <a class="nav-link" href="{{asset('admin/account-settings-notifications')}}">
           <i data-feather="bell" class="font-medium-3 me-50"></i>
           <span class="fw-bold">Notifications</span>
         </a>
       </li>
       <!-- connection -->
       <li class="nav-item">
-        <a class="nav-link" href="{{asset('page/account-settings-connections')}}">
+        <a class="nav-link" href="{{asset('admin/account-settings-connections')}}">
           <i data-feather="link" class="font-medium-3 me-50"></i>
           <span class="fw-bold">Connections</span>
         </a>
