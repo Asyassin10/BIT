@@ -55,11 +55,11 @@
                                     data-bs-target="#addRoleModal{{ $r->id }}">
                                     <small class="fw-bolder">Edit Role</small>
                                 </a>
-                                |
+                                {{--  |
                                 <a href="javascript:;" class="role-edit-modal" data-bs-toggle="modal"
                                     data-bs-target="#perManage{{ $r->id }}">
                                     <small class="fw-bolder">Edit permissions</small>
-                                </a>
+                                </a> --}}
                                 |
                                 <a href="javascript:;" class="role-edit-modal" data-bs-toggle="modal"
                                     data-bs-target="#usersModal{{ $r->id }}">

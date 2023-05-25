@@ -75,9 +75,9 @@
     <div class="row">
         <div class="form-modal-ex">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#create-category">
+            {{-- <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#create-category">
                 Créer une catégorie
-            </button>
+            </button> --}}
             <!-- Modal -->
             <div class="modal fade text-start" id="create-category" tabindex="-1" aria-labelledby="myModalLabel33"
                 aria-hidden="true">

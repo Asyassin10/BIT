@@ -16,6 +16,7 @@ class AdminArticleController extends Controller
     public function AllArticles(int $category_id ){
 
         $all_articles = Article::where("categorie_id",$category_id)->get();
+        //return $all_articles;
         return view("admin.pages.Article.AllArticles")->with("all_articles", $all_articles)->with("category_id",$category_id);
     }
     public function ListArticles(){
