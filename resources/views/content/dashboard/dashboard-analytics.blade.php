@@ -30,13 +30,14 @@
                             alt="card-img-right" />
                         <div class="avatar avatar-xl bg-primary shadow">
                             <div class="avatar-content">
-                                <i data-feather="award" class="font-large-1"></i>
+                                {{-- <i data-feather="award" class="font-large-1"></i> --}}
+                                <img src="https://icons8.com/preloaders/preloaders/1486/Hourglass.gif" alt="">
                             </div>
                         </div>
                         <div class="text-center">
-                            <h1 class="mb-1 text-white">{{ Auth::user()->name }}</h1>
+                            <h1 class="mb-1 text-white"> {{ Auth::user()->name }}</h1>
                             <p class="card-text m-auto w-75">
-                                <strong>bienvenue sur le tableau de bord bti</strong>
+                                <strong>Le tableau de bord sera bientôt disponible.</strong>
                             </p>
                         </div>
                     </div>
