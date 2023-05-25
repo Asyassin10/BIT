@@ -94,6 +94,7 @@
                                 <tr>
                                     <th scope="col">nom</th>
                                     <th scope="col">permissions</th>
+                                    <th scope="col">les roles</th>
                                     <th scope="col">actions</th>
                                 </tr>
                             </thead>
@@ -104,7 +105,7 @@
                                         <td>
                                             <p>
                                                 @foreach ($user->permissions as $p)
-                                                    {{ $p->name }} |
+                                                    {{ $p->name }}
                                                 @endforeach
                                             </p>
 
@@ -115,6 +116,13 @@
                                                 <a href="{{ route('AssignUserToPermission', ['permission_id' => $c->id, 'user_id' => $user->id]) }}"
                                                     class="btn btn-primary">Ajouter l'access</a>
                                             @endif --}}
+                                        </td>
+                                        <td>
+                                            <p>
+                                                @foreach ($user->roles as $p)
+                                                    {{ $p->name }}
+                                                @endforeach
+                                            </p>
                                         </td>
                                         <td>
                                             <a href="{{ route('app-access-permission') }}">Manager les permissions</a>
