@@ -3,41 +3,83 @@
 @section('title', 'User List')
 
 @section('vendor-style')
-  {{-- Page Css files --}}
-  <link rel="stylesheet" href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
-  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
-  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
-  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
-  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')) }}">
+    {{-- Page Css files --}}
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')) }}">
 @endsection
 
 @section('page-style')
-  {{-- Page Css files --}}
-  <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    {{-- Page Css files --}}
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
 @endsection
 
 @section('content')
-<!-- users list start -->
-<section class="app-user-list">
-  <div class="row">
-    <div class="col-lg-3 col-sm-6">
-      <div class="card">
-        <div class="card-body d-flex align-items-center justify-content-between">
-          <div>
-            <h3 class="fw-bolder mb-75">27</h3>
-            <span>Nombre total d'utilisateurs</span>
-          </div>
-          <div class="avatar bg-light-primary p-50">
-            <span class="avatar-content">
-              <i data-feather="user" class="font-medium-4"></i>
-            </span>
-          </div>
+    <!-- users list start -->
+    <section class="app-user-list">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center justify-content-between">
+                        <div>
+                            <h3 class="fw-bolder mb-75">{{ count($users_count) }}</h3>
+                            <span>Nombre total d'utilisateurs</span>
+                        </div>
+                        <div class="avatar bg-light-primary p-50">
+                            <span class="avatar-content">
+                                <i data-feather="user" class="font-medium-4"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- list and filter start -->
-  <div class="card">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center justify-content-between">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">nom</th>
+                                    <th scope="col">actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($users_count as $user)
+                                    <tr>
+                                        <td>{{ $user->name }}</td>
+                                        <td>
+                                            <p>
+                                                @foreach ($user->permissions as $p)
+                                                    {{ $p->name }} |
+                                                @endforeach
+                                            </p>
+                                            <br>
+                                            <a href="{{ route('app-access-permission') }}">Manager les permissions</a>
+                                            {{-- @if ($user->hasPermissionTo($c->name))
+                                                <a href="{{ route('DeleteUserToPermission', ['permission_id' => $c->id, 'user_id' => $user->id]) }}"
+                                                    class="btn btn-primary">Retirer l'access</a>
+                                            @else
+                                                <a href="{{ route('AssignUserToPermission', ['permission_id' => $c->id, 'user_id' => $user->id]) }}"
+                                                    class="btn btn-primary">Ajouter l'access</a>
+                                            @endif --}}
+                                        </td>
+
+                                    </tr>
+                                @endforeach
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list and filter start -->
+        {{--   <div class="card">
     <div class="card-body border-bottom">
       <h4 class="card-title">Search & Filter</h4>
       <div class="row">
@@ -175,32 +217,32 @@
       </div>
     </div>
     <!-- Modal to add new user Ends-->
-  </div>
-  <!-- list and filter end -->
-</section>
-<!-- users list ends -->
+  </div> --}}
+        <!-- list and filter end -->
+    </section>
+    <!-- users list ends -->
 @endsection
 
 @section('vendor-script')
-  {{-- Vendor js files --}}
-  <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/jszip.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/pdfmake.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/vfs_fonts.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.html5.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.print.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.rowGroup.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
-  <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
+    {{-- Vendor js files --}}
+    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/jszip.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/pdfmake.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/vfs_fonts.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.html5.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.print.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.rowGroup.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
 @endsection
 
 @section('page-script')
-  {{-- Page js files --}}
-  <script src="{{ asset(mix('js/scripts/pages/app-user-list.js')) }}"></script>
+    {{-- Page js files --}}
+    <script src="{{ asset(mix('js/scripts/pages/app-user-list.js')) }}"></script>
 @endsection

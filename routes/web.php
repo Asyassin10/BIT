@@ -79,6 +79,7 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get("all-categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
     Route::get("create-category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
     Route::post("create-category-post", [AdminCategoryController::class, "CreateCategoryPost"])->name("CreateCategoryPost");
+    Route::post("UpdatePermissionName/{permission_id}", [AdminPermissionsController::class, "UpdatePermissionName"])->name("UpdatePermissionName");
     Route::get("update-category/{category_id}", [AdminCategoryController::class, "UpdateCategory"])->name("UpdateCategory");
     Route::post("update-category-post/{category_id}", [AdminCategoryController::class, "UpdateCategoryPost"])->name("UpdateCategoryPost");
     //articles
@@ -111,8 +112,14 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
 
     Route::get('dashboard', [DashboardController::class, 'dashboardAnalytics'])->name('admin.dashboard');
     /* Route Dashboards */
-
-    Route::get('access-roles', [AppsController::class, 'access_roles'])->name('app-access-roles');
+    Route::get("/RemovePermissionFromRole/{role_id}/{permission_id}",[AdminRolesController::class,"RemovePermissionFromRole"])->name("RemovePermissionFromRole");
+    Route::get("/AssignPermissionFromRole/{role_id}/{permission_id}",[AdminRolesController::class,"AssignPermissionFromRole"])->name("AssignPermissionFromRole");
+    Route::get("/RemoveUserFromRole/{role_id}/{user_id}",[AdminRolesController::class,"RemoveUserFromRole"])->name("RemoveUserFromRole");
+    Route::get("/AddUserAccessToRole/{role_id}/{user_id}",[AdminRolesController::class,"AddUserAccessToRole"])->name("AddUserAccessToRole");
+    Route::get("/AssignUserToPermission/{permission_id}/{user_id}",[AppsController::class,"AssignUserToPermission"])->name("AssignUserToPermission");
+    Route::get("/DeleteUserToPermission/{permission_id}/{user_id}",[AppsController::class,"DeleteUserToPermission"])->name("DeleteUserToPermission");
+    Route::get('access-roles', [AdminRolesController::class, 'GetAllRoles'])->name('app-access-roles');
+    Route::post('UpdatesRolePermisssions/{role_id}', [AdminRolesController::class, 'UpdatesRolePermisssions'])->name('UpdatesRolePermisssions');
     Route::get('access-permission', [AppsController::class, 'access_permission'])->name('app-access-permission');
     Route::get('user/list', [AppsController::class, 'user_list'])->name('app-user-list');
     Route::get('user/view/account', [AppsController::class, 'user_view_account'])->name('app-user-view-account');

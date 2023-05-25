@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
-
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 class AppsController extends Controller
 {
 
@@ -12,7 +14,11 @@ class AppsController extends Controller
     public function user_list()
     {
         $pageConfigs = ['pageHeader' => false];
-        return view('.content.apps.user.app-user-list', ['pageConfigs' => $pageConfigs]);
+        $users_count = User::all();
+        $permissions = Permission::all();
+        return view('.content.apps.user.app-user-list', ['pageConfigs' => $pageConfigs])
+        ->with("permissions",$permissions)
+        ->with("users_count",$users_count);
     }
 
     // User Account Page
@@ -59,20 +65,40 @@ class AppsController extends Controller
 
 
     // Access Roles App
-    public function access_roles()
+    /* public function access_roles()
     {
         $pageConfigs = ['pageHeader' => true,];
-
-        return view('.content.apps.rolesPermission.app-access-roles', ['pageConfigs' => $pageConfigs]);
-    }
+        $roles = Role::all();
+        $permissions = Permission::all();
+        return view('.content.apps.rolesPermission.app-access-roles', ['pageConfigs' => $pageConfigs])
+            ->with("permissions",$permissions)
+            ->with("roles",$roles);
+    } */
 
     // Access permission App
     public function access_permission()
     {
         $pageConfigs = ['pageHeader' => false,];
+        $ermissions = Permission::all();
+        $users = User::all();
 
-        return view('.content.apps.rolesPermission.app-access-permission', ['pageConfigs' => $pageConfigs]);
+        return view('.content.apps.rolesPermission.app-access-permission', ['pageConfigs' => $pageConfigs])
+        ->with("ermissions",$ermissions)
+        ->with("users",$users);
     }
+    public function AssignUserToPermission(int $permission_id,int $user_id){
+        $user = User::find($user_id);
+        $permission = Permission::find($permission_id);
+        $user->givePermissionTo($permission);
+        return redirect()->back();
+    }
+    public function DeleteUserToPermission(int $permission_id,int $user_id){
+        $user = User::find($user_id);
+        $permission = Permission::find($permission_id);
+        $user->revokePermissionTo($permission);
+        return redirect()->back();
+    }
+
 
 
 

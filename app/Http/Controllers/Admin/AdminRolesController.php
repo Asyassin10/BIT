@@ -13,8 +13,46 @@ class AdminRolesController extends Controller
 {
     //
     public function GetAllRoles(){
+       /*  $roles = Role::all();
+        return view("admin.pages.roles.GetAllRoles")->with("roles",$roles); */
+        $pageConfigs = ['pageHeader' => true,];
         $roles = Role::all();
-        return view("admin.pages.roles.GetAllRoles")->with("roles",$roles);
+        $permissions = Permission::all();
+        $users = User::all();
+        return view('.content.apps.rolesPermission.app-access-roles', ['pageConfigs' => $pageConfigs])
+            ->with("permissions",$permissions)
+            ->with("users",$users)
+            ->with("roles",$roles);
+    }
+    public function RemovePermissionFromRole(int $role_id,int $permission_id){
+        $permission = Permission::findOrFail($permission_id);
+        $role = Role::findOrFail($role_id);
+        $role->revokePermissionTo($permission);
+        return redirect()->back()->with("success","le process c'est términé");
+    }
+    public function AssignPermissionFromRole(int $role_id,int $permission_id){
+        $permission = Permission::findOrFail($permission_id);
+        $role = Role::findOrFail($role_id);
+        $role->givePermissionTo($permission);
+        return redirect()->back()->with("success","le process c'est términé");
+    }
+    public function RemoveUserFromRole(int $role_id,int $user_id){
+        $user = User::findOrFail($user_id);
+        $role = Role::findOrFail($role_id);
+        $user->removeRole($role);
+        return redirect()->back()->with("success","le process c'est términé");
+    }
+    public function AddUserAccessToRole(int $role_id,int $user_id){
+        $user = User::findOrFail($user_id);
+        $role = Role::findOrFail($role_id);
+        $user->assignRole($role);
+        return redirect()->back()->with("success","le process c'est términé");
+    }
+    public function UpdatesRolePermisssions(int $role_id,Request $request){
+        //    $permissions = $role->permissions;
+        $role = Role::find($role_id);
+        $role->syncPermissions($request->per);
+        return redirect()->route("app-access-roles")->with("success","roles has been updated");
     }
     public function GetRoleDetails(int $role_id){
         $role = Role::find($role_id);
