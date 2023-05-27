@@ -45,9 +45,12 @@
                                         class="hfe-menu-item">{{ $data[1]->categorie_name }} </a>
                                 </div>
 
-                                <ul class="sub-menu" id="app_sub_menu">
-                                    <div class="d-flex">
-                                        <div id="yassine">
+                                <ul class="sub-menu">
+                                    <div class="d-flex "
+                                        style="border-radius: 8px;background-color: #fff;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
+                                            box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
+                                        id="app_sub_menu">
+                                        <div id="div_menu">
                                             <li id="menu-item-6493"
                                                 class="menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('services') }}" class="hfe-sub-menu-item">Construire
@@ -57,8 +60,8 @@
                                             <li id="menu-item-5705"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('transformation-des-produits-it.service') }}"
-                                                    class="hfe-sub-menu-item">Construire
-                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                    class="hfe-sub-menu-item">Accompagner la mise en oeuvre<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                             <li id="menu-item-5707"
@@ -69,7 +72,7 @@
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                         </div>
-                                        <div id="nav_slider_extra_content">
+                                        <div id="nav_slider_extra_content_0">
                                             <li id="menu-item-6493"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('services') }}" class="hfe-sub-menu-item">Construire
@@ -91,38 +94,82 @@
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                         </div>
+                                        <div id="nav_slider_extra_content_1">
+                                            <li id="menu-item-6493"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">sdsds<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5705"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('transformation-des-produits-it.service') }}"
+                                                    class="hfe-sub-menu-item">sds<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                    class="hfe-sub-menu-item">Nos Centres d'Excellence<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                        </div>
+                                        <div id="nav_slider_extra_content_2">
+                                            <li id="menu-item-6493"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">szsz<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5705"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('transformation-des-produits-it.service') }}"
+                                                    class="hfe-sub-menu-item">sddsfdsfdsfss<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                    class="hfe-sub-menu-item">dcdsds,vd;ve<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                        </div>
 
                                     </div>
                                 </ul>
 
                                 <script>
-                                    const nav_slider_extra_content = document.getElementById("nav_slider_extra_content");
-                                    const app_sub_menu = document.getElementById("app_sub_menu");
-                                    const yassine = document.getElementById("yassine");
                                     const app_menu_item_app = document.getElementsByClassName("app_menu_item_app");
+                                    const app_sub_menu = document.getElementById("app_sub_menu");
+                                    const div_menu = document.getElementById("div_menu");
 
                                     app_sub_menu.style.width = "400px";
-                                    yassine.style.width = "400px";
-                                    nav_slider_extra_content.style.display = 'none';
-                                    app_menu_item_app[0].addEventListener("mouseover", function() {
-                                        nav_slider_extra_content.style.width = "340px";
-                                        app_sub_menu.style.width = "680px";
+                                    div_menu.style.width = "400px";
 
-                                        yassine.style.width = "400px";
-                                        nav_slider_extra_content.style.display = 'block';
+                                    Array.from(app_menu_item_app).forEach((item, i) => {
+                                        const nav_slider_extra_content_i = document.getElementById("nav_slider_extra_content_" + i);
+                                        nav_slider_extra_content_i.style.display = "none";
 
+                                        item.addEventListener("mouseover", () => {
+                                            nav_slider_extra_content_i.style.width = "340px";
+                                            app_sub_menu.style.width = "680px";
+                                            div_menu.style.width = "400px";
+                                            nav_slider_extra_content_i.style.display = "block";
+                                        });
 
-                                    });
-
-                                    app_menu_item_app[0].addEventListener("mouseout", function() {
-                                        nav_slider_extra_content.style.width = "340px";
-                                        app_sub_menu.style.width = "400px";
-                                        yassine.style.width = "400px";
-                                        nav_slider_extra_content.style.display = 'none';
-
-
+                                        item.addEventListener("mouseout", () => {
+                                            nav_slider_extra_content_i.style.width = "340px";
+                                            app_sub_menu.style.width = "400px";
+                                            div_menu.style.width = "400px";
+                                            nav_slider_extra_content_i.style.display = "none";
+                                        });
                                     });
                                 </script>
+
 
 
 
