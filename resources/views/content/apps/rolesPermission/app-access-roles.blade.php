@@ -18,6 +18,37 @@
 
 
     <!-- Role cards -->
+    <a type="nutton" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create_user">Créer un
+        role</a>
+    <br>
+    <br>
+    <div class="modal fade text-start" id="create_user" tabindex="-1" aria-labelledby="myModalLabel33" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel33">créer un role
+                    </h4>
+
+                </div>
+                <form class="forms-sample" method="POST" action="{{ route('CreateRolePost') }}">
+                    @csrf
+                    <div class="modal-body">
+                        <div class="mb-1">
+                            <input type="text" placeholder="Nom" class="form-control" name="name" required />
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Enregistrer</button>
+                        <button type="button" class="btn btn-outline-secondary waves-effect "
+                            data-bs-dismiss="modal"aria-label="Close">Annuler</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="row">
         @foreach ($roles as $r)
             <div class="col-xl-4 col-lg-6 col-md-6">
@@ -127,7 +158,8 @@
                         </div>
                         <div class="modal-body px-5 pb-5">
                             <div class="text-center mb-4">
-                                <h1 class="role-" id="jjjjjj">liste des utilisateurs pour le role : {{ $r->name }}
+                                <h1 class="role-" id="jjjjjj">liste des utilisateurs pour le role :
+                                    {{ $r->name }}
                                 </h1>
                             </div>
                             <table class="table">
@@ -166,7 +198,8 @@
                 <div class="modal-dialog modal-lg modal-dialog-centered modal-add-new-role">
                     <div class="modal-content">
                         <div class="modal-header bg-transparent">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
                         </div>
                         <div class="modal-body px-5 pb-5">
                             <div class="text-center mb-4">
