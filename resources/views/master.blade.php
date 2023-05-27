@@ -656,8 +656,8 @@
             vertical-align: top;
             position: relative;
             top: 3px;
+        }
     </style>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="192x192" />
     <link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
@@ -1000,7 +1000,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel='stylesheet' href='{{ asset('assets/cache/autoptimize/css/style.css') }}' type='text/css' />
 </head>
 {{-- body --}}
 

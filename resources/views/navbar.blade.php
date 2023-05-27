@@ -9,12 +9,7 @@
     }
 
 @endphp
-<style>
-    .app_menu_active {
-        color: #e99b17;
 
-    }
-</style>
 <nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
     data-id="e935e7c" data-element_type="column">
     <div class="elementor-widget-wrap elementor-element-populated">
@@ -59,8 +54,7 @@
                                         <div id="div_menu">
                                             <li id="menu-item-6493"
                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a  href="{{ route('services') }}"
-                                                    class=" hfe-sub-menu-item ">Construire
+                                                <a href="{{ route('services') }}" class=" hfe-sub-menu-item ">Construire
                                                     la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
@@ -80,70 +74,80 @@
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_0">
-                                            <li id="menu-item-6493"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">Construire
-                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5705"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('transformation-des-produits-it.service') }}"
-                                                    class="hfe-sub-menu-item">Accompagner la mise en oeuvre<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5707"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('multi_speed_it.service') }}"
-                                                    class="hfe-sub-menu-item">Nos Centres d'Excellence<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item">Data
+                                                        Intelligence</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Cloud</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Expérience
+                                                        Utilisateur</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Green IT</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div id="nav_slider_extra_content_1">
-                                            <li id="menu-item-6493"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">sdsds<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5705"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('transformation-des-produits-it.service') }}"
-                                                    class="hfe-sub-menu-item">sds<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5707"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('multi_speed_it.service') }}"
-                                                    class="hfe-sub-menu-item">Nos Centres d'Excellence<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item">Data
+                                                        Intelligence</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Cloud</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Expérience
+                                                        Utilisateur</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Green IT</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div id="nav_slider_extra_content_2">
-                                            <li id="menu-item-6493"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">szsz<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5705"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('transformation-des-produits-it.service') }}"
-                                                    class="hfe-sub-menu-item">sddsfdsfdsfss<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
-                                            <li id="menu-item-5707"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('multi_speed_it.service') }}"
-                                                    class="hfe-sub-menu-item">dcdsds,vd;ve<span
-                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                            class='fas fa-chevron-right'></i></span></a>
-                                            </li>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item">Data
+                                                        Intelligence</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Cloud</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Expérience
+                                                        Utilisateur</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 13px;" class="content_menu_item"> Green IT
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>

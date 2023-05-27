@@ -16,6 +16,8 @@ for (let i = 0; i < app_menu_item_app.length; i++) {
         div_menu.style.width = "400px";
         nav_slider_extra_content_i.style.display = "block";
         hf_ub_menu_item[i].style.color = "#e99b17";
+        hf_ub_menu_item[i].style.fontWeight = "bold";
+
     };
 
     const handleMouseOut = function () {
@@ -24,6 +26,8 @@ for (let i = 0; i < app_menu_item_app.length; i++) {
         div_menu.style.width = "400px";
         nav_slider_extra_content_i.style.display = "none";
         hf_ub_menu_item[i].style.color = "";
+        hf_ub_menu_item[i].style.fontWeight = "";
+
     };
 
     app_menu_item_app[i].addEventListener("mouseover", handleMouseOver);

@@ -1,0 +1,6 @@
+/* navbar */
+.content_menu_item:hover {
+    color: #e99b17;
+    font-weight: bold;
+    cursor: pointer;
+}
