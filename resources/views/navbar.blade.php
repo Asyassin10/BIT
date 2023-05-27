@@ -35,43 +35,99 @@
                         data-full-width="yes">
                         <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                             <li id="menu-item-86"
-                                class="menu-item menu-item-type-post_type menu-item-object-page parent {{ request()->is('a-propos') ? 'current-menu-ancestor' : '' }} hfe-creative-menu">
+                                class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page parent {{ request()->is('a-propos') ? 'current-menu-ancestor' : '' }} hfe-creative-menu">
                                 <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                 </a>
                             </li>
                             <li id="menu-item-6494"
-                                class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
-                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} <span
-                                            class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                class='fa'></i></span></a></div>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-6493"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('services') }}"
-                                            class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5705"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('transformation-des-produits-it.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[4]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5707"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('multi_speed_it.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[5]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5708"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('technologie-innovation.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[6]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5710"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('transformation-ux.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[7]->categorie_name }}</a>
-                                    </li>
+                                class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children">
+                                <div class="hfe-has-submenu-container"><a href=""
+                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} </a>
+                                </div>
+
+                                <ul class="sub-menu" id="app_sub_menu">
+                                    <div class="d-flex">
+                                        <div id="yassine">
+                                            <li id="menu-item-6493"
+                                                class="menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">Construire
+                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5705"
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('transformation-des-produits-it.service') }}"
+                                                    class="hfe-sub-menu-item">Construire
+                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                    class="hfe-sub-menu-item">Nos Centres d'Excellence<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                        </div>
+                                        <div id="nav_slider_extra_content">
+                                            <li id="menu-item-6493"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('services') }}" class="hfe-sub-menu-item">Construire
+                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5705"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('transformation-des-produits-it.service') }}"
+                                                    class="hfe-sub-menu-item">Accompagner la mise en oeuvre<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                    class="hfe-sub-menu-item">Nos Centres d'Excellence<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                        </div>
+
+                                    </div>
                                 </ul>
+
+                                <script>
+                                    const nav_slider_extra_content = document.getElementById("nav_slider_extra_content");
+                                    const app_sub_menu = document.getElementById("app_sub_menu");
+                                    const yassine = document.getElementById("yassine");
+                                    const app_menu_item_app = document.getElementsByClassName("app_menu_item_app");
+
+                                    app_sub_menu.style.width = "400px";
+                                    yassine.style.width = "400px";
+                                    nav_slider_extra_content.style.display = 'none';
+                                    app_menu_item_app[0].addEventListener("mouseover", function() {
+                                        nav_slider_extra_content.style.width = "340px";
+                                        app_sub_menu.style.width = "680px";
+
+                                        yassine.style.width = "400px";
+                                        nav_slider_extra_content.style.display = 'block';
+
+
+                                    });
+
+                                    app_menu_item_app[0].addEventListener("mouseout", function() {
+                                        nav_slider_extra_content.style.width = "340px";
+                                        app_sub_menu.style.width = "400px";
+                                        yassine.style.width = "400px";
+                                        nav_slider_extra_content.style.display = 'none';
+
+
+                                    });
+                                </script>
+
+
+
+
+
                             </li>
                             <li id="menu-item-4710"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
@@ -79,6 +135,24 @@
                                         class="hfe-menu-item">{{ $data[10]->categorie_name }}<span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4706"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://bti-studio.com/"
+                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
+                                    </li>
+                                    <li id="menu-item-4705"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://www.bti-lab.com/"
+                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
+                                    </li>
+                                    <li id="menu-item-4704"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
+                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
+                                    </li>
+
+                                </ul>
                                 <ul class="sub-menu">
                                     <li id="menu-item-4706"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">

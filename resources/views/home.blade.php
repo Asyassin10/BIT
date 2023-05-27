@@ -546,7 +546,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                        } */
+                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -609,9 +609,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                                    margin: 0px;
-                                                                                                                                                                                                                    padding: 5%;
-                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                        margin: 0px;
+                                                                                                                                                                                                                        padding: 5%;
+                                                                                                                                                                                                                    } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
