@@ -1,6 +1,6 @@
-
 @extends('master')
 @section('body')
+
     <body
         class="page-template-default page page-id-75 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-75 elementor-page-7690">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
@@ -126,8 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -198,29 +197,29 @@
                                                             margin: 0;
                                                             line-height: 1
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
                                                             color: inherit;
                                                             font-size: inherit;
                                                             line-height: inherit
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-small {
                                                             font-size: 15px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
                                                             font-size: 19px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-large {
                                                             font-size: 29px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
                                                             font-size: 39px
                                                         }
-                
+
                                                         .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
                                                             font-size: 59px
                                                         }
@@ -233,37 +232,37 @@
                                                 data-id="e9d4170" data-element_type="widget"
                                                 data-widget_type="theme-post-content.default">
                                                 <div class="elementor-widget-container">
-                
+
                                                     <p>Le site www.bti-advisory.com est édité et exploité par la société BTI
                                                         &#8211; Advisory, société par actions simplifiée au capital de
                                                         12.000 euros, inscrite au RCS de Paris sous le numéro 824 605 190,
                                                         dont le siège social est situé 22 rue du Président Wilson &#8211;
                                                         92300 Levallois-Perret.&nbsp;</p>
-                
-                
-                
+
+
+
                                                     <h3>Ce site est édité par :</h3>
-                
-                
-                
+
+
+
                                                     <p>La directrice de la publication est Mme Sauvanne Folivi</p>
-                
-                
-                
+
+
+
                                                     <p>Adresse email :&nbsp;<a
                                                             href="mailto:contact@bti-advisory.com">contact@bti-advisory.com</a>
                                                     </p>
-                
-                
-                
+
+
+
                                                     <p>Numéro de TVA intra-communautaire : FR 41824605190</p>
-                
-                
-                
+
+
+
                                                     <p>22 rue du Président Wilson, 92300 Levallois Perret</p>
-                
-                
-                
+
+
+
                                                     <p>Hébergeur web :<br>IONOS SARL.<br>7 Place De La Gare 57200
                                                         Sarreguemines</p>
                                                 </div>
@@ -273,7 +272,7 @@
                                 </div>
                             </section>
                         </div>
-                
+
                     </div>
                     <!--.container-->
                 </div>
@@ -356,7 +355,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
 
         <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.6.4'
             id='elementor-recaptcha_v3-api-js'></script>
@@ -599,9 +598,7 @@
         </script>
 
 
-        <script defer
-            src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}">
-        </script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",

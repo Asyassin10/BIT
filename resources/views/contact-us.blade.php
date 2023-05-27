@@ -126,8 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -235,7 +234,8 @@
                                                 data-id="5b365d30" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[1]->article_text !!}</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[1]->article_text !!}</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3a108a76 elementor-widget elementor-widget-button"
@@ -252,7 +252,8 @@
                                                                     class="elementor-button-icon elementor-align-icon-right">
                                                                     <i aria-hidden="true" class="fas fa-arrow-down"></i>
                                                                 </span>
-                                                                <span class="elementor-button-text">{!! $articles[2]->article_text !!}</span>
+                                                                <span
+                                                                    class="elementor-button-text">{!! $articles[2]->article_text !!}</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -304,7 +305,8 @@
                                                 data-id="7cc118" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">{!! $articles[3]->article_text !!}
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[3]->article_text !!}
                                                     </h2>
                                                 </div>
                                             </div>
@@ -772,7 +774,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
 
         <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.6.4'
             id='elementor-recaptcha_v3-api-js'></script>
@@ -1015,9 +1017,7 @@
         </script>
 
 
-        <script defer
-            src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}">
-        </script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",

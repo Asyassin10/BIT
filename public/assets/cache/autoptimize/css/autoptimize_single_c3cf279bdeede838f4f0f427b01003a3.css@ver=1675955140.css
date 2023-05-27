@@ -1,5 +1,3 @@
-
-
 .elementor-6996 .elementor-element.elementor-element-731a00b2 {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
     margin-top: 48px;
@@ -806,35 +804,7 @@
     border-top: solid 1px #8F929534
 }
 
-.welcomekit-jobs-list-item {
-    margin: 0;
-    padding: 0;
-    background: 0 0;
-    border-radius: 8px
-}
 
-.welcomekit-jobs-list-item h3 {
-    color: #fff;
-    padding: 1.25rem 1.25rem 1.25rem 0;
-    font-size: 1.25rem
-}
-
-.welcomekit-jobs-list-item-link {
-    position: relative;
-    display: block;
-    margin: 0;
-    text-decoration: none;
-    transition: all .2s
-}
-
-.welcomekit-jobs-list-item-link:hover {
-    border-bottom-color: #ddd;
-    border-radius: 8px
-}
-
-.welcomekit-jobs-list>.welcomekit-jobs-list-item:nth-child(n+4) {
-    display: none
-}
 
 .welcomekit-job-name {
     margin: 0;

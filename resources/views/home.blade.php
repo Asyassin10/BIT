@@ -546,7 +546,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                        } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -609,9 +609,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                            margin: 0px;
-                                                                                                                                                                                                            padding: 5%;
-                                                                                                                                                                                                        } */
+                                                                                                                                                                                                                    margin: 0px;
+                                                                                                                                                                                                                    padding: 5%;
+                                                                                                                                                                                                                } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
@@ -2077,8 +2077,7 @@
 
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2243,8 +2242,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2416,8 +2414,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2580,8 +2577,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2752,8 +2748,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -3275,7 +3270,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
 		id='instant-page-js'></script>
 
 
@@ -3520,7 +3515,7 @@
         </script>
 
 
-        <script defer src="assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
+        <script defer src="/assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",

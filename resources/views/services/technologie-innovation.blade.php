@@ -126,8 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -2808,7 +2807,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../../wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
 
 
 
@@ -3052,7 +3051,7 @@
         </script>
 
 
-        <script defer src="../../wp-content/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
+        <script defer src="/assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",

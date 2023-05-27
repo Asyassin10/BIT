@@ -126,8 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -2343,18 +2342,18 @@
                                                                                                     class="elementor-widget-container">
                                                                                                     <div
                                                                                                         class="ae_acf_image_wrapper">
-                                                                                                            <picture>
-                                                                                                                <source
-                                                                                                                    type="image/webp"
-                                                                                                                    srcset="{{ asset('images/service/ic_culture.webp') }}">
-                                                                                                                <img class="attachment-medium size-medium lazy"
-                                                                                                                    width="16"
-                                                                                                                    height="21"
-                                                                                                                    src="{{ asset('images/service/ic_culture.svg') }}"
-                                                                                                                    data-src="{{ asset('images/service/ic_culture.svg') }}"
-                                                                                                                    alt="Journey To Cloud &#8211; BTI Advisory"
-                                                                                                                    title="Journey To Cloud &#8211; BTI Advisory">
-                                                                                                            </picture>
+                                                                                                        <picture>
+                                                                                                            <source
+                                                                                                                type="image/webp"
+                                                                                                                srcset="{{ asset('images/service/ic_culture.webp') }}">
+                                                                                                            <img class="attachment-medium size-medium lazy"
+                                                                                                                width="16"
+                                                                                                                height="21"
+                                                                                                                src="{{ asset('images/service/ic_culture.svg') }}"
+                                                                                                                data-src="{{ asset('images/service/ic_culture.svg') }}"
+                                                                                                                alt="Journey To Cloud &#8211; BTI Advisory"
+                                                                                                                title="Journey To Cloud &#8211; BTI Advisory">
+                                                                                                        </picture>
                                                                                                         <div
                                                                                                             class="ae-acf-overlay-block">
                                                                                                             <div
@@ -3285,10 +3284,10 @@
         </div><!-- #page -->
 
         <link rel='stylesheet' id='elementor-post-3896-css'
-            href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_40a82eae3e4d0c118f2b3400b2e2eaba.css?ver=1675955468'
+            href='z/cache/autoptimize/css/autoptimize_single_40a82eae3e4d0c118f2b3400b2e2eaba.css?ver=1675955468'
             type='text/css' media='all' />
-            <link rel='stylesheet' id='elementor-post-3810-css'
-            href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_78e88e8f943d53a35b453aedf1b0ebf0.css?ver=1675955469'
+        <link rel='stylesheet' id='elementor-post-3810-css'
+            href='/assets/cache/autoptimize/css/autoptimize_single_78e88e8f943d53a35b453aedf1b0ebf0.css?ver=1675955469'
             type='text/css' media='all' />
 
         <script type='text/javascript' id='ae-pro-js-js-extra'>
@@ -3467,7 +3466,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='../../wp-content/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4' id='instant-page-js'></script>
 
 
 
@@ -3711,7 +3710,7 @@
         </script>
 
 
-        <script defer src="../../wp-content/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
+        <script defer src="/assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
