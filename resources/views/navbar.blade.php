@@ -7,7 +7,7 @@
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     }
-
+    
 @endphp
 
 <nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
@@ -74,29 +74,13 @@
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_0">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-2">
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item">Data
-                                                        Intelligence</p>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Cloud</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Expérience
-                                                        Utilisateur</p>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Green IT</p>
-                                                </div>
-                                            </div>
+                                            <li id="menu-item-6493" class="mt-1">
+                                                <p style="font-size: 13px;" class="content_menu_item">Co-construire
+                                                    voter stratégie technologique</p>
+                                            </li>
+                                            <li id="menu-item-6493" class="md-1">
+                                                <p style="font-size: 13px;" class="content_menu_item">Architecture</p>
+                                            </li>
                                         </div>
                                         <div id="nav_slider_extra_content_1">
                                             <div class="row">
