@@ -30,6 +30,7 @@
                             </svg>
                         </div>
                     </div>
+
                     <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                         data-toggle-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                         data-close-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
@@ -40,13 +41,21 @@
                                 <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                 </a>
                             </li>
+
                             <li id="menu-item-6494"
-                                class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children">
+                                class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page  {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}  hfe-creative-menu"
+                                style="border-bottom: 3px solid #e99b17;">
                                 <div class="hfe-has-submenu-container"><a href=""
                                         class="hfe-menu-item">{{ $data[1]->categorie_name }} </a>
                                 </div>
+                                {{-- <script>
+                                    if (url.includes("service/transformation-des-produits-it")) {
+                                        let element = document.getElementById("menu-item-6494");
+                                        element.style.backgroundColor = "red";
+                                    }
+                                </script> --}}
 
-                                <ul class="sub-menu">
+                                <ul class="sub-menu mt-2 ">
                                     <div class="d-flex "
                                         style="border-radius: 8px;background-color: #fff;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
                                             box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
@@ -74,7 +83,7 @@
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_0">
-                                            <li id="menu-item-6493" class="mt-1">
+                                            <li id="menu-item-6493" class="mt-2">
                                                 <p style="font-size: 13px;" class="content_menu_item">Co-construire
                                                     voter stratégie technologique</p>
                                             </li>
@@ -83,29 +92,12 @@
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_1">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-2">
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item">Data
-                                                        Intelligence</p>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Cloud</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Expérience
-                                                        Utilisateur</p>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p style="font-size: 13px;" class="content_menu_item"> Green IT</p>
-                                                </div>
-                                            </div>
+                                            <li id="menu-item-6493" class="mt-2">
+                                                <p style="font-size: 13px;" class="content_menu_item">Pilotage</p>
+                                            </li>
+                                            <li id="menu-item-6493" class="md-1">
+                                                <p style="font-size: 13px;" class="content_menu_item">Réalisation</p>
+                                            </li>
                                         </div>
                                         <div id="nav_slider_extra_content_2">
                                             <div class="row">
