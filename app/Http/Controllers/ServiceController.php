@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\Redis;
 
 class ServiceController extends Controller
 {
+    public function Construire_la_vision(){
+        return view('service.construire_la_vision');
+    }
     public function index()
     {
         /* $title = "Nos service - BTI - Advisory";
