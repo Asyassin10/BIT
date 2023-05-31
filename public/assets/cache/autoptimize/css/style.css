@@ -4,3 +4,138 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+/* pages services */
+#footer-image {
+    margin-top: 150px;
+}
+
+#footer_div {
+    width: 100%;
+    margin-top: -870px;
+    height: 1100px;
+}
+
+#btn_form {
+    background: #DE9E3C;
+    border: none;
+}
+
+#div_btn_form {
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+#textarea {
+    background: #F5F5F5;
+    height: 300px;
+}
+
+#div_textarea {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.divs_form {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+#title_form {
+    margin-left: 8%;
+}
+
+#form_container {
+    width: 45%;
+    margin-left: 27%;
+    margin-top: 140px;
+    z-index: 1;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    #form_container {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.div_contacter_expert {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.div_contacter_expert button {
+    background: #DE9E3C;
+    border: none;
+}
+
+.section_container_paragraph {
+    width: 80%;
+}
+
+#description_paragraph {
+    font-size: 20px;
+    margin-left: 10%;
+    padding-bottom: 450px;
+}
+
+.main_app_header_container {
+    margin-bottom: 80px;
+}
+
+.main_app_header {
+    float: right;
+    margin-top: 15%;
+}
+
+/* Default style for all devices */
+.app_header_img {
+    width: 50%;
+    margin-top: -250px;
+}
+
+
+.app_header_container {
+    margin-top: 50%;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .app_header_img {
+        width: 75%;
+        margin-top: -100px;
+    }
+
+    .main_app_header {
+        float: right;
+        margin-top: 15%;
+
+    }
+
+    #has_ae_slider_app_style {
+        margin-bottom: -250px;
+    }
+
+
+    .app_header_container {
+        margin-top: 10%;
+    }
+}
+
+.bg_black {
+    background-color: #000000;
+}
+
+.h1_title {
+    color: #000000;
+    font-weight: bold;
+}
+
+.select2-container.select2-container--default .select2-selection--single {
+    background-color: #F5F5F5;
+    border-radius: 5.5px !important;
+}
