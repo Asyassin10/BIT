@@ -190,7 +190,7 @@
                             style="margin-top:350px;height:1700px">
 
                             <div class="d-flex justify-content-center">
-                                <img src="{{ asset('images/webp/Construire-la-vision.webp') }}" width="50%"
+                                <img src="{{ asset('images/webp/green_it.webp') }}" width="50%"
                                     class="app_header_img">
                             </div>
                             <br>
