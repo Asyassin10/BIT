@@ -208,7 +208,8 @@
                                 face à la concurrence et aux contraintes réglementaires.
                             </p>
                         </div>
-                        <div id="co-construire-votre-stratégie-technologique" style="width: 75%;margin-top:-360px;"
+                        {{--  margin-top:-360px;  width: 75%;margin-top:140px; --}}
+                        <div id="co-construire-votre-stratégie-technologique" style=""
                             class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
@@ -308,10 +309,9 @@
                             <br>
                             <br>
                         </div>
-                        <div id="architecture" style="width: 75%;margin-top:140px;"
-                            class="mx-auto shadow-lg bg-white rounded">
+                        <div id="architecture" style="" class="mx-auto shadow-lg bg-white rounded">
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                            <p class="h1_title h2 pt-4" id="architecture_header" style="margin-left: 8%;">
                                 Architecture
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
@@ -408,6 +408,15 @@
                             <br>
 
                         </div>
+                        <script>
+                            /*  window.addEventListener('DOMContentLoaded', function() {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                var myDiv = document.getElementById('architecture');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                myDiv.style.marginTop = '700px';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }); */
+                            /*  document.getElementById("architecture").onload = function() {
+                                 window.scrollTo(0, 0);
+                             }; */
+                        </script>
                         <div id="form_container" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
@@ -463,6 +472,24 @@
 
 
         </div>
+        <script>
+            window.onload = function() {
+                /* var element = document.getElementById("architecture_header");
+                if (element) {
+                    element.scrollIntoView();
+                } */
+                //alert(window.location.hash)
+                if (window.location.hash === "#architecture_header") {
+                    var scrollPosition = window.innerHeight * 2.5; // Calculate 20% of the viewport height
+                    window.scrollTo(0, scrollPosition);
+                } else if (window.location.hash === "#co-construire-votre-strat%C3%A9gie-technologique") {
+                    // alert("hhh")
+                    var scrollPosition = window.innerHeight * 1.5; // Calculate 20% of the viewport height
+                    window.scrollTo(0, scrollPosition);
+                }
+
+            };
+        </script>
         <script type='text/javascript' id='ae-pro-js-js-extra'>
             /* <![CDATA[ */
             var aepro = {

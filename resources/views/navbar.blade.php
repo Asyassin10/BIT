@@ -95,7 +95,7 @@
                                             </li>
                                             <li id="menu-item-6493" class="md-1">
                                                 <a class="content_menu_item"
-                                                    href="{{ url('/service/construire-la-vision#architecture') }}">Architecture</a>
+                                                    href="{{ url('/service/construire-la-vision#architecture_header') }}">Architecture</a>
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_1">
