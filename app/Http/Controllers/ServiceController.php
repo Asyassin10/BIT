@@ -13,6 +13,9 @@ class ServiceController extends Controller
     public function Construire_la_vision(){
         return view('service.construire_la_vision');
     }
+    public function data_inteligence(){
+        return view('service.data_inteligence');
+    }
     public function green_it(){
         return view('service.green_it');
     }

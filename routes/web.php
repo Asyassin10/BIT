@@ -60,6 +60,7 @@ Route::prefix('service')->group(function () {
     Route::get('/expérience-utilisateur', [ServiceController::class, 'expérience_utilisateur'])->name('expérience_utilisateur');
     Route::get('/accompagner-la-mise-en-oeuvre', [ServiceController::class, 'Accompagner_la_mise_en_oeuvre'])->name('Accompagner_la_mise_en_oeuvre');
     Route::get('/green-it', [ServiceController::class, 'green_it'])->name('green_it');
+    Route::get('/data-inteligence', [ServiceController::class, 'data_inteligence'])->name('data_inteligence');
 
     Route::get('/technologie-innovation', [ServiceController::class, 'show'])->name('technologie-innovation.service');
     Route::get('/multi-speed-it', [ServiceController::class, 'multi_speed_it'])->name('multi_speed_it.service');
