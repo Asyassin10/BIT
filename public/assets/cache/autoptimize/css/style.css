@@ -103,8 +103,19 @@
     margin-top: 50%;
 }
 
+
+#first_div {
+    width: 75%;
+    margin-top: -930px;
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
+
+    #first_div {
+        margin-top: -760px;
+    }
+
     .app_header_img {
         width: 75%;
         margin-top: -100px;
