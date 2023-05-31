@@ -178,7 +178,7 @@
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
                                 <h1 class="main_app_header">
-                                    Construire la vision
+                                    Accompagner la mise en oeuvre
                                 </h1>
                             </div>
                         </section>
@@ -187,60 +187,33 @@
 
                     <section style="width: 100%;" class="mt-50 mt-sm-25">
                         <div class="elementor-container elementor-column-gap-no bg_black text-white "
-                            style="height:20%;margin-top:350px;">
+                            style="height:1350px;margin-top:310px;">
 
                             <div class="d-flex justify-content-center">
-                                <img src="{{ asset('images/webp/Construire-la-vision.webp') }}" width="50%"
+                                <img src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}" width="50%"
                                     class="app_header_img">
                             </div>
                             <br>
                             <br>
                             <br>
                             <p class="w-75" id="description_paragraph">
-                                Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
-                                d’innovation de plus
-                                en plus courts. Chez BTI-Advisory, nous sommes convaincus que pour réussir cette
-                                transformation, il est essentiel
-                                de construire une vision technologique solide qui puisse évoluer au fil du temps. Nous
-                                accompagnons nos clients
-                                pour développer une stratégie technologique claire, alignée sur leurs objectifs commerciaux
-                                et capable de faire
-                                face à la concurrence et aux contraintes réglementaires.
+                                Aujourd’hui, les entreprises doivent adopter des démarches orientées produit pour renforcer
+                                leur maturité
+                                technologique et métier.  Que vous souhaitiez construire un nouveau produit ou transformer
+                                votre système
+                                d’information, nous avons les compétences pour co-construire avec vous des produits
+                                performants, responsables
+                                et utiles, en nous concentrant sur les aspects techniques et non techniques.
                             </p>
                         </div>
-                        <div style="width: 75%;margin-top:-360px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="first_div" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                Co-construire votre stratégie technologique
+                                Pilotage
                             </p>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="">
-                                        Co-construire des organisations responsables en adoptant le modèle opérationnel,
-                                        <br>
-                                        le sourcing et les investissements
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
+                            <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
+                                Delivery Management
+                            </p>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -262,8 +235,9 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Concevoir avec vous la cible technologique en favorisant la sobriété numérique et
-                                        l’agilité
+                                        Mener vos programmes et vos projets pour l’atteinte des objectifs définis en prenant
+                                        en compte
+                                        la multiplicité des parties prenantes et des intérêts divergents
                                     </p>
                                 </div>
                             </div>
@@ -289,14 +263,98 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="">
-                                        Identifier un portefeuille de programmes et de projets <br>
-                                        en orchestrant la mise en œuvre et la bonne allocation de moyens
+                                        Accompagner la montée en maturité des équipes en adoptant de meilleures pratiques en
+                                        matière
+                                        de réalisation de projets, pour améliorer la performance, l’engagement et la qualité
+                                        de vie de vos
+                                        collaborateurs.
                                     </p>
                                 </div>
                             </div>
 
+                            <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
+                                Product Design
+                            </p>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Comprendre les besoins de vos utilisateurs et concevoir votre stratégie produit
+                                        adaptée
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Construire et prioriser le backlog pour partager une vision claire et commune du
+                                        produit
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Gérer les évolutions du produit et coordonner la stratégie de releases du produit à
+                                        court terme
+                                    </p>
+                                </div>
+                            </div>
                             <br>
                             <br>
                             <div class="d-flex justify-content-center w-75 div_contacter_expert">
@@ -306,11 +364,15 @@
                             </div>
                             <br>
                             <br>
+
                         </div>
                         <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                Architecture
+                                Réalisation
+                            </p>
+                            <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
+                                Expertise Technologique
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
@@ -361,8 +423,9 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Concevoir avec vous la cible technologique en favorisant la sobriété numérique et
-                                        l’agilité
+                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
+                                        l’enrichissement
+                                        des données
                                     </p>
                                 </div>
                             </div>
@@ -387,14 +450,97 @@
                                 </div>
                                 <div class="flex-grow-1 section_container_paragraph ">
                                     <p>
-                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis <br>
-                                        du numérique (Cloud, Data, IA)
+                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis
+                                        <br> du numérique (Cloud, Data, IA)
                                     </p>
                                 </div>
                             </div>
+                            <br>
+                            <br>
+                            <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
+                                Tech Team
+                            </p>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
+                                    <p class="">
+                                        Cadrer l’usage des produits et services numériques en valorisant les impacts métier,
+                                        <br>
+                                        technologique et RSE
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
-
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
+                                        l’enrichissement
+                                        des données
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph ">
+                                    <p>
+                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis
+                                        <br> du numérique (Cloud, Data, IA)
+                                    </p>
+                                </div>
+                            </div>
                             <br>
                             <br>
                             <div class="d-flex justify-content-center w-75 div_contacter_expert">
