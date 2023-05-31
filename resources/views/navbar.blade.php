@@ -100,11 +100,6 @@
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_2">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h6 style="color: gray;font-size: 14px;">NOS SERVICES</h6>
-                                                </div>
-                                            </div>
                                             <div class="row mt-2">
                                                 <div class="col-md-6">
                                                     <p style="font-size: 13px;" class="content_menu_item">Data
