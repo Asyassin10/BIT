@@ -1,8 +1,24 @@
 /* navbar */
+.content_menu_item {
+    color: black !important;
+    font-size: 12.5px !important;
+    cursor: pointer;
+    font-family: Inter, sans-serif !important;
+
+}
+
 .content_menu_item:hover {
-    color: #e99b17;
+    color: #e99b17 !important;
+    font-size: 13px !important;
     font-weight: bold;
     cursor: pointer;
+}
+
+.content_menu_item_active {
+    color: #cc8710 !important;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Inter, sans-serif !important;
 }
 
 /* pages services */
@@ -104,7 +120,7 @@
 }
 
 
-#first_div {
+.first_div {
     width: 75%;
     margin-top: -930px;
 }
@@ -112,7 +128,7 @@
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
 
-    #first_div {
+    .first_div {
         margin-top: -760px;
     }
 

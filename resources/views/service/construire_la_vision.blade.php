@@ -208,7 +208,8 @@
                                 face à la concurrence et aux contraintes réglementaires.
                             </p>
                         </div>
-                        <div style="width: 75%;margin-top:-360px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="co-construire-votre-stratégie-technologique" style="width: 75%;margin-top:-360px;"
+                            class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Co-construire votre stratégie technologique
@@ -307,7 +308,8 @@
                             <br>
                             <br>
                         </div>
-                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="architecture" style="width: 75%;margin-top:140px;"
+                            class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Architecture

@@ -206,7 +206,7 @@
                                 et utiles, en nous concentrant sur les aspects techniques et non techniques.
                             </p>
                         </div>
-                        <div id="first_div" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="pilotage" class="mx-auto shadow-lg bg-white rounded first_div">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Pilotage
@@ -366,7 +366,7 @@
                             <br>
 
                         </div>
-                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="réalisation" style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Réalisation
