@@ -178,7 +178,7 @@
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
                                 <h1 class="main_app_header">
-                                    Expérience Utilisateur
+                                    Cloud
                                 </h1>
                             </div>
                         </section>
@@ -190,27 +190,50 @@
                             style="margin-top:350px;height:1700px">
 
                             <div class="d-flex justify-content-center">
-                                <img src="{{ asset('images/webp/Expérience_Utilisateur.webp') }}" width="50%"
-                                    class="app_header_img">
+                                <img src="{{ asset('images/webp/cloud.webp') }}" width="50%" class="app_header_img">
                             </div>
                             <br>
                             <br>
                             <br>
                             <p class="w-75" id="description_paragraph">
                                 Le Cloud représente une solution innovante majeure pour optimiser la consommation des
-                                ressources informatiques <br>
+                                ressources informatiques
                                 et s’adapter à l’évolution de l’IT as a Business. Nous avons les compétences nécessaires
-                                pour vous aider à construire <br>
+                                pour vous aider à construire
                                 et gérer votre écosystème cloud à plusieurs niveaux.
-
-
                             </p>
                         </div>
                         <div style="width: 75%;margin-top:-1150px;" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                Stratégie UX
+                                AWS & Azure
                             </p>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Accompagnement dans la mise en place d’architecture micro-services
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -232,14 +255,12 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="">
-                                        La définition d’une vision stratégique à long terme, avec les étapes clés à réaliser
-                                        et les actions <br>
-                                        concrètes pour créer une dynamique de travail positive
+                                        Déploiement de workload, d’applications et de données et de solutions <br>
+                                        de monitoring réseau multi-cloud
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
@@ -259,40 +280,12 @@
                                 </div>
                                 <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        La cartographie multi-sensorielle de l’expérience (Empathy map)
+                                    <p class="">
+                                        Nous avons développé des expertises technologiques regroupent AWS, Azure, <br>
+                                        VMware, Docker, OpenStack, Kubernetes
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        La cartographie du parcours client (Customer journey map)
-                                    </p>
-                                </div>
-                            </div>
-
-
-
 
                             <br>
                             <br>
@@ -307,7 +300,7 @@
                         <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                Recherche Utilisateur
+                                DevSecOps
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
@@ -330,9 +323,9 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="">
-                                        Rédiger un rapport sur les habitudes d’utilisation avec les opinions, les
-                                        frustrations ou les désirs <br>
-                                        de vos utilisateurs (étude ethnographique, Observation contextuelle)
+                                        Cadrer l’usage des produits et services numériques en valorisant les impacts
+                                        métier,<br>
+                                        technologique et RSE
                                     </p>
                                 </div>
                             </div>
@@ -358,14 +351,111 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="">
-                                        Cartographier des différents personas pour mieux identifier à quelle(s) cible(s)
+                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
+                                        l’enrichissement <br>
+                                        des données
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="">
+                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis <br>
+                                        du numérique (Cloud, Data, IA)
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="d-flex justify-content-center w-75 div_contacter_expert">
+                                <button class="p-3 text-dark">
+                                    Contacter un expert
+                                </button>
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
+                            <br>
+                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                                FinOps
+                            </p>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Mettre en place la collecte des informations via une politique de tagging
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="">
+
+                                        Construire des objectifs d’optimisation par pallier et le backlog des actions avec
                                         <br>
-                                        on souhaite s’adresser
+                                        leurs impacts concrets
+
+
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
@@ -385,113 +475,17 @@
                                 </div>
                                 <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Élaborer des parcours utilisateurs qui vont aider à la conception du produit.
+                                    <p class="">
+                                        Mettre en place un tableau de bord responsable permettant de suivre des KPIs
+                                        pertinents et utiles
+                                        avec notamment le TCO, un benchmark des usages et PUE (Power Usage Effectiveness),
+                                        <br>
+                                        ERF (Energy Reuse Factor)
+
+
                                     </p>
                                 </div>
                             </div>
-
-
-
-
-                            <br>
-                            <br>
-                            <div class="d-flex justify-content-center w-75 div_contacter_expert">
-                                <button class="p-3 text-dark">
-                                    Contacter un expert
-                                </button>
-                            </div>
-                            <br>
-                            <br>
-
-                        </div>
-                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
-                            <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                UX/UI Design
-                            </p>
-
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Construire des Users Flow et réaliser des maquettes Low et Hi Fidelity
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Co-construire les Personae en fonction des différents scénarios d’usages
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Construire des prototypes et mettre en place un design system
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-
-
-
 
                             <br>
                             <br>

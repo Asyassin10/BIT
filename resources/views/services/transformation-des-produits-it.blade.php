@@ -175,206 +175,28 @@
                     </div>
                 </header>
 
-                <div id="main">
-                    <div class="container">
+                <div id="main ">
+                    <div>
                         <div data-elementor-type="single-post" data-elementor-id="5214"
                             class="elementor elementor-5214 elementor-location-single post-5195 stm_service type-stm_service status-publish has-post-thumbnail hentry">
-                            <section
-                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-75a75a9f elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                            <section style="margin-top: 9%;"
+                                class=" has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-75a75a9f elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="75a75a9f" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-no">
-                                    <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-400221b6 ae-bg-gallery-type-default"
+                                    <div class=" has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-400221b6 ae-bg-gallery-type-default"
                                         data-id="400221b6" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-3129d64a elementor-widget elementor-widget-heading"
-                                                data-id="3129d64a" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <style>
-                                                        /*! elementor - v3.8.1 - 13-11-2022 */
-                                                        .elementor-heading-title {
-                                                            padding: 0;
-                                                            margin: 0;
-                                                            line-height: 1
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                            color: inherit;
-                                                            font-size: inherit;
-                                                            line-height: inherit
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                            font-size: 15px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                            font-size: 19px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                            font-size: 29px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                            font-size: 39px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                            font-size: 59px
-                                                        }
-                                                    </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">
-                                                        {{ $articles[0]->article_text }} </h6>
-                                                </div>
-                                            </div>
                                             <div class="elementor-element elementor-element-7faaf0c7 elementor-widget elementor-widget-heading"
                                                 data-id="7faaf0c7" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
-                                                        {{ $articles[1]->article_text }}</h1>
+                                                    <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:black;"
+                                                        class="elementor-heading-title elementor-size-default">
+                                                        Construire
+                                                        la vision</h1>
                                                 </div>
                                             </div>
-                                            <section
-                                                class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-20c1f46f elementor-section-content-top section-flex elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                data-id="20c1f46f" data-element_type="section">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1ab42e47 ae-bg-gallery-type-default"
-                                                        data-id="1ab42e47" data-element_type="column">
-                                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                            <div class="elementor-element elementor-element-7c3a8553 elementor-widget__width-auto ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                                data-id="7c3a8553" data-element_type="widget"
-                                                                data-widget_type="ae-acf-repeater.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div data-pid="5195" data-wid="7c3a8553"
-                                                                        class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
-                                                                        <div class="ae-acf-repeater-wrapper">
-                                                                            <div class="ae-acf-repeater-item">
-                                                                                <div class="ae-acf-repeater-inner">
-                                                                                    <div
-                                                                                        class="ae_data elementor elementor-4451">
-                                                                                        <div data-elementor-type="wp-post"
-                                                                                            data-elementor-id="4451"
-                                                                                            class="elementor elementor-4451">
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="c46c6ea"
-                                                                                                data-element_type="section">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                        data-id="b34ff96"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                data-id="99cfddb"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="heading.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">
-                                                                                                                        {{ $articles[2]->article_text }}
-                                                                                                                    </span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="ae-acf-repeater-item">
-                                                                                <div class="ae-acf-repeater-inner">
-                                                                                    <div
-                                                                                        class="ae_data elementor elementor-4451">
-                                                                                        <div data-elementor-type="wp-post"
-                                                                                            data-elementor-id="4451"
-                                                                                            class="elementor elementor-4451">
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="c46c6ea"
-                                                                                                data-element_type="section">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                        data-id="b34ff96"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                data-id="99cfddb"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="heading.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">
-                                                                                                                        {{ $articles[3]->article_text }}
-                                                                                                                    </span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="ae-acf-repeater-item">
-                                                                                <div class="ae-acf-repeater-inner">
-                                                                                    <div
-                                                                                        class="ae_data elementor elementor-4451">
-                                                                                        <div data-elementor-type="wp-post"
-                                                                                            data-elementor-id="4451"
-                                                                                            class="elementor elementor-4451">
-                                                                                            <section
-                                                                                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                data-id="c46c6ea"
-                                                                                                data-element_type="section">
-                                                                                                <div
-                                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                        data-id="b34ff96"
-                                                                                                        data-element_type="column">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                data-id="99cfddb"
-                                                                                                                data-element_type="widget"
-                                                                                                                data-widget_type="heading.default">
-                                                                                                                <div
-                                                                                                                    class="elementor-widget-container">
-                                                                                                                    <span
-                                                                                                                        class="elementor-heading-title elementor-size-default">
-                                                                                                                        {{ $articles[4]->article_text }}
-                                                                                                                    </span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
                                         </div>
                                     </div>
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b4044d0 elementor-hidden-tablet elementor-hidden-mobile ae-bg-gallery-type-default"
@@ -404,13 +226,7 @@
                                                             display: inline-block
                                                         }
                                                     </style>
-                                                    <picture>
-                                                        <source type="image/webp"
-                                                            srcset="{{ asset('images/service/IMG.webp') }}">
-                                                        <img class="lazy" src="{{ asset('images/service/IMG.svg') }}"
-                                                            data-src="{{ asset('images/service/IMG.svg') }}"
-                                                            title="IMG" alt="IMG">
-                                                    </picture>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -418,7 +234,7 @@
                                 </div>
                             </section>
                             <section
-                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-2b43c88a elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                class=" has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-2b43c88a elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="2b43c88a" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-no">
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-28b49a4b ae-bg-gallery-type-default"
@@ -431,10 +247,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.webp') }}">
-                                                        <img class="lazy" width="1172" height="653"
-                                                            src="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.jpg') }}"
-                                                            data-src="{{ asset('images/service/TRANSFORMATION-DES-PRODUITS.jpg') }}"
+                                                            srcset="https://lh3.googleusercontent.com/fife/APg5EOY3mU5bRBOKBNFMT6fPXGGAXVyD1OUS5U2jkePxEV5a1l2Solx6qcpI2x5rgEA8Jy9i2DiDanMcO-I8N1ieRZPesxYKMgmQmBu4-I4AmGFFO2sUQE34h9H52I_MC9baOa1J4ksCaXVWpM5J6f5eJ_69Y5V2Uy_71jyT_bVbR1OOFhBXcmewthBJbMk_OoQE0GIQhUucd0kb5lnFpM3YBDJBXR3mv0TYqOsHvEG56ZoZU3hK_3P0nVSAhQ7k4sKqc6Jy2iJYAGhmLEvhN5wHB8_7p9GDcRgn2zUHx7POX6PGHpPU-wmivz7Lzhj1H0P8j6VAh8N8hS9sRHllBWmNDjqSEXPYftuMbFLt_le4fwqCxSweaoGKBkNoJHcFtsCn-Odn32mTcFVaQhI6TaKdQIfSiFG0KRy7J0xOn6hsYZTLpl5NB1Scq6na97jcqnjECnFptAs5VGEUCsjnFdYSoeX1SExBWdJIUi43VMDTeiF9kIAj9PUHNbfHSOovGBrhPNH7xXiuQX85BrA9fTc6v_h1jaciBogspPM2Giur-d5oE63EvZTEdXHh6NhWATZK6FuAFYEX-1InjBdJ788QMA42m2xKqThiZJbZfqqtvDL7zOLs0Zra6f-87zsfHqSKAIo9LZmv86_MCTc0dDIRpC9yEhiCOUtBiSEHDMTF9hRGJApyOXPFO3G4lclcB6yN2o9ZcBuLlD-tYWyqqWZjZJKeSl6eBG0w6NqiKRftVCjtQa0X_jc1K18m-usSvQ8wI67DNz6kCmZkPOdsy4FE9dtjIFBVl1TErcrTiDswwAnz9xTLaJnU9r4mjFYPPzAId9RMt3Zcge19ep-6UOQUMZaD5n4R8tqG3ihLCPSK36haCVFZnhncRxtevZDkquBxHYyij6vNtC4bXZGJz4teR5Ze_B7BB-xM38yGA-iGA4AX0w1m46Tgk2TnaJCMM48fsGQqwHT7KhAzvbML3B0P6q8ciXJ8_iNH9NzftqubM9efKDwzjJyHwPssC3DvRPwWvmG3cIJ95byrXiiUkPcmx6ksOqDIIkxXsk_b6LuKohOnvynBER_49fbL8hiQRWvvoqZzfqmFJ3aZOJgd-zTLIrm9_IpEf6sSLkq-yudEEQnGl5EucpuOd5UYmcvDW8OXZICYO44FqA3Fxpt2dGAOejBRotwpzpzLLnxd0cL54pKl8bK064WaNHgah3sSLvyAE7W_KqMREPRFS1US26TNYYQqdnr5LJoHPovS1WKnhKeu3ANmWsRt5CSbFkPgD86JjLrzWKdwvzLJtFkkopPY5MESGslibNCi32CKY6Wyjl6MMWkNt3HAaegQr_KmIUwvLdmL67HjbKeXbPDnoad0WAMq6Md3w3J-uCRoRmGHcWdS9xwVQwIbhtIqYGipC37NocaV4qFuvILOjTfbMuKULSpxqEwfH24dN54E60ozeEghJXML993uuSQGPh2FOqvR4w1ygBREsM6WeOeDcqnlSaKbtl9h">
+                                                        <img class="lazy " style="width: 60%;margin-top: 8%;"
+                                                            height="653"
+                                                            src="https://lh3.googleusercontent.com/fife/APg5EOY3mU5bRBOKBNFMT6fPXGGAXVyD1OUS5U2jkePxEV5a1l2Solx6qcpI2x5rgEA8Jy9i2DiDanMcO-I8N1ieRZPesxYKMgmQmBu4-I4AmGFFO2sUQE34h9H52I_MC9baOa1J4ksCaXVWpM5J6f5eJ_69Y5V2Uy_71jyT_bVbR1OOFhBXcmewthBJbMk_OoQE0GIQhUucd0kb5lnFpM3YBDJBXR3mv0TYqOsHvEG56ZoZU3hK_3P0nVSAhQ7k4sKqc6Jy2iJYAGhmLEvhN5wHB8_7p9GDcRgn2zUHx7POX6PGHpPU-wmivz7Lzhj1H0P8j6VAh8N8hS9sRHllBWmNDjqSEXPYftuMbFLt_le4fwqCxSweaoGKBkNoJHcFtsCn-Odn32mTcFVaQhI6TaKdQIfSiFG0KRy7J0xOn6hsYZTLpl5NB1Scq6na97jcqnjECnFptAs5VGEUCsjnFdYSoeX1SExBWdJIUi43VMDTeiF9kIAj9PUHNbfHSOovGBrhPNH7xXiuQX85BrA9fTc6v_h1jaciBogspPM2Giur-d5oE63EvZTEdXHh6NhWATZK6FuAFYEX-1InjBdJ788QMA42m2xKqThiZJbZfqqtvDL7zOLs0Zra6f-87zsfHqSKAIo9LZmv86_MCTc0dDIRpC9yEhiCOUtBiSEHDMTF9hRGJApyOXPFO3G4lclcB6yN2o9ZcBuLlD-tYWyqqWZjZJKeSl6eBG0w6NqiKRftVCjtQa0X_jc1K18m-usSvQ8wI67DNz6kCmZkPOdsy4FE9dtjIFBVl1TErcrTiDswwAnz9xTLaJnU9r4mjFYPPzAId9RMt3Zcge19ep-6UOQUMZaD5n4R8tqG3ihLCPSK36haCVFZnhncRxtevZDkquBxHYyij6vNtC4bXZGJz4teR5Ze_B7BB-xM38yGA-iGA4AX0w1m46Tgk2TnaJCMM48fsGQqwHT7KhAzvbML3B0P6q8ciXJ8_iNH9NzftqubM9efKDwzjJyHwPssC3DvRPwWvmG3cIJ95byrXiiUkPcmx6ksOqDIIkxXsk_b6LuKohOnvynBER_49fbL8hiQRWvvoqZzfqmFJ3aZOJgd-zTLIrm9_IpEf6sSLkq-yudEEQnGl5EucpuOd5UYmcvDW8OXZICYO44FqA3Fxpt2dGAOejBRotwpzpzLLnxd0cL54pKl8bK064WaNHgah3sSLvyAE7W_KqMREPRFS1US26TNYYQqdnr5LJoHPovS1WKnhKeu3ANmWsRt5CSbFkPgD86JjLrzWKdwvzLJtFkkopPY5MESGslibNCi32CKY6Wyjl6MMWkNt3HAaegQr_KmIUwvLdmL67HjbKeXbPDnoad0WAMq6Md3w3J-uCRoRmGHcWdS9xwVQwIbhtIqYGipC37NocaV4qFuvILOjTfbMuKULSpxqEwfH24dN54E60ozeEghJXML993uuSQGPh2FOqvR4w1ygBREsM6WeOeDcqnlSaKbtl9h"
+                                                            data-src="https://lh3.googleusercontent.com/fife/APg5EOY3mU5bRBOKBNFMT6fPXGGAXVyD1OUS5U2jkePxEV5a1l2Solx6qcpI2x5rgEA8Jy9i2DiDanMcO-I8N1ieRZPesxYKMgmQmBu4-I4AmGFFO2sUQE34h9H52I_MC9baOa1J4ksCaXVWpM5J6f5eJ_69Y5V2Uy_71jyT_bVbR1OOFhBXcmewthBJbMk_OoQE0GIQhUucd0kb5lnFpM3YBDJBXR3mv0TYqOsHvEG56ZoZU3hK_3P0nVSAhQ7k4sKqc6Jy2iJYAGhmLEvhN5wHB8_7p9GDcRgn2zUHx7POX6PGHpPU-wmivz7Lzhj1H0P8j6VAh8N8hS9sRHllBWmNDjqSEXPYftuMbFLt_le4fwqCxSweaoGKBkNoJHcFtsCn-Odn32mTcFVaQhI6TaKdQIfSiFG0KRy7J0xOn6hsYZTLpl5NB1Scq6na97jcqnjECnFptAs5VGEUCsjnFdYSoeX1SExBWdJIUi43VMDTeiF9kIAj9PUHNbfHSOovGBrhPNH7xXiuQX85BrA9fTc6v_h1jaciBogspPM2Giur-d5oE63EvZTEdXHh6NhWATZK6FuAFYEX-1InjBdJ788QMA42m2xKqThiZJbZfqqtvDL7zOLs0Zra6f-87zsfHqSKAIo9LZmv86_MCTc0dDIRpC9yEhiCOUtBiSEHDMTF9hRGJApyOXPFO3G4lclcB6yN2o9ZcBuLlD-tYWyqqWZjZJKeSl6eBG0w6NqiKRftVCjtQa0X_jc1K18m-usSvQ8wI67DNz6kCmZkPOdsy4FE9dtjIFBVl1TErcrTiDswwAnz9xTLaJnU9r4mjFYPPzAId9RMt3Zcge19ep-6UOQUMZaD5n4R8tqG3ihLCPSK36haCVFZnhncRxtevZDkquBxHYyij6vNtC4bXZGJz4teR5Ze_B7BB-xM38yGA-iGA4AX0w1m46Tgk2TnaJCMM48fsGQqwHT7KhAzvbML3B0P6q8ciXJ8_iNH9NzftqubM9efKDwzjJyHwPssC3DvRPwWvmG3cIJ95byrXiiUkPcmx6ksOqDIIkxXsk_b6LuKohOnvynBER_49fbL8hiQRWvvoqZzfqmFJ3aZOJgd-zTLIrm9_IpEf6sSLkq-yudEEQnGl5EucpuOd5UYmcvDW8OXZICYO44FqA3Fxpt2dGAOejBRotwpzpzLLnxd0cL54pKl8bK064WaNHgah3sSLvyAE7W_KqMREPRFS1US26TNYYQqdnr5LJoHPovS1WKnhKeu3ANmWsRt5CSbFkPgD86JjLrzWKdwvzLJtFkkopPY5MESGslibNCi32CKY6Wyjl6MMWkNt3HAaegQr_KmIUwvLdmL67HjbKeXbPDnoad0WAMq6Md3w3J-uCRoRmGHcWdS9xwVQwIbhtIqYGipC37NocaV4qFuvILOjTfbMuKULSpxqEwfH24dN54E60ozeEghJXML993uuSQGPh2FOqvR4w1ygBREsM6WeOeDcqnlSaKbtl9h"
                                                             data-sizes="(max-width: 1172px) 100vw, 1172px">
                                                     </picture>
                                                 </div>
@@ -495,83 +312,6 @@
                                                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                                                 <div
                                                                                     class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-509ec9bb ae-bg-gallery-type-default"
-                                                                                        data-id="509ec9bb"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-119084d elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="119084d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <span
-                                                                                                            itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>01<span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-1b69f02 elementor-widget-mobile__width-auto elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="1b69f02"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.text">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae-acf-wrapper">
-                                                                                                        <h2 itemprop="name"
-                                                                                                            class="ae-acf-content-wrapper">
-                                                                                                            <p><span
-                                                                                                                    class="ae-prefix"></span>
-                                                                                                                {!! $articles[2]->article_text !!}
-                                                                                                                <span
-                                                                                                                    class="ae-suffix"></span>
-                                                                                                            </p>
-                                                                                                        </h2>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-67e8af0 overlay-never elementor-widget elementor-widget-ae-acf"
-                                                                                                data-id="67e8af0"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="ae-acf.image">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="ae_acf_image_wrapper">
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.webp') }}">
-                                                                                                            <img class="attachment-medium size-medium lazy"
-                                                                                                                width="230"
-                                                                                                                height="175"
-                                                                                                                src="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.svg') }}"
-                                                                                                                data-src="{{ asset('images/service/Journey-To-Cloud-BTI-Advisory.svg') }}"
-                                                                                                                alt="Journey To Cloud &#8211; BTI Advisory"
-                                                                                                                title="Journey To Cloud &#8211; BTI Advisory">
-                                                                                                        </picture>
-                                                                                                        <div
-                                                                                                            class="ae-acf-overlay-block">
-                                                                                                            <div
-                                                                                                                class="ae-acf-overlay">
-                                                                                                            </div>
-                                                                                                            <i
-                                                                                                                class="fa fa-link"></i>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
                                                                                     <div class="has_ae_slider elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-52dd5a01 ae-bg-gallery-type-default"
                                                                                         data-id="52dd5a01"
                                                                                         data-element_type="column">
@@ -3166,7 +2906,7 @@
             @include('footer')
         </div><!-- #page -->
         <link rel='stylesheet' id='elementor-post-4451-css'
-            href='../../wp-content/cache/autoptimize/css/autoptimize_single_d0fac9539d316c6349a95ab26544b3c1.css@ver=1675955142.css'
+            href='/assets/cache/autoptimize/css/autoptimize_single_d0fac9539d316c6349a95ab26544b3c1.css@ver=1675955142.css'
             type='text/css' media='all' />
         <link rel='stylesheet' id='elementor-post-3896-css'
             href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_40a82eae3e4d0c118f2b3400b2e2eaba.css?ver=1675955468'
