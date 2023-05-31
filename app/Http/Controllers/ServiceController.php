@@ -25,6 +25,11 @@ class ServiceController extends Controller
     public function Accompagner_la_mise_en_oeuvre(){
         return view('service.accompagner_la_mise_en_oeuvre');
     }
+
+    public function Cloud(){
+        return view('service.cloud');
+
+    }
     public function index()
     {
         /* $title = "Nos service - BTI - Advisory";
