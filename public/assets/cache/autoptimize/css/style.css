@@ -1,9 +1,27 @@
 /* navbar */
-.content_menu_item {
-    color: black !important;
+.dark_background {
+    background-color: #1c1c1a;
+}
+
+.text_white {
+    color: white !important;
     font-size: 12.5px !important;
     cursor: pointer;
     font-family: Inter, sans-serif !important;
+}
+
+.text_white:hover {
+    color: #e99b17 !important;
+    font-size: 13px !important;
+    cursor: pointer;
+    font-family: Inter, sans-serif !important;
+}
+
+.content_menu_item {
+    color: #e99b17 !important;
+    font-size: 13px !important;
+    font-weight: bold;
+    cursor: pointer;
 
 }
 
