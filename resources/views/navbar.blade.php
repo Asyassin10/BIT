@@ -85,22 +85,22 @@
                                             <li id="menu-item-6493" class="mt-2">
                                                 <a class="content_menu_item"
                                                     id="co_construire_votre_stratégie_technologique"
-                                                    href="{{ url('/service/construire-la-vision#co-construire-votre-stratégie-technologique') }}">Co-construire
+                                                    href="{{ url('/service/construire-la-vision#construire-votre-stratégie-technologique') }}">Co-construire
                                                     voter stratégie technologique</a>
                                             </li>
                                             <li id="menu-item-6493" class="md-1">
                                                 <a class="content_menu_item"
-                                                    href="{{ url('/service/construire-la-vision#architecture_header') }}">Architecture</a>
+                                                    href="{{ url('/service/construire-la-vision#architecture.') }}">Architecture</a>
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_1">
                                             <li id="menu-item-6493" class="mt-2">
                                                 <a class="content_menu_item"
-                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage') }}">Pilotage</a>
+                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage.') }}">Pilotage</a>
                                             </li>
                                             <li id="menu-item-6493" class="md-1">
                                                 <a class="content_menu_item"
-                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation') }}">Réalisation</a>
+                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation.') }}">Réalisation</a>
                                             </li>
                                         </div>
                                         <div id="nav_slider_extra_content_2">

@@ -196,6 +196,7 @@
                             <br>
                             <br>
                             <br>
+                            <p id="construire-votre-stratégie-technologique"></p>
                             <p class="w-75" id="description_paragraph">
                                 Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
                                 d’innovation de plus
@@ -207,6 +208,7 @@
                                 et capable de faire
                                 face à la concurrence et aux contraintes réglementaires.
                             </p>
+
                         </div>
                         {{--  margin-top:-360px;  width: 75%;margin-top:140px; --}}
                         <div id="co-construire-votre-stratégie-technologique" style=""
@@ -306,6 +308,8 @@
                                     Contacter un expert
                                 </button>
                             </div>
+                            <p id="architecture."></p>
+
                             <br>
                             <br>
                         </div>
@@ -408,33 +412,6 @@
                             <br>
 
                         </div>
-                        <script>
-                            let co_construire_votre_stratégie_technologique = document.getElementById(
-                                "co_construire_votre_stratégie_technologique");
-                            /* alert(co_construire_votre_stratégie_technologique) */
-                            /*  function scrollToDiv(div) {
-                                 var top = div.offsetTop;
-                                 var left = div.offsetLeft;
-                                 var windowHeight = window.innerHeight;
-                                 var windowWidth = window.innerWidth;
-
-                                 // Scroll to the div
-                                 //window.scrollTo(left, top);
-                                 window.scrollTo(0, 0);
-                             }
-
-                             co_construire_votre_stratégie_technologique.addEventListener("click", function() {
-
-                                 scrollToDiv(document.getElementById("co-construire-votre-stratégie-technologique"));
-                             }) */
-                            /*  window.addEventListener('DOMContentLoaded', function() {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                var myDiv = document.getElementById('architecture');
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                myDiv.style.marginTop = '700px';
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }); */
-                            /*  document.getElementById("architecture").onload = function() {
-                                 window.scrollTo(0, 0);
-                             }; */
-                        </script>
                         <div id="form_container" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">

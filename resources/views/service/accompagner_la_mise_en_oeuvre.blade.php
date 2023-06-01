@@ -196,6 +196,7 @@
                             <br>
                             <br>
                             <br>
+                            <p id="pilotage."></p>
                             <p class="w-75" id="description_paragraph">
                                 Aujourd’hui, les entreprises doivent adopter des démarches orientées produit pour renforcer
                                 leur maturité
@@ -362,6 +363,7 @@
                                     Contacter un expert
                                 </button>
                             </div>
+                            <p id="réalisation."></p>
                             <br>
                             <br>
 
