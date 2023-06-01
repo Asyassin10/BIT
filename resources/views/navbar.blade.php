@@ -84,6 +84,7 @@
                                         <div id="nav_slider_extra_content_0">
                                             <li id="menu-item-6493" class="mt-2">
                                                 <a class="content_menu_item"
+                                                    id="co_construire_votre_stratégie_technologique"
                                                     href="{{ url('/service/construire-la-vision#co-construire-votre-stratégie-technologique') }}">Co-construire
                                                     voter stratégie technologique</a>
                                             </li>
