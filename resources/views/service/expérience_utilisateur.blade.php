@@ -206,7 +206,7 @@
 
                             </p>
                         </div>
-                        <div style="width: 75%;margin-top:-1150px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div style="width: 75%;margin-top:-1350px;" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Stratégie UX
