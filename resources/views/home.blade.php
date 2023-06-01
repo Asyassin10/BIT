@@ -209,6 +209,9 @@
                                                                 class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
                                                                 <div class="hfe-has-submenu-container"><a href=""
                                                                         class="hfe-menu-item">{{ $data[1]->categorie_name }}
+                                                                        <span
+                                                                            class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                                class="fa"></i></span>
                                                                     </a>
                                                                 </div>
 
@@ -635,7 +638,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                        } */
+                                                                                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -698,9 +701,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                                                                                                    margin: 0px;
-                                                                                                                                                                                                                                                                                    padding: 5%;
-                                                                                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                                                                                        margin: 0px;
+                                                                                                                                                                                                                                                                                        padding: 5%;
+                                                                                                                                                                                                                                                                                    } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
