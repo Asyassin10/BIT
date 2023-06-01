@@ -21,6 +21,10 @@
     font-family: Inter, sans-serif !important;
 }
 
+.menu_item_navbar {
+    border-bottom: 3px solid #e99b17;
+}
+
 /* pages services */
 #footer-image {
     margin-top: 150px;
@@ -167,7 +171,7 @@
     border-radius: 5.5px !important;
 }
 
-#co-construire-votre-stratégie-technologique{
+#co-construire-votre-stratégie-technologique {
     position: relative;
     left: 0;
     right: 0;
@@ -175,7 +179,8 @@
     transform: translateY(-50%);
     width: 75%;
 }
-#architecture{
+
+#architecture {
     position: relative;
     left: 0;
     right: 0;
@@ -183,4 +188,3 @@
     width: 75%;
     margin-top: 5%;
 }
-

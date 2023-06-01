@@ -37,23 +37,17 @@
                         data-full-width="yes">
                         <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                             <li id="menu-item-86"
-                                class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page parent {{ request()->is('a-propos') ? 'current-menu-ancestor' : '' }} hfe-creative-menu">
+                                class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('a-propos') ? 'menu_item_navbar' : '' }} {{ request()->is('a-propos') ? 'current-menu-ancestor' : 'parent' }} hfe-creative-menu">
                                 <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                 </a>
                             </li>
 
                             <li id="menu-item-6494"
-                                class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page  {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}  hfe-creative-menu"
-                                style="border-bottom: 3px solid #e99b17;">
+                                class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href=""
                                         class="hfe-menu-item">{{ $data[1]->categorie_name }} </a>
                                 </div>
-                                {{-- <script>
-                                    if (url.includes("service/transformation-des-produits-it")) {
-                                        let element = document.getElementById("menu-item-6494");
-                                        element.style.backgroundColor = "red";
-                                    }
-                                </script> --}}
+
 
                                 <ul class="sub-menu mt-2 ">
                                     <div class="d-flex "
@@ -182,7 +176,7 @@
                                 </ul>
                             </li>
                             <li id="menu-item-78"
-                                class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}   page_item page-item-73 current_page_item parent hfe-creative-menu">
+                                class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}  {{ request()->is('nous-rejoindre') ? 'menu_item_navbar' : '' }}  page_item page-item-73 current_page_item parent hfe-creative-menu">
                                 <a href="{{ route('join-us') }}"
                                     class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
                             </li>
