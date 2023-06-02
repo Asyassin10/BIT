@@ -296,7 +296,7 @@
 
                             <br>
                             <br>
-                            <div class="d-flex justify-content-center w-75 div_contacter_expert">
+                            <div class="d-flex justify-content-center  div_contacter_expert">
                                 <button class="p-3 text-dark">
                                     Contacter un expert
                                 </button>
@@ -396,7 +396,7 @@
 
                             <br>
                             <br>
-                            <div class="d-flex justify-content-center w-75 div_contacter_expert">
+                            <div class="d-flex justify-content-center  div_contacter_expert">
                                 <button class="p-3 text-dark">
                                     Contacter un expert
                                 </button>
@@ -495,7 +495,7 @@
 
                             <br>
                             <br>
-                            <div class="d-flex justify-content-center w-75 div_contacter_expert">
+                            <div class="d-flex justify-content-center  div_contacter_expert">
                                 <button class="p-3 text-dark">
                                     Contacter un expert
                                 </button>
