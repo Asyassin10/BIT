@@ -76,7 +76,7 @@
                                             </li>
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                <a href="#"
                                                     class="hfe-sub-menu-item  {{ Route::currentRouteName() === 'expérience_utilisateur' || Route::currentRouteName() === 'Cloud' || Route::currentRouteName() === 'green_it' || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}">Nos
                                                     Centres d'Excellence<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
