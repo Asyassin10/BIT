@@ -7,7 +7,7 @@
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     }
-
+    
 @endphp
 
 <nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
@@ -45,7 +45,9 @@
                             <li id="menu-item-6494"
                                 class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
                                 <div class="hfe-has-submenu-container"><a href=""
-                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} </a>
+                                        class="hfe-menu-item">{{ $data[1]->categorie_name }} <span
+                                            class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                class='fa'></i></span></a>
 
                                 </div>
 

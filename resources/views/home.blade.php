@@ -214,8 +214,6 @@
                                                                                 class="fa"></i></span>
                                                                     </a>
                                                                 </div>
-
-
                                                                 <ul class="sub-menu dark_background">
                                                                     <div class="d-flex "
                                                                         style="border-radius: 8px;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
