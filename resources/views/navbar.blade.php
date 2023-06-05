@@ -291,8 +291,8 @@
                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
                     data-layout="horizontal">
                     {{-- hfe-nav-menu__toggle  --}}
-                    <div class="hfe-nav-menu__toggle elementor-clickable">
-                        {{--  hfe-nav-menu-icon --}}
+                    {{--  hfe-nav-menu-icon --}}
+                    {{-- <div class="hfe-nav-menu__toggle elementor-clickable">
                         <div class="hfe-nav-menu-icon" id="three_slides_mobile_view">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50"
                                 width="50px" height="50px">
@@ -301,6 +301,15 @@
                                 </path>
                             </svg>
                         </div>
+                    </div> --}}
+                    <div style="background: #FAFAFA;text-align: right;" class="elementor-clickable "
+                        id="three_slides_mobile_view">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px"
+                            height="50px">
+                            <path
+                                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                            </path>
+                        </svg>
                     </div>
 
                     <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"

@@ -79,11 +79,11 @@ let three_slides_mobile_view = document.getElementById(
 );
 
 let halaloya_navbar_overlay = document.getElementById("halaloya_navbar_overlay");
-/* close_svg_container.onclick = function () {
+close_svg_container.onclick = function () {
     halaloya_navbar_overlay.style.display = "none";
 };
 three_slides_mobile_view.onclick = function () {
     halaloya_navbar_overlay.style.display = "block";
-}; */
+};
 
 halaloya_navbar_overlay.style.display = "none";
