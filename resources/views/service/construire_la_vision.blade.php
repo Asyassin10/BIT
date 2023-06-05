@@ -304,9 +304,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <p id="architecture."></p>
 
@@ -404,12 +404,13 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
+                            <p id="construisons-votre-vision-ensemble"></p>
 
                         </div>
                         <div id="form_container" class=" shadow-lg  bg-white rounded">

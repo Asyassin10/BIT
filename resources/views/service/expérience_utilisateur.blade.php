@@ -197,13 +197,13 @@
                             <br>
                             <br>
                             <p class="w-75" id="description_paragraph">
-                                Le Cloud représente une solution innovante majeure pour optimiser la consommation des
-                                ressources informatiques <br>
-                                et s’adapter à l’évolution de l’IT as a Business. Nous avons les compétences nécessaires
-                                pour vous aider à construire <br>
-                                et gérer votre écosystème cloud à plusieurs niveaux.
-
-
+                                Selon UX Planet, un investissement de 1$ dans l’UX peut générer en moyenne de 2$ à 100$ de
+                                profits.
+                                C’est pourquoi nous mettons en place des méthodologies pour être au plus près de vos
+                                utilisateurs et vous aider
+                                à créer de la valeur. Nous sommes convaincus que les enjeux de demain se construisent
+                                aujourd’hui, c’est pourquoi
+                                nous intégrons l’écoconception dans nos réalisations, lorsque cela est possible.
                             </p>
                         </div>
                         <div style="width: 75%;margin-top:-1350px;" class="mx-auto shadow-lg bg-white rounded">
@@ -297,9 +297,8 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
-                                    Contacter un expert
-                                </button>
+                                <a class="p-3 text-dark" href="#construisons-votre-vision-ensemble">Contacter un
+                                    expert</a>
                             </div>
                             <br>
                             <br>
@@ -397,9 +396,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -488,20 +487,16 @@
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-
-
-
-
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
+                            <p id="construisons-votre-vision-ensemble"></p>
 
                         </div>
                         <div style="margin-top:10%;"></div>

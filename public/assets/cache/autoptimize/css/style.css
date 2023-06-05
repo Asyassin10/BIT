@@ -103,12 +103,13 @@
 
 .div_contacter_expert {
     margin-left: auto;
-    margin-top:auto;
+    margin-top: auto;
 }
 
-.div_contacter_expert button {
+.div_contacter_expert a {
     background: #DE9E3C;
     border: none;
+    border-radius: 5px;
 }
 
 .section_container_paragraph {

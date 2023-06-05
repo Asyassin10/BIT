@@ -197,15 +197,13 @@
                             <br>
                             <br>
                             <p class="w-75" id="description_paragraph">
-                                Le Cloud représente une solution innovante majeure pour optimiser la consommation des
-                                ressources informatiques <br>
-                                et s’adapter à l’évolution de l’IT as a Business. Nous avons les compétences nécessaires
-                                pour vous aider à construire <br>
-                                et gérer votre écosystème cloud à plusieurs niveaux.
-
-
-
-
+                                Intégrer les enjeux RSE dans les activités numériques est aujourd’hui un enjeu majeur pour
+                                les DSI.
+                                Réduction de l’empreinte environnementale, maîtrise des coûts, inclusion de critères
+                                sociaux, sont d’autant plus
+                                de challenge à relever. Une stratégie Green IT permet d’inclure le développement durable
+                                pour rendre nos
+                                transformations digitales pérennes et à impacts réduits.
                             </p>
                         </div>
                         <div style="width: 75%;margin-top:-1150px;" class="mx-auto shadow-lg bg-white rounded">
@@ -278,9 +276,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -380,16 +378,12 @@
                                 </div>
                             </div>
 
-
-
-
-
                             <br>
                             <br>
                             <div class="d-flex justify-content-center div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -440,12 +434,13 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
+                            <p id="construisons-votre-vision-ensemble"></p>
 
                         </div>
                         <div style="margin-top:10%;"></div>
