@@ -201,6 +201,7 @@
                                 et s’adapter à l’évolution de l’IT as a Business. Nous avons les compétences nécessaires
                                 pour vous aider à construire
                                 et gérer votre écosystème cloud à plusieurs niveaux.
+
                             </p>
                         </div>
                         <div style="width: 75%;margin-top:-1150px;" class="mx-auto shadow-lg bg-white rounded">
@@ -260,6 +261,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -290,9 +292,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -387,9 +389,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -425,6 +427,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -455,6 +458,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -490,12 +494,13 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
+                            <p id="construisons-votre-vision-ensemble"></p>
 
                         </div>
                         <div style="margin-top:10%;"></div>

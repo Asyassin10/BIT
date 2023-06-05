@@ -197,15 +197,15 @@
                             <br>
                             <br>
                             <p class="w-75" id="description_paragraph">
-                                Le Cloud représente une solution innovante majeure pour optimiser la consommation des
-                                ressources informatiques <br>
-                                et s’adapter à l’évolution de l’IT as a Business. Nous avons les compétences nécessaires
-                                pour vous aider à construire <br>
-                                et gérer votre écosystème cloud à plusieurs niveaux.
-
-
-
-
+                                Avec la croissance exponentielle des données dans les entreprises et de ses enjeux associés,
+                                la Business Intelligence (BI), le Big Data et les Data Labs sont devenus essentiels pour les
+                                directions informatiques.
+                                Chez BTI-Advisory, nous sommes spécialisés dans la Data Intelligence et nous vous aidons à
+                                tirer le meilleur parti
+                                de vos données en construisant un flux régulier d’informations pour alimenter vos
+                                technologies intelligentes.
+                                Cela vous permet de disposer d’une vue à 360° de votre écosystème et d’anticiper les virages
+                                à venir.
                             </p>
                         </div>
                         <div style="width: 75%;margin-top:-1150px;" class="mx-auto shadow-lg bg-white rounded">
@@ -277,9 +277,9 @@
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -342,18 +342,12 @@
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-
-
-
-
-
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
@@ -444,22 +438,16 @@
                                     </p>
                                 </div>
                             </div>
-                            <hr>
-
-
-
-
-
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
-                                <button class="p-3 text-dark">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
                                     Contacter un expert
-                                </button>
+                                </a>
                             </div>
                             <br>
                             <br>
-
+                            <p id="construisons-votre-vision-ensemble"></p>
                         </div>
                         <div style="margin-top:10%;"></div>
                         <div id="form_container" class=" shadow-lg  bg-white rounded">
