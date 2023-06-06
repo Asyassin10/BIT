@@ -54,6 +54,43 @@
 
             </p>
         </div>
+        <div class="d-flex align-items-center mb-3 d-none"
+            id="construire_la_vision__construire_votre_stratégie_technologique">
+            <div class="w-75 d-flex align-items-center">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                    construire-votre-stratégie-technologique
+                </h2>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3 d-none" id="construire_la_vision__architecture">
+            <div class="w-75 d-flex align-items-center">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                    Architecture
+                </h2>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Pilotage">
+            <div class="w-75 d-flex align-items-center">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                    Pilotage
+                </h2>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Réalisation">
+            <div class="w-75 d-flex align-items-center">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                    Réalisation
+                </h2>
+            </div>
+
+        </div>
         <div class="d-flex align-items-center mb-3 d-none" id="cloud">
             <div class="w-75 d-flex align-items-center">
                 <h2
@@ -139,7 +176,8 @@
                 Nos services
             </p>
         </div>
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-center mb-3"
+            onclick="ShowServicesSecondLevelLevel('Construire la vision',['construire_la_vision__construire_votre_stratégie_technologique','construire_la_vision__architecture'])">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Construire la vision
@@ -156,7 +194,8 @@
 
             </div>
         </div>
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-center mb-3"
+            onclick="ShowServicesSecondLevelLevel('Accompagner la mise en Oeuvre',['accompagner_la_mise_en_oeuvre__Pilotage','accompagner_la_mise_en_oeuvre__Réalisation'])">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Accompagner la mise en
@@ -329,7 +368,8 @@
                         <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                             <li id="menu-item-86"
                                 class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('a-propos') ? 'menu_item_navbar' : '' }} {{ request()->is('a-propos') ? 'current-menu-ancestor' : 'parent' }} hfe-creative-menu">
-                                <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
+                                <a href="{{ route('about-us') }}"
+                                    class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                 </a>
                             </li>
 
