@@ -56,11 +56,12 @@
         </div>
         <div class="d-flex align-items-center mb-3 d-none" id="cloud">
             <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
                     Cloud
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -69,15 +70,16 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
         </div>
         <div class="d-flex align-items-center mb-3 d-none" id="data_inteligence">
             <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
                     Data Intelligence
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -86,15 +88,16 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
         </div>
         <div class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur">
             <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
                     Expérience Utilisateur
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -103,15 +106,16 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
         </div>
         <div class="d-flex align-items-center mb-3 d-none" id="green_it">
             <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
+                <h2
+                    class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
                     Green IT
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -120,7 +124,7 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
         </div>
     </div>
     <div id="mobile_view_main_content_2" class="d-none">

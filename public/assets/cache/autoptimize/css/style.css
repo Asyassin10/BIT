@@ -207,7 +207,6 @@
     transform: translateY(-50%);
     width: 75%;
     margin-top: 5%;
-<<<<<<< HEAD
 }
 
 #halaloya_navbar_overlay {
@@ -263,6 +262,6 @@
     margin-left: 10%;
     font-weight: 400;
 }
-=======
+.color_gold{
+    color: gold !important;
 }
->>>>>>> eca1394bc299c8eae28e437bc55a8fdb7927fb3f
