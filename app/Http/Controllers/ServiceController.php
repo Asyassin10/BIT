@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\Redis;
 
 class ServiceController extends Controller
 {
+    public function tout_nos_services(){
+        return view('service.tout_nos_services');
+    }
     public function Construire_la_vision(){
         return view('service.construire_la_vision');
     }

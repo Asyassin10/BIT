@@ -125,6 +125,10 @@
 .main_app_header_container {
     margin-bottom: 80px;
 }
+.app_d_v_header_container{
+
+    margin-top: 10%;
+}
 
 .main_app_header {
     float: right;
@@ -264,4 +268,8 @@
 }
 .color_gold{
     color: gold !important;
+}
+#section_three_container_tout_nos_services{
+    width: 75%;
+    margin-top: 10%;
 }
