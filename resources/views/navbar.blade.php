@@ -324,7 +324,7 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center " style="margin-top: 68%;">
+    <div class="d-flex justify-content-center " style="margin-top: 48%;">
 
         <button class="btn bg-black p-3">
             Contactez-nous
