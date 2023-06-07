@@ -7,7 +7,7 @@
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     }
-    
+
 @endphp
 
 <div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
@@ -280,7 +280,7 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center " style="margin-top: 68%;">
+    <div class="d-flex justify-content-center " style="margin-top: 20%;">
 
         <button class="btn bg-black p-3">
             Contactez-nous
