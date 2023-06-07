@@ -209,6 +209,10 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 AWS & Azure
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nos experts vous accompagnent dans la construction et le développement de la performance de
+                                vos couches d’hébergement publics, privés et hybrides :
+                            </p>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -304,7 +308,13 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 DevSecOps
                             </p>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous pouvons vous aider à mettre en place une approche DevSecOps dans votre organisation et
+                                <br>
+                                automatiser entièrement le cycle de vie d’un produit numérique tout en intégrant les
+                                contraintes de conformité.
+                            </p>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
@@ -324,15 +334,13 @@
                                 </div>
                                 <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="">
-                                        Cadrer l’usage des produits et services numériques en valorisant les impacts
-                                        métier,<br>
-                                        technologique et RSE
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Accompagnement dans la mise en place d’architecture micro-services
                                     </p>
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
@@ -352,37 +360,8 @@
                                 </div>
                                 <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="">
-                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
-                                        l’enrichissement <br>
-                                        des données
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="">
-                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis <br>
-                                        du numérique (Cloud, Data, IA)
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Mettre en place la CI/CD en intégrant les contraintes de la sécurité
                                     </p>
                                 </div>
                             </div>

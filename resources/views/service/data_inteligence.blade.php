@@ -213,6 +213,12 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Business Intelligence
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nos experts vous accompagnent dans la conception et la maintenance de vos solutions BI, que
+                                ce soit dans le cloud, <br>sur site ou en mode hybride. Nous utilisons une base
+                                technologique
+                                moderne et robuste pour soutenir votre approche stratégique :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -289,6 +295,11 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Big Data
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous vous conseillons dans vos choix et implémentons la solution cible pour que vous
+                                disposiez de données utiles, de qualité, sécurisées et exploitables quand vous en avez
+                                besoin :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -358,7 +369,11 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Intellligence Artificielle
                             </p>
-
+                            <p class="pt-4" style="margin-left: 8%;">
+                                En ayant développé une forte maîtrise des enjeux et des outils de l’intelligence
+                                artificielle, nous sommes en mesure d’accompagner sur vos nouveaux enjeux de rupture pour
+                                vous apporter :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"

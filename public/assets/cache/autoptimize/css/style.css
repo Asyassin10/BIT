@@ -1,4 +1,7 @@
 /* navbar */
+.nos_service_href:hover{
+    color: rgb(233, 155, 23) !important; font-weight: bold !important;
+}
 .dark_background {
     background-color: #1c1c1a;
 }
@@ -276,7 +279,8 @@
 }
 .mobile_view_navigation_title{
     margin-left: 10%;
-    font-weight: 400;
+    font-weight: 400 !important;
+
 }
 .color_gold{
     color: gold !important;
@@ -285,3 +289,23 @@
     width: 75%;
     margin-top: 10%;
 }
+
+
+/* font family to all pages */
+    *{
+        font-family: 'Inter' !important;
+
+    }
+    .fa {
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+    }
+    .fa, .fas{
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+    }
+
+
+
+
+

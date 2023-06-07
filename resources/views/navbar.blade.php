@@ -9,11 +9,8 @@
     }
     
 @endphp
-<div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
-    {{-- <h1>
-        sdcjscndsdc
-    </h1> --}}
 
+<div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
 
     <hr class="border border-secondary " id="mobile_view_hr">
 
@@ -100,151 +97,164 @@
                     class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
                     Cloud
                 </h2>
-            </a>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div> --}}
         </div>
-        <a class="d-flex align-items-center mb-3 d-none" id="data_inteligence" href='{{ route('data_inteligence') }}'>
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
-                    Data Intelligence
-                </h2>
-            </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
-        </a>
-        <a class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur"
-            href='{{ route('expérience_utilisateur') }}'>
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
-                    Expérience Utilisateur
-                </h2>
-            </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div> --}}
-        </a>
-        <a class="d-flex align-items-center mb-3 d-none" id="green_it" href='{{ route('green_it') }}'>
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
-                    Green IT
-                </h2>
-            </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div> --}}
-        </a>
     </div>
-    <div id="mobile_view_main_content_2" class="d-none">
-        <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
-            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
-                height="17.334" viewBox="0 0 9.667 17.334">
-                <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                    transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+    <a class="d-flex align-items-center mb-3 d-none" id="data_inteligence" href='{{ route('data_inteligence') }}'>
+        <div class="w-75 d-flex align-items-center">
+            <h2
+                class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
+                Data Intelligence
+            </h2>
+        </div>
+
+</div>
+<div class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur">
+    <div class="w-75 d-flex align-items-center">
+        <h2
+            class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
+            Expérience Utilisateur
+        </h2>
+    </div>
+
+</div>
+<div class="d-flex align-items-center mb-3 d-none" id="green_it">
+    <div class="w-75 d-flex align-items-center">
+        <h2
+            class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
+            Green IT
+        </h2>
+    </div>
+</div>
+</div>
+<div id="mobile_view_main_content_2" class="d-none">
+    <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
+        <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
+            height="17.334" viewBox="0 0 9.667 17.334">
+            <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+        </svg>
+        <p class="mt-3">
+            Nos services
+        </p>
+    </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Construire la vision',['construire_la_vision__construire_votre_stratégie_technologique','construire_la_vision__architecture'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Construire la vision
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
             </svg>
-            <p class="mt-3">
+
+        </div>
+    </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Accompagner la mise en Oeuvre',['accompagner_la_mise_en_oeuvre__Pilotage','accompagner_la_mise_en_oeuvre__Réalisation'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Accompagner la mise en
+                Oeuvre
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Nos centres d’excellence',['green_it','experiance_utilisateur','data_inteligence','cloud'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Nos centres d’excellence
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+</div>
+<div id="mobile_view_main_content" class="d-none">
+
+    <a class="d-flex align-items-center mb-3" href="{{ route('about-us') }}">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                À propos
+            </h2>
+        </div>
+        {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+                <br>
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                </svg>
+
+            </div> --}}
+    </a>
+    <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
                 Nos services
-            </p>
+            </h2>
         </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Construire la vision',['construire_la_vision__construire_votre_stratégie_technologique','construire_la_vision__architecture'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Construire la vision
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
 
-            </div>
-        </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Accompagner la mise en Oeuvre',['accompagner_la_mise_en_oeuvre__Pilotage','accompagner_la_mise_en_oeuvre__Réalisation'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Accompagner la mise en
-                    Oeuvre
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
-        </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Nos centres d’excellence',['green_it','experiance_utilisateur','data_inteligence','cloud'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nos centres d’excellence
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
         </div>
     </div>
-    <div id="mobile_view_main_content" class="d-none">
+    <div class="d-flex align-items-center mb-3">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Notre écosystème
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
 
-        <a class="d-flex align-items-center mb-3" href="{{ route('about-us') }}">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    A propos
-                </h2>
-            </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+        </div>
+    </div>
+    <a class="d-flex align-items-center mb-3" href="{{ route('join-us') }}">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Nous rejoindre
+            </h2>
+        </div>
+        {{--  <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -254,82 +264,31 @@
                 </svg>
 
             </div> --}}
-        </a>
-        <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nos services
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
+    </a>
+    <div class="d-flex align-items-center mb-4">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Blog
+            </h2>
         </div>
-        <div class="d-flex align-items-center mb-3">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Notre écosystème
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
 
-            </div>
-        </div>
-        <a class="d-flex align-items-center mb-3" href="{{ route('join-us') }}">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nous rejoindre
-                </h2>
-            </div>
-            {{--  <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div> --}}
-        </a>
-        <div class="d-flex align-items-center mb-4">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Blog
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center " style="margin-top: 68%;">
+</div>
+<div class="d-flex justify-content-center " style="margin-top: 68%;">
 
-        <button class="btn bg-black p-3">
-            Contactez-nous
-        </button>
-    </div>
+    <button class="btn bg-black p-3">
+        Contactez-nous
+    </button>
+</div>
 
 </div>
 {{-- d-md-block --}}
@@ -396,7 +355,7 @@
                                             <li id="menu-item-6493"
                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('Construire_la_vision') }}"
-                                                    class=" hfe-sub-menu-item  {{ Route::currentRouteName() === 'Construire_la_vision' ? 'content_menu_item_active' : '' }}">Construire
+                                                    class=" hfe-sub-menu-item  {{ Route::currentRouteName() === 'Construire_la_vision' ? '' : '' }}">Construire
                                                     la vision<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
@@ -405,7 +364,7 @@
                                                 class="menu-item app_menu_item_app  menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
                                                     class="hfe-sub-menu-item
-                                                    {{ Route::currentRouteName() === 'Accompagner_la_mise_en_oeuvre' ? 'content_menu_item_active' : '' }}">Accompagner
+                                                    {{ Route::currentRouteName() === 'Accompagner_la_mise_en_oeuvre' ? '' : '' }}">Accompagner
                                                     la mise en
                                                     oeuvre<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
@@ -413,10 +372,15 @@
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="#"
-                                                    class="hfe-sub-menu-item  {{ Route::currentRouteName() === 'expérience_utilisateur' || Route::currentRouteName() === 'Cloud' || Route::currentRouteName() === 'green_it' || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}">Nos
+                                                    class="hfe-sub-menu-item  {{ Route::currentRouteName() === 'expérience_utilisateur' || Route::currentRouteName() === 'Cloud' || Route::currentRouteName() === 'green_it' || Route::currentRouteName() === 'data_inteligence' ? '' : '' }}">Nos
                                                     Centres d'Excellence<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom  hfe-creative-menu">
+                                                <a href="#" class="hfe-sub-menu-item nos_service_href">Nos
+                                                    Tous Nos services
                                             </li>
                                         </div>
 
@@ -445,23 +409,23 @@
                                         <div id="nav_slider_extra_content_2">
                                             <div class="row mt-2">
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? '' : '' }}"
                                                         href="{{ route('data_inteligence') }}">Data
                                                         Intelligence</a>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? '' : '' }}"
                                                         href='{{ route('Cloud') }}'>Cloud </a>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? '' : '' }}"
                                                         href="{{ route('expérience_utilisateur') }}"> Expérience
                                                         Utilisateur</a>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? '' : '' }}"
                                                         href="{{ route('green_it') }}"> Green
                                                         IT
                                                     </a>
@@ -483,17 +447,17 @@
                                     <li id="menu-item-4706"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://bti-studio.com/"
-                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
+                                            class="hfe-sub-menu-item ">{{ $data[14]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4705"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.bti-lab.com/"
-                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
+                                            class="hfe-sub-menu-item ">{{ $data[15]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4704"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
-                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
+                                            class="hfe-sub-menu-item ">{{ $data[16]->categorie_name }}</a>
                                     </li>
 
                                 </ul>

@@ -217,6 +217,12 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Co-construire votre stratégie technologique
                             </p>
+
+
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Pour vous permettre de réfléchir aux questions stratégiques et à aligner la technologie sur
+                                vos objectifs :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -293,7 +299,7 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="">
-                                        Identifier un portefeuille de programmes et de projets <br>
+                                        Identifier un portefeuille de programmes et de projets
                                         en orchestrant la mise en œuvre et la bonne allocation de moyens
                                     </p>
                                 </div>
@@ -309,7 +315,6 @@
                                 </a>
                             </div>
                             <p id="architecture."></p>
-
                             <br>
                             <br>
                         </div>
@@ -318,6 +323,9 @@
                             <p class="h1_title h2 pt-4" id="architecture_header" style="margin-left: 8%;">
                                 Architecture
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">Pour vous donner les capacités de construire des
+                                solutions performantes, responsables et
+                                utiles. </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -367,8 +375,8 @@
                                 <div class="flex-grow-1 section_container_paragraph">
 
                                     <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Concevoir avec vous la cible technologique en favorisant la sobriété numérique et
-                                        l’agilité
+                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
+                                        l’enrichissement des données
                                     </p>
                                 </div>
                             </div>
@@ -398,9 +406,6 @@
                                     </p>
                                 </div>
                             </div>
-
-
-
                             <br>
                             <br>
                             <div class="d-flex justify-content-center  div_contacter_expert">
@@ -411,7 +416,6 @@
                             <br>
                             <br>
                             <p id="construisons-votre-vision-ensemble"></p>
-
                         </div>
                         <div id="form_container" class=" shadow-lg  bg-white rounded">
                             <br>
@@ -439,14 +443,11 @@
                                     <option></option>
 
                                 </select>
-
-
                             </div>
                             <div id="div_textarea" class="mb-3">
                                 <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
                                 <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
                             </div>
-
                             <br>
                             <div class="d-flex justify-content-end" id="div_btn_form">
                                 <button id="btn_form" class="px-3 py-2 text-dark">
@@ -470,16 +471,10 @@
         </div>
         <script>
             window.onload = function() {
-                /* var element = document.getElementById("architecture_header");
-                if (element) {
-                    element.scrollIntoView();
-                } */
-                //alert(window.location.hash)
                 if (window.location.hash === "#architecture_header") {
                     var scrollPosition = window.innerHeight * 2.5; // Calculate 20% of the viewport height
                     window.scrollTo(0, scrollPosition);
                 } else if (window.location.hash === "#co-construire-votre-strat%C3%A9gie-technologique") {
-                    // alert("hhh")
                     var scrollPosition = window.innerHeight * 1.5; // Calculate 20% of the viewport height
                     window.scrollTo(0, scrollPosition);
                 }
