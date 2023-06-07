@@ -211,6 +211,12 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Stratégie UX
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous co-construisons la vision de votre produit en identifiant les KPI associés et en
+                                anticipant la mise en œuvre <br> pour fluidifier le bon déroulement global de vos projets.
+                                Nos
+                                services comprennent :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -307,6 +313,10 @@
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Recherche Utilisateur
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Il est essentiel de bien comprendre les utilisateurs en observant leur activité réelle et en
+                                vérifiant <br> des hypothèses.
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
@@ -409,7 +419,11 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 UX/UI Design
                             </p>
-
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous commençons par définir une architecture de l’information en structurant les contenus
+                                d’un site ou en modélisant les différents scénarios utilisateurs dans le cas d’une
+                                application.
+                            </p>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
