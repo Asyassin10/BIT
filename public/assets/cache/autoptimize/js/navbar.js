@@ -112,3 +112,41 @@ three_slides_mobile_view.onclick = function () {
 };
 
 halaloya_navbar_overlay.style.display = "none";
+var current_url = window.location.href;
+/* console.log(fragmentIdentifier); // or display it i
+alert(fragmentIdentifier); */
+let mobile_view_navigation_titles = document.getElementsByClassName(
+    "mobile_view_navigation_title"
+);
+if (
+    current_url.includes(
+        "service/construire-la-vision#construire-votre-strat%C3%A9gie-technologique"
+    )
+) {
+    let element = document.getElementById(
+        "construire_la_vision__construire_votre_stratégie_technologique_title"
+    );
+    element.classList.add("color_gold");
+}
+if (current_url.includes("service/construire-la-vision#architecture")) {
+    let element = document.getElementById(
+        "construire_la_vision__architecture_title"
+    );
+    element.classList.add("color_gold");
+}
+if (current_url.includes("accompagner-la-mise-en-oeuvre#pilotage.")) {
+    let element = document.getElementById(
+        "accompagner_la_mise_en_oeuvre__Pilotage_title"
+    );
+    element.classList.add("color_gold");
+}
+if (
+    current_url.includes(
+        "service/accompagner-la-mise-en-oeuvre#r%C3%A9alisation."
+    )
+) {
+    let element = document.getElementById(
+        "accompagner_la_mise_en_oeuvre__Réalisation_title"
+    );
+    element.classList.add("color_gold");
+}

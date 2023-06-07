@@ -51,173 +51,159 @@
 
             </p>
         </div>
-        <div class="d-flex align-items-center mb-3 d-none"
+        <a class="d-flex align-items-center mb-3 d-none"
+            href="{{ url('/service/construire-la-vision#construire-votre-stratégie-technologique') }}"
             id="construire_la_vision__construire_votre_stratégie_technologique">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
-                    construire-votre-stratégie-technologique
+                <h2 class="mobile_view_navigation_title "
+                    id="construire_la_vision__construire_votre_stratégie_technologique_title">
+                    construire votre stratégie technologique
+
+
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="construire_la_vision__architecture">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="construire_la_vision__architecture"
+            href="{{ url('/service/construire-la-vision#architecture.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="construire_la_vision__architecture_title">
                     Architecture
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Pilotage">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Pilotage"
+            href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="accompagner_la_mise_en_oeuvre__Pilotage_title">
                     Pilotage
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Réalisation">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Réalisation"
+            href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="accompagner_la_mise_en_oeuvre__Réalisation_title">
                     Réalisation
                 </h2>
             </div>
 
-        </div>
+        </a>
         <div class="d-flex align-items-center mb-3 d-none" id="cloud">
-            <div class="w-75 d-flex align-items-center">
+            <a class="w-75 d-flex align-items-center" href='{{ route('Cloud') }}'>
                 <h2
                     class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
                     Cloud
                 </h2>
-            </div>
+        </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="data_inteligence">
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
-                    Data Intelligence
-                </h2>
-            </div>
-
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur">
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
-                    Expérience Utilisateur
-                </h2>
-            </div>
-
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="green_it">
-            <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
-                    Green IT
-                </h2>
-            </div>
-        </div>
     </div>
-    <div id="mobile_view_main_content_2" class="d-none">
-        <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
-            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
-                height="17.334" viewBox="0 0 9.667 17.334">
-                <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                    transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+    <a class="d-flex align-items-center mb-3 d-none" id="data_inteligence" href='{{ route('data_inteligence') }}'>
+        <div class="w-75 d-flex align-items-center">
+            <h2
+                class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
+                Data Intelligence
+            </h2>
+        </div>
+
+</div>
+<div class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur">
+    <div class="w-75 d-flex align-items-center">
+        <h2
+            class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
+            Expérience Utilisateur
+        </h2>
+    </div>
+
+</div>
+<div class="d-flex align-items-center mb-3 d-none" id="green_it">
+    <div class="w-75 d-flex align-items-center">
+        <h2
+            class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
+            Green IT
+        </h2>
+    </div>
+</div>
+</div>
+<div id="mobile_view_main_content_2" class="d-none">
+    <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
+        <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
+            height="17.334" viewBox="0 0 9.667 17.334">
+            <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+        </svg>
+        <p class="mt-3">
+            Nos services
+        </p>
+    </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Construire la vision',['construire_la_vision__construire_votre_stratégie_technologique','construire_la_vision__architecture'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Construire la vision
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
             </svg>
-            <p class="mt-3">
-                Nos services
-            </p>
-        </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Construire la vision',['construire_la_vision__construire_votre_stratégie_technologique','construire_la_vision__architecture'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Construire la vision
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div>
-        </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Accompagner la mise en Oeuvre',['accompagner_la_mise_en_oeuvre__Pilotage','accompagner_la_mise_en_oeuvre__Réalisation'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Accompagner la mise en
-                    Oeuvre
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
-        </div>
-        <div class="d-flex align-items-center mb-3"
-            onclick="ShowServicesSecondLevelLevel('Nos centres d’excellence',['green_it','experiance_utilisateur','data_inteligence','cloud'])">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nos centres d’excellence
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
         </div>
     </div>
-    <div id="mobile_view_main_content" class="d-none">
-
-        <div class="d-flex align-items-center mb-3">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    À propos
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Accompagner la mise en Oeuvre',['accompagner_la_mise_en_oeuvre__Pilotage','accompagner_la_mise_en_oeuvre__Réalisation'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Accompagner la mise en
+                Oeuvre
+            </h2>
         </div>
-        <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nos services
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+    <div class="d-flex align-items-center mb-3"
+        onclick="ShowServicesSecondLevelLevel('Nos centres d’excellence',['green_it','experiance_utilisateur','data_inteligence','cloud'])">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Nos centres d’excellence
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+</div>
+<div id="mobile_view_main_content" class="d-none">
+
+    <a class="d-flex align-items-center mb-3" href="{{ route('about-us') }}">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                À propos
+            </h2>
+        </div>
+        {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -226,15 +212,49 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
+    </a>
+    <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Nos services
+            </h2>
         </div>
-        <div class="d-flex align-items-center mb-3">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Notre écosystème
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+    <div class="d-flex align-items-center mb-3">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Notre écosystème
+            </h2>
+        </div>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+    <a class="d-flex align-items-center mb-3" href="{{ route('join-us') }}">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Nous rejoindre
+            </h2>
+        </div>
+        {{--  <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -243,49 +263,32 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
+            </div> --}}
+    </a>
+    <div class="d-flex align-items-center mb-4">
+        <div class="w-75 d-flex align-items-center">
+            <h2 class="mobile_view_navigation_title">
+                Blog
+            </h2>
         </div>
-        <div class="d-flex align-items-center mb-3">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Nous rejoindre
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-
-            </div>
-        </div>
-        <div class="d-flex align-items-center mb-4">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Blog
-                </h2>
-            </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
+        <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
 
             </div>
         </div>
     </div>
     <div class="d-flex justify-content-center " style="margin-top: 20%;">
 
-        <button class="btn bg-black p-3">
-            Contactez-nous
-        </button>
-    </div>
+    <button class="btn bg-black p-3">
+        Contactez-nous
+    </button>
+</div>
 
 </div>
 {{-- d-md-block --}}
