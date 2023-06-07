@@ -215,6 +215,10 @@
                             <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
                                 Delivery Management
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous vous accompagnons dans la coordination des évolutions de votre système d’information,
+                                en respectant les exigences métiers et technologiques
+                            </p>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -275,6 +279,10 @@
 
                             <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
                                 Product Design
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous pouvons renforcer vos équipes pour construire de nouveaux produits ou ajouter des
+                                fonctionnalités à des produits existants.
                             </p>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
                                 <div class="" style="width: 8%;">
@@ -377,6 +385,10 @@
                             <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
                                 Expertise Technologique
                             </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous fournissons une expertise technique ponctuelle pour accélérer la réalisation et le
+                                déploiement de vos produits :
+                            </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
@@ -399,8 +411,7 @@
 
                                     <p class="">
                                         Apporter une expertise technique pointue avec une spécialisation sur JAVA, .NET et
-                                        <br>
-                                        cross-plateform (Flutter, React Native)
+                                        cross-plateform
                                     </p>
                                 </div>
                             </div>
@@ -435,6 +446,10 @@
                             <br>
                             <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
                                 Tech Team
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous assurons le développement de vos projets technologiques en respectant les exigences de
+                                qualité, <br> de pérennité et de timing :
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
                                 <div class="" style="width: 8%;">
