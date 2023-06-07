@@ -1,4 +1,7 @@
 /* navbar */
+.nos_service_href:hover{
+    color: rgb(233, 155, 23) !important; font-weight: bold !important;
+}
 .dark_background {
     background-color: #1c1c1a;
 }
@@ -289,6 +292,8 @@
         font-family: "Font Awesome 5 Free" !important;
         font-weight: 900 !important;
     }
+
+
 
 
 
