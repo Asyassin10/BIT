@@ -121,7 +121,15 @@
     margin-left: 12%;
     padding-bottom: 450px;
 }
-
+#experiance_user_description_paragraph {
+    font-size: 20px;
+    margin-left: 12%;
+    padding-bottom: 450px;
+}
+#experiance_user_content_container{
+    width: 75%;
+    margin-top:-1250px;
+}
 .main_app_header_container {
     margin-bottom: 80px;
 }
@@ -154,6 +162,10 @@
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
+    #experiance_user_content_container{
+    width: 75%;
+    margin-top:-1150px;
+}
 
     .first_div {
         margin-top: -760px;

@@ -196,7 +196,7 @@
                             <br>
                             <br>
                             <br>
-                            <p class="w-75" id="description_paragraph">
+                            <p class="w-75" style="margin-bottom: 10%;" id="experiance_user_description_paragraph">
                                 Selon UX Planet, un investissement de 1$ dans l’UX peut générer en moyenne de 2$ à 100$ de
                                 profits.
                                 C’est pourquoi nous mettons en place des méthodologies pour être au plus près de vos
@@ -206,7 +206,7 @@
                                 nous intégrons l’écoconception dans nos réalisations, lorsque cela est possible.
                             </p>
                         </div>
-                        <div style="width: 75%;margin-top:-1350px;" class="mx-auto shadow-lg bg-white rounded">
+                        <div id="experiance_user_content_container" class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Stratégie UX

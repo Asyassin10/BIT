@@ -54,50 +54,53 @@
 
             </p>
         </div>
-        <div class="d-flex align-items-center mb-3 d-none"
+        <a class="d-flex align-items-center mb-3 d-none"
+            href="{{ url('/service/construire-la-vision#construire-votre-stratégie-technologique') }}"
             id="construire_la_vision__construire_votre_stratégie_technologique">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
-                    construire-votre-stratégie-technologique
+                <h2 class="mobile_view_navigation_title "
+                    id="construire_la_vision__construire_votre_stratégie_technologique_title">
+                    construire votre stratégie technologique
+
+
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="construire_la_vision__architecture">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="construire_la_vision__architecture"
+            href="{{ url('/service/construire-la-vision#architecture.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="construire_la_vision__architecture_title">
                     Architecture
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Pilotage">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Pilotage"
+            href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="accompagner_la_mise_en_oeuvre__Pilotage_title">
                     Pilotage
                 </h2>
             </div>
 
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Réalisation">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="accompagner_la_mise_en_oeuvre__Réalisation"
+            href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation.') }}">
             <div class="w-75 d-flex align-items-center">
-                <h2
-                    class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
+                <h2 class="mobile_view_navigation_title " id="accompagner_la_mise_en_oeuvre__Réalisation_title">
                     Réalisation
                 </h2>
             </div>
 
-        </div>
+        </a>
         <div class="d-flex align-items-center mb-3 d-none" id="cloud">
-            <div class="w-75 d-flex align-items-center">
+            <a class="w-75 d-flex align-items-center" href='{{ route('Cloud') }}'>
                 <h2
                     class="mobile_view_navigation_title {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'color_gold' : '' }}">
                     Cloud
                 </h2>
-            </div>
+            </a>
             {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
@@ -109,7 +112,7 @@
 
             </div> --}}
         </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="data_inteligence">
+        <a class="d-flex align-items-center mb-3 d-none" id="data_inteligence" href='{{ route('data_inteligence') }}'>
             <div class="w-75 d-flex align-items-center">
                 <h2
                     class="mobile_view_navigation_title {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'color_gold' : '' }}">
@@ -126,8 +129,9 @@
                 </svg>
 
             </div> --}}
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur"
+            href='{{ route('expérience_utilisateur') }}'>
             <div class="w-75 d-flex align-items-center">
                 <h2
                     class="mobile_view_navigation_title {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'color_gold' : '' }}">
@@ -144,8 +148,8 @@
                 </svg>
 
             </div> --}}
-        </div>
-        <div class="d-flex align-items-center mb-3 d-none" id="green_it">
+        </a>
+        <a class="d-flex align-items-center mb-3 d-none" id="green_it" href='{{ route('green_it') }}'>
             <div class="w-75 d-flex align-items-center">
                 <h2
                     class="mobile_view_navigation_title {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'color_gold' : '' }}">
@@ -162,7 +166,7 @@
                 </svg>
 
             </div> --}}
-        </div>
+        </a>
     </div>
     <div id="mobile_view_main_content_2" class="d-none">
         <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
@@ -234,13 +238,13 @@
     </div>
     <div id="mobile_view_main_content" class="d-none">
 
-        <div class="d-flex align-items-center mb-3">
+        <a class="d-flex align-items-center mb-3" href="{{ route('about-us') }}">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     A propos
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -249,8 +253,8 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
-        </div>
+            </div> --}}
+        </a>
         <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
@@ -285,13 +289,13 @@
 
             </div>
         </div>
-        <div class="d-flex align-items-center mb-3">
+        <a class="d-flex align-items-center mb-3" href="{{ route('join-us') }}">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Nous rejoindre
                 </h2>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
+            {{--  <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
                 <br>
                 <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
@@ -300,8 +304,8 @@
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
 
-            </div>
-        </div>
+            </div> --}}
+        </a>
         <div class="d-flex align-items-center mb-4">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
