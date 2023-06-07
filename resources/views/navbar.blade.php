@@ -9,11 +9,8 @@
     }
     
 @endphp
-<div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
-    {{-- <h1>
-        sdcjscndsdc
-    </h1> --}}
 
+<div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
 
     <hr class="border border-secondary " id="mobile_view_hr">
 
@@ -237,7 +234,7 @@
         <div class="d-flex align-items-center mb-3">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
-                    A propos
+                    À propos
                 </h2>
             </div>
             <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">

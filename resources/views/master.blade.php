@@ -7,6 +7,8 @@
             min-height: 1px
         }
     </style>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
     <link rel='stylesheet' id='elementor-post-8-css' href='/assets/cache/autoptimize/css/style.css' type='text/css'
         media='all' />
     <link rel="preload" href="/assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">

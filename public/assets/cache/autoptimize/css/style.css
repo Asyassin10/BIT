@@ -264,7 +264,8 @@
 }
 .mobile_view_navigation_title{
     margin-left: 10%;
-    font-weight: 400;
+    font-weight: 400 !important;
+
 }
 .color_gold{
     color: gold !important;
@@ -273,3 +274,21 @@
     width: 75%;
     margin-top: 10%;
 }
+
+
+/* font family to all pages */
+    *{
+        font-family: 'Inter' !important;
+
+    }
+    .fa {
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+    }
+    .fa, .fas{
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+    }
+
+
+
