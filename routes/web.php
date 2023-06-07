@@ -63,15 +63,8 @@ Route::prefix('service')->group(function () {
     Route::get('/green-it', [ServiceController::class, 'green_it'])->name('green_it');
     Route::get('/data-inteligence', [ServiceController::class, 'data_inteligence'])->name('data_inteligence');
     Route::get('/cloud', [ServiceController::class, 'Cloud'])->name('Cloud');
-
-
-    Route::get('/technologie-innovation', [ServiceController::class, 'show'])->name('technologie-innovation.service');
-    Route::get('/multi-speed-it', [ServiceController::class, 'multi_speed_it'])->name('multi_speed_it.service');
-    Route::get('/transformation-des-produits-it', [ServiceController::class, 'transformation_produits_it'])->name('transformation-des-produits-it.service');
-    Route::get('/transformation-ux', [ServiceController::class, 'transformation_ux'])->name('transformation-ux.service');
 });
 
-Route::view("heek", "admin.layout.AdminLayout");
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
@@ -153,8 +146,6 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get('api-key', [PagesController::class, 'api_key'])->name('page-api-key');
 });
 Route::get('/admin/login', function () {
-    /* $user = Auth::user();
-    return $user; */
     return view('admin.login');
 })->middleware("AuthNoLoginMiddleware");
 Route::post('/admin/login/verify', [AdminController::class, 'admin_login']);
