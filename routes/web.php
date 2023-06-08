@@ -56,7 +56,7 @@ Route::get('/nous-rejoindre', [JoinUsController::class, 'index'])->name('join-us
 Route::get('/nos-services', [ServiceController::class, 'index'])->name('services');
 
 Route::prefix('service')->group(function () {
-    Route::get('/tout-nos-services', [ServiceController::class, 'tout_nos_services'])->name('tout_nos_services');
+    Route::get('/tous-nos-services', [ServiceController::class, 'tout_nos_services'])->name('tout_nos_services');
     Route::get('/construire-la-vision', [ServiceController::class, 'Construire_la_vision'])->name('Construire_la_vision');
     Route::get('/expérience-utilisateur', [ServiceController::class, 'expérience_utilisateur'])->name('expérience_utilisateur');
     Route::get('/accompagner-la-mise-en-oeuvre', [ServiceController::class, 'Accompagner_la_mise_en_oeuvre'])->name('Accompagner_la_mise_en_oeuvre');
