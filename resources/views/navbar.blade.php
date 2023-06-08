@@ -7,7 +7,7 @@
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     }
-
+    
 @endphp
 <div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
 
@@ -326,10 +326,10 @@
                                             box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
                                         id="app_sub_menu">
                                         <div id="div_menu">
-                                            <li id="menu-item-6493"
+                                            <li id=""
                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('Construire_la_vision') }}"
-                                                    class=" hfe-sub-menu-item  {{ Route::currentRouteName() === 'Construire_la_vision' ? 'content_menu_item_active' : '' }}">Construire
+                                                    class=" hfe-sub-menu-item  ">Construire
                                                     la vision<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
@@ -338,18 +338,23 @@
                                                 class="menu-item app_menu_item_app  menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
                                                     class="hfe-sub-menu-item
-                                                    {{ Route::currentRouteName() === 'Accompagner_la_mise_en_oeuvre' ? 'content_menu_item_active' : '' }}">Accompagner
+                                                  ">Accompagner
                                                     la mise en
                                                     oeuvre<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a href="#"
-                                                    class="hfe-sub-menu-item  {{ Route::currentRouteName() === 'expérience_utilisateur' || Route::currentRouteName() === 'Cloud' || Route::currentRouteName() === 'green_it' || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}">Nos
+                                                <a href="#" class="hfe-sub-menu-item ">Nos
                                                     Centres d'Excellence<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('tout_nos_services') }}"
+                                                    class="hfe-sub-menu-item  nos_service_href">Nos
+                                                    Tous Nos services</a>
                                             </li>
                                         </div>
 
@@ -378,24 +383,24 @@
                                         <div id="nav_slider_extra_content_2">
                                             <div class="row mt-2">
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item "
                                                         href="{{ route('data_inteligence') }}">Data
                                                         Intelligence</a>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'content_menu_item_active' : '' }}"
-                                                        href='{{ route('Cloud') }}'>Cloud </a>
+                                                    <a class="content_menu_item " href='{{ route('Cloud') }}'>Cloud
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'content_menu_item_active' : '' }}"
+                                                    <a class="content_menu_item "
                                                         href="{{ route('expérience_utilisateur') }}"> Expérience
                                                         Utilisateur</a>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <a class="content_menu_item {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'content_menu_item_active' : '' }}"
-                                                        href="{{ route('green_it') }}"> Green
+                                                    <a class="content_menu_item " href="{{ route('green_it') }}">
+                                                        Green
                                                         IT
                                                     </a>
                                                 </div>
