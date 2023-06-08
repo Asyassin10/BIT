@@ -252,16 +252,18 @@
                                     </p>
                                 </div>
                                 <div class="w-25 d-flex justify-content-end align-items-center" style="width: 25%;">
-                                    <button class="btn" style="margin-right: 20%;height: 60px;">
-                                        Voir le service
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
-                                            viewBox="0 0 12.752 11.963">
-                                            <path id="ic_fleche"
-                                                d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
-                                                transform="translate(-5.152 -14.665)" fill="#fff" />
-                                        </svg>
+                                    <a href="{{ route('Construire_la_vision') }}" style="margin-right: 20%;height: 60px;">
+                                        <button class="btn">
+                                            Voir le service
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
+                                                viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="#fff" />
+                                            </svg>
 
-                                    </button>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <hr>
@@ -284,16 +286,20 @@
                                     </p>
                                 </div>
                                 <div class="w-25 d-flex justify-content-end align-items-center " style="width: 25%;">
-                                    <button class="btn  " style="margin-right: 20%;height: 60px;">
-                                        Voir le service
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
-                                            viewBox="0 0 12.752 11.963">
-                                            <path id="ic_fleche"
-                                                d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
-                                                transform="translate(-5.152 -14.665)" fill="#fff" />
-                                        </svg>
+                                    <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
+                                        style="margin-right: 20%;height: 60px;">
 
-                                    </button>
+                                        <button class="btn  ">
+                                            Voir le service
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
+                                                viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="#fff" />
+                                            </svg>
+
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <hr>
@@ -304,18 +310,30 @@
                             <div class="d-flex justify-content-start" style="margin-left: 8%;margin-top: 2%;">
 
                                 <div class="d-flex" style="margin-bottom: 7%;">
-                                    <button class="btn  " style="margin-right: 12%;background:#FF9900;">
-                                        Data Intelligence
-                                    </button>
-                                    <button class="btn  " style="margin-right: 12%;background:#FF9900;">
-                                        Green IT
-                                    </button>
-                                    <button class="btn  " style="margin-right: 12%;background:#FF9900;">
-                                        Expérience utilisateur
-                                    </button>
-                                    <button class="btn  " style="margin-right: 12%;background:#FF9900;">
-                                        Cloud
-                                    </button>
+                                    <a href="{{ route('data_inteligence') }}"
+                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
+                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                            Data Intelligence
+                                        </button>
+                                    </a>
+                                    <a href="{{ route('green_it') }}"
+                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
+                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                            Green IT
+                                        </button>
+                                    </a>
+                                    <a href="{{ route('expérience_utilisateur') }}"
+                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
+                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                            Expérience utilisateur
+                                        </button>
+                                    </a>
+                                    <a href="{{ route('Cloud') }}"
+                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
+                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                            Cloud
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
 
