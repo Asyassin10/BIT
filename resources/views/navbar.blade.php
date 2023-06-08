@@ -7,12 +7,10 @@
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     }
-    
+
 @endphp
 <div style="background: white;z-index: 999;" class="m-0 p-0" id="halaloya_navbar_overlay">
-    {{-- <h1>
-        sdcjscndsdc jCEGKQJDHCLQSJHDCVjhqdcv
-    </h1> --}}
+
 
 
     <hr class="border border-secondary " id="mobile_view_hr">
@@ -101,16 +99,7 @@
                     Cloud
                 </h2>
             </a>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </div>
         <a class="d-flex align-items-center mb-3 d-none" id="data_inteligence" href='{{ route('data_inteligence') }}'>
             <div class="w-75 d-flex align-items-center">
@@ -119,16 +108,7 @@
                     Data Intelligence
                 </h2>
             </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </a>
         <a class="d-flex align-items-center mb-3 d-none" id="experiance_utilisateur"
             href='{{ route('expérience_utilisateur') }}'>
@@ -138,16 +118,7 @@
                     Expérience Utilisateur
                 </h2>
             </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </a>
         <a class="d-flex align-items-center mb-3 d-none" id="green_it" href='{{ route('green_it') }}'>
             <div class="w-75 d-flex align-items-center">
@@ -156,16 +127,7 @@
                     Green IT
                 </h2>
             </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </a>
     </div>
     <div id="mobile_view_main_content_2" class="d-none">
@@ -244,16 +206,7 @@
                     A propos
                 </h2>
             </div>
-            {{-- <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </a>
         <div class="d-flex align-items-center mb-3" onclick="ShowServicesTopLevel()">
             <div class="w-75 d-flex align-items-center">
@@ -295,16 +248,7 @@
                     Nous rejoindre
                 </h2>
             </div>
-            {{--  <div class="w-25 d-flex align-items-center justify-content-end " style="padding-right: 10%;">
-                <br>
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" width="9.667" height="17.334" viewBox="0 0 9.667 17.334">
-                    <path id="Tracé_60" data-name="Tracé 60" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
-                        transform="translate(229.944 7351.052) rotate(-90)" fill="none" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
 
-            </div> --}}
         </a>
         <div class="d-flex align-items-center mb-4">
             <div class="w-75 d-flex align-items-center">
@@ -343,18 +287,7 @@
             <div class="elementor-widget-container">
                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
                     data-layout="horizontal">
-                    {{-- hfe-nav-menu__toggle  --}}
-                    {{--  hfe-nav-menu-icon --}}
-                    {{-- <div class="hfe-nav-menu__toggle elementor-clickable">
-                        <div class="hfe-nav-menu-icon" id="three_slides_mobile_view">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50"
-                                width="50px" height="50px">
-                                <path
-                                    d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div> --}}
+
                     <div style="background: #FAFAFA;text-align: right;" class="elementor-clickable d-block d-sm-none "
                         id="three_slides_mobile_view">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px"
