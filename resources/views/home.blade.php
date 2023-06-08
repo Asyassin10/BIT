@@ -7,6 +7,7 @@
 
     <body
         class="home page-template-default page page-id-6988 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-6988 elementor-page-6996">
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
             style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
@@ -183,16 +184,21 @@
                                             <div class="elementor-widget-container">
                                                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
                                                     data-layout="horizontal">
-                                                    <div class="hfe-nav-menu__toggle elementor-clickable">
-                                                        <div class="hfe-nav-menu-icon">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000"
-                                                                viewBox="0 0 50 50" width="50px" height="50px">
-                                                                <path
-                                                                    d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
-                                                                </path>
-                                                            </svg>
-                                                        </div>
+                                                    {{-- <div class="hfe-nav-menu__toggle elementor-clickable">
+
+                                                    </div> --}}
+                                                    {{--  hfe-nav-menu-icon" --}}
+                                                    <div class="elementor-clickable" id="three_slides_mobile_view"
+                                                        style="color:white;text-align: right;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"
+                                                            style="color:white;" viewBox="0 0 50 50" width="50px"
+                                                            height="50px">
+                                                            <path
+                                                                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                                                            </path>
+                                                        </svg>
                                                     </div>
+                                                    @include('Includes/navbar_mobile_view')
                                                     <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                                                         data-toggle-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                                                         data-close-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
@@ -636,7 +642,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                            } */
+                                                                                                                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -699,9 +705,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                                                                                                        margin: 0px;
-                                                                                                                                                                                                                                                                                        padding: 5%;
-                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                        margin: 0px;
+                                                                                                                                                                                                                                                                                                                        padding: 5%;
+                                                                                                                                                                                                                                                                                                                    } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
@@ -3628,5 +3634,7 @@
             }
         </script>
         <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+
     </body>
 @endsection
