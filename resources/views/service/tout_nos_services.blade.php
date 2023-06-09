@@ -187,10 +187,11 @@
                     </div> --}}
 
 
-                    <section style="width: 100%;heigt:10%;" id="section_container_content" class="mt-50 mt-sm-25 ">
-                        <div class="app_d_v_header_container row w-100 d-flex align-items-center"
-                            id="tout_nos_services_container">
-                            <div class=" col-12 col-md-7 " id="tout_nos_services_child_a">
+                    <section style="width: 100%;heigt:10%;" id=""
+                        class="mt-50 mt-sm-25 section_container_content">
+                        <div class="app_d_v_header_container row w-100 d-flex align-items-center tout_nos_services_container"
+                            id="">
+                            <div class=" col-12 col-md-7 tout_nos_services_child_a" id="">
                                 {{-- style="width: 60%;" --}}
                                 <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;color:#FF9900;">
                                     Nos services
@@ -200,14 +201,38 @@
                                     service du bien commun
                                 </h1>
                             </div>
-                            <div class="col-12 col-md-5 " id="tout_nos_services_child_b">
+                            <div class="col-12 col-md-5 tout_nos_services_child_b" id="">
                                 <img src="{{ asset('images/webp/io.webp') }}" class="m-0 p-0 img-fluid">
 
 
                             </div>
                         </div>
-                        {{--   app_d_v_header_container --}}
-                        <div class=" w-100 d-flex align-items-center" style="margin-top: 10%;">
+                        <div class="app_d_v_header_container row w-100  tout_nos_services_container" id="">
+                            <div class="col-12 col-md-7 tout_nos_services_child_b_1 d-flex justify-content-center"
+                                id="">
+                                <img src="{{ asset('images/webp/slides.webp') }}" style="height: 90%;width: 70%"
+                                    class="m-0 p-0 img-fluid">
+
+
+                            </div>
+                            <div class=" col-12 col-md-5 tout_nos_services_child_a_1" id="">
+                                {{-- style="width: 60%;" --}}
+                                <p style="text-align:left;width:90%;color:black;font-weight: bold;font-size: 28px;line-height: 40px;"
+                                    class="mb-4">
+                                    De l’émergence à la réalisation d’une idée, nos offres de services IT permettent de
+                                    couvrir l’ensemble des activités pour vous accompagner.
+                                </p>
+                                <p style="text-align:left;width:90%;font-size: 20px;">
+                                    Grâce à une combinaison de compétences métiers et technologiques complémentaires, BTI –
+                                    Advisory est en mesure de formuler la stratégie à adopter, de valider la faisabilité des
+                                    idées nouvelles, de décliner et de mettre en œuvre opérationnellement les directions
+                                    stratégiques et d’accompagner sur l’ensemble de la chaîne de valeur la montée en
+                                    maturité opérationnelle des équipes.
+                                </p>
+                            </div>
+
+                        </div>
+                        {{--  <div class=" w-100 d-flex align-items-center" style="margin-top: 10%;">
                             <div class=" d-flex justify-content-end" style="width: 60%;">
 
                                 <img src="{{ asset('images/webp/slides.webp') }}" alt=""
@@ -227,21 +252,20 @@
                                 </p>
                             </div>
 
-                        </div>
-                        {{-- id : co-construire-votre-stratégie-technologique --}}
+                        </div> --}}
                         <div id="section_three_container_tout_nos_services" style=""
                             class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <br>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                            <p class="h1_title h2 pt-4" style="margin-left: 10%;">
                                 Construire la vision
                             </p>
-                            <div class="d-flex justify-content-start" style="margin-left: 8%;margin-top: 2%;">
+                            <div class="row" style="margin-left: 8%;margin-top: 2%;">
 
-                                <div class=" section_container_paragraph" style="width: 75%;">
+                                <div class="col-12 col-md-8 " {{-- style="width: 75%;" --}}>
 
-                                    <p class="">
+                                    <p class="section_container_paragraph_p">
                                         Les entreprises sont confrontées à des défis de transformation majeurs,
                                         avec des cycles d’innovation de plus en plus courts. Chez BTI-Advisory, nous sommes
                                         convaincus que pour réussir cette transformation, il est essentiel de construire
@@ -253,54 +277,53 @@
                                         réglementaires.
                                     </p>
                                 </div>
-                                <div class="w-25 d-flex justify-content-end align-items-center" style="width: 25%;">
-                                    <a href="{{ route('Construire_la_vision') }}" style="margin-right: 20%;height: 60px;">
-                                        <button class="btn">
-                                            Voir le service
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
-                                                viewBox="0 0 12.752 11.963">
-                                                <path id="ic_fleche"
-                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
-                                                    transform="translate(-5.152 -14.665)" fill="#fff" />
-                                            </svg>
-
-                                        </button>
+                                {{-- style="width: 25%;" --}}
+                                <div
+                                    class="col-12 col-md-4 d-flex justify-content-start justify-content-md-center align-items-start mt-4">
+                                    <a href="{{ route('Construire_la_vision') }}"
+                                        style="background: black;border-radius: 10px;color:white;"
+                                        class="btn px-4 py-3  ">
+                                        Voir le service
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
+                                            style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                            <path id="ic_fleche"
+                                                d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                transform="translate(-5.152 -14.665)" fill="#fff" />
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
                             <hr>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                            <p class="h1_title h2 pt-4" style="margin-left: 10%;margin-right: 8%;">
                                 Accompagner la mise en oeuvre
                             </p>
-                            <div class="d-flex justify-content-start" style="margin-left: 8%;margin-top: 2%;">
 
-                                <div class=" section_container_paragraph" style="width: 75%;">
+                            <div class="row" style="margin-left: 8%;margin-top: 2%;">
 
-                                    <p class="">
+                                <div class="col-12 col-md-8 " {{-- style="width: 75%;" --}}>
+
+                                    <p class="section_container_paragraph_p">
                                         Aujourd’hui, les entreprises doivent adopter des démarches orientées produit pour
                                         renforcer leur maturité technologique et métier.  Que vous souhaitiez construire un
                                         nouveau produit ou transformer votre système d’information, nous avons les
-                                        compétences
-                                        pour co-construire avec vous des produits performants, responsables et utiles, en
-                                        nous
-                                        concentrant sur les aspects techniques et non techniques.
+                                        compétences pour co-construire avec vous des produits performants, responsables et
+                                        utiles, en nous concentrant sur les aspects techniques et non techniques.
                                     </p>
                                 </div>
-                                <div class="w-25 d-flex justify-content-end align-items-center " style="width: 25%;">
-                                    <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
-                                        style="margin-right: 20%;height: 60px;">
-
-                                        <button class="btn  ">
-                                            Voir le service
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
-                                                viewBox="0 0 12.752 11.963">
-                                                <path id="ic_fleche"
-                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
-                                                    transform="translate(-5.152 -14.665)" fill="#fff" />
-                                            </svg>
-
-                                        </button>
+                                {{-- style="width: 25%;" --}}
+                                <div
+                                    class="col-12 col-md-4 d-flex justify-content-start justify-content-md-center align-items-start mt-4">
+                                    <a href="{{ route('Construire_la_vision') }}"
+                                        style="background: black;border-radius: 10px;color:white;"
+                                        class="btn px-4 py-3  ">
+                                        Voir le service
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
+                                            style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                            <path id="ic_fleche"
+                                                d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                transform="translate(-5.152 -14.665)" fill="#fff" />
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
@@ -309,35 +332,40 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Nos centres d’excellence
                             </p>
-                            <br><br>
-                            <div class="d-flex justify-content-start" style="margin-left: 8%;margin-top: 2%;">
+                            <br>
+                            <div class="d-flex justify-content-start w-100" style="margin-left: 8%;margin-top: 2%;">
+                                <div class="row  w-75" style="margin-bottom: 7%;">
+                                    <div class="col-12 col-md-3 mb-2    ">
 
-                                <div class="d-flex" style="margin-bottom: 7%;">
-                                    <a href="{{ route('data_inteligence') }}"
-                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
-                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                        <a href="{{ route('data_inteligence') }}" class="btn p-3"
+                                            style="background:#FF9900;border-radius: 7px;color:black;">
                                             Data Intelligence
-                                        </button>
-                                    </a>
-                                    <a href="{{ route('green_it') }}"
-                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
-                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-3 mb-2    ">
+
+                                        <a href="{{ route('green_it') }}" class="btn p-3"
+                                            style="background:#FF9900;border-radius: 7px;color:black;">
                                             Green IT
-                                        </button>
-                                    </a>
-                                    <a href="{{ route('expérience_utilisateur') }}"
-                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
-                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-3 mb-2    ">
+
+                                        <a href="{{ route('expérience_utilisateur') }}" class="btn p-3"
+                                            style="background:#FF9900;border-radius: 7px;color:black;">
                                             Expérience utilisateur
-                                        </button>
-                                    </a>
-                                    <a href="{{ route('Cloud') }}"
-                                        style="margin-right: 12%;background:#FF9900;border-radius: 7px;">
-                                        <button class="btn  text-dark" style="background:#FF9900;">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-3 mb-2    ">
+
+                                        <a href="{{ route('Cloud') }}" class="btn p-3"
+                                            style="background:#FF9900;border-radius: 7px;color:black;">
+
                                             Cloud
-                                        </button>
-                                    </a>
+                                        </a>
+                                    </div>
                                 </div>
+
                             </div>
 
 
