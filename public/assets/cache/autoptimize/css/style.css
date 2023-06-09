@@ -165,9 +165,36 @@
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
+    #tout_nos_services_container{
+    margin-top: 50%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
     #experiance_user_content_container{
     width: 75%;
     margin-top:-1150px;
+}
+#section_container_content{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#tout_nos_services_child_b{
+    order: 1;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#tout_nos_services_child_a{
+    order: 2;
+    margin-top: 5%;
+    width: 100%;
 }
 
     .first_div {

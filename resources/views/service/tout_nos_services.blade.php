@@ -170,38 +170,40 @@
                         </header>
                     </div>
                 </header>
-                <div class="container-fluid m-0 p-0">
-                    <div data-elementor-type="single-page" data-elementor-id="7230"
+                <div class="container-fluid m-0 p-0 ">
+                    {{-- <div data-elementor-type="single-page" data-elementor-id="7230"
                         class="elementor elementor-7230 elementor-location-single post-59 page type-page status-publish hentry">
                         <section
                             class="has_ae_slider  elementor-section elementor-top-section elementor-element elementor-element-24d79048 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default "
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no">
-                                {{-- <h1 class="main_app_header">
+                                <h1 class="main_app_header">
                                     Construire la vision
-                                </h1> --}}
+                                </h1>
                             </div>
                         </section>
 
 
-                    </div>
+                    </div> --}}
 
 
-                    <section style="width: 100%;heigt:10%;" class="mt-50 mt-sm-25">
-                        <div class="app_d_v_header_container w-100 d-flex align-items-center">
-                            <div class="" style="width: 60%;">
-                                <p style="margin-left: 10%;margin-right: 10%;color:#FF9900;">
+                    <section style="width: 100%;heigt:10%;" id="section_container_content" class="mt-50 mt-sm-25 ">
+                        <div class="app_d_v_header_container row w-100 d-flex align-items-center"
+                            id="tout_nos_services_container">
+                            <div class=" col-12 col-md-7 " id="tout_nos_services_child_a">
+                                {{-- style="width: 60%;" --}}
+                                <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;color:#FF9900;">
                                     Nos services
                                 </p>
-                                <h1 style="margin-left: 10%;margin-right: 10%;">
+                                <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;">
                                     Nous nous engageons dans une démarche de transformation et d’innovation technologique au
                                     service du bien commun
                                 </h1>
                             </div>
-                            <div class=" d-flex justify-content-end" style="width: 40%;">
+                            <div class="col-12 col-md-5 " id="tout_nos_services_child_b">
+                                <img src="{{ asset('images/webp/io.webp') }}" class="m-0 p-0 img-fluid">
 
-                                <img src="{{ asset('images/webp/io.webp') }}" alt="" class="img-fluid"
-                                    style="height: 85% !important;width: 100% !important;">
+
                             </div>
                         </div>
                         {{--   app_d_v_header_container --}}
