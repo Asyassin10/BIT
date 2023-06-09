@@ -100,6 +100,9 @@ let close_svg_container = document.getElementById("close_svg_container");
 let three_slides_mobile_view = document.getElementById(
     "three_slides_mobile_view"
 );
+let three_slides_mobile_view_2 = document.getElementById(
+    "three_slides_mobile_view_2"
+);
 
 let halaloya_navbar_overlay = document.getElementById(
     "halaloya_navbar_overlay"
@@ -107,9 +110,18 @@ let halaloya_navbar_overlay = document.getElementById(
 close_svg_container.onclick = function () {
     halaloya_navbar_overlay.style.display = "none";
 };
-three_slides_mobile_view.onclick = function () {
-    halaloya_navbar_overlay.style.display = "block";
-};
+if (three_slides_mobile_view !== null) {
+    three_slides_mobile_view.onclick = function () {
+        halaloya_navbar_overlay.style.display = "block";
+    };
+}
+if (three_slides_mobile_view_2 !== null) {
+    three_slides_mobile_view_2.onclick = function () {
+        halaloya_navbar_overlay.style.display = "block";
+    };
+}
+
+
 
 halaloya_navbar_overlay.style.display = "none";
 var current_url = window.location.href;
