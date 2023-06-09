@@ -307,6 +307,7 @@
                             <p class="h1_title h2 pt-4" style="margin-left: 8%;">
                                 Nos centres d’excellence
                             </p>
+                            <br><br>
                             <div class="d-flex justify-content-start" style="margin-left: 8%;margin-top: 2%;">
 
                                 <div class="d-flex" style="margin-bottom: 7%;">
