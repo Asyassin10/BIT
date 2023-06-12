@@ -189,9 +189,10 @@
                                                     </div> --}}
                                                     {{--  hfe-nav-menu-icon" --}}
                                                     <div class="elementor-clickable " id="three_slides_mobile_view_2"
-                                                         style="color:white;text-align: right;">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" style=""
-                                                            style="color:white;" viewBox="0 0 50 50" width="50px" id="three_slides_mobile_view_2_svg"
+                                                        style="color:white;text-align: right;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"
+                                                            style="" style="color:white;" viewBox="0 0 50 50"
+                                                            width="50px" id="three_slides_mobile_view_2_svg"
                                                             height="50px">
                                                             <path
                                                                 d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
@@ -199,15 +200,15 @@
                                                         </svg>
                                                     </div>
                                                     <style>
-                                                        #three_slides_mobile_view_2{
-                                                            display:none;
+                                                        #three_slides_mobile_view_2 {
+                                                            display: none;
                                                         }
-                                                     
+
                                                         @media only screen and (max-width: 767px) {
-                                                             #three_slides_mobile_view_2{
-                                                                display:block;
+                                                            #three_slides_mobile_view_2 {
+                                                                display: block;
                                                             }
-                                                          
+
                                                         }
                                                     </style>
                                                     @include('Includes/navbar_mobile_view')
@@ -267,7 +268,7 @@
                                                                             <li
                                                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                                                 <a href="{{ route('tout_nos_services') }}"
-                                                                                    class="hfe-sub-menu-item  nos_service_href">Nos
+                                                                                    class="hfe-sub-menu-item  nos_service_href">
                                                                                     Tous Nos services</a>
                                                                             </li>
                                                                         </div>
@@ -661,7 +662,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                                        } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -724,9 +725,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                                                                                                                                                margin: 0px;
-                                                                                                                                                                                                                                                                                                                                padding: 5%;
-                                                                                                                                                                                                                                                                                                                            } */
+                                                                                                                                                                                                                                                                                                                                    margin: 0px;
+                                                                                                                                                                                                                                                                                                                                    padding: 5%;
+                                                                                                                                                                                                                                                                                                                                } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
