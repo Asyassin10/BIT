@@ -2666,7 +2666,7 @@
         </script>
 
         <script type='module'
-		src='../assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
+		src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
 		id='instant-page-js'></script>
 
 

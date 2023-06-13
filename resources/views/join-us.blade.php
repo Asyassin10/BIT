@@ -127,8 +127,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image"
-                preloader-image-url="{{ asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -155,7 +154,7 @@
                                                         href="{{ route('home') }}" aria-label="home">
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
-                                                                <picture>
+                                                                <picture style="margin-top: 10%;">
                                                                     <source type="image/webp"
                                                                         srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
@@ -235,8 +234,10 @@
                                                 data-id="66304b20" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
-                                                        {!! $articles[1]->article_text !!}</h1>
+                                                    <h1 class="elementor-heading-title elementor-size-default"
+                                                        style="margin-top: 10%;">
+                                                        {!! $articles[1]->article_text !!}
+                                                    </h1>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-ed4eaf4 elementor-widget elementor-widget-text-editor"
@@ -292,7 +293,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div
                                                                         class="elementor-button-wrapper icon_align_right  ">
-                                                                        <a href="#offres"
+                                                                        <a href="#offres" style="margin-top: 4%;"
                                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                                             role="button">
                                                                             <span class="elementor-button-content-wrapper">
@@ -315,6 +316,7 @@
                                                                     <div
                                                                         class="elementor-button-wrapper icon_align_right  ">
                                                                         <a href="#candidature_spontanee"
+                                                                            style="margin-top: 4%;"
                                                                             class="elementor-button-link elementor-button elementor-size-xs"
                                                                             role="button">
                                                                             <span class="elementor-button-content-wrapper">
@@ -440,7 +442,7 @@
                                                     <p class="elementor-heading-title elementor-size-default">
                                                         {!! $articles[6]->article_text !!}</p>
                                                 </div>
-                                            </div>  
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f00ff6b ae-bg-gallery-type-default"

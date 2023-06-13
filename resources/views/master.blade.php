@@ -7,9 +7,11 @@
             min-height: 1px
         }
     </style>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
     <link rel='stylesheet' id='elementor-post-8-css' href='/assets/cache/autoptimize/css/style.css' type='text/css'
         media='all' />
-    <link rel="preload" href="assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+    <link rel="preload" href="/assets/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
@@ -283,6 +285,7 @@
         type='text/css' media='all' />
 
 
+
     <link rel='stylesheet' id='elementor-frontend-css'
         href='/assets/uploads/elementor/css/custom-frontend-lite.min.css@ver=1675955104.css' type='text/css'
         media='all' />
@@ -470,11 +473,6 @@
         media='all' />
 
 
-    <link rel='stylesheet' id='stm-skin-custom-generated-css'
-        href='./assets/cache/autoptimize/css/autoptimize_single_0ede6af29e586882b36ff88dcf8039fa.css@ver=95005.css'
-        type='text/css' media='all' />
-
-
 
     <style id='consulting-global-styles-inline-css' type='text/css'>
         .elementor-widget-video .eicon-play {
@@ -602,18 +600,18 @@
 
 
     <link rel='stylesheet' id='elementor-post-7191-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css'
-        type='text/css' media='all' />
+        href='/assets/cache/autoptimize/css/autoptimize_single_fe238839d422d93d0c777a72441f19e1.css' type='text/css'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-6996-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_c3cf279bdeede838f4f0f427b01003a3.css@ver=1675955140.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-7285-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_10ff3e9f34c42fcbcaaebba3b861a014.css@ver=1675955780.css'
         type='text/css' media='all' />
 
     <link rel='stylesheet' id='elementor-post-7285-css'
-        href='https://bti-advisory.com/wp-content/cache/autoptimize/css/autoptimize_single_e4fa627ab7bd256bb0dfe063001b31c5.css'
-        type='text/css' media='all' />
+        href='/assets/cache/autoptimize/css/autoptimize_single_e4fa627ab7bd256bb0dfe063001b31c5.css' type='text/css'
+        media='all' />
 
 
     <link rel='stylesheet' id='elementor-post-7230-css'
@@ -630,9 +628,14 @@
         href='/assets/cache/autoptimize/css/autoptimize_single_576dc2e7f614d540b882ff8cdf53b455.css?ver=1675955467'
         type='text/css' media='all' />
 
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js@ver=3.6.0' id='jquery-core-js'></script>
+    <script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js@ver=3.6.0' id='jquery-core-js'></script>
 
+    <link media="all" href="/assets/cache/autoptimize/css/autoptimize_faeea979993cfdc52ed7ecb52b6d7a6d.css"
+        rel="stylesheet" />
 
+    <link rel='stylesheet' id='elementor-post-73-css'
+        href='/assets/cache/autoptimize/css/autoptimize_single_b9763c47e2073f85557f63e26b40d7db.css?ver=1675955166'
+        type='text/css' media='all' />
 
     <style type='text/css'>
         .ae_data .elementor-editor-element-setting {
@@ -648,14 +651,15 @@
             display: none;
         }
     </style>
+
     <style>
         #wp-admin-bar-consulting_settings img {
             max-width: 25px;
             vertical-align: top;
             position: relative;
             top: 3px;
+        }
     </style>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="32x32" />
     <link rel="icon" href="assets/uploads/2022/01/Logo-1.svg" sizes="192x192" />
     <link rel="apple-touch-icon" href="assets/uploads/2022/01/Logo-1.svg" />
@@ -998,7 +1002,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel='stylesheet' href='{{ asset('assets/cache/autoptimize/css/style.css') }}' type='text/css' />
 </head>
 {{-- body --}}
 
@@ -1008,6 +1012,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
+<script src="{{ asset('assets/cache/autoptimize/js/AppNavbar.js') }}"></script>
+
 
 
 </html>

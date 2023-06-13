@@ -1,0 +1,56 @@
+{
+  "menu": [
+    {
+      "name": "Tableau de bord",
+      "badge": "",
+      "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
+      "icon": "home",
+      "url": "admin/dashboard",
+      "slug": "admin.dashboard"
+    },
+    {
+      "url": "admin/all-categories",
+      "name": "Categories",
+      "icon": "server",
+      "slug": "allCategories"
+    },
+    {
+      "url": "admin/articles",
+      "name": "Articles",
+      "icon": "grid",
+      "slug": "ListArticles"
+    },
+    {
+      "name": "Rôles & Autorisations",
+      "icon": "shield",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/access-roles",
+          "name": "Roles",
+          "icon": "circle",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "admin/access-permission",
+          "name": "Permission",
+          "icon": "circle",
+          "slug": "app-access-permission"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "icon": "user",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/user/list",
+          "name": "List",
+          "icon": "circle",
+          "slug": "app-user-list"
+        }
+      ]
+    }
+  ]
+}

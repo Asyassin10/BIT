@@ -7,6 +7,7 @@
 
     <body
         class="home page-template-default page page-id-6988 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-6988 elementor-page-6996">
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
             style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
@@ -183,96 +184,210 @@
                                             <div class="elementor-widget-container">
                                                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
                                                     data-layout="horizontal">
-                                                    <div class="hfe-nav-menu__toggle elementor-clickable">
-                                                        <div class="hfe-nav-menu-icon">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000"
-                                                                viewBox="0 0 50 50" width="50px" height="50px">
-                                                                <path
-                                                                    d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
-                                                                </path>
-                                                            </svg>
-                                                        </div>
+                                                    {{-- <div class="hfe-nav-menu__toggle elementor-clickable">
+
+                                                    </div> --}}
+                                                    {{--  hfe-nav-menu-icon" --}}
+                                                    <div class="elementor-clickable " id="three_slides_mobile_view_2"
+                                                        style="color:white;text-align: right;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"
+                                                            style="" style="color:white;" viewBox="0 0 50 50"
+                                                            width="50px" id="three_slides_mobile_view_2_svg"
+                                                            height="50px">
+                                                            <path
+                                                                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                                                            </path>
+                                                        </svg>
                                                     </div>
+                                                    <style>
+                                                        #three_slides_mobile_view_2 {
+                                                            display: none;
+                                                        }
+
+                                                        @media only screen and (max-width: 767px) {
+                                                            #three_slides_mobile_view_2 {
+                                                                display: block;
+                                                            }
+
+                                                        }
+                                                    </style>
+                                                    @include('Includes/navbar_mobile_view')
                                                     <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                                                         data-toggle-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                                                         data-close-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                                                         data-full-width="yes">
-                                                        <ul id="menu-1-46fc6f23" class="hfe-nav-menu">
+                                                        <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                                                             <li id="menu-item-86"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                                class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('a-propos') ? 'menu_item_navbar' : '' }} {{ request()->is('a-propos') ? 'current-menu-ancestor' : 'parent' }} hfe-creative-menu">
                                                                 <a href="{{ route('about-us') }}"
                                                                     class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                                                 </a>
                                                             </li>
+
                                                             <li id="menu-item-6494"
-                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                                <div class="hfe-has-submenu-container"><a href="#"
-                                                                        class="hfe-menu-item">{{ $data[1]->categorie_name }}<span
-                                                                            class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                                                class='fa'></i></span></a></div>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-6493"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('services') }}"
-                                                                            class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
-                                                                    </li>
-                                                                    <li id="menu-item-5705"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('transformation-des-produits-it.service') }}"
-                                                                            class="hfe-sub-menu-item">{{ $data[4]->categorie_name }}</a>
-                                                                    </li>
-                                                                    <li id="menu-item-5707"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('multi_speed_it.service') }}"
-                                                                            class="hfe-sub-menu-item">{{ $data[5]->categorie_name }}</a>
-                                                                    </li>
-                                                                    <li id="menu-item-5708"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('technologie-innovation.service') }}"
-                                                                            class="hfe-sub-menu-item">{{ $data[6]->categorie_name }}</a>
-                                                                    </li>
-                                                                    <li id="menu-item-5710"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="{{ route('transformation-ux.service') }}"
-                                                                            class="hfe-sub-menu-item">{{ $data[7]->categorie_name }}</a>
-                                                                    </li>
+                                                                class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
+                                                                <div class="hfe-has-submenu-container"><a href=""
+                                                                        class="hfe-menu-item">{{ $data[1]->categorie_name }}
+                                                                        <span
+                                                                            class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                                class="fa"></i></span>
+                                                                    </a>
+                                                                </div>
+                                                                <ul class="sub-menu dark_background">
+                                                                    <div class="d-flex "
+                                                                        style="border-radius: 8px;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
+                                                                        box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
+                                                                        id="app_sub_menu">
+                                                                        <div id="div_menu" class="dark_background">
+                                                                            <li id="menu-item-6493"
+                                                                                class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                                <a href="{{ route('Construire_la_vision') }}"
+                                                                                    class=" hfe-sub-menu-item  {{ Route::currentRouteName() === 'Construire_la_vision' ? 'content_menu_item_active' : '' }}">Construire
+                                                                                    la vision<span
+                                                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                                                            class='fas fa-chevron-right'></i></span></a>
+                                                                            </li>
+                                                                            <li id="menu-item-5705"
+                                                                                class="menu-item app_menu_item_app  menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                                <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
+                                                                                    class="hfe-sub-menu-item
+                                                                                {{ Route::currentRouteName() === 'Accompagner_la_mise_en_oeuvre' ? 'content_menu_item_active' : '' }}">Accompagner
+                                                                                    la mise en
+                                                                                    oeuvre<span
+                                                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                                                            class='fas fa-chevron-right'></i></span></a>
+                                                                            </li>
+                                                                            <li id="menu-item-5707"
+                                                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                                <a href=""
+                                                                                    class="hfe-sub-menu-item  {{ Route::currentRouteName() === 'expérience_utilisateur' || Route::currentRouteName() === 'Cloud' || Route::currentRouteName() === 'green_it' || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}">Nos
+                                                                                    Centres d'Excellence<span
+                                                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                                                            class='fas fa-chevron-right'></i></span></a>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                                <a href="{{ route('tout_nos_services') }}"
+                                                                                    class="hfe-sub-menu-item  nos_service_href">
+                                                                                    Tous Nos services</a>
+                                                                            </li>
+                                                                        </div>
+
+                                                                        <div id="nav_slider_extra_content_0"
+                                                                            class="dark_background">
+                                                                            <li id="menu-item-6493" class="mt-2">
+                                                                                <a class=" text_white"
+                                                                                    href="{{ url('/service/construire-la-vision#co-construire-votre-stratégie-technologique') }}">Co-construire
+                                                                                    voter stratégie technologique</a>
+                                                                            </li>
+                                                                            <li id="menu-item-6493" class="md-1">
+                                                                                <a class="text_white"
+                                                                                    href="{{ url('/service/construire-la-vision#architecture_header') }}">Architecture</a>
+                                                                            </li>
+                                                                        </div>
+                                                                        <div id="nav_slider_extra_content_1"
+                                                                            class="dark_background">
+                                                                            <li id="menu-item-6493" class="mt-2">
+                                                                                <a class="text_white"
+                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage') }}">Pilotage</a>
+                                                                            </li>
+                                                                            <li id="menu-item-6493" class="md-1">
+                                                                                <a class="text_white"
+                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation') }}">Réalisation</a>
+                                                                            </li>
+                                                                        </div>
+                                                                        <div id="nav_slider_extra_content_2"
+                                                                            class="dark_background">
+                                                                            <div class="row mt-2">
+                                                                                <div class="col-md-6">
+                                                                                    <a class="text_white {{ request()->is('service/data-inteligence') || Route::currentRouteName() === 'data_inteligence' ? 'content_menu_item_active' : '' }}"
+                                                                                        href="{{ route('data_inteligence') }}">Data
+                                                                                        Intelligence</a>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <a class="text_white {{ request()->is('service/cloud') || Route::currentRouteName() === 'Cloud' ? 'content_menu_item_active' : '' }}"
+                                                                                        href='{{ route('Cloud') }}'>Cloud
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <a class="text_white {{ request()->is('service/expérience-utilisateur') || Route::currentRouteName() === 'expérience_utilisateur' ? 'content_menu_item_active' : '' }}"
+                                                                                        href="{{ route('expérience_utilisateur') }}">
+                                                                                        Expérience
+                                                                                        Utilisateur</a>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <a class="text_white {{ request()->is('service/green-it') || Route::currentRouteName() === 'green_it' ? 'content_menu_item_active' : '' }}"
+                                                                                        href="{{ route('green_it') }}">
+                                                                                        Green
+                                                                                        IT
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
                                                                 </ul>
+
                                                             </li>
                                                             <li id="menu-item-4710"
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                                <div class="hfe-has-submenu-container"><a href="#"
+                                                                <div class="hfe-has-submenu-container"><a
+                                                                        href="{{ url('/') }}"
                                                                         class="hfe-menu-item">{{ $data[10]->categorie_name }}<span
                                                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                                                 class='fa'></i></span></a></div>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-4706"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a target="_blank" rel="noopener"
+                                                                        <a target="_blank"rel="noopener"
                                                                             href="https://bti-studio.com/"
                                                                             class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
                                                                     </li>
                                                                     <li id="menu-item-4705"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a target="_blank" rel="noopener"
+                                                                        <a target="_blank"rel="noopener"
                                                                             href="https://www.bti-lab.com/"
                                                                             class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
                                                                     </li>
                                                                     <li id="menu-item-4704"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a target="_blank" rel="noopener"
+                                                                        <a target="_blank"rel="noopener"
+                                                                            href="https://www.yellow-it.fr/"
+                                                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="sub-menu">
+                                                                    <li id="menu-item-4706"
+                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                        <a target="_blank"rel="noopener"
+                                                                            href="https://bti-studio.com/"
+                                                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
+                                                                    </li>
+                                                                    <li id="menu-item-4705"
+                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                        <a target="_blank"rel="noopener"
+                                                                            href="https://www.bti-lab.com/"
+                                                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
+                                                                    </li>
+                                                                    <li id="menu-item-4704"
+                                                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                                        <a target="_blank"rel="noopener"
                                                                             href="https://www.yellow-it.fr/"
                                                                             class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li id="menu-item-78"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}  {{ request()->is('nous-rejoindre') ? 'menu_item_navbar' : '' }}  page_item page-item-73 current_page_item parent hfe-creative-menu">
                                                                 <a href="{{ route('join-us') }}"
                                                                     class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
                                                             </li>
                                                             <li id="menu-item-6495"
-                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                                <div class="hfe-has-submenu-container"><a href="#"
+                                                                class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                                <div class="hfe-has-submenu-container"><a
                                                                         class="hfe-menu-item">{{ $data[8]->categorie_name }}<span
                                                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                                                 class='fa'></i></span></a></div>
@@ -399,7 +514,8 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <p style="text-align: left;"><span
-                                                            style="color: #e99b17;">T</span>echnology</p>
+                                                            style="color: #e99b17;">T</span>echnology
+                                                    </p>
                                                 </div>
                                             </div>
 
@@ -546,7 +662,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                                                                                                                                        } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -609,9 +725,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                            margin: 0px;
-                                                                                                                                                                                                            padding: 5%;
-                                                                                                                                                                                                        } */
+                                                                                                                                                                                                                                                                                                                                    margin: 0px;
+                                                                                                                                                                                                                                                                                                                                    padding: 5%;
+                                                                                                                                                                                                                                                                                                                                } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
@@ -638,7 +754,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="{{ route('services') }}"
+                                                        <a href="#"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -952,7 +1068,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="{{ route('transformation-des-produits-it.service') }}"
+                                                                                                                <a href="#"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1267,7 +1383,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="{{ route('multi_speed_it.service') }}"
+                                                                                                                <a href="#"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1328,7 +1444,8 @@
                                                                     class="ae-tab-title ae-post-blocks-adv-accordion"
                                                                     data-tab="3" role="tab"
                                                                     aria-controls="ae-tab-content-38497224193">
-                                                                    <span class="ae-accordion-icon ae-accordion-icon-right"
+                                                                    <span
+                                                                        class="ae-accordion-icon ae-accordion-icon-right"
                                                                         aria-hidden="true">
                                                                         <span class="ae-accordion-icon-closed"><svg
                                                                                 xmlns="http://www.w3.org/2000/svg"
@@ -1582,7 +1699,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="{{ route('technologie-innovation.service') }}"
+                                                                                                                <a href="#"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1898,7 +2015,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="{{ route('transformation-ux.service') }}"
+                                                                                                                <a href="#"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -2077,8 +2194,7 @@
 
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2243,8 +2359,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2416,8 +2531,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2580,8 +2694,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -2752,8 +2865,7 @@
                                                                                                         </picture>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <section
-                                                                                                    data-ae-url="#"
+                                                                                                <section data-ae-url="#"
                                                                                                     class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
@@ -3275,7 +3387,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
+        <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
 		id='instant-page-js'></script>
 
 
@@ -3520,7 +3632,7 @@
         </script>
 
 
-        <script defer src="assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
+        <script defer src="/assets/cache/autoptimize/js/autoptimize_13519ff97c4216963eba09cbf7422028.js"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -3542,5 +3654,7 @@
             }
         </script>
         <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+
     </body>
 @endsection

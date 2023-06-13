@@ -141,14 +141,7 @@ body.rtl .elementor-20 .elementor-element.elementor-element-46fc6f23 .hfe-nav-me
     background-color: var(--e-global-color-primary)
 }
 
-.elementor-20 .elementor-element.elementor-element-46fc6f23 .sub-menu a.hfe-sub-menu-item:hover,
-.elementor-20 .elementor-element.elementor-element-46fc6f23 .elementor-menu-toggle:hover,
-.elementor-20 .elementor-element.elementor-element-46fc6f23 nav.hfe-dropdown li a.hfe-menu-item:hover,
-.elementor-20 .elementor-element.elementor-element-46fc6f23 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
-.elementor-20 .elementor-element.elementor-element-46fc6f23 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
-.elementor-20 .elementor-element.elementor-element-46fc6f23 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
-    color: var(--e-global-color-secondary)
-}
+
 
 .elementor-20 .elementor-element.elementor-element-46fc6f23 .sub-menu {
     border-radius: 8px

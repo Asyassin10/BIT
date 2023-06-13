@@ -666,7 +666,8 @@ body .elementor-73 .elementor-element.elementor-element-d22fd02 .elementor-label
 }
 
 .welcomekit-jobs-list {
-    columns: 2
+    columns: 1;
+    width: 70%;
 }
 
 .welcomekit-jobs-list-item {
@@ -676,6 +677,7 @@ body .elementor-73 .elementor-element.elementor-element-d22fd02 .elementor-label
     border-radius: 8px
 }
 
+
 .welcomekit-jobs-list-item-link {
     position: relative;
     display: block;
@@ -684,6 +686,7 @@ body .elementor-73 .elementor-element.elementor-element-d22fd02 .elementor-label
     text-decoration: none;
     transition: all .2s
 }
+
 
 .welcomekit-jobs-list-item-link:after {
     position: absolute;
@@ -699,11 +702,13 @@ body .elementor-73 .elementor-element.elementor-element-d22fd02 .elementor-label
     transition: all .2s
 }
 
+
 .welcomekit-jobs-list-item-link:hover {
     background: #fff;
     border-bottom-color: #ddd;
     border-radius: 8px
 }
+
 
 .welcomekit-jobs-list-item-link:hover:after {
     right: 20px;

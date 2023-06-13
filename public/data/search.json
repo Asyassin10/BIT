@@ -1,0 +1,49 @@
+{
+  "listItems": [
+    {
+      "name": "Roles",
+      "url": "admin/access-roles",
+      "icon": "shield"
+    },
+    {
+      "name": "Permission",
+      "url": "admin/access-permission",
+      "icon": "shield"
+    },
+    {
+      "name": "Users View - Account",
+      "url": "admin/user/view/account",
+      "icon": "user"
+    },
+    {
+      "name": "Users View - Security",
+      "url": "admin/user/view/security",
+      "icon": "lock"
+    },
+    {
+      "name": "Users View - Billings & Plans",
+      "url": "admin/user/view/billing",
+      "icon": "bookmark"
+    },
+    {
+      "name": "Users View - Notifications",
+      "url": "admin/user/view/notifications",
+      "icon": "bell"
+    },
+    {
+      "name": "Users View - Connections",
+      "url": "admin/user/view/connections",
+      "icon": "link"
+    },
+    {
+      "name": "Categories",
+      "url": "admin/all-categories",
+      "icon": "server"
+    },
+    {
+      "name": "Articles",
+      "url": "admin/articles",
+      "icon": "grid"
+    }
+  ]
+}

@@ -9,7 +9,9 @@
     }
     
 @endphp
-<nav class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
+@include('Includes/navbar_mobile_view')
+{{-- d-md-block --}}
+<nav class="has_ae_slider   elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e935e7c ae-bg-gallery-type-default"
     data-id="e935e7c" data-element_type="column">
     <div class="elementor-widget-wrap elementor-element-populated">
         <div class="elementor-element elementor-element-1e6965e hfe-nav-menu__align-right hfe-link-redirect-self_link hfe-submenu-icon-arrow hfe-submenu-animation-none hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
@@ -19,59 +21,127 @@
             <div class="elementor-widget-container">
                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
                     data-layout="horizontal">
-                    <div class="hfe-nav-menu__toggle elementor-clickable">
-                        <div class="hfe-nav-menu-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px"
-                                height="50px">
-                                <path
-                                    d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
-                                </path>
-                            </svg>
-                        </div>
+
+                    <div style="background: #FAFAFA;text-align: right;" class="elementor-clickable d-block d-sm-none "
+                        id="three_slides_mobile_view">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px"
+                            height="50px">
+                            <path
+                                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                            </path>
+                        </svg>
                     </div>
+
                     <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                         data-toggle-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                         data-close-icon="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;#000000&quot; viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;&lt;path d=&quot;M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;"
                         data-full-width="yes">
                         <ul id="menu-1-1e6965e" class="hfe-nav-menu">
                             <li id="menu-item-86"
-                                class="menu-item menu-item-type-post_type menu-item-object-page parent {{ request()->is('a-propos') ? 'current-menu-ancestor' : '' }} hfe-creative-menu">
+                                class=" menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('a-propos') ? 'menu_item_navbar' : '' }} {{ request()->is('a-propos') ? 'current-menu-ancestor' : 'parent' }} hfe-creative-menu">
                                 <a href="{{ route('about-us') }}" class="hfe-menu-item">{{ $data[0]->categorie_name }}
                                 </a>
                             </li>
+
                             <li id="menu-item-6494"
-                                class="menu-item menu-item-type-custom menu-item-object-custom {{ request()->is('nos-services') ? 'current-menu-ancestor' : '' }} {{ request()->is('service/*') ? 'current-menu-ancestor' : '' }}   menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                <div class="hfe-has-submenu-container"><a href="{{ url('/') }}"
+                                class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
+                                <div class="hfe-has-submenu-container"><a href=""
                                         class="hfe-menu-item">{{ $data[1]->categorie_name }} <span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                class='fa'></i></span></a></div>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-6493"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('services') }}"
-                                            class="hfe-sub-menu-item">{{ $data[11]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5705"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('transformation-des-produits-it.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[4]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5707"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('multi_speed_it.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[5]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5708"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('technologie-innovation.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[6]->categorie_name }}</a>
-                                    </li>
-                                    <li id="menu-item-5710"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="{{ route('transformation-ux.service') }}"
-                                            class="hfe-sub-menu-item">{{ $data[7]->categorie_name }}</a>
-                                    </li>
+                                                class='fa'></i></span></a>
+
+                                </div>
+
+
+                                <ul class="sub-menu mt-2 ">
+                                    <div class="d-flex "
+                                        style="border-radius: 8px;background-color: #fff;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
+                                            box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
+                                        id="app_sub_menu">
+                                        <div id="div_menu">
+                                            <li id=""
+                                                class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('Construire_la_vision') }}"
+                                                    class=" hfe-sub-menu-item  ">Construire
+                                                    la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5705"
+                                                class="menu-item app_menu_item_app  menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
+                                                    class="hfe-sub-menu-item
+                                                  ">Accompagner
+                                                    la mise en
+                                                    oeuvre<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="#" class="hfe-sub-menu-item ">Nos
+                                                    Centres d'Excellence<span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                            class='fas fa-chevron-right'></i></span></a>
+                                            </li>
+                                            <li id="menu-item-5707"
+                                                class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                                <a href="{{ route('tout_nos_services') }}"
+                                                    class="hfe-sub-menu-item  nos_service_href">Nos
+                                                    Tous Nos services</a>
+                                            </li>
+                                        </div>
+
+                                        <div id="nav_slider_extra_content_0">
+                                            <li id="menu-item-6493" class="mt-2">
+                                                <a class="content_menu_item"
+                                                    id="co_construire_votre_stratégie_technologique"
+                                                    href="{{ url('/service/construire-la-vision#construire-votre-stratégie-technologique') }}">Co-construire
+                                                    voter stratégie technologique</a>
+                                            </li>
+                                            <li id="menu-item-6493" class="md-1">
+                                                <a class="content_menu_item"
+                                                    href="{{ url('/service/construire-la-vision#architecture.') }}">Architecture</a>
+                                            </li>
+                                        </div>
+                                        <div id="nav_slider_extra_content_1">
+                                            <li id="menu-item-6493" class="mt-2">
+                                                <a class="content_menu_item"
+                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage.') }}">Pilotage</a>
+                                            </li>
+                                            <li id="menu-item-6493" class="md-1">
+                                                <a class="content_menu_item"
+                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation.') }}">Réalisation</a>
+                                            </li>
+                                        </div>
+                                        <div id="nav_slider_extra_content_2">
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <a class="content_menu_item "
+                                                        href="{{ route('data_inteligence') }}">Data
+                                                        Intelligence</a>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <a class="content_menu_item " href='{{ route('Cloud') }}'>Cloud
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <a class="content_menu_item "
+                                                        href="{{ route('expérience_utilisateur') }}"> Expérience
+                                                        Utilisateur</a>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <a class="content_menu_item " href="{{ route('green_it') }}">
+                                                        Green
+                                                        IT
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </ul>
+
                             </li>
                             <li id="menu-item-4710"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
@@ -95,10 +165,28 @@
                                         <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
                                             class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
                                     </li>
+
+                                </ul>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4706"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://bti-studio.com/"
+                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
+                                    </li>
+                                    <li id="menu-item-4705"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://www.bti-lab.com/"
+                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
+                                    </li>
+                                    <li id="menu-item-4704"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
+                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li id="menu-item-78"
-                                class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}   page_item page-item-73 current_page_item parent hfe-creative-menu">
+                                class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('nous-rejoindre') ? 'current-menu-ancestor' : '' }}  {{ request()->is('nous-rejoindre') ? 'menu_item_navbar' : '' }}  page_item page-item-73 current_page_item parent hfe-creative-menu">
                                 <a href="{{ route('join-us') }}"
                                     class="hfe-menu-item">{{ $data[2]->categorie_name }}</a>
                             </li>
@@ -159,3 +247,4 @@
         </div>
     </div>
 </div>
+<script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>

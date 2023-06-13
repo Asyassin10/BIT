@@ -25,4 +25,11 @@ class AdminPermissionsController extends Controller
         ]);
         return redirect()->route("GetAllPermissions");
     }
+    //----------api
+    public function UpdatePermissionName(Request $request,int $permission_id){
+        $permissions = Permission::find($permission_id);
+        $permissions->name = $request->name;
+        $permissions->save();
+        return redirect()->back();
+    }
 }

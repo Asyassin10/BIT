@@ -691,53 +691,7 @@ body .elementor-7191 .elementor-element.elementor-element-77902d82 .elementor-la
     }
 }
 
-.welcomekit-jobs-list {
-    columns: 2
-}
 
-.welcomekit-jobs-list-item {
-    margin: 0 0 30px;
-    padding: 0 0 0 30px;
-    background: #fff;
-    border-radius: 8px;
-    display: inline-block;
-    width: 100%
-}
-
-.welcomekit-jobs-list-item-link {
-    position: relative;
-    display: block;
-    margin: 0;
-    padding: 30px 5px;
-    text-decoration: none;
-    transition: all .2s
-}
-
-.welcomekit-jobs-list-item-link:after {
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    content: ' ';
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
-    transform: rotate(45deg);
-    transition: all .2s
-}
-
-.welcomekit-jobs-list-item-link:hover {
-    background: #fff;
-    border-bottom-color: #ddd;
-    border-radius: 8px
-}
-
-.welcomekit-jobs-list-item-link:hover:after {
-    right: 20px;
-    border-top-color: #e99b17;
-    border-right-color: #e99b17
-}
 
 .welcomekit-job-name {
     margin: 0 0 10px;
