@@ -224,7 +224,7 @@
                                 vos objectifs :
                             </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
@@ -252,7 +252,7 @@
                             </div>
                             <hr>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
@@ -279,7 +279,7 @@
                             </div>
                             <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
@@ -327,7 +327,7 @@
                                 solutions performantes, responsables et
                                 utiles. </p>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
@@ -355,7 +355,7 @@
                             </div>
                             <hr>
                             <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
@@ -382,7 +382,7 @@
                             </div>
                             <hr>
                             <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
+                                <div class="d-none d-md-block" style="width: 8%;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
                                         viewBox="0 0 40 40">
                                         <g id="ic_check" transform="translate(9.089 9.089)">
