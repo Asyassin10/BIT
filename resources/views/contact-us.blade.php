@@ -177,10 +177,10 @@
                 </header>
 
                 <div id="main">
-                    <div class="container">
+                    <div class="">
                         <div data-elementor-type="single-page" data-elementor-id="7690"
                             class="elementor elementor-7690 elementor-location-single post-75 page type-page status-publish hentry">
-                            <section
+                            <section style="margin-top: 10%"
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-527fa172 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="527fa172" data-element_type="section"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -188,44 +188,11 @@
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-258085a1 ae-bg-gallery-type-default"
                                         data-id="258085a1" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-53390782 elementor-widget elementor-widget-heading"
+                                            <div style="margin-top: 10%;"
+                                                class="elementor-element elementor-element-53390782 elementor-widget elementor-widget-heading"
                                                 data-id="53390782" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <style>
-                                                        /*! elementor - v3.8.1 - 13-11-2022 */
-                                                        .elementor-heading-title {
-                                                            padding: 0;
-                                                            margin: 0;
-                                                            line-height: 1
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                            color: inherit;
-                                                            font-size: inherit;
-                                                            line-height: inherit
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                            font-size: 15px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                            font-size: 19px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                            font-size: 29px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                            font-size: 39px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                            font-size: 59px
-                                                        }
-                                                    </style>
                                                     <h6 class="elementor-heading-title elementor-size-default">
                                                         {!! $articles[0]->article_text !!}</h6>
                                                 </div>
@@ -235,16 +202,17 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h2 class="elementor-heading-title elementor-size-default">
-                                                        {!! $articles[1]->article_text !!}</h2>
+                                                        {!! $articles[1]->article_text !!} </h2>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-3a108a76 elementor-widget elementor-widget-button"
+                                            <div style="margin-top:80px"
+                                                class="  elementor-element elementor-element-3a108a76 elementor-widget elementor-widget-button"
                                                 data-id="3a108a76" data-element_type="widget"
                                                 data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="#echangeons"
+                                                        <a href="#form_container"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -275,7 +243,7 @@
                                                         }
 
                                                         .elementor-widget-google_maps iframe {
-                                                            height: 300px
+                                                            height: 500px;
                                                         }
                                                     </style>
                                                     <div class="elementor-custom-embed">
@@ -291,406 +259,56 @@
                                     </div>
                                 </div>
                             </section>
-                            <section
-                                class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-2e94bd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                data-id="2e94bd2" data-element_type="section" id="echangeons"
-                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-background-overlay"></div>
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-56986d8b ae-bg-gallery-type-default"
-                                        data-id="56986d8b" data-element_type="column"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-7cc118 elementor-widget elementor-widget-heading"
-                                                data-id="7cc118" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
-                                                        {!! $articles[3]->article_text !!}
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-17da707f elementor-button-align-stretch elementor-widget elementor-widget-form"
-                                                data-id="17da707f" data-element_type="widget"
-                                                data-settings="{&quot;button_width&quot;:&quot;66&quot;,&quot;button_width_tablet&quot;:&quot;50&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                                data-widget_type="form.default">
-                                                <div class="elementor-widget-container">
-                                                    <style>
-                                                        /*! elementor-pro - v3.6.4 - 15-03-2022 */
-                                                        .elementor-button.elementor-hidden,
-                                                        .elementor-hidden {
-                                                            display: none
-                                                        }
+                            <div style="margin-top:10%;"></div>
+                            <div id="form_container" class=" shadow-lg  bg-white rounded">
 
-                                                        .e-form__step {
-                                                            width: 100%
-                                                        }
-
-                                                        .e-form__step:not(.elementor-hidden) {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -ms-flex-wrap: wrap;
-                                                            flex-wrap: wrap
-                                                        }
-
-                                                        .e-form__buttons {
-                                                            -ms-flex-wrap: wrap;
-                                                            flex-wrap: wrap
-                                                        }
-
-                                                        .e-form__buttons,
-                                                        .e-form__buttons__wrapper {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex
-                                                        }
-
-                                                        .e-form__indicators {
-                                                            -webkit-box-pack: justify;
-                                                            -ms-flex-pack: justify;
-                                                            justify-content: space-between;
-                                                            -ms-flex-wrap: nowrap;
-                                                            flex-wrap: nowrap;
-                                                            font-size: 13px;
-                                                            margin-bottom: var(--e-form-steps-indicators-spacing)
-                                                        }
-
-                                                        .e-form__indicators,
-                                                        .e-form__indicators__indicator {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center
-                                                        }
-
-                                                        .e-form__indicators__indicator {
-                                                            -webkit-box-orient: vertical;
-                                                            -webkit-box-direction: normal;
-                                                            -ms-flex-direction: column;
-                                                            flex-direction: column;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -ms-flex-preferred-size: 0;
-                                                            flex-basis: 0;
-                                                            padding: 0 var(--e-form-steps-divider-gap)
-                                                        }
-
-                                                        .e-form__indicators__indicator__progress {
-                                                            width: 100%;
-                                                            position: relative;
-                                                            background-color: var(--e-form-steps-indicator-progress-background-color);
-                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                            overflow: hidden
-                                                        }
-
-                                                        .e-form__indicators__indicator__progress__meter {
-                                                            width: var(--e-form-steps-indicator-progress-meter-width, 0);
-                                                            height: var(--e-form-steps-indicator-progress-height);
-                                                            line-height: var(--e-form-steps-indicator-progress-height);
-                                                            padding-right: 15px;
-                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                            background-color: var(--e-form-steps-indicator-progress-color);
-                                                            color: var(--e-form-steps-indicator-progress-meter-color);
-                                                            text-align: right;
-                                                            -webkit-transition: width .1s linear;
-                                                            -o-transition: width .1s linear;
-                                                            transition: width .1s linear
-                                                        }
-
-                                                        .e-form__indicators__indicator:first-child {
-                                                            padding-left: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator:last-child {
-                                                            padding-right: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive {
-                                                            color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive object,
-                                                        .e-form__indicators__indicator--state-inactive svg {
-                                                            fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active {
-                                                            color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
-                                                            border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active object,
-                                                        .e-form__indicators__indicator--state-active svg {
-                                                            fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed {
-                                                            color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
-                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
-                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
-                                                            background-color: initial
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed object,
-                                                        .e-form__indicators__indicator--state-completed svg {
-                                                            fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon {
-                                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                                            font-size: var(--e-form-steps-indicator-icon-size);
-                                                            border-width: 1px;
-                                                            border-style: solid;
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center;
-                                                            overflow: hidden;
-                                                            margin-bottom: 10px
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon img,
-                                                        .e-form__indicators__indicator__icon object,
-                                                        .e-form__indicators__indicator__icon svg {
-                                                            width: var(--e-form-steps-indicator-icon-size);
-                                                            height: auto
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon .e-font-icon-svg {
-                                                            height: 1em
-                                                        }
-
-                                                        .e-form__indicators__indicator__number {
-                                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                                            border-width: 1px;
-                                                            border-style: solid;
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center;
-                                                            margin-bottom: 10px
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-circle {
-                                                            border-radius: 50%
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-square {
-                                                            border-radius: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-rounded {
-                                                            border-radius: 5px
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-none {
-                                                            border: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator__label {
-                                                            text-align: center
-                                                        }
-
-                                                        .e-form__indicators__indicator__separator {
-                                                            width: 100%;
-                                                            height: var(--e-form-steps-divider-width);
-                                                            background-color: #c2cbd2
-                                                        }
-
-                                                        .e-form__indicators--type-icon,
-                                                        .e-form__indicators--type-icon_text,
-                                                        .e-form__indicators--type-number,
-                                                        .e-form__indicators--type-number_text {
-                                                            -webkit-box-align: start;
-                                                            -ms-flex-align: start;
-                                                            align-items: flex-start
-                                                        }
-
-                                                        .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-number .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
-                                                            margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
-                                                        }
-
-                                                        .elementor-field-type-hidden {
-                                                            display: none
-                                                        }
-
-                                                        .elementor-field-type-html {
-                                                            display: inline-block
-                                                        }
-
-                                                        .elementor-login .elementor-lost-password,
-                                                        .elementor-login .elementor-remember-me {
-                                                            font-size: .85em
-                                                        }
-
-                                                        .elementor-field-type-recaptcha_v3 .elementor-field-label {
-                                                            display: none
-                                                        }
-
-                                                        .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
-                                                            z-index: 1
-                                                        }
-
-                                                        .elementor-button .elementor-form-spinner {
-                                                            -webkit-box-ordinal-group: 4;
-                                                            -ms-flex-order: 3;
-                                                            order: 3
-                                                        }
-
-                                                        .elementor-form .elementor-button>span {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center
-                                                        }
-
-                                                        .elementor-form .elementor-button .elementor-button-text {
-                                                            white-space: normal;
-                                                            -webkit-box-flex: 0;
-                                                            -ms-flex-positive: 0;
-                                                            flex-grow: 0
-                                                        }
-
-                                                        .elementor-form .elementor-button svg {
-                                                            height: auto
-                                                        }
-
-                                                        .elementor-form .elementor-button .e-font-icon-svg {
-                                                            height: 1em
-                                                        }
-                                                    </style>
-                                                    <form class="elementor-form" method="post" name="Contact">
-                                                        <input type="hidden" name="post_id" value="7690" />
-                                                        <input type="hidden" name="form_id" value="17da707f" />
-                                                        <input type="hidden" name="referer_title"
-                                                            value="Contactez-nous - BTI - Advisory" />
-
-                                                        <input type="hidden" name="queried_id" value="75" />
-
-                                                        <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                                            <div
-                                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required elementor-mark-required">
-                                                                <label for="form-field-name"
-                                                                    class="elementor-field-label">
-                                                                    Nom complet </label>
-                                                                <input size="1" type="text"
-                                                                    name="form_fields[name]" id="form-field-name"
-                                                                    class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                    required="required" aria-required="true">
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required elementor-mark-required">
-                                                                <label for="form-field-email"
-                                                                    class="elementor-field-label">
-                                                                    Adresse mail </label>
-                                                                <input size="1" type="email"
-                                                                    name="form_fields[email]" id="form-field-email"
-                                                                    class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                    required="required" aria-required="true">
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-                                                                <label for="form-field-message"
-                                                                    class="elementor-field-label">
-                                                                    Numéro de téléphone </label>
-                                                                <input type="number" name="form_fields[message]"
-                                                                    id="form-field-message"
-                                                                    class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                    min="" max="">
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_5885921 elementor-col-100">
-                                                                <label for="form-field-field_5885921"
-                                                                    class="elementor-field-label">
-                                                                    Sujet </label>
-                                                                <input size="1" type="text"
-                                                                    name="form_fields[field_5885921]"
-                                                                    id="form-field-field_5885921"
-                                                                    class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                    placeholder="En quoi pouvons nous vous aider ?">
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_beee0e1 elementor-col-100 elementor-field-required elementor-mark-required">
-                                                                <label for="form-field-field_beee0e1"
-                                                                    class="elementor-field-label">
-                                                                    Message </label>
-                                                                <textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[field_beee0e1]"
-                                                                    id="form-field-field_beee0e1" rows="5" required="required" aria-required="true"></textarea>
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_a4e1613 elementor-col-100 recaptcha_v3-inline">
-                                                                <div class="elementor-field"
-                                                                    id="form-field-field_a4e1613">
-                                                                    <div class="elementor-g-recaptcha"
-                                                                        data-sitekey="6LfSRfoeAAAAAJ1baXuUyGqzba5fklSntXeq3HMv"
-                                                                        data-type="v3" data-action="Form"
-                                                                        data-badge="inline" data-size="invisible"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-66 e-form__buttons elementor-md-50">
-                                                                <button type="submit"
-                                                                    class="elementor-button elementor-size-xs">
-                                                                    <span>
-                                                                        <span
-                                                                            class="elementor-align-icon-right elementor-button-icon">
-                                                                            <i aria-hidden="true"
-                                                                                class="fas fa-arrow-right"></i> </span>
-                                                                        <span class="elementor-button-text">Envoyer le
-                                                                            message</span>
-                                                                    </span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <p class="h4 pt-4" id="title_form"> </p>
+                                <div class="mb-3 divs_form">
+                                    <p for="exampleFormControlInput1" class="form-label">Nom complet
+                                        *</p>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        style="background:#F5F5F5;">
                                 </div>
-                            </section>
+                                <div class="mb-3 divs_form">
+                                    <p for="exampleFormControlInput1" class="form-label">Adresse mail
+                                        *</p>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        style="background:#F5F5F5;">
+                                </div>
+                                <div class="mb-3 divs_form">
+                                    <p for="exampleFormControlInput1" class="form-label">Numéro de téléphone
+                                    </p>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        style="background:#F5F5F5;">
+                                </div>
+                                <div class="mb-3 divs_form" id="div_select_option">
+                                    <p for="exampleFormControlInput1" class="form-label">Suject*</p>
+                                    <select class="form-select " id="drop_down_list" style="">
+                                        <option></option>
+
+                                    </select>
+                                </div>
+
+                                <div id="div_textarea" class="mb-3">
+                                    <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
+                                    <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
+                                </div>
+
+                                <br>
+                                <div class="d-flex justify-content-end" id="div_btn_form">
+                                    <button id="btn_form" class="px-3 py-2 text-dark">
+                                        Envoyer
+                                    </button>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div id="footer_div" style="background-color: #1c1c1a">
+                                <div class="svg-container">
+                                    <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                        srcset="" style="margin-top: 150px;">
+                                </div>
+                            </div>
                         </div>
 
                     </div>
