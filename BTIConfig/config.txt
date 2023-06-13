@@ -1,0 +1,32 @@
+Database Configuration:
+
+sql file path SQL/bti_db.sql
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bti_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+Redis Configuration :
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+cette instance redis s'exécute via docker ,
+voila le fichier docker-compose pour l'installer
+
+version: '3'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis_rdb
+    ports:
+      - "6379:6379"
+
+
+et il y'a la possibilité d'utiliser des services online pour INTERAGIR avec redis omme : https://upstash.com/
