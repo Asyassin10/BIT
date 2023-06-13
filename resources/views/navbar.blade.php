@@ -85,7 +85,7 @@
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="{{ route('tout_nos_services') }}"
-                                                    class="hfe-sub-menu-item  nos_service_href">Nos
+                                                    class="hfe-sub-menu-item  nos_service_href">
                                                     Tous Nos services</a>
                                             </li>
                                         </div>

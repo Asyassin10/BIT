@@ -186,6 +186,14 @@
 
             </div>
         </div>
+        <a class="d-flex align-items-center mb-3" href="{{ route('tout_nos_services') }}">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    Tous Nos services
+                </h2>
+            </div>
+
+        </a>
     </div>
     <div id="mobile_view_main_content" class="d-none">
 
@@ -256,14 +264,7 @@
 
             </div>
         </div>
-        <a class="d-flex align-items-center mb-3" href="{{ route('tout_nos_services') }}">
-            <div class="w-75 d-flex align-items-center">
-                <h2 class="mobile_view_navigation_title">
-                    Tous Nos services
-                </h2>
-            </div>
 
-        </a>
     </div>
     <div class="d-flex justify-content-center " style="margin-top: 48%;">
 
