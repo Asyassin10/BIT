@@ -149,7 +149,7 @@
                                         class="hfe-menu-item">{{ $data[10]->categorie_name }}<span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a></div>
-                                <ul class="sub-menu">
+                                {{-- <ul class="sub-menu">
                                     <li id="menu-item-4706"
                                         class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://bti-studio.com/"
@@ -166,22 +166,23 @@
                                             class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
                                     </li>
 
-                                </ul>
+                                </ul> --}}
+
                                 <ul class="sub-menu">
                                     <li id="menu-item-4706"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        class=" menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://bti-studio.com/"
-                                            class="hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
+                                            class="menu-item-ecosystem hfe-sub-menu-item">{{ $data[14]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4705"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        class=" menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.bti-lab.com/"
-                                            class="hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
+                                            class="menu-item-ecosystem hfe-sub-menu-item">{{ $data[15]->categorie_name }}</a>
                                     </li>
                                     <li id="menu-item-4704"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
+                                        class=" menu-item menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                         <a target="_blank"rel="noopener" href="https://www.yellow-it.fr/"
-                                            class="hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
+                                            class="menu-item-ecosystem hfe-sub-menu-item">{{ $data[16]->categorie_name }}</a>
                                     </li>
                                 </ul>
                             </li>
