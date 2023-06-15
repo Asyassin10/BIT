@@ -260,7 +260,7 @@
                                 </div>
                             </section>
                             <div style="margin-top:10%;"></div>
-                            <div id="form_container" class=" shadow-lg  bg-white rounded">
+                            <div id="form_container" class="shadow-lg  bg-white rounded">
 
                                 <p class="h4 pt-4" id="title_form"> </p>
                                 <div class="mb-3 divs_form">
@@ -289,10 +289,12 @@
                                     </select>
                                 </div>
 
+
                                 <div id="div_textarea" class="mb-3">
                                     <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
                                     <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
                                 </div>
+
 
                                 <br>
                                 <div class="d-flex justify-content-end" id="div_btn_form">

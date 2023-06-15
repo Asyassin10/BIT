@@ -35,11 +35,11 @@
                         <div class="elementor-widget-wrap elementor-element-populated d-flex">
                             <div class="elementor-element elementor-element-029f0b8 elementor-widget elementor-widget-image"
                                 data-id="029f0b8" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container ">
+                                <div class="elementor-widget-container">
                                     <a href="https://www.bti-lab.com" target="_blank">
                                         <picture>
                                             <source type="image/webp" srcset="{{ asset('images/footer/10026.webp') }}">
-                                            <img class="elementor-animation-grow lazy "
+                                            <img class="elementor-animation-grow lazy"
                                                 style="background-color: transparent;"
                                                 src="{{ asset('images/footer/10026.svg') }}"
                                                 data-src="{{ asset('images/footer/10026.svg') }}" alt="">
@@ -74,10 +74,10 @@
                                         </picture>
                                     </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
             <section
                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-5d0c11e elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
@@ -166,27 +166,48 @@
                                             <ul id="menu-1-337e6fb" class="hfe-nav-menu">
                                                 <li id="menu-item-6166"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="#" class="hfe-menu-item">
-                                                        {!! $data[6]->article_text !!}
+                                                    <a href="{{ route('Construire_la_vision') }}"
+                                                        class="hfe-menu-item">
+                                                        Construire la vision
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6167"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="#" class="hfe-menu-item">
-                                                        {!! $data[7]->article_text !!}
+                                                    <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
+                                                        class="hfe-menu-item">
+                                                        Accompagner la mise en œuvre
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-6168"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
-                                                    <a href="#" class="hfe-menu-item">
-
-                                                        {!! $data[8]->article_text !!}
+                                                    <a href="{{ route('data_inteligence') }}" class="hfe-menu-item">
+                                                        Data Intelligence
                                                     </a>
                                                 </li>
+                                                <li id="menu-item-6168"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
+                                                    <a href="{{ route('Cloud') }}" class="hfe-menu-item">
+                                                        Cloud
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-6168"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
+                                                    <a href="{{ route('expérience_utilisateur') }}"
+                                                        class="hfe-menu-item">
+                                                        Expérience Utilisateur
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-6168"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item parent hfe-creative-menu">
+                                                    <a href="{{ route('green_it') }}" class="hfe-menu-item">
+                                                        Green IT
+                                                    </a>
+                                                </li>
+
                                                 <li id="menu-item-6169"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="#"
-                                                        class="hfe-menu-item">{!! $data[9]->article_text !!}</a>
+                                                    <a href="{{ route('tout_nos_services') }}"
+                                                        class="hfe-menu-item">Tous nos services </a>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -229,7 +250,7 @@
                             <div class="elementor-element elementor-element-6a7a328 footer-link elementor-widget__width-auto elementor-widget elementor-widget-text-editor"
                                 data-id="6a7a328" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p><a
+                                    <p><a class="footer-link"
                                             href="https://www.google.fr/maps/place/18+Rue+Drouot,+75009+Paris/@48.8735952,2.3386294,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e3ed72cc90b:0x11fc4579a67a3aaf!8m2!3d48.8735917!4d2.3408234">
                                             {!! $data[10]->article_text !!}
                                         </a></p>
@@ -257,7 +278,6 @@
                             <div class="elementor-element elementor-element-ba723d9 elementor-widget elementor-widget-html"
                                 data-id="ba723d9" data-element_type="widget" data-widget_type="html.default">
                                 <div class="elementor-widget-container">
-
                                     <script>
                                         window.axeptioSettings = {
                                             clientId: "62b99dbb488ca46af41fdedc",
