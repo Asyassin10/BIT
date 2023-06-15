@@ -78,7 +78,7 @@
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
                                                 <a href="#" class="hfe-sub-menu-item ">Nos
-                                                    Centres d'Excellence<span
+                                                    centres d'excellence<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
@@ -223,7 +223,7 @@
         <div class="elementor-element elementor-element-1b31f65 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button"
             data-id="1b31f65" data-element_type="widget" data-widget_type="button.default">
             <div class="elementor-widget-container">
-                <div class="elementor-button-wrapper icon_align_right  ">
+                <div class="elementor-button-wrapper   ">
                     <a href="{{ route('contact') }}" class="elementor-button-link elementor-button elementor-size-xs"
                         role="button">
                         <span class="elementor-button-content-wrapper">
