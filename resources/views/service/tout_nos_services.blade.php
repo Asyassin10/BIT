@@ -329,11 +329,34 @@
                             </div>
                             <hr>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                            <p class="h1_title h2 pt-4" style="margin-left: 8%;margin-right: 8%;">
                                 Nos centres d’excellence
                             </p>
                             <br>
-                            <div class="d-flex justify-content-start w-100" style="margin-left: 8%;margin-top: 2%;">
+                            <div class="d-flex justify-content-start w-100 d-none d-md-block"
+                                style="margin-left: 8%;margin-top: 2%;">
+                                <a href="{{ route('data_inteligence') }}" class="btn p-3"
+                                    style="background:#FF9900;border-radius: 7px;color:black;">
+                                    Data Intelligence
+                                </a>
+                                <a href="{{ route('green_it') }}" class="btn p-3 "
+                                    style="background:#FF9900;border-radius: 7px;color:black;margin-left: 5%;">
+                                    Green IT
+                                </a>
+                                <a href="{{ route('expérience_utilisateur') }}" class="btn p-3 "
+                                    style="background:#FF9900;border-radius: 7px;color:black;margin-left: 5%;">
+                                    Expérience utilisateur
+                                </a>
+                                <a href="{{ route('Cloud') }}" class="btn p-3 "
+                                    style="background:#FF9900;border-radius: 7px;color:black;margin-left: 5%;">
+
+                                    Cloud
+                                </a>
+
+
+                            </div>
+                            <div class="d-flex justify-content-start w-100 d-block d-md-none"
+                                style="margin-left: 8%;margin-top: 2%;">
                                 <div class="row  w-75" style="margin-bottom: 7%;">
                                     <div class="col-12 col-md-3 mb-2    ">
 
@@ -365,7 +388,6 @@
                                         </a>
                                     </div>
                                 </div>
-
                             </div>
 
 
