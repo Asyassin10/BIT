@@ -371,3 +371,7 @@
 .menu-item-ecosystem:hover {
     color: #e99b17 !important;
 }
+.div_refernce
+{
+    min-height: 200px;
+}

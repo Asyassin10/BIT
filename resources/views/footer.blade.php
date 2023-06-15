@@ -257,9 +257,6 @@
                                     <p><a class="footer-link" href="mailto:contact@bti-advisory.com">
                                             {!! $data[12]->article_text !!}</a>
                                     </p>
-                                    <p><a class="footer-link" href="tel:+33 1 40 90 30 77">
-                                            {!! $data[11]->article_text !!}
-                                        </a></p>
                                 </div>
                             </div>
                         </div>

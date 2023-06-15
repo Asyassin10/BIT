@@ -713,9 +713,10 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <h1 class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    {!! $articles[9]->article_text !!}</span>
+                                                                                    {!! $articles[9]->article_text !!} </span>
                                                                             </h1>
                                                                             <p class="elementor-icon-box-description">
+                                                                                {!! $articles[10]->article_text !!}
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -1347,8 +1348,8 @@
                                                 data-id="26018694" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container m-0">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
-                                                        {!! $articles[38]->article_text !!}</h1>
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        {!! $articles[38]->article_text !!}</h3>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2a2a2228 elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -1435,7 +1436,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1500,6 +1502,7 @@
                                                                                                                             Disneyland
                                                                                                                             Paris.
                                                                                                                         </p>
+
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                                 <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
@@ -1592,7 +1595,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1765,7 +1769,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1925,7 +1930,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2087,7 +2093,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2254,7 +2261,8 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+
+                                                                                                    class="div_refernce has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                                                                                     data-id="05aa56c"
                                                                                                     data-element_type="section"
                                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2908,9 +2916,7 @@
         </script>
 
 
-        <script defer
-            src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}">
-        </script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
