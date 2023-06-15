@@ -234,11 +234,12 @@
                                                                                 class="fa"></i></span>
                                                                     </a>
                                                                 </div>
-                                                                <ul class="sub-menu dark_background">
-                                                                    <div class="d-flex "
+                                                                <ul class="sub-menu dark_background m-0 p-0">
+                                                                    <div class="d-flex m-0 p-0 "
                                                                         style="border-radius: 8px;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
                                                                         box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
                                                                         id="app_sub_menu">
+                                                                        {{-- margin-top: -15px; --}}
                                                                         <div id="div_menu" class="dark_background">
                                                                             <li id="menu-item-6493"
                                                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
@@ -279,7 +280,7 @@
                                                                             <li id="menu-item-6493" class="mt-2">
                                                                                 <a class=" text_white"
                                                                                     href="{{ url('/service/construire-la-vision#co-construire-votre-stratégie-technologique') }}">Co-construire
-                                                                                    voter stratégie technologique</a>
+                                                                                    votre stratégie technologique</a>
                                                                             </li>
                                                                             <li id="menu-item-6493" class="md-1">
                                                                                 <a class="text_white"
@@ -663,7 +664,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                            } */
+                                                                                                                                                                                                                                                                                                                                                } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -726,9 +727,9 @@
                                         <style>
                                             @media (max-width: 700px) {
                                                 /* #nos_services_section_app{
-                                                                                                                                                                                                                                                                                                                                        margin: 0px;
-                                                                                                                                                                                                                                                                                                                                        padding: 5%;
-                                                                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                                            margin: 0px;
+                                                                                                                                                                                                                                                                                                                                            padding: 5%;
+                                                                                                                                                                                                                                                                                                                                        } */
                                             }
                                         </style>
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
