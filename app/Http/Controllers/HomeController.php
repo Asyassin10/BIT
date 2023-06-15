@@ -13,7 +13,7 @@ class HomeController extends Controller
         $categories = Category::where("url_presentation",$title)->first();
         return view('home')->with('title',$title)->with('articles',$categories->articles); */
 
-        $redis_data = json_decode( Redis::get("BTI_Advisory_Cabinet_de_conseil_en_IT"));
+        /* $redis_data = json_decode( Redis::get("BTI_Advisory_Cabinet_de_conseil_en_IT"));
         $title = "BTI - Advisory - Cabinet de conseil en IT";
         if($redis_data){
             //return "hhhh";
@@ -23,6 +23,10 @@ class HomeController extends Controller
             $categories = Category::where("url_presentation",$title)->first();
             Redis::set("BTI_Advisory_Cabinet_de_conseil_en_IT", json_encode($categories->articles));
             return view('home')->with('title', $title)->with("articles",$categories->articles);
-        }
+        } */
+        $title = "BTI - Advisory - Cabinet de conseil en IT";
+        $categories = Category::where("url_presentation",$title)->first();
+        //Redis::set("BTI_Advisory_Cabinet_de_conseil_en_IT", json_encode($categories->articles));
+         return view('home')->with('title', $title)->with("articles",$categories->articles);
     }
 }

@@ -653,9 +653,9 @@
                                         </div>
                                     </div>
                                     {{--  --}}
-                                    <div class="  has_ae_slider elementor-top-column elementor-column elementor-col-30   elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
+                                    <div class="  has_ae_slider elementor-top-column elementor-column elementor-col-70 m-0 p-0  elementor-element elementor-element-660ad67c ae-bg-gallery-type-default"
                                         data-id="660ad67c" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap  m-0 p-0 w-100   elementor-element-populated">
                                             <div class="elementor-element elementor-element-76c25822 img-circle elementor-widget elementor-widget-image"
                                                 data-id="76c25822" data-element_type="widget" style="float: right;"
                                                 data-widget_type="image.default">
@@ -664,7 +664,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                                                                                                                                                    } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -721,17 +721,11 @@
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-24fa6d8b elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="24fa6d8b" data-element_type="section"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-container elementor-column-gap-no"
+                                    style="margin: 0px;margin-left: 7%;">
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7f449b9c ae-bg-gallery-type-default"
                                         data-id="7f449b9c" data-element_type="column">
-                                        <style>
-                                            @media (max-width: 700px) {
-                                                /* #nos_services_section_app{
-                                                                                                                                                                                                                                                                                                                                            margin: 0px;
-                                                                                                                                                                                                                                                                                                                                            padding: 5%;
-                                                                                                                                                                                                                                                                                                                                        } */
-                                            }
-                                        </style>
+
                                         <div class=" elementor-widget-wrap elementor-element-populated mx-4 mx-lg-0 mx-md-0"
                                             id="nos_services_section_app">
                                             <div class=" elementor-element elementor-element-38f80f8b elementor-widget elementor-widget-heading"
@@ -797,7 +791,8 @@
                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-1dee9c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="1dee9c2" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-container elementor-column-gap-no"
+                                    style="margin: 0px;margin-left: 7%;">
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c9ef2cb ae-bg-gallery-type-default"
                                         data-id="5c9ef2cb" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -2085,7 +2080,8 @@
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-2d32c93b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="2d32c93b" data-element_type="section"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-container elementor-column-gap-no"
+                                    style="margin: 0px;margin-left: 7%;">
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d9ea87f ae-bg-gallery-type-default"
                                         data-id="2d9ea87f" data-element_type="column">
                                         <style>
@@ -3132,7 +3128,8 @@
                                                 data-id="61a39c28" data-element_type="widget"
                                                 data-widget_type="html.default">
                                                 <div class="elementor-widget-container">
-                                                    <script src='https://www.welcomekit.co/assets/embed.js' type='text/javascript'></script>
+                                                    {{-- <script src='https://www.welcomekit.co/assets/embed.js' type='text/javascript'></script> --}}
+                                                    <script src="{{ asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
                                                     <script type='text/javascript'>
                                                         welcomeKitReady(function() {
                                                             var wk = new WelcomeKitEmbed('d4Mb2Yr')
@@ -3140,6 +3137,8 @@
                                                             wk.display(["department", "officeCity", "contractType"])
                                                             wk.locale('fr')
                                                             wk.website('wttj_fr')
+                                                            /*    wk.limit(3); */
+
                                                             var rd = wk.render()
                                                         })
                                                     </script>
@@ -3657,6 +3656,7 @@
         </script>
         <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
         <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+
 
     </body>
 @endsection
