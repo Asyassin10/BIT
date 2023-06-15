@@ -420,7 +420,7 @@
                                             data-id="4ae0090a" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper icon_align_right  ">
+                                                <div class="elementor-button-wrapper   ">
                                                     <a href="{{ route('contact') }}"
                                                         class="elementor-button-link elementor-button elementor-size-xs"
                                                         role="button">

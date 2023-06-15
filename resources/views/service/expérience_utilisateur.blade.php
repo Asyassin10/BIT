@@ -535,7 +535,7 @@
                                     style="background:#F5F5F5;">
                             </div>
                             <div class="mb-3 divs_form" id="div_select_option">
-                                <p for="exampleFormControlInput1" class="form-label">Suject*</p>
+                                <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
                                 <select class="form-select " id="drop_down_list" style="">
                                     <option></option>
 
