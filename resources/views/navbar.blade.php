@@ -8,7 +8,7 @@
         Redis::set('client_navbar', json_encode($data));
     } */
     $data = Category::all();
-
+    
 @endphp
 @include('Includes/navbar_mobile_view')
 {{-- d-md-block --}}
@@ -62,8 +62,7 @@
                                         <div id="div_menu">
                                             <li id=""
                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a
-                                                    class=" hfe-sub-menu-item  ">Construire
+                                                <a class=" hfe-sub-menu-item  ">Construire
                                                     la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
@@ -96,7 +95,7 @@
                                                 <a class="content_menu_item"
                                                     id="co_construire_votre_stratégie_technologique"
                                                     href="{{ url('/service/construire-la-vision#construire-votre-stratégie-technologique') }}">Co-construire
-                                                    voter stratégie technologique</a>
+                                                    votre stratégie technologique</a>
                                             </li>
                                             <li id="menu-item-6493" class="md-1">
                                                 <a class="content_menu_item"
