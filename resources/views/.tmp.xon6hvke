@@ -1,14 +1,14 @@
 @php
     use App\Models\Category;
-    /*  $redis_data = json_decode(Redis::get('client_navbar'));
-    if ($redis_data) {
+    $redis_data = null;'client_navbar'));
+    /* if ($redis_data) {
         $data = $redis_data;
     } else {
         $data = Category::all();
         Redis::set('client_navbar', json_encode($data));
     } */
     $data = Category::all();
-
+    
 @endphp
 @include('Includes/navbar_mobile_view')
 {{-- d-md-block --}}
@@ -46,7 +46,7 @@
 
                             <li id="menu-item-6494"
                                 class="menu-item-has-children menu-item menu-item-type-post_type menu-item-object-page   {{ request()->is('service/*') ? 'menu_item_navbar' : '' }}  {{ request()->is('service/*') ? 'current-menu-ancestor' : 'parent' }}  hfe-creative-menu">
-                                <div class="hfe-has-submenu-container"><a
+                                <div class="hfe-has-submenu-container"><a href=""
                                         class="hfe-menu-item">{{ $data[1]->categorie_name }} <span
                                             class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                 class='fa'></i></span></a>
@@ -54,7 +54,7 @@
                                 </div>
 
 
-                                <ul class="sub-menu mt-0">
+                                <ul class="sub-menu mt-1 ">
                                     <div class="d-flex "
                                         style="border-radius: 8px;background-color: #fff;webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);
                                             box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .1);"
@@ -62,23 +62,24 @@
                                         <div id="div_menu">
                                             <li id=""
                                                 class=" menu-item app_menu_item_app menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a
+                                                <a href="{{ route('Construire_la_vision') }}"
                                                     class=" hfe-sub-menu-item  ">Construire
                                                     la vision<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                             <li id="menu-item-5705"
                                                 class="menu-item app_menu_item_app  menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a
+                                                <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
                                                     class="hfe-sub-menu-item
                                                   ">Accompagner
                                                     la mise en
-                                                    oeuvre <span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
+                                                    oeuvre test test <span
+                                                        class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
                                             </li>
                                             <li id="menu-item-5707"
                                                 class="menu-item app_menu_item_app menu-item-type-custom menu-item-object-custom stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                <a class="hfe-sub-menu-item ">Nos
+                                                <a href="#" class="hfe-sub-menu-item ">Nos
                                                     centres d'excellence<span
                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                             class='fas fa-chevron-right'></i></span></a>
@@ -249,4 +250,4 @@
         </div>
     </div>
 </div>
-<script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+<script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>

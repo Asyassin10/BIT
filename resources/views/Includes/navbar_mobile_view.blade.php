@@ -195,6 +195,75 @@
 
         </a>
     </div>
+    <div id="mobile_view_main_content_3" class="d-none">
+        <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
+                height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+            <p class="mt-3">
+                Notre ecosystem
+            </p>
+        </div>
+        <a class="d-flex align-items-center mb-3" href="https://bti-studio.com/">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    BTI Studio
+                </h2>
+            </div>
+
+        </a>
+        <a class="d-flex align-items-center mb-3" href="https://www.bti-lab.com/">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    BTI Lab
+                </h2>
+            </div>
+
+        </a>
+        <a class="d-flex align-items-center mb-3" href="https://www.yellow-it.fr/">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    Yellow IT
+                </h2>
+            </div>
+
+        </a>
+
+    </div>
+    <div id="mobile_view_main_content_4" class="d-none">
+        <div class="d-flex align-items-center mb-3" onclick="ShowRootLevelNavigation()">
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7%;margin-right: 2%;" width="9.667"
+                height="17.334" viewBox="0 0 9.667 17.334">
+                <path id="Tracé_59" data-name="Tracé 59" d="M7335.132-228.53l7.253,7.253,7.253-7.253"
+                    transform="translate(-220.277 -7333.718) rotate(90)" fill="none" stroke="#000"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+            <p class="mt-3">
+                Blog
+            </p>
+        </div>
+        <a class="d-flex align-items-center mb-3" href="{{ route('blog') }}">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    Nos publications
+                </h2>
+            </div>
+
+        </a>
+        <a class="d-flex align-items-center mb-3" href="#">
+            <div class="w-75 d-flex align-items-center">
+                <h2 class="mobile_view_navigation_title">
+                    Nos études de cas
+                </h2>
+            </div>
+
+        </a>
+
+
+    </div>
     <div id="mobile_view_main_content" class="d-none">
 
         <a class="d-flex align-items-center mb-3" href="{{ route('about-us') }}">
@@ -222,7 +291,7 @@
 
             </div>
         </div>
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-center mb-3" onclick="ShowNosEcosystem()">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Notre écosystème
@@ -247,7 +316,7 @@
             </div>
 
         </a>
-        <div class="d-flex align-items-center mb-4">
+        <div class="d-flex align-items-center mb-4" onclick="ShowBlog()">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Blog
@@ -268,9 +337,10 @@
     </div>
     <div class="d-flex justify-content-center " style="margin-top: 48%;">
 
-        <button class="btn bg-black p-3">
+        <a class="btn  p-3" href="{{ route('contact') }}"
+            style="background: black;color:white;border-radius: 10px;">
             Contactez-nous
-        </button>
+        </a>
     </div>
 
 </div>

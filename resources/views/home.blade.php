@@ -160,10 +160,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -502,7 +502,7 @@
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2:not(.elementor-motion-effects-element-type-background),
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
                                                             background-color: var(--e-global-color-primary);
-                                                            background-image: url("{{ asset('images/home/10029.webp') }}");
+                                                            background-image: url("{{ secure_asset('images/home/10029.webp') }}");
                                                             background-repeat: no-repeat;
                                                             background-size: cover
                                                         }
@@ -664,7 +664,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -693,8 +693,8 @@
                                                                 vertical-align: middle;
                                                                 display: inline-block;
                                                                 float: left;
-                                                                width: 75px;
-                                                                height: 90px;
+                                                                width: 80px;
+                                                                height: 80px;
 
 
                                                             }
@@ -703,11 +703,11 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10009.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10009.webp') }}">
                                                         <img width="800" height="447"
                                                             class="hfe-site-logo-img elementor-animation- lazy"
-                                                            src="{{ asset('images/home/10009.png') }}"
-                                                            data-src="{{ asset('images/home/10009.png') }}"
+                                                            src="{{ secure_asset('images/home/10009.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10009.png') }}"
                                                             alt=""
                                                             class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy">
                                                     </picture>
@@ -717,12 +717,29 @@
                                     </div>
                                 </div>
                             </section>
+                            <style>
+                                .accordion_container {
+                                    /*   margin: 0px; */
+                                    margin-left: 0% !important;
+                                    width: 100%;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    .accordion_container {
+                                        /*   margin: 0px; */
+                                        margin-left: 7% !important;
+                                        width: 80%;
+                                    }
+                                }
+
+                                /*margin-left: 7%;*/
+                            </style>
                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-24fa6d8b elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="24fa6d8b" data-element_type="section"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-container elementor-column-gap-no"
-                                    style="margin: 0px;margin-left: 7%;">
+                                <div class=" elementor-column-gap-no accordion_container d-block d-md-flex "
+                                    {{-- style="margin: 0px;" --}}>
                                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7f449b9c ae-bg-gallery-type-default"
                                         data-id="7f449b9c" data-element_type="column">
 
@@ -750,7 +767,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="#"
+                                                        <a href="{{ route('tout_nos_services') }}"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -775,11 +792,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10010.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10010.webp') }}">
                                                         <img style="height: 100%;width: 100%;"
                                                             class="attachment-accueil-nosservices-683x601-cropped size-accueil-nosservices-683x601-cropped lazy"
-                                                            src="{{ asset('images/home/10010.png') }}"
-                                                            data-src="{{ asset('images/home/10010.png') }}"
+                                                            src="{{ secure_asset('images/home/10010.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10010.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -791,8 +808,7 @@
                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-1dee9c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="1dee9c2" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-no"
-                                    style="margin: 0px;margin-left: 7%;">
+                                <div class=" elementor-column-gap-no accordion_container" {{-- style="margin: 0px;" --}}>
                                     <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c9ef2cb ae-bg-gallery-type-default"
                                         data-id="5c9ef2cb" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -890,7 +906,8 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">{!! $articles[7]->article_text !!}</a>
+                                                                    <a href="#">Construire la vision
+                                                                    </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224191" t_id="38497224191"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion ae-active"
@@ -954,7 +971,9 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[8]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ url('service/construire-la-vision#construire-votre-stratégie-technologique') }}">Stratégie</a>
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -992,45 +1011,10 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[9]->article_text !!}</span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[10]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ url('/service/construire-la-vision#architecture.') }}">Architecture</a>
+
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1053,7 +1037,27 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[11]->article_text !!}
+                                                                                                            <p>Nous
+                                                                                                                accompagnons
+                                                                                                                nos clients
+                                                                                                                pour
+                                                                                                                développer
+                                                                                                                une
+                                                                                                                stratégie
+                                                                                                                technologique
+                                                                                                                claire,
+                                                                                                                alignée sur
+                                                                                                                leurs
+                                                                                                                objectifs
+                                                                                                                commerciaux
+                                                                                                                et capable
+                                                                                                                de faire
+                                                                                                                face à la
+                                                                                                                concurrence
+                                                                                                                et aux
+                                                                                                                contraintes
+                                                                                                                réglementaires.
+
                                                                                                             </p>
                                                                                                         </div>
                                                                                                     </div>
@@ -1065,7 +1069,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="#"
+                                                                                                                <a href="{{ route('Construire_la_vision') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1100,11 +1104,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/home/10011.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Construire-la-vision.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/home/10011.png') }}"
-                                                                                                                    data-src="{{ asset('images/home/10011.png') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1205,7 +1209,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">{!! $articles[12]->article_text !!}</a>
+                                                                    <a href="#">Accompagner la mise en œuvre </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224192" t_id="38497224192"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1236,7 +1240,7 @@
                                                                                                         data-widget_type="ae-acf-repeater.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <div data-pid="5196"
+                                                                                                            <div data-pid="5195"
                                                                                                                 data-wid="6383991"
                                                                                                                 class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
@@ -1269,7 +1273,9 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[13]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage') }}">Pilotage</a>
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1307,45 +1313,10 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[14]->article_text !!}</span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[15]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation') }}">Réalisation</a>
+
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1368,7 +1339,32 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[16]->article_text !!}
+                                                                                                            <p>Que vous
+                                                                                                                souhaitiez
+                                                                                                                construire
+                                                                                                                un nouveau
+                                                                                                                produit ou
+                                                                                                                transformer
+                                                                                                                votre
+                                                                                                                système
+                                                                                                                d’information,
+                                                                                                                nous avons
+                                                                                                                les
+                                                                                                                compétences
+                                                                                                                pour
+                                                                                                                coconstruire
+                                                                                                                avec vous
+                                                                                                                des produits
+                                                                                                                performants,
+                                                                                                                responsables
+                                                                                                                et utiles,
+                                                                                                                en nous
+                                                                                                                concentrant
+                                                                                                                sur les
+                                                                                                                aspects
+                                                                                                                techniques
+                                                                                                                et non
+                                                                                                                techniques.
                                                                                                             </p>
                                                                                                         </div>
                                                                                                     </div>
@@ -1380,7 +1376,7 @@
                                                                                                             class="elementor-widget-container">
                                                                                                             <div
                                                                                                                 class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="#"
+                                                                                                                <a href="{{ route('Accompagner_la_mise_en_oeuvre') }}"
                                                                                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                     role="button">
                                                                                                                     <span
@@ -1415,11 +1411,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/home/10012.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/home/10012.png') }}"
-                                                                                                                    data-src="{{ asset('images/home/10012.png') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1441,8 +1437,7 @@
                                                                     class="ae-tab-title ae-post-blocks-adv-accordion"
                                                                     data-tab="3" role="tab"
                                                                     aria-controls="ae-tab-content-38497224193">
-                                                                    <span
-                                                                        class="ae-accordion-icon ae-accordion-icon-right"
+                                                                    <span class="ae-accordion-icon ae-accordion-icon-right"
                                                                         aria-hidden="true">
                                                                         <span class="ae-accordion-icon-closed"><svg
                                                                                 xmlns="http://www.w3.org/2000/svg"
@@ -1521,7 +1516,7 @@
                                                                                 </g>
                                                                             </svg></span>
                                                                     </span>
-                                                                    <a href="#">{!! $articles[17]->article_text !!}</a>
+                                                                    <a href="#">Nos centres d’excellence </a>
                                                                 </h6>
                                                                 <div id="ae-tab-content-38497224193" t_id="38497224193"
                                                                     class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
@@ -1541,7 +1536,8 @@
                                                                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                                                         <div
                                                                                             class="elementor-container elementor-column-gap-no">
-                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19993f4f ae-bg-gallery-type-default"
+                                                                                            <div style="width: 100%"
+                                                                                                class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19993f4f ae-bg-gallery-type-default"
                                                                                                 data-id="19993f4f"
                                                                                                 data-element_type="column">
                                                                                                 <div
@@ -1552,7 +1548,7 @@
                                                                                                         data-widget_type="ae-acf-repeater.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <div data-pid="5197"
+                                                                                                            <div data-pid="5195"
                                                                                                                 data-wid="6383991"
                                                                                                                 class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
@@ -1585,7 +1581,13 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[18]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                                                                                <a
+                                                                                                                                                                    href="{{ route('data_inteligence') }}">
+                                                                                                                                                                    Data
+                                                                                                                                                                    Intelligence
+                                                                                                                                                                </a>
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1623,7 +1625,10 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[19]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ route('Cloud') }}">Cloud</a>
+
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1661,7 +1666,53 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[20]->article_text !!}</span>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
+                                                                                                                                                                    href="{{ route('green_it') }}">Green
+                                                                                                                                                                    IT</a>
+                                                                                                                                                            </span>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </section>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div
+                                                                                                                        class="ae-acf-repeater-item">
+                                                                                                                        <div
+                                                                                                                            class="ae-acf-repeater-inner">
+                                                                                                                            <div
+                                                                                                                                class="ae_data elementor elementor-4451">
+                                                                                                                                <div data-elementor-type="wp-post"
+                                                                                                                                    data-elementor-id="4451"
+                                                                                                                                    class="elementor elementor-4451">
+                                                                                                                                    <section
+                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                                                        data-id="c46c6ea"
+                                                                                                                                        data-element_type="section">
+                                                                                                                                        <div
+                                                                                                                                            class="elementor-container elementor-column-gap-no">
+                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
+                                                                                                                                                data-id="b34ff96"
+                                                                                                                                                data-element_type="column">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                                                                        data-id="99cfddb"
+                                                                                                                                                        data-element_type="widget"
+                                                                                                                                                        data-widget_type="heading.default">
+                                                                                                                                                        <div
+                                                                                                                                                            class="elementor-widget-container">
+                                                                                                                                                            <span
+                                                                                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                                                                                <a
+                                                                                                                                                                    href="{{ route('expérience_utilisateur') }}">Expérience
+                                                                                                                                                                    utilisateur</a>
+
+                                                                                                                                                            </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
@@ -1684,60 +1735,39 @@
                                                                                                         data-widget_type="text-editor.default">
                                                                                                         <div
                                                                                                             class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[21]->article_text !!}
+                                                                                                            <p>Nous mettons
+                                                                                                                tout en
+                                                                                                                œuvre pour
+                                                                                                                offrir à nos
+                                                                                                                clients des
+                                                                                                                solutions
+                                                                                                                technologiques
+                                                                                                                d'exception,
+                                                                                                                répondant
+                                                                                                                précisément
+                                                                                                                à leurs
+                                                                                                                besoins
+                                                                                                                uniques.
+                                                                                                                Grâce à
+                                                                                                                notre
+                                                                                                                expertise
+                                                                                                                dans quatre
+                                                                                                                domaines
+                                                                                                                clés, nous
+                                                                                                                sommes en
+                                                                                                                mesure de
+                                                                                                                proposer des
+                                                                                                                solutions de
+                                                                                                                qualité
+                                                                                                                supérieure,
+                                                                                                                permettant
+                                                                                                                ainsi à nos
+                                                                                                                clients
+                                                                                                                d'atteindre
+                                                                                                                leurs
+                                                                                                                objectifs
+                                                                                                                avec succès.
                                                                                                             </p>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
-                                                                                                        data-id="76df9292"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="button.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <div
-                                                                                                                class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="#"
-                                                                                                                    class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                    role="button">
-                                                                                                                    <span
-                                                                                                                        class="elementor-button-content-wrapper">
-                                                                                                                        <span
-                                                                                                                            class="elementor-button-icon elementor-align-icon-right">
-                                                                                                                            <i aria-hidden="true"
-                                                                                                                                class="fas fa-arrow-right"></i>
-                                                                                                                        </span>
-                                                                                                                        <span
-                                                                                                                            class="elementor-button-text">Voir
-                                                                                                                            le
-                                                                                                                            service</span>
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-742ab9e6 ae-bg-gallery-type-default"
-                                                                                                data-id="742ab9e6"
-                                                                                                data-element_type="column">
-                                                                                                <div
-                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                    <div class="elementor-element elementor-element-1cb8d23d elementor-widget elementor-widget-image"
-                                                                                                        data-id="1cb8d23d"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="image.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <picture>
-                                                                                                                <source
-                                                                                                                    type="image/webp"
-                                                                                                                    srcset="{{ asset('images/home/10013.webp') }}">
-                                                                                                                <img style="height: 100%;width: 100%""
-                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/home/10013.png') }}"
-                                                                                                                    data-src="{{ asset('images/home/10013.png') }}"
-                                                                                                                    alt="">
-                                                                                                            </picture>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -1751,323 +1781,6 @@
 
                                                                 </div>
                                                             </div>
-
-                                                            <div class="ae-accordion-item">
-                                                                <h6 id="ae-tab-title-38497224194" t_id="38497224194"
-                                                                    class="ae-tab-title ae-post-blocks-adv-accordion"
-                                                                    data-tab="4" role="tab"
-                                                                    aria-controls="ae-tab-content-38497224194">
-                                                                    <span
-                                                                        class="ae-accordion-icon ae-accordion-icon-right"
-                                                                        aria-hidden="true">
-                                                                        <span class="ae-accordion-icon-closed"><svg
-                                                                                xmlns="http://www.w3.org/2000/svg"
-                                                                                width="36" height="36"
-                                                                                viewBox="0 0 36 36">
-                                                                                <g id="ic_plus"
-                                                                                    transform="translate(36) rotate(90)">
-                                                                                    <circle id="Ellipse_139"
-                                                                                        data-name="Ellipse 139"
-                                                                                        cx="18" cy="18"
-                                                                                        r="18" fill="#8f9295"
-                                                                                        opacity="0.202"></circle>
-                                                                                    <g id="Groupe_8335"
-                                                                                        data-name="Groupe 8335"
-                                                                                        transform="translate(9 9)">
-                                                                                        <g id="Group"
-                                                                                            transform="translate(1 1)">
-                                                                                            <g id="Group-2"
-                                                                                                data-name="Group"
-                                                                                                transform="translate(7.494)">
-                                                                                                <path id="Trac&#xE9;_124"
-                                                                                                    data-name="Trac&#xE9; 124"
-                                                                                                    d="M15.506,17A.52.52,0,0,1,15,16.467V1.533a.506.506,0,1,1,1.012,0V16.467A.52.52,0,0,1,15.506,17Z"
-                                                                                                    transform="translate(-15 -1)"
-                                                                                                    fill="#1c1c1a"
-                                                                                                    stroke="#1c1c1a"
-                                                                                                    stroke-width="1">
-                                                                                                </path>
-                                                                                            </g>
-                                                                                            <g id="Group-3"
-                                                                                                data-name="Group"
-                                                                                                transform="translate(0 7.494)">
-                                                                                                <path id="Trac&#xE9;_125"
-                                                                                                    data-name="Trac&#xE9; 125"
-                                                                                                    d="M16.467,16.012H1.533a.506.506,0,1,1,0-1.012H16.467a.506.506,0,1,1,0,1.012Z"
-                                                                                                    transform="translate(-1 -15)"
-                                                                                                    fill="#1c1c1a"
-                                                                                                    stroke="#1c1c1a"
-                                                                                                    stroke-width="1">
-                                                                                                </path>
-                                                                                            </g>
-                                                                                        </g>
-                                                                                    </g>
-                                                                                </g>
-                                                                            </svg></span>
-                                                                        <span class="ae-accordion-icon-opened"><svg
-                                                                                xmlns="http://www.w3.org/2000/svg"
-                                                                                width="36" height="36"
-                                                                                viewBox="0 0 36 36">
-                                                                                <g id="ic_moins"
-                                                                                    transform="translate(36) rotate(90)">
-                                                                                    <circle id="Ellipse_139"
-                                                                                        data-name="Ellipse 139"
-                                                                                        cx="18" cy="18"
-                                                                                        r="18" fill="#8f9295"
-                                                                                        opacity="0.202"></circle>
-                                                                                    <g id="Groupe_8335"
-                                                                                        data-name="Groupe 8335"
-                                                                                        transform="translate(9 9)">
-                                                                                        <g id="Group"
-                                                                                            transform="translate(1 1)">
-                                                                                            <g id="Group-2"
-                                                                                                data-name="Group"
-                                                                                                transform="translate(7.494)">
-                                                                                                <path id="Trac&#xE9;_124"
-                                                                                                    data-name="Trac&#xE9; 124"
-                                                                                                    d="M15.506,17A.52.52,0,0,1,15,16.467V1.533a.506.506,0,1,1,1.012,0V16.467A.52.52,0,0,1,15.506,17Z"
-                                                                                                    transform="translate(-15 -1)"
-                                                                                                    fill="#1c1c1a"
-                                                                                                    stroke="#1c1c1a"
-                                                                                                    stroke-width="1">
-                                                                                                </path>
-                                                                                            </g>
-                                                                                        </g>
-                                                                                    </g>
-                                                                                </g>
-                                                                            </svg></span>
-                                                                    </span>
-                                                                    <a href="#">{!! $articles[22]->article_text !!}</a>
-                                                                </h6>
-                                                                <div id="ae-tab-content-38497224194" t_id="38497224194"
-                                                                    class="elementor-clearfix ae-tab-content ae-post-blocks-adv-accordion"
-                                                                    data-tab="4" role="tabpanel"
-                                                                    aria-labelledby="ae-tab-title-38497224194">
-
-                                                                    <article class="ae-post-item ae-post-item-44095b62">
-                                                                        <div class="ae-post-item-inner">
-                                                                            <div class="ae_data elementor elementor-5189">
-                                                                                <div data-elementor-type="wp-post"
-                                                                                    data-elementor-id="5189"
-                                                                                    class="elementor elementor-5189">
-                                                                                    <section
-                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-54ec80ad elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                        data-id="54ec80ad"
-                                                                                        data-element_type="section"
-                                                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                        <div
-                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19993f4f ae-bg-gallery-type-default"
-                                                                                                data-id="19993f4f"
-                                                                                                data-element_type="column">
-                                                                                                <div
-                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                    <div class="elementor-element elementor-element-6383991 elementor-widget__width-auto container-tag-acc ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                                                                        data-id="6383991"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="ae-acf-repeater.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <div data-pid="5198"
-                                                                                                                data-wid="6383991"
-                                                                                                                class="ae-acf-repeater-widget-wrapper ae-masonry-">
-
-                                                                                                                <div
-                                                                                                                    class="ae-acf-repeater-wrapper">
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[23]->article_text !!}</span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[24]->article_text !!}</span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">{!! $articles[25]->article_text !!}</span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-                                                                                                            </div>
-
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="elementor-element elementor-element-38e3f580 elementor-widget elementor-widget-text-editor"
-                                                                                                        data-id="38e3f580"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="text-editor.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <p>{!! $articles[26]->article_text !!}
-                                                                                                            </p>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="elementor-element elementor-element-76df9292 elementor-widget elementor-widget-button"
-                                                                                                        data-id="76df9292"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="button.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <div
-                                                                                                                class="elementor-button-wrapper icon_align_right  ">
-                                                                                                                <a href="#"
-                                                                                                                    class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                    role="button">
-                                                                                                                    <span
-                                                                                                                        class="elementor-button-content-wrapper">
-                                                                                                                        <span
-                                                                                                                            class="elementor-button-icon elementor-align-icon-right">
-                                                                                                                            <i aria-hidden="true"
-                                                                                                                                class="fas fa-arrow-right"></i>
-                                                                                                                        </span>
-                                                                                                                        <span
-                                                                                                                            class="elementor-button-text">Voir
-                                                                                                                            le
-                                                                                                                            service</span>
-                                                                                                                    </span>
-                                                                                                                </a>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-742ab9e6 ae-bg-gallery-type-default"
-                                                                                                data-id="742ab9e6"
-                                                                                                data-element_type="column">
-                                                                                                <div
-                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                    <div class="elementor-element elementor-element-1cb8d23d elementor-widget elementor-widget-image"
-                                                                                                        data-id="1cb8d23d"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="image.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <picture>
-                                                                                                                <source
-                                                                                                                    type="image/webp"
-                                                                                                                    srcset="{{ asset('images/home/10014.webp') }}">
-                                                                                                                <img style="height: 100%;width: 100%"
-                                                                                                                    class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/home/10014.png') }}"
-                                                                                                                    data-src="{{ asset('images/home/10014.png') }}"
-                                                                                                                    alt="">
-                                                                                                            </picture>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </section>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </article>
-
-                                                                </div>
-                                                            </div>
-
                                                         </div>
                                                     </div> <!-- end .ae-outer-wrapper -->
                                                 </div>
@@ -2180,12 +1893,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10019.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10019.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10019.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10019.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10019.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10019.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2214,12 +1927,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2346,12 +2059,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10021.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10021.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10021.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10021.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10021.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10021.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2378,12 +2091,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2518,12 +2231,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10023.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10023.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10023.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10023.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10023.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10023.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2550,12 +2263,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ROUSSELET.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO_ROUSSELET.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO_ROUSSELET.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2681,12 +2394,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10015.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10015.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10015.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10015.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10015.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10015.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2713,12 +2426,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ENEDIS.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO_ENEDIS.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO_ENEDIS.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2852,12 +2565,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10017.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10017.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10017.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10017.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10017.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10017.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2884,12 +2597,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/Logo_Oui_sncf.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/Logo_Oui_sncf.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/Logo_Oui_sncf.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -3124,12 +2837,23 @@
                                                         {!! $articles[38]->article_text !!}</h2>
                                                 </div>
                                             </div>
+                                            <style>
+                                                @media only screen and (max-width: 767px) {
+                                                    #welcomekit-embed {
+                                                        margin: 0px;
+                                                    }
+
+                                                    .welcomekit-jobs-list {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                            </style>
                                             <div class="elementor-element elementor-element-61a39c28 elementor-widget elementor-widget-html"
                                                 data-id="61a39c28" data-element_type="widget"
                                                 data-widget_type="html.default">
                                                 <div class="elementor-widget-container">
                                                     {{-- <script src='https://www.welcomekit.co/assets/embed.js' type='text/javascript'></script> --}}
-                                                    <script src="{{ asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
+                                                    <script src="{{ secure_asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
                                                     <script type='text/javascript'>
                                                         welcomeKitReady(function() {
                                                             var wk = new WelcomeKitEmbed('d4Mb2Yr')
@@ -3178,12 +2902,12 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10025.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10025.webp') }}">
                                                         <img style="width: 100%;height:100%;" width="493"
                                                             height="632"
                                                             class="attachment-accueil-nousrejoindre-493x632-cropped size-accueil-nousrejoindre-493x632-cropped lazy"
-                                                            src="{{ asset('images/home/10025.png') }}"
-                                                            data-src="{{ asset('images/home/10025.png') }}"
+                                                            src="{{ secure_asset('images/home/10025.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10025.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -3200,7 +2924,7 @@
                 <!--#main-->
             </div>
             <!--.content_wrapper-->
-            @include('footer')
+            @include('footer_home')
 
         </div><!-- #page -->
         <link rel='stylesheet' id='elementor-post-5189-css'
@@ -3654,8 +3378,8 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
-        <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
 
 
     </body>

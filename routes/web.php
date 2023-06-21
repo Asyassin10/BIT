@@ -153,7 +153,11 @@ Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('ad
 
 
 Route::get("/cgu", [cgu::class, 'index'])->name('cgu');
-Route::get("/mentions-legales", [LegalNotice::class, 'index'])->name('legal_notice');
+
+
+Route::get("/mentions-legales",function (){
+    return view("mentions-legales");
+})->name('legal_notice');
 
 
 

@@ -2,6 +2,12 @@
 let mobile_view_main_content_2 = document.getElementById(
     "mobile_view_main_content_2"
 );
+let mobile_view_main_content_3 = document.getElementById(
+    "mobile_view_main_content_3"
+);
+let mobile_view_main_content_4 = document.getElementById(
+    "mobile_view_main_content_4"
+);
 //dynamic contenent of services second level container
 let mobile_view_service_second_level_dynamic_container =
     document.getElementById(
@@ -19,6 +25,8 @@ let mobile_view_main_content = document.getElementById(
 function HideAll() {
     mobile_view_main_content.classList.add("d-none");
     mobile_view_main_content_2.classList.add("d-none");
+    mobile_view_main_content_3.classList.add("d-none");
+    mobile_view_main_content_4.classList.add("d-none");
     mobile_view_service_second_level_dynamic_container.classList.add("d-none");
 }
 function Init() {
@@ -33,6 +41,14 @@ Init();
 function ShowServicesTopLevel() {
     HideAll();
     mobile_view_main_content_2.classList.remove("d-none");
+}
+function ShowNosEcosystem() {
+    HideAll();
+    mobile_view_main_content_3.classList.remove("d-none");
+}
+function ShowBlog() {
+    HideAll();
+    mobile_view_main_content_4.classList.remove("d-none");
 }
 function ShowRootLevelNavigation() {
     HideAll();
@@ -120,8 +136,6 @@ if (three_slides_mobile_view_2 !== null) {
         halaloya_navbar_overlay.style.display = "block";
     };
 }
-
-
 
 halaloya_navbar_overlay.style.display = "none";
 var current_url = window.location.href;

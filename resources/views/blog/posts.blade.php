@@ -1,5 +1,19 @@
 @extends('master')
 @section('body')
+    <style>
+        article.elementor-portfolio-item {
+
+            box-shadow: 3px 4px 10px #c1c1c1;
+            border-radius: 8px;
+            height: 300px;
+            background-size: cover;
+        }
+
+        .elementor-portfolio-item__overlay {
+            background-color: #FFFFFFD1;
+            height: 100%;
+        }
+    </style>
 
     <body
         class="blog wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page-5739">
@@ -152,10 +166,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -249,7 +263,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="index.html#references-list"
+                                                        <a href="#references-list"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -275,8 +289,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="ae-element-post-image ae-element-post-image">
                                                         <div class="ae_thumb_wrapper">
-                                                            <a href="#"
-                                                                title="Les mesures Green IT">
+                                                            <a href="#" title="Les mesures Green IT">
                                                                 <img width="683" height="685"
                                                                     src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
                                                                     src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-683x685.jpeg"
@@ -306,36 +319,15 @@
                                                 data-settings="{&quot;row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:24,&quot;sizes&quot;:[]},&quot;columns&quot;:&quot;3&quot;,&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;item_ratio&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.66,&quot;sizes&quot;:[]},&quot;item_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                                 data-widget_type="portfolio.default">
                                                 <div class="elementor-widget-container">
-                                                    <ul class="elementor-portfolio__filters">
-                                                        <li class="elementor-portfolio__filter elementor-active"
-                                                            data-filter="__all">Tout</li>
-                                                        <li class="elementor-portfolio__filter" data-filter="28">Autres
-                                                        </li>
-                                                        <li class="elementor-portfolio__filter" data-filter="26">
-                                                            Multi-Speed IT</li>
-                                                        <li class="elementor-portfolio__filter" data-filter="22">
-                                                            Technologie &amp; Innovation</li>
-                                                        <li class="elementor-portfolio__filter" data-filter="27">
-                                                            Transformation UX</li>
-                                                        <li class="elementor-portfolio__filter" data-filter="25">
-                                                            Transformation des produits IT</li>
-                                                    </ul>
+
                                                     <div
-                                                        class="elementor-portfolio elementor-grid elementor-posts-container">
+                                                        class=" elementor-portfolio elementor-grid elementor-posts-container">
                                                         <article
+                                                            style=" background-image: url('https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-8035 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/les-mesures-green-it/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="204"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-1024x697.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-768x523.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-1536x1046.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-2048x1395.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-538x368.jpeg 538w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-118x80.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-900x613.jpeg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
+
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Les mesures Green IT </h3>
@@ -343,19 +335,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7961 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/les-donnees-comme-moteur-de-la-transition-ecologique/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="200"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-1024x683.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-768x512.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-1536x1024.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-2048x1365.jpg 2048w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-118x79.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-900x600.jpg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Les données comme moteur de la transition écologique
@@ -364,19 +347,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style=" background-image: url('https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7754 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/le-vrm-pour-respecter-la-propriete-des-donnees-personnelles/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="170"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt="VRM"
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-1024x579.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-768x435.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-1536x869.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-2048x1159.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-118x67.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-900x509.jpeg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Le VRM pour respecter la propriété des données
@@ -385,19 +359,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-25 post-2723 post type-post status-publish format-standard has-post-thumbnail hentry category-transformation-des-produits-it">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/architectures-reactives-quels-roles-respectifs-pour-les-api-et-larchitecture-evenementielle/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="233" height="300"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg 233w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-797x1024.jpeg 797w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-768x987.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-1195x1536.jpeg 1195w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-1593x2048.jpeg 1593w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-118x152.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-493x632.jpeg 493w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-900x1157.jpeg 900w, https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-scaled.jpeg 1991w"
-                                                                        data-sizes="(max-width: 233px) 100vw, 233px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Architectures : réactives VS événementielles </h3>
@@ -405,19 +370,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2721 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/la-part-de-lintelligence-artificielle-dans-la-transformation-des-si/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="200"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-1024x682.jpg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-768x512.jpg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-1536x1024.jpg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-118x79.jpg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/IA-900x600.jpg 900w, https://bti-advisory.com/wp-content/uploads/2022/02/IA.jpg 1550w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         L&#8217;IA dans la transformation des SI </h3>
@@ -425,19 +381,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-22 post-2715 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/compatibilite-methode-agile-dans-un-contexte-produit-data/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="199"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20199'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-1024x681.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-768x511.png 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-1536x1021.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-2048x1361.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-118x78.png 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-900x598.png 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Compatibilité méthode agile dans un contexte Produit
@@ -446,19 +393,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2713 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/demarche-de-transition-data-dune-approche-datawarehouse-dw-vers-un-datalake-dl/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="169"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-1024x576.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-768x432.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-1536x864.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-2048x1152.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-118x66.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-900x506.jpeg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Transition d&#8217;un datawarehouse vers un datalake
@@ -467,19 +405,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-28 post-2711 post type-post status-publish format-standard has-post-thumbnail hentry category-autres">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/limportance-du-bien-etre-au-travail/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="300"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-150x150.png 150w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-118x118.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-447x447.png 447w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-86x86.png 86w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-109x109.png 109w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-123x123.png 123w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-131x131.png 131w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-136x136.png 136w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-148x148.png 148w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-50x50.png 50w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-320x320.png 320w, https://bti-advisory.com/wp-content/uploads/2022/01/blog-1.png 683w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         L&#8217;importance du bien-être au travail </h3>
@@ -487,19 +416,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 post-2698 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/sapproprier-la-culture-devops-en-entreprise/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="167"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20167'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png 300w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1024x571.png 1024w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-768x428.png 768w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1536x856.png 1536w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-2048x1141.png 2048w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-1172x653.png 1172w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-118x66.png 118w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-350x195.png 350w, https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-900x501.png 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         S’approprier la culture DevOps </h3>
@@ -507,19 +427,10 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-27 post-2693 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/le-rex-un-outil-simple-a-mettre-en-oeuvre-mais-peu-mis-en-place-dans-les-organisations/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="190"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20190'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-1024x650.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-768x487.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-1536x975.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-2048x1300.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-118x75.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/REX-900x571.jpeg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Le REX, simple à mettre en œuvre mais peu utilisé
@@ -528,19 +439,11 @@
                                                             </a>
                                                         </article>
                                                         <article
+                                                            style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
-                                                                href="https://bti-advisory.com/accelerer-la-transition-digitale-avec-liot/">
-                                                                <div
-                                                                    class="elementor-portfolio-item__img elementor-post__thumbnail">
-                                                                    <img width="300" height="169"
-                                                                        data-src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
-                                                                        src="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg"
-                                                                        class="attachment-medium size-medium lazy"
-                                                                        alt=""
-                                                                        data-srcset="https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg 300w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-1024x576.jpeg 1024w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-768x432.jpeg 768w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-1536x864.jpeg 1536w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-2048x1152.jpeg 2048w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-118x66.jpeg 118w, https://bti-advisory.com/wp-content/uploads/2022/02/Iot-900x506.jpeg 900w"
-                                                                        data-sizes="(max-width: 300px) 100vw, 300px" />
-                                                                </div>
+                                                                href="#">
+
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Accélérer la transition digitale avec l’IoT </h3>
@@ -585,7 +488,7 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper icon_align_right  ">
-                                                        <a href="../references/index.html"
+                                                        <a href="#"
                                                             class="elementor-button-link elementor-button elementor-size-sm"
                                                             role="button">
                                                             <span class="elementor-button-content-wrapper">
@@ -604,7 +507,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section
+                            {{--                             <section
                                 class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-6114887f elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
                                 data-id="6114887f" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-no">
@@ -925,7 +828,7 @@
                                                                                                                         class="elementor-widget-container">
                                                                                                                         <div
                                                                                                                             class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="../index.html@p=5382.html"
+                                                                                                                            <a href="#"
                                                                                                                                 aria-label="post"
                                                                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                                                                 role="button">
@@ -1271,7 +1174,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </section>
+                            </section> --}}
                         </div>
 
                     </div>
@@ -1284,7 +1187,7 @@
 
         </div><!-- #page -->
         <link rel='stylesheet' id='elementor-post-3493-css'
-            href='../wp-content/cache/autoptimize/css/autoptimize_single_364b6e2e350ce9d1c310b1f2a4412e57.css@ver=1675955108.css'
+            href='../assets/cache/autoptimize/css/autoptimize_single_364b6e2e350ce9d1c310b1f2a4412e57.css@ver=1675955108.css'
             type='text/css' media='all' />
 
         <script type='text/javascript' id='ae-pro-js-js-extra'>
@@ -1610,9 +1513,6 @@
             };
         </script>
 
-        <script defer
-            src="https://bti-advisory.com/wp-content/cache/autoptimize/js/autoptimize_5a9f9bf25dd9d2463589b077dd25dad0.js">
-        </script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -1633,6 +1533,6 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

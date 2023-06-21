@@ -25,55 +25,38 @@
                     </div>
                     <div class="has_ae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-adde5c2 footer-logos ae-bg-gallery-type-default"
                         data-id="adde5c2" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated d-flex">
-                            <div style="margin-right: -37px;"
-                                class="elementor-element elementor-element-029f0b8 elementor-widget elementor-widget-image"
-                                data-id="029f0b8" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <a href="https://www.bti-lab.com" target="_blank">
-                                        <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10026.webp') }}">
-                                            <img class="elementor-animation-grow lazy"
-                                                style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10026.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10026.svg') }}" alt="">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-b0bec5b elementor-widget elementor-widget-image"
-                                data-id="b0bec5b" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <a href="https://bti-studio.com" target="_blank">
-                                        <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10027.webp') }}">
-                                            <img class="elementor-animation-grow lazy"
-                                                style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10027.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10027.svg') }}" alt="">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div style="margin-left: 9px"
-                                class="elementor-element elementor-element-3f0a4d3 elementor-widget elementor-widget-image"
-                                data-id="3f0a4d3" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <a href="https://www.yellow-it.fr" target="_blank">
-                                        <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10028.webp') }}">
-                                            <img class=" elementor-animation-grow lazy"
-                                                style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10028.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10028.svg') }}" alt="">
-                                        </picture>
-                                    </a>
-                                </div>
+                        <div class="elementor-widget-wrap elementor-element-populated d-flex justify-content-start">
+                            <a href="https://www.bti-lab.com" target="_blank">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="https://www.bti-advisory.fr/images/footer/10026.webp">
+                                    <img class="elementor-animation-grow lazy" width="60px" height="60px"
+                                        style="background-color: transparent;margin-left:0px !important;"
+                                        src="https://www.bti-advisory.fr/images/footer/10026.svg"
+                                        data-src="https://www.bti-advisory.fr/images/footer/10026.svg" alt="">
+                                </picture>
+                            </a>
+                            <a href="https://www.bti-lab.com" target="_blank" class="mx-4">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="https://www.bti-advisory.fr/images/footer/10027.webp">
+                                    <img class="elementor-animation-grow lazy" width="80px" height="80px"
+                                        style="background-color: transparent;margin-left:0px !important;"
+                                        src="https://www.bti-advisory.fr/images/footer/10027.svg"
+                                        data-src="https://www.bti-advisory.fr/images/footer/10027.svg" alt="">
+                                </picture>
+                            </a>
+                            <a href="https://www.bti-lab.com" target="_blank" class="mx-4">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="https://www.bti-advisory.fr/images/footer/10028.webp">
+                                    <img class="elementor-animation-grow lazy" width="100px" height="80px"
+                                        style="background-color: transparent;margin-left:0px !important;"
+                                        src="https://www.bti-advisory.fr/images/footer/10028.svg"
+                                        data-src="https://www.bti-advisory.fr/images/footer/10028.svg" alt="">
+                                </picture>
+                            </a>
 
-                            </div>
                         </div>
                     </div>
             </section>
