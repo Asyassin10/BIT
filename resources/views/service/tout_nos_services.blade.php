@@ -210,7 +210,8 @@
                         <div class="app_d_v_header_container row w-100  tout_nos_services_container" id="">
                             <div class="col-12 col-md-7 tout_nos_services_child_b_1 d-flex justify-content-center"
                                 id="">
-                                <img src="{{ secure_asset('images/webp/slides.webp') }}" style="height: 90%;width: 70%"
+                                {{-- height: 90%;width: 70% --}}
+                                <img src="{{ secure_asset('images/webp/slides.webp') }}" style=""
                                     class="m-0 p-0 img-fluid">
 
 
