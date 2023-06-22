@@ -8,12 +8,13 @@ use Illuminate\Support\Facades\Redis;
 
 class AboutController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         /* $title = "À propos - BTI - Advisory";
         $categories = Category::where("url_presentation",$title)->first();
         //return $categories->articles;
         return view('a-propos')->with('title', $title)->with("articles",$categories->articles); */
-        $redis_data = json_decode( Redis::get("a_propos_BTI_Advisory"));
+        /* $redis_data = json_decode( Redis::get("a_propos_BTI_Advisory"));
         $title = "À propos - BTI - Advisory";
         if($redis_data){
             //return "hhhh";
@@ -23,6 +24,10 @@ class AboutController extends Controller
             $categories = Category::where("url_presentation",$title)->first();
             Redis::set("a_propos_BTI_Advisory", json_encode($categories->articles));
             return view('a-propos')->with('title', $title)->with("articles",$categories->articles);
-        }
+        } */
+        $title = "À propos - BTI - Advisory";
+        $categories = Category::where("url_presentation", $title)->first();
+        Redis::set("a_propos_BTI_Advisory", json_encode($categories->articles));
+        return view('a-propos')->with('title', $title)->with("articles", $categories->articles);
     }
 }

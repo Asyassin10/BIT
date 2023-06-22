@@ -530,6 +530,8 @@
 
 
         </div>
+        @include('footer')
+
         <script>
             window.onload = function() {
                 /* var element = document.getElementById("architecture_header");
