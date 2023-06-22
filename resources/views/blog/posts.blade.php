@@ -166,10 +166,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -325,8 +325,7 @@
                                                         <article
                                                             style=" background-image: url('https://bti-advisory.com/wp-content/uploads/2022/11/MicrosoftTeams-image-300x204.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-8035 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
 
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
@@ -337,8 +336,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/08/MicrosoftTeams-image-6-300x200.jpg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7961 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Les données comme moteur de la transition écologique
@@ -349,8 +347,7 @@
                                                         <article
                                                             style=" background-image: url('https://bti-advisory.com/wp-content/uploads/2022/05/VRM-respect-des-données-BTI-Advisory-300x170.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7754 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Le VRM pour respecter la propriété des données
@@ -361,8 +358,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2021/06/Architectures-réactives-233x300.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-25 post-2723 post type-post status-publish format-standard has-post-thumbnail hentry category-transformation-des-produits-it">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Architectures : réactives VS événementielles </h3>
@@ -372,8 +368,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/IA-300x200.jpg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2721 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         L&#8217;IA dans la transformation des SI </h3>
@@ -383,8 +378,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Methode-Agile-300x199.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-22 post-2715 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Compatibilité méthode agile dans un contexte Produit
@@ -395,8 +389,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Datalack-300x169.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2713 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Transition d&#8217;un datawarehouse vers un datalake
@@ -407,8 +400,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/01/blog-1-300x300.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-28 post-2711 post type-post status-publish format-standard has-post-thumbnail hentry category-autres">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         L&#8217;importance du bien-être au travail </h3>
@@ -418,8 +410,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/01/IMG@2x-300x167.png');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 post-2698 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         S’approprier la culture DevOps </h3>
@@ -429,8 +420,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/REX-300x190.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-27 post-2693 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-transformation-ux">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
                                                                         Le REX, simple à mettre en œuvre mais peu utilisé
@@ -441,8 +431,7 @@
                                                         <article
                                                             style="background-image: url('https://bti-advisory.com/wp-content/uploads/2022/02/Iot-300x169.jpeg');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
-                                                            <a class="elementor-post__thumbnail__link"
-                                                                href="#">
+                                                            <a class="elementor-post__thumbnail__link" href="#">
 
                                                                 <div class="elementor-portfolio-item__overlay">
                                                                     <h3 class="elementor-portfolio-item__title">
@@ -1533,6 +1522,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

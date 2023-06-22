@@ -32,12 +32,11 @@
                                 <div class="elementor-widget-container">
                                     <a href="https://www.bti-lab.com" target="_blank">
                                         <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10026.webp') }}">
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10026.webp') }}">
                                             <img class="elementor-animation-grow lazy"
                                                 style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10026.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10026.svg') }}" alt="">
+                                                src="{{ asset('images/footer/10026.svg') }}"
+                                                data-src="{{ asset('images/footer/10026.svg') }}" alt="">
                                         </picture>
                                     </a>
                                 </div>
@@ -47,12 +46,11 @@
                                 <div class="elementor-widget-container">
                                     <a href="https://bti-studio.com" target="_blank">
                                         <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10027.webp') }}">
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10027.webp') }}">
                                             <img class="elementor-animation-grow lazy"
                                                 style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10027.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10027.svg') }}" alt="">
+                                                src="{{ asset('images/footer/10027.svg') }}"
+                                                data-src="{{ asset('images/footer/10027.svg') }}" alt="">
                                         </picture>
                                     </a>
                                 </div>
@@ -63,12 +61,11 @@
                                 <div class="elementor-widget-container">
                                     <a href="https://www.yellow-it.fr" target="_blank">
                                         <picture>
-                                            <source type="image/webp"
-                                                srcset="{{ secure_asset('images/footer/10028.webp') }}">
+                                            <source type="image/webp" srcset="{{ asset('images/footer/10028.webp') }}">
                                             <img class=" elementor-animation-grow lazy"
                                                 style="background-color: transparent;"
-                                                src="{{ secure_asset('images/footer/10028.svg') }}"
-                                                data-src="{{ secure_asset('images/footer/10028.svg') }}" alt="">
+                                                src="{{ asset('images/footer/10028.svg') }}"
+                                                data-src="{{ asset('images/footer/10028.svg') }}" alt="">
                                         </picture>
                                     </a>
                                 </div>
