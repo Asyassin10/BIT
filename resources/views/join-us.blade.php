@@ -127,7 +127,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image" preloader-image-url="{{ secure_asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -156,10 +156,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture style="margin-top: 10%;">
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -365,8 +365,8 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img width="683" height="685"
-                                                        src="{{ secure_asset('images/join_us/img-2.webp') }}"
-                                                        data-src="{{ secure_asset('images/join_us/img-2.webp') }}"
+                                                        src="{{ asset('images/join_us/img-2.webp') }}"
+                                                        data-src="{{ asset('images/join_us/img-2.webp') }}"
                                                         class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped lazy"
                                                         alt="" data-sizes="(max-width: 683px) 100vw, 683px" />
                                                 </div>
@@ -388,8 +388,8 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img width="447" height="447"
-                                                        src="{{ secure_asset('images/join_us/img-1.webp') }}"
-                                                        data-src="{{ secure_asset('images/join_us/img-1.webp') }}"
+                                                        src="{{ asset('images/join_us/img-1.webp') }}"
+                                                        data-src="{{ asset('images/join_us/img-1.webp') }}"
                                                         class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy"
                                                         alt="" data-sizes="(max-width: 447px) 100vw, 447px" />
                                                 </div>
@@ -995,7 +995,7 @@
             /* ]]> */
         </script>
 
-        <script type='module' src='{{ secure_asset('assets/cache/autoptimize/js/instant-page.min.js') }}' id='instant-page-js'></script>
+        <script type='module' src='{{ asset('assets/cache/autoptimize/js/instant-page.min.js') }}' id='instant-page-js'></script>
 
         <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.6.4'
             id='elementor-recaptcha_v3-api-js'></script>
@@ -1239,7 +1239,7 @@
 
 
         {{--  <script defer
-            src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}">
+            src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}">
         </script> --}}
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
@@ -1261,6 +1261,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection
