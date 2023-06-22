@@ -664,7 +664,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -971,8 +971,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ url('service/construire-la-vision#construire-votre-stratégie-technologique') }}">Stratégie</a>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a>Stratégie</a>
                                                                                                                                                             </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -1011,8 +1010,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ url('/service/construire-la-vision#architecture.') }}">Architecture</a>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a>Architecture</a>
 
                                                                                                                                                             </span>
                                                                                                                                                         </div>
@@ -1273,8 +1271,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#pilotage') }}">Pilotage</a>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a>Pilotage</a>
                                                                                                                                                             </span>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -1313,8 +1310,7 @@
                                                                                                                                                         <div
                                                                                                                                                             class="elementor-widget-container">
                                                                                                                                                             <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ url('/service/accompagner-la-mise-en-oeuvre#réalisation') }}">Réalisation</a>
+                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a>Réalisation</a>
 
                                                                                                                                                             </span>
                                                                                                                                                         </div>
