@@ -169,10 +169,14 @@
     margin-top: -930px;
 }
 
+.tout_nos_services_container {
+    margin-top: 10%;
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
     .tout_nos_services_container {
-        margin-top: 50%;
+        margin-top: 2% !important;
         width: 100%;
         padding-left: 0;
         padding-right: 0;
@@ -367,6 +371,12 @@
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
 }
-.ubuntu_font_family{
-    font-family: 'Ubuntu'!important;
+
+.ubuntu_font_family {
+    font-family: 'Ubuntu' !important;
+}
+
+.cost_img {
+    width: 80%;
+    height: auto;
 }

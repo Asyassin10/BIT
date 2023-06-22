@@ -196,7 +196,8 @@
                                 <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;color:#FF9900;">
                                     Nos services
                                 </p>
-                                <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;">
+                                <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;"
+                                    class="ubuntu_font_family">
                                     Nous nous engageons dans une démarche de transformation et d’innovation technologique au
                                     service du bien commun
                                 </h1>
@@ -207,22 +208,21 @@
 
                             </div>
                         </div>
-                        <div class="app_d_v_header_container row w-100  tout_nos_services_container" id="">
-                            <div class="col-12 col-md-7 tout_nos_services_child_b_1 d-flex justify-content-center"
+                        <div class=" row w-100  tout_nos_services_container" id="">
+                            <div class="col-12 col-md-7 tout_nos_services_child_b_1 d-flex align-items-center justify-content-center"
                                 id="">
                                 {{-- height: 90%;width: 70% --}}
-                                <img src="{{ asset('images/webp/slides.webp') }}" class="m-0 p-0 img-fluid cost_img">
-
-
+                                {{--  <img src="{{ asset('images/webp/slides.webp') }}" class="m-0 p-0 img-fluid cost_img"> --}}
+                                @include('inc_svg\svg_one')
                             </div>
                             <div class=" col-12 col-md-5 tout_nos_services_child_a_1" id="">
                                 {{-- style="width: 60%;" --}}
-                                <p style="text-align:left;width:90%;color:black;font-weight: bold;font-size: 28px;line-height: 40px;"
-                                    class="mb-4">
+                                <p style="text-align:left;width:90%;color:black;font-weight: bold;font-size: 28px;line-height: 40px;margin-top: 10%;"
+                                    class="ubuntu_font_family" {{-- class="mb-4" --}}>
                                     De l’émergence à la réalisation d’une idée, nos offres de services IT permettent de
                                     couvrir l’ensemble des activités pour vous accompagner.
                                 </p>
-                                <p style="text-align:left;width:90%;font-size: 20px;">
+                                <p style="text-align:left;width:90%;font-size: 20px;margin-top: 5%;">
                                     Grâce à une combinaison de compétences métiers et technologiques complémentaires, BTI –
                                     Advisory est en mesure de formuler la stratégie à adopter, de valider la faisabilité des
                                     idées nouvelles, de décliner et de mettre en œuvre opérationnellement les directions
@@ -232,33 +232,13 @@
                             </div>
 
                         </div>
-                        {{--  <div class=" w-100 d-flex align-items-center" style="margin-top: 10%;">
-                            <div class=" d-flex justify-content-end" style="width: 60%;">
 
-                                <img src="{{ asset('images/webp/slides.webp') }}" alt=""
-                                    class="img-fluid mx-auto" style="height: 60% !important;width: 80% !important;">
-                            </div>
-                            <div class="" style="width: 40%;">
-                                <h3 style="font-weight: bold;margin-right: 10%;">
-                                    De l’émergence à la réalisation d’une idée, nos offres de services IT permettent de
-                                    couvrir l’ensemble des activités pour vous accompagner.
-                                </h3>
-                                <p style="margin-right: 10%;">
-                                    Grâce à une combinaison de compétences métiers et technologiques complémentaires, BTI –
-                                    Advisory est en mesure de formuler la stratégie à adopter, de valider la faisabilité des
-                                    idées nouvelles, de décliner et de mettre en œuvre opérationnellement les directions
-                                    stratégiques et d’accompagner sur l’ensemble de la chaîne de valeur la montée en
-                                    maturité opérationnelle des équipes.
-                                </p>
-                            </div>
-
-                        </div> --}}
                         <div id="section_three_container_tout_nos_services" style=""
                             class="mx-auto shadow-lg bg-white rounded">
                             <br>
                             <br>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 10%;">
+                            <p class="h1_title h2 pt-4 ubuntu_font_family" style="margin-left: 10%;">
                                 Construire la vision
                             </p>
                             <div class="row" style="margin-left: 8%;margin-top: 2%;">
@@ -295,7 +275,7 @@
                             </div>
                             <hr>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 10%;margin-right: 8%;">
+                            <p class="h1_title h2 pt-4 ubuntu_font_family" style="margin-left: 10%;margin-right: 8%;">
                                 Accompagner la mise en oeuvre
                             </p>
 
@@ -329,7 +309,7 @@
                             </div>
                             <hr>
                             <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                            <p class="h1_title h2 pt-4 ubuntu_font_family" style="margin-left: 8%;">
                                 Nos centres d’excellence
                             </p>
                             <br>
