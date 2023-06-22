@@ -620,7 +620,8 @@
                                                 data-id="f9103c5" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
@@ -664,7 +665,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -758,7 +759,8 @@
                                                 data-id="6e92e0fd" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                    <h1
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[6]->article_text !!}</h1>
                                                 </div>
                                             </div>
@@ -1812,7 +1814,8 @@
                                                 data-id="13dc6efb" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">
+                                                    <h1
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[28]->article_text !!}</h1>
                                                 </div>
                                             </div>
@@ -2829,7 +2832,8 @@
                                                 data-id="105e5817" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[38]->article_text !!}</h2>
                                                 </div>
                                             </div>

@@ -232,7 +232,8 @@
                                                 data-id="3e448e8f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default ">
+                                                    <h1
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[1]->article_text !!}</h1>
                                                 </div>
                                             </div>
@@ -319,7 +320,8 @@
                                                 data-id="74555f82" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                    <h5
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[4]->article_text !!}</h5>
                                                 </div>
                                             </div>
@@ -517,7 +519,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <h2
-                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                                         {!! $articles[7]->article_text !!}
                                                                     </h2>
                                                                 </div>
@@ -985,7 +987,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <h2
-                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                                         {!! $articles[17]->article_text !!}</h2>
                                                                 </div>
                                                             </div>
@@ -1191,7 +1193,8 @@
                                                 data-id="3018a847" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[26]->article_text !!}</h2>
                                                 </div>
                                             </div>
@@ -1262,7 +1265,8 @@
                                                 data-id="158fbe15" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[31]->article_text !!}</h2>
                                                 </div>
                                             </div>
@@ -1348,7 +1352,8 @@
                                                 data-id="26018694" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container m-0">
-                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                    <h3
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[38]->article_text !!}</h3>
                                                 </div>
                                             </div>
@@ -2424,7 +2429,8 @@
                                                 data-id="38ec9606" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[39]->article_text !!}</h2>
                                                 </div>
                                             </div>
