@@ -160,10 +160,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -502,7 +502,7 @@
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2:not(.elementor-motion-effects-element-type-background),
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
                                                             background-color: var(--e-global-color-primary);
-                                                            background-image: url("{{ asset('images/home/10029.webp') }}");
+                                                            background-image: url("{{ secure_asset('images/home/10029.webp') }}");
                                                             background-repeat: no-repeat;
                                                             background-size: cover
                                                         }
@@ -704,11 +704,11 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10009.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10009.webp') }}">
                                                         <img width="800" height="447"
                                                             class="hfe-site-logo-img elementor-animation- lazy"
-                                                            src="{{ asset('images/home/10009.png') }}"
-                                                            data-src="{{ asset('images/home/10009.png') }}"
+                                                            src="{{ secure_asset('images/home/10009.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10009.png') }}"
                                                             alt=""
                                                             class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy">
                                                     </picture>
@@ -794,11 +794,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10010.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10010.webp') }}">
                                                         <img style="height: 100%;width: 100%;"
                                                             class="attachment-accueil-nosservices-683x601-cropped size-accueil-nosservices-683x601-cropped lazy"
-                                                            src="{{ asset('images/home/10010.png') }}"
-                                                            data-src="{{ asset('images/home/10010.png') }}"
+                                                            src="{{ secure_asset('images/home/10010.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10010.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -1104,11 +1104,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/webp/Construire-la-vision.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Construire-la-vision.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/webp/Construire-la-vision.webp') }}"
-                                                                                                                    data-src="{{ asset('images/webp/Construire-la-vision.webp') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1409,11 +1409,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
-                                                                                                                    data-src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1892,12 +1892,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10019.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10019.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10019.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10019.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10019.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10019.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -1926,12 +1926,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/TotalEnergies_Logo_RGB.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2058,12 +2058,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10021.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10021.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10021.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10021.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10021.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10021.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2090,12 +2090,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2230,12 +2230,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10023.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10023.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10023.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10023.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10023.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10023.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2262,12 +2262,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ROUSSELET.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO_ROUSSELET.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO_ROUSSELET.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO_ROUSSELET.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2393,12 +2393,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10015.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10015.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10015.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10015.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10015.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10015.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2425,12 +2425,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ENEDIS.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/LOGO_ENEDIS.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/LOGO_ENEDIS.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/LOGO_ENEDIS.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2564,12 +2564,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10017.webp') }}">
+                                                                                                                srcset="{{ secure_asset('images/home/10017.webp') }}">
                                                                                                             <img width="683"
                                                                                                                 height="346"
                                                                                                                 class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10017.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10017.svg') }}"
+                                                                                                                src="{{ secure_asset('images/home/10017.svg') }}"
+                                                                                                                data-src="{{ secure_asset('images/home/10017.svg') }}"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2596,12 +2596,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/Logo_Oui_sncf.webp') }}">
+                                                                                                                                srcset="{{ secure_asset('images/home/Logo_Oui_sncf.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="93"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                src="{{ secure_asset('images/home/Logo_Oui_sncf.png') }}"
+                                                                                                                                data-src="{{ secure_asset('images/home/Logo_Oui_sncf.png') }}"
                                                                                                                                 alt="">
                                                                                                                         </picture>
                                                                                                                     </div>
@@ -2853,7 +2853,7 @@
                                                 data-widget_type="html.default">
                                                 <div class="elementor-widget-container">
                                                     {{-- <script src='https://www.welcomekit.co/assets/embed.js' type='text/javascript'></script> --}}
-                                                    <script src="{{ asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
+                                                    <script src="{{ secure_asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
                                                     <script type='text/javascript'>
                                                         welcomeKitReady(function() {
                                                             var wk = new WelcomeKitEmbed('d4Mb2Yr')
@@ -2902,12 +2902,12 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10025.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10025.webp') }}">
                                                         <img style="width: 100%;height:100%;" width="493"
                                                             height="632"
                                                             class="attachment-accueil-nousrejoindre-493x632-cropped size-accueil-nousrejoindre-493x632-cropped lazy"
-                                                            src="{{ asset('images/home/10025.png') }}"
-                                                            data-src="{{ asset('images/home/10025.png') }}"
+                                                            src="{{ secure_asset('images/home/10025.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10025.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -3378,8 +3378,8 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
-        <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
 
 
     </body>

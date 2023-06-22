@@ -292,29 +292,29 @@
     <style id='elementor-frontend-inline-css' type='text/css'>
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40:not(.elementor-motion-effects-element-type-background),
         .elementor-6996 .elementor-element.elementor-element-3cbd9c40>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("{{ asset('images/home/10030.webp') }}");
+            background-image: url("{{ secure_asset('images/home/10030.webp') }}");
 
         }
 
         .elementor-7285 .elementor-element.elementor-element-be38a20:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
         .elementor-7285 .elementor-element.elementor-element-be38a20>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("{{ asset('images/a_propos/10044.webp') }}");
+            background-image: url("{{ secure_asset('images/a_propos/10044.webp') }}");
         }
 
         .elementor-7285 .elementor-element.elementor-element-3f6900eb:not(.elementor-motion-effects-element-type-background),
         .elementor-7285 .elementor-element.elementor-element-3f6900eb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("{{ asset('images/a_propos/10045.webp') }}");
+            background-image: url("{{ secure_asset('images/a_propos/10045.webp') }}");
         }
 
         .elementor-7285 .elementor-element.elementor-element-77f0bf33>.elementor-widget-container {
             margin: 0;
             padding: 0 0 5rem;
-            background-image: url("{{ asset('images/a_propos/10046.webp') }}");
+            background-image: url("{{ secure_asset('images/a_propos/10046.webp') }}");
             background-repeat: repeat-x
         }
 
         .elementor-7690 .elementor-element.elementor-element-2e94bd2>.elementor-background-overlay {
-            background-image: url("{{ asset('images/join_us/Pattern.webp') }}");
+            background-image: url("{{ secure_asset('images/join_us/Pattern.webp') }}");
             background-position: center center;
             background-repeat: repeat-x;
             background-size: 13% auto;
@@ -327,13 +327,13 @@
         .elementor-7230 .elementor-element.elementor-element-1f98ce95>.elementor-widget-container {
             margin: 120px 0 80px;
             padding: 0;
-            background-image: url("{{ asset('images/service/pattern-2.webp') }}");
+            background-image: url("{{ secure_asset('images/service/pattern-2.webp') }}");
         }
 
         .elementor-element-2d69a539 {
             margin: 120px 0 80px;
             padding: 0;
-            background-image: url("{{ asset('images/service/pattern-2.webp') }}");
+            background-image: url("{{ secure_asset('images/service/pattern-2.webp') }}");
         }
     </style>
 
@@ -1002,7 +1002,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel='stylesheet' href='{{ asset('assets/cache/autoptimize/css/style.css') }}' type='text/css' />
+    <link rel='stylesheet' href='{{ secure_asset('assets/cache/autoptimize/css/style.css') }}' type='text/css' />
 </head>
 {{-- body --}}
 
@@ -1012,7 +1012,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
-<script src="{{ asset('assets/cache/autoptimize/js/AppNavbar.js') }}"></script>
+<script src="{{ secure_asset('assets/cache/autoptimize/js/AppNavbar.js') }}"></script>
 
 
 
