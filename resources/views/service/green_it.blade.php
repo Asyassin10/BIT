@@ -496,6 +496,8 @@
 
 
         </div>
+        @include('footer')
+
         <script type='text/javascript' id='ae-pro-js-js-extra'>
             /* <![CDATA[ */
             var aepro = {

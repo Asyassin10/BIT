@@ -469,6 +469,7 @@
 
 
         </div>
+        @include('footer')
         <script>
             window.onload = function() {
                 if (window.location.hash === "#architecture_header") {
