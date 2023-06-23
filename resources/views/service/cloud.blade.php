@@ -177,7 +177,7 @@
                             class="has_ae_slider  elementor-section elementor-top-section elementor-element elementor-element-24d79048 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default "
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
-                                <h1 class="main_app_header">
+                                <h1 class="main_app_header ubuntu_font_family">
                                     Cloud
                                 </h1>
                             </div>

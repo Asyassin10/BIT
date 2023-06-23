@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -203,7 +203,7 @@
                                 </h1>
                             </div>
                             <div class="col-12 col-md-5 tout_nos_services_child_b" id="">
-                                <img src="{{ asset('images/webp/io.webp') }}" class="m-0 p-0 img-fluid">
+                                <img src="{{ secure_asset('images/webp/io.webp') }}" class="m-0 p-0 img-fluid">
 
 
                             </div>
@@ -323,31 +323,46 @@
                                 <div class="row  w-75" style="margin-bottom: 7%;">
                                     <div class="col-12 col-md-3 mb-2    ">
 
-                                        <a href="{{ route('data_inteligence') }}" class="btn p-3"
-                                            style="background:#FF9900;border-radius: 7px;color:black;">
-                                            Data Intelligence
+                                        <a href="{{ route('data_inteligence') }}" style="font-size:15px ;color:black;">
+                                            Data Intelligence <svg xmlns="http://www.w3.org/2000/svg" width="12.752"
+                                                height="11.963" style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="black"></path>
+                                            </svg>
                                         </a>
                                     </div>
                                     <div class="col-12 col-md-3 mb-2    ">
 
-                                        <a href="{{ route('green_it') }}" class="btn p-3"
-                                            style="background:#FF9900;border-radius: 7px;color:black;">
-                                            Green IT
+                                        <a href="{{ route('data_inteligence') }}" style="font-size:15px ;color:black;">
+                                            Green IT <svg xmlns="http://www.w3.org/2000/svg" width="12.752"
+                                                height="11.963" style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="black"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-3 mb-2    " style="margin-right: 4px">
+
+                                        <a href="{{ route('data_inteligence') }}" style="font-size:15px ;color:black;">
+                                            Expérience utilisateur <svg xmlns="http://www.w3.org/2000/svg" width="12.752"
+                                                height="11.963" style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="black"></path>
+                                            </svg>
                                         </a>
                                     </div>
                                     <div class="col-12 col-md-3 mb-2    ">
 
-                                        <a href="{{ route('expérience_utilisateur') }}" class="btn p-3"
-                                            style="background:#FF9900;border-radius: 7px;color:black;">
-                                            Expérience utilisateur
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-2    ">
-
-                                        <a href="{{ route('Cloud') }}" class="btn p-3"
-                                            style="background:#FF9900;border-radius: 7px;color:black;">
-
-                                            Cloud
+                                        <a href="{{ route('data_inteligence') }}" style="font-size:15px ;color:black;">
+                                            Cloud <svg xmlns="http://www.w3.org/2000/svg" width="12.752" height="11.963"
+                                                style="margin-left: 10%;" viewBox="0 0 12.752 11.963">
+                                                <path id="ic_fleche"
+                                                    d="M12.349,14.841a.6.6,0,0,0-.851.851l4.344,4.349H5.733a.606.606,0,0,0,0,1.211H15.842L11.491,25.6a.616.616,0,0,0,0,.851.6.6,0,0,0,.851,0l5.381-5.381a.591.591,0,0,0,0-.851Z"
+                                                    transform="translate(-5.152 -14.665)" fill="black"></path>
+                                            </svg>
                                         </a>
                                     </div>
                                 </div>
@@ -361,106 +376,7 @@
 
                             <br>
                         </div>
-                        {{-- <div id="architecture" style="" class="mx-auto shadow-lg bg-white rounded">
-                            <br>
-                            <p class="h1_title h2 pt-4" id="architecture_header" style="margin-left: 8%;">
-                                Architecture
-                            </p>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="">
-                                        Cadrer l’usage des produits et services numériques en valorisant les impacts métier,
-                                        <br>
-                                        technologique et RSE
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Concevoir avec vous la cible technologique en favorisant la sobriété numérique et
-                                        l’agilité
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph ">
-                                    <p>
-                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis <br>
-                                        du numérique (Cloud, Data, IA)
-                                    </p>
-                                </div>
-                            </div>
-
-
-
-                            <br>
-                            <br>
-                            <div class="d-flex justify-content-center  div_contacter_expert">
-                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
-                                    Contacter un expert
-                                </a>
-                            </div>
-                            <br>
-                            <br>
-                            <p id="construisons-votre-vision-ensemble"></p>
-
-                        </div> --}}
                         <div id="form_container" style="margin-top: 15%;" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
@@ -506,7 +422,7 @@
                         </div>
                         <div id="footer_div" class=" shadow-lg  bg_black rounded">
                             <div class="svg-container">
-                                <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                <img id="footer-image" src="{{ secure_asset('images/webp/ss.webp') }}" alt=""
                                     srcset="" style="margin-top: 150px;">
                             </div>
                         </div>
@@ -911,7 +827,7 @@
         </script>
 
 
-        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -932,6 +848,6 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection
