@@ -691,7 +691,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -1566,193 +1566,7 @@
                                                                                                 data-element_type="column">
                                                                                                 <div
                                                                                                     class="elementor-widget-wrap elementor-element-populated">
-                                                                                                    <div class="elementor-element elementor-element-6383991 elementor-widget__width-auto container-tag-acc ae-acf-repeater-layout-grid elementor-widget elementor-widget-ae-acf-repeater"
-                                                                                                        data-id="6383991"
-                                                                                                        data-element_type="widget"
-                                                                                                        data-widget_type="ae-acf-repeater.default">
-                                                                                                        <div
-                                                                                                            class="elementor-widget-container">
-                                                                                                            <div data-pid="5195"
-                                                                                                                data-wid="6383991"
-                                                                                                                class="ae-acf-repeater-widget-wrapper ae-masonry-">
 
-                                                                                                                <div
-                                                                                                                    class="ae-acf-repeater-wrapper">
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                                                                                                <a
-                                                                                                                                                                    href="{{ route('data_inteligence') }}">
-                                                                                                                                                                    Data
-                                                                                                                                                                    Intelligence
-                                                                                                                                                                </a>
-                                                                                                                                                            </span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ route('Cloud') }}">Cloud</a>
-
-                                                                                                                                                            </span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default"><a
-                                                                                                                                                                    href="{{ route('green_it') }}">Green
-                                                                                                                                                                    IT</a>
-                                                                                                                                                            </span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div
-                                                                                                                        class="ae-acf-repeater-item">
-                                                                                                                        <div
-                                                                                                                            class="ae-acf-repeater-inner">
-                                                                                                                            <div
-                                                                                                                                class="ae_data elementor elementor-4451">
-                                                                                                                                <div data-elementor-type="wp-post"
-                                                                                                                                    data-elementor-id="4451"
-                                                                                                                                    class="elementor elementor-4451">
-                                                                                                                                    <section
-                                                                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c46c6ea section-accordeon-tag elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                                                        data-id="c46c6ea"
-                                                                                                                                        data-element_type="section">
-                                                                                                                                        <div
-                                                                                                                                            class="elementor-container elementor-column-gap-no">
-                                                                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff96 colonne-accordeon-tag ae-bg-gallery-type-default"
-                                                                                                                                                data-id="b34ff96"
-                                                                                                                                                data-element_type="column">
-                                                                                                                                                <div
-                                                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                                    <div class="elementor-element elementor-element-99cfddb elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                                                                                                                                                        data-id="99cfddb"
-                                                                                                                                                        data-element_type="widget"
-                                                                                                                                                        data-widget_type="heading.default">
-                                                                                                                                                        <div
-                                                                                                                                                            class="elementor-widget-container">
-                                                                                                                                                            <span
-                                                                                                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                                                                                                <a
-                                                                                                                                                                    href="{{ route('expérience_utilisateur') }}">Expérience
-                                                                                                                                                                    utilisateur</a>
-
-                                                                                                                                                            </span>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </section>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-                                                                                                            </div>
-
-                                                                                                        </div>
-                                                                                                    </div>
                                                                                                     <div class="elementor-element elementor-element-38e3f580 elementor-widget elementor-widget-text-editor"
                                                                                                         data-id="38e3f580"
                                                                                                         data-element_type="widget"
@@ -1795,7 +1609,56 @@
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
+
                                                                                             </div>
+
+                                                                                        </div>
+                                                                                        <div class=" justify-content-start w-100 nos_centres_web_home"
+                                                                                            >
+                                                                                            <div class="d-flex  "
+                                                                                                style="margin-right: 25px;">
+
+                                                                                                <a class="text-dark nos_centres_links"
+                                                                                                    href="{{ route('data_inteligence') }}">
+                                                                                                    Data
+                                                                                                    Intelligence
+                                                                                                    <i aria-hidden="true"
+                                                                                                        class=" fas fa-arrow-right mx-3 mt-1"></i>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="d-flex  "
+                                                                                                style="margin-right: 25px;">
+
+                                                                                                <a class="text-dark nos_centres_links"
+                                                                                                    href="{{ route('Cloud') }}">
+                                                                                                    Cloud
+                                                                                                    <i aria-hidden="true"
+                                                                                                        class=" fas fa-arrow-right mx-3 mt-1"></i>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="d-flex  "
+                                                                                                style="margin-right: 25px;">
+
+                                                                                                <a class="text-dark nos_centres_links"
+                                                                                                    href="{{ route('green_it') }}">
+                                                                                                    Green IT
+                                                                                                    <i aria-hidden="true"
+                                                                                                        class=" fas fa-arrow-right mx-3 mt-1"></i>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="d-flex  "
+                                                                                                style="margin-right: 25px;">
+
+                                                                                                <a class="text-dark nos_centres_links"
+                                                                                                    href="{{ route('expérience_utilisateur') }}">
+                                                                                                    Expérience
+                                                                                                    utilisateur
+                                                                                                    <i aria-hidden="true"
+                                                                                                        class=" fas fa-arrow-right mx-3 mt-1"></i>
+                                                                                                </a>
+                                                                                            </div>
+
+
                                                                                         </div>
                                                                                     </section>
                                                                                 </div>

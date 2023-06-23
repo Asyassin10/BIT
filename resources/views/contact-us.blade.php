@@ -201,7 +201,8 @@
                                                 data-id="5b365d30" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[1]->article_text !!} </h2>
                                                 </div>
                                             </div>
