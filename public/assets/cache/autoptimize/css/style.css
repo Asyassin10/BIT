@@ -138,7 +138,7 @@
     margin-top: -1250px;
 }
 
-.main_app_header_container {
+.main_app_header ubuntu_font_family_container {
     margin-bottom: 80px;
 }
 
@@ -147,7 +147,7 @@
     margin-top: 10%;
 }
 
-.main_app_header {
+.main_app_header ubuntu_font_family {
     float: right;
     margin-top: 15%;
 }
@@ -239,7 +239,7 @@
         margin-top: -100px;
     }
 
-    .main_app_header {
+    .main_app_header ubuntu_font_family {
         float: right;
         margin-top: 15%;
 
@@ -380,3 +380,32 @@
     width: 80%;
     height: auto;
 }
+
+.nos_centres_links {
+
+    color: black !important;
+    font-size:15px !important;
+}
+
+.nos_centres_links:hover {
+    color: orange !important;
+}
+.nos_centres_web{
+    display: flex !important;
+}
+.nos_centres_web_home{
+    display: flex !important;
+    margin-left: 14% !important;
+}
+@media only screen and (max-width: 1000px) {
+    .nos_centres_web {
+        display: block !important;
+    }
+    .nos_centres_web_home {
+        display: block !important;
+        margin-left: 0% !important;
+    }
+    .nos_centres_links {
+        margin-top: 5%;
+    }
+  }
