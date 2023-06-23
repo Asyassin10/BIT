@@ -4,13 +4,13 @@
 
 @section('vendor-style')
     <!-- Vendor css files -->
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
 @endsection
 @section('page-style')
     <!-- Page css files -->
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
 @endsection
 
 @section('content')
@@ -59,23 +59,23 @@
                             {{-- <ul class="list-unstyled d-flex align-items-center avatar-group mb-0">
                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                     title="Jimmy Ressula" class="avatar avatar-sm pull-up">
-                                    <img class="rounded-circle" src="{{ asset('images/avatars/4.png') }}" alt="Avatar" />
+                                    <img class="rounded-circle" src="{{ secure_asset('images/avatars/4.png') }}" alt="Avatar" />
                                 </li>
                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                     title="John Doe" class="avatar avatar-sm pull-up">
-                                    <img class="rounded-circle" src="{{ asset('images/avatars/1.png') }}" alt="Avatar" />
+                                    <img class="rounded-circle" src="{{ secure_asset('images/avatars/1.png') }}" alt="Avatar" />
                                 </li>
                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                     title="Kristi Lawker" class="avatar avatar-sm pull-up">
-                                    <img class="rounded-circle" src="{{ asset('images/avatars/2.png') }}" alt="Avatar" />
+                                    <img class="rounded-circle" src="{{ secure_asset('images/avatars/2.png') }}" alt="Avatar" />
                                 </li>
                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                     title="Kaith D'souza" class="avatar avatar-sm pull-up">
-                                    <img class="rounded-circle" src="{{ asset('images/avatars/5.png') }}" alt="Avatar" />
+                                    <img class="rounded-circle" src="{{ secure_asset('images/avatars/5.png') }}" alt="Avatar" />
                                 </li>
                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                     title="Danny Paul" class="avatar avatar-sm pull-up">
-                                    <img class="rounded-circle" src="{{ asset('images/avatars/7.png') }}" alt="Avatar" />
+                                    <img class="rounded-circle" src="{{ secure_asset('images/avatars/7.png') }}" alt="Avatar" />
                                 </li>
                             </ul> --}}
                         </div>
@@ -882,17 +882,17 @@
 
 @section('vendor-script')
     <!-- Vendor js files -->
-    <script src="{{ asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.bootstrap5.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.checkboxes.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/buttons.bootstrap5.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/datatables.checkboxes.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
 @endsection
 @section('page-script')
     <!-- Page js files -->
-    <script src="{{ asset(mix('js/scripts/pages/modal-add-role.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/app-access-roles.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-add-role.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/app-access-roles.js')) }}"></script>
 @endsection

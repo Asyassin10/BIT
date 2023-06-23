@@ -27,7 +27,7 @@ class JoinUsController extends Controller
             return view('join-us')->with('title', $title)->with("articles",$categories->articles);
         } */
         $categories = Category::where("url_presentation", $title)->first();
-        Redis::set("Nous_rejoindre_BTI_Advisory", json_encode($categories->articles));
+        //Redis::set("Nous_rejoindre_BTI_Advisory", json_encode($categories->articles));
         return view('join-us')->with('title', $title)->with("articles", $categories->articles);
     }
 }

@@ -155,12 +155,11 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        id="image_lolo_webp"
-                                                                        alt="">
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
                                                         </div>
@@ -170,7 +169,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                   <script>
+                                <script>
                                     window.addEventListener('scroll', function() {
                                         var image = document.getElementById('image_lolo_webp');
                                         var scrollPosition = window.scrollY;

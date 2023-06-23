@@ -691,7 +691,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -1613,8 +1613,8 @@
                                                                                             </div>
 
                                                                                         </div>
-                                                                                        <div class=" justify-content-start w-100 nos_centres_web_home"
-                                                                                            >
+                                                                                        <div
+                                                                                            class=" justify-content-start w-100 nos_centres_web_home">
                                                                                             <div class="d-flex  "
                                                                                                 style="margin-right: 25px;">
 

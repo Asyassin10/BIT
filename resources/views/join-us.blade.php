@@ -160,7 +160,7 @@
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
                                                                         src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         data-src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        alt="">
+                                                                        id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
                                                         </div>
@@ -170,6 +170,32 @@
                                         </div>
                                     </div>
                                 </div>
+                                <script>
+                                    window.addEventListener('scroll', function() {
+                                        var image = document.getElementById('image_lolo_webp');
+                                        var scrollPosition = window.scrollY;
+                                        var pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+                                        var newSize = 80; // Set the desired new size for the image
+
+                                        if (scrollPosition <= 0) {
+                                            // Scroll position is at the top or above the top
+                                            newSize = 150; // Set the original size for the image
+                                        } else if (scrollPosition >= pageHeight * 1.5) {
+                                            // Scroll position has reached 50% of the page heighta
+                                            //alert("hhh")
+                                            newSize = 80; // Set the desired smaller size for the image
+                                        } else {
+                                            // Scroll position is between top and 50% of the page height
+                                            /* var shrinkFactor = 0.5; // Adjust the shrinking rate as desired
+                                            newSize = 400 - (scrollPosition / (pageHeight * 0.5)) * (400 - 200); */
+                                            //newSize = Math.max(newSize, 200); // Ensure newSize doesn't go below 200
+                                        }
+                                        image.style.transition = 'width 0.3s, height 0.3s';
+                                        // Set the new size for the image
+                                        image.style.width = newSize + 'px';
+                                        image.style.height = newSize * 1 + 'px'; // Maintain the aspect ratio if necessary
+                                    });
+                                </script>
                                 @include('navbar')
 
                             </div>
@@ -403,7 +429,8 @@
                                                 data-id="7904e" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default ubuntu_font_family">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[3]->article_text !!}</h2>
                                                 </div>
                                             </div>
@@ -430,7 +457,8 @@
                                                 data-id="74cd36b4" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default ubuntu_font_family">
+                                                    <h3
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[5]->article_text !!}
                                                     </h3>
                                                 </div>
@@ -503,7 +531,8 @@
                                                 data-id="1015537f" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default ubuntu_font_family">
+                                                    <h2
+                                                        class="elementor-heading-title elementor-size-default ubuntu_font_family">
                                                         {!! $articles[15]->article_text !!}</h2>
                                                 </div>
                                             </div>
