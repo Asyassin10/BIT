@@ -27,7 +27,7 @@ class AboutController extends Controller
         } */
         $title = "À propos - BTI - Advisory";
         $categories = Category::where("url_presentation", $title)->first();
-        Redis::set("a_propos_BTI_Advisory", json_encode($categories->articles));
+        //Redis::set("a_propos_BTI_Advisory", json_encode($categories->articles));
         return view('a-propos')->with('title', $title)->with("articles", $categories->articles);
     }
 }
