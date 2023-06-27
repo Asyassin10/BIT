@@ -14,6 +14,10 @@ class ServiceController extends Controller
     {
         return view('service.tout_nos_services');
     }
+    public function rebuilder()
+    {
+        return view('service.rebuilder');
+    }
     public function Construire_la_vision()
     {
         return view('service.construire_la_vision');

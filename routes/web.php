@@ -63,6 +63,7 @@ Route::prefix('service')->group(function () {
     Route::get('/green-it', [ServiceController::class, 'green_it'])->name('green_it');
     Route::get('/data-inteligence', [ServiceController::class, 'data_inteligence'])->name('data_inteligence');
     Route::get('/cloud', [ServiceController::class, 'Cloud'])->name('Cloud');
+    Route::get('/rebuilder', [ServiceController::class, 'rebuilder'])->name('rebuilder');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
@@ -73,7 +74,7 @@ Route::get('/a-propos', [AboutController::class, 'index'])->name('about-us');
 
 Route::prefix('admin')->middleware(['admin'])->group(function () {
 
-         Route::get('/dashboard', function () {
+    Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     })->name('admin.dashboard');
     //categories
@@ -113,12 +114,12 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
 
     Route::get('dashboard', [DashboardController::class, 'dashboardAnalytics'])->name('admin.dashboard');
     /* Route Dashboards */
-    Route::get("/RemovePermissionFromRole/{role_id}/{permission_id}",[AdminRolesController::class,"RemovePermissionFromRole"])->name("RemovePermissionFromRole");
-    Route::get("/AssignPermissionFromRole/{role_id}/{permission_id}",[AdminRolesController::class,"AssignPermissionFromRole"])->name("AssignPermissionFromRole");
-    Route::get("/RemoveUserFromRole/{role_id}/{user_id}",[AdminRolesController::class,"RemoveUserFromRole"])->name("RemoveUserFromRole");
-    Route::get("/AddUserAccessToRole/{role_id}/{user_id}",[AdminRolesController::class,"AddUserAccessToRole"])->name("AddUserAccessToRole");
-    Route::get("/AssignUserToPermission/{permission_id}/{user_id}",[AppsController::class,"AssignUserToPermission"])->name("AssignUserToPermission");
-    Route::get("/DeleteUserToPermission/{permission_id}/{user_id}",[AppsController::class,"DeleteUserToPermission"])->name("DeleteUserToPermission");
+    Route::get("/RemovePermissionFromRole/{role_id}/{permission_id}", [AdminRolesController::class, "RemovePermissionFromRole"])->name("RemovePermissionFromRole");
+    Route::get("/AssignPermissionFromRole/{role_id}/{permission_id}", [AdminRolesController::class, "AssignPermissionFromRole"])->name("AssignPermissionFromRole");
+    Route::get("/RemoveUserFromRole/{role_id}/{user_id}", [AdminRolesController::class, "RemoveUserFromRole"])->name("RemoveUserFromRole");
+    Route::get("/AddUserAccessToRole/{role_id}/{user_id}", [AdminRolesController::class, "AddUserAccessToRole"])->name("AddUserAccessToRole");
+    Route::get("/AssignUserToPermission/{permission_id}/{user_id}", [AppsController::class, "AssignUserToPermission"])->name("AssignUserToPermission");
+    Route::get("/DeleteUserToPermission/{permission_id}/{user_id}", [AppsController::class, "DeleteUserToPermission"])->name("DeleteUserToPermission");
     Route::get('access-roles', [AdminRolesController::class, 'GetAllRoles'])->name('app-access-roles');
     Route::post('UpdatesRolePermisssions/{role_id}', [AdminRolesController::class, 'UpdatesRolePermisssions'])->name('UpdatesRolePermisssions');
     Route::get('access-permission', [AppsController::class, 'access_permission'])->name('app-access-permission');
@@ -155,7 +156,7 @@ Route::post('/admin/logout', [AdminController::class, 'admin_logout'])->name('ad
 Route::get("/cgu", [cgu::class, 'index'])->name('cgu');
 
 
-Route::get("/mentions-legales",function (){
+Route::get("/mentions-legales", function () {
     return view("mentions-legales");
 })->name('legal_notice');
 
