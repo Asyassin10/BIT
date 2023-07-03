@@ -126,7 +126,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image" preloader-image-url="{{ secure_asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -155,10 +155,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -396,10 +396,10 @@
                                                     </style>
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10016.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10016.webp') }}">
                                                         <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
-                                                            src="{{ secure_asset('images/a_propos/10016.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10016.png') }}"
+                                                            src="{{ asset('images/a_propos/10016.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10016.png') }}"
                                                             data-sizes="(max-width: 148px) 100vw, 148px" alt="">
                                                     </picture>
                                                 </div>
@@ -411,10 +411,10 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10018.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10018.webp') }}">
                                                         <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
-                                                            src="{{ secure_asset('images/a_propos/10018.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10018.png') }}"
+                                                            src="{{ asset('images/a_propos/10018.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10018.png') }}"
                                                             data-sizes="(max-width: 148px) 100vw, 148px" alt="">
                                                     </picture>
                                                 </div>
@@ -426,10 +426,10 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10019.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10019.webp') }}">
                                                         <img class="attachment-apropos-entreprise-148x148-cropped size-apropos-entreprise-148x148-cropped lazy"
-                                                            src="{{ secure_asset('images/a_propos/10019.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10019.png') }}"
+                                                            src="{{ asset('images/a_propos/10019.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10019.png') }}"
                                                             data-sizes="(max-width: 148px) 100vw, 148px" alt="">
                                                     </picture>
                                                 </div>
@@ -482,11 +482,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10020.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10020.webp') }}">
                                                         <img width="150" height="150"
                                                             class="attachment-thumbnail size-thumbnail lazy"
-                                                            src="{{ secure_asset('images/a_propos/10020.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10020.png') }}"
+                                                            src="{{ asset('images/a_propos/10020.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10020.png') }}"
                                                             data-sizes="(max-width: 150px) 100vw, 150px" alt="">
                                                     </picture>
                                                 </div>
@@ -498,10 +498,10 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10021.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10021.webp') }}">
                                                         <img class="lazy"
-                                                            src="{{ secure_asset('images/a_propos/10021.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10021.png') }}"
+                                                            src="{{ asset('images/a_propos/10021.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10021.png') }}"
                                                             data-sizes="(max-width: 150px) 100vw, 150px" alt="">
                                                     </picture>
                                                 </div>
@@ -513,10 +513,10 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10022.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10022.webp') }}">
                                                         <img class="lazy"
-                                                            src="{{ secure_asset('images/a_propos/10022.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10022.png') }}"
+                                                            src="{{ asset('images/a_propos/10022.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10022.png') }}"
                                                             data-sizes="(max-width: 150px) 100vw, 150px" alt="">
                                                     </picture>
                                                 </div>
@@ -967,11 +967,11 @@
                                                                 <div class="elementor-widget-container">
                                                                     <picture>
                                                                         <source type="image/webp"
-                                                                            srcset="{{ secure_asset('images/a_propos/10023.webp') }}">
+                                                                            srcset="{{ asset('images/a_propos/10023.webp') }}">
                                                                         <img width="578" height="639"
                                                                             class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
-                                                                            src="{{ secure_asset('images/a_propos/10023.png') }}"
-                                                                            data-src="{{ secure_asset('images/a_propos/10023.png') }}"
+                                                                            src="{{ asset('images/a_propos/10023.png') }}"
+                                                                            data-src="{{ asset('images/a_propos/10023.png') }}"
                                                                             alt="">
                                                                     </picture>
                                                                 </div>
@@ -993,11 +993,11 @@
                                                                 <div class="elementor-widget-container">
                                                                     <picture>
                                                                         <source type="image/webp"
-                                                                            srcset="{{ secure_asset('images/a_propos/10024.webp') }}">
+                                                                            srcset="{{ asset('images/a_propos/10024.webp') }}">
                                                                         <img width="578" height="639"
                                                                             class="attachment-apropos-engagements-578x639-cropped size-apropos-engagements-578x639-cropped lazy"
-                                                                            src="{{ secure_asset('images/a_propos/10024.png') }}"
-                                                                            data-src="{{ secure_asset('images/a_propos/10024.png') }}"
+                                                                            src="{{ asset('images/a_propos/10024.png') }}"
+                                                                            data-src="{{ asset('images/a_propos/10024.png') }}"
                                                                             data-sizes="(max-qwidth: 578px) 100vw, 578px"
                                                                             alt="">
                                                                     </picture>
@@ -1258,11 +1258,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10025.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10025.webp') }}">
                                                         <img width="1366" height="821"
                                                             class="attachment-full size-full lazy"
-                                                            src="{{ secure_asset('images/a_propos/10025.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10025.png') }}"
+                                                            src="{{ asset('images/a_propos/10025.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10025.png') }}"
                                                             data-sizes="(max-width: 1366px) 100vw, 1366px" alt="">
                                                     </picture>
                                                 </div>
@@ -1455,12 +1455,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10031.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10031.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10031.jpeg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10031.jpeg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10031.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10031.jpeg') }}"
                                                                                                                 alt="Castle of Sleeping Beauty at Disneyland Paris August 28, 2019, Paris, France.">
                                                                                                         </picture>
 
@@ -1487,10 +1487,10 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/LOGO-DISNEYLAND-PARIS.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.webp') }}">
                                                                                                                             <img class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ secure_asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-DISNEYLAND-PARIS.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -1614,12 +1614,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10034.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10034.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10034.jpeg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10034.jpeg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10034.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10034.jpeg') }}"
                                                                                                                 alt="">
                                                                                                         </picture>
                                                                                                     </div>
@@ -1646,12 +1646,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/LOGO-ELIOR-GROUP.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="82"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy""
-                                                                                                                                src="{{ secure_asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-ELIOR-GROUP.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -1787,12 +1787,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10037.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10037.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10037.jpeg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10037.jpeg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10037.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10037.jpeg') }}"
                                                                                                                 alt="">
                                                                                                         </picture>
                                                                                                     </div>
@@ -1818,12 +1818,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/Logo_Federation_Francaise_Football.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="127"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ secure_asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/Logo_Federation_Francaise_Football.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -1946,12 +1946,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10039.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10039.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10039.jpg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10039.jpg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10039.jpg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10039.jpg') }}"
                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -1979,12 +1979,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/LOGO-EDENRED.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-EDENRED.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="76"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ secure_asset('images/a_propos/LOGO-EDENRED.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/LOGO-EDENRED.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-EDENRED.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-EDENRED.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -2108,12 +2108,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10027.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10027.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10027.jpeg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10027.jpeg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10027.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10027.jpeg') }}"
                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                 alt="">
                                                                                                         </picture>
@@ -2140,12 +2140,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/LOGO-RAPT.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/LOGO-RAPT.webp') }}">
                                                                                                                             <img width="118"
                                                                                                                                 height="81"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ secure_asset('images/a_propos/LOGO-RAPT.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/LOGO-RAPT.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/LOGO-RAPT.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/LOGO-RAPT.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -2274,12 +2274,12 @@
                                                                                                         <picture>
                                                                                                             <source
                                                                                                                 type="image/webp"
-                                                                                                                srcset="{{ secure_asset('images/a_propos/10029.webp') }}">
+                                                                                                                srcset="{{ asset('images/a_propos/10029.webp') }}">
                                                                                                             <img width="819"
                                                                                                                 height="346"
                                                                                                                 class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                src="{{ secure_asset('images/a_propos/10029.jpeg') }}"
-                                                                                                                data-src="{{ secure_asset('images/a_propos/10029.jpeg') }}"
+                                                                                                                src="{{ asset('images/a_propos/10029.jpeg') }}"
+                                                                                                                data-src="{{ asset('images/a_propos/10029.jpeg') }}"
                                                                                                                 alt="">
                                                                                                         </picture>
 
@@ -2307,12 +2307,12 @@
                                                                                                                         <picture>
                                                                                                                             <source
                                                                                                                                 type="image/webp"
-                                                                                                                                srcset="{{ secure_asset('images/a_propos/10030.webp') }}">
+                                                                                                                                srcset="{{ asset('images/a_propos/10030.webp') }}">
                                                                                                                             <img width="819"
                                                                                                                                 height="346"
                                                                                                                                 class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ secure_asset('images/a_propos/10030.png') }}"
-                                                                                                                                data-src="{{ secure_asset('images/a_propos/10030.png') }}"
+                                                                                                                                src="{{ asset('images/a_propos/10030.png') }}"
+                                                                                                                                data-src="{{ asset('images/a_propos/10030.png') }}"
                                                                                                                                 data-sizes="(max-width: 118px) 100vw, 118px"
                                                                                                                                 alt="">
                                                                                                                         </picture>
@@ -2437,11 +2437,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ secure_asset('images/a_propos/10041.webp') }}">
+                                                            srcset="{{ asset('images/a_propos/10041.webp') }}">
                                                         <img width="495" height="527"
                                                             class="attachment-apropos-partenariat-495x527-cropped size-apropos-partenariat-495x527-cropped lazy"
-                                                            src="{{ secure_asset('images/a_propos/10041.png') }}"
-                                                            data-src="{{ secure_asset('images/a_propos/10041.png') }}"
+                                                            src="{{ asset('images/a_propos/10041.png') }}"
+                                                            data-src="{{ asset('images/a_propos/10041.png') }}"
                                                             data-sizes="(max-width: 495px) 100vw, 495px" alt="">
                                                     </picture>
                                                 </div>
@@ -2942,7 +2942,7 @@
         </script>
 
 
-        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -2963,6 +2963,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

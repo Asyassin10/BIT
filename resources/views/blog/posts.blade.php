@@ -166,10 +166,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -1523,6 +1523,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

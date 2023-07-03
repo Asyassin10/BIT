@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/page-profile.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/page-profile.css')) }}">
 @endsection
 
 @section('content')
@@ -14,7 +14,7 @@
             <div class="col-12">
                 <div class="card profile-header mb-2">
                     <!-- profile cover photo -->
-                    <img class="card-img-top" src="{{ secure_asset('images/profile/user-uploads/timeline.jpg') }}"
+                    <img class="card-img-top" src="{{ asset('images/profile/user-uploads/timeline.jpg') }}"
                         alt="User Profile Image" />
                     <!--/ profile cover photo -->
 
@@ -22,8 +22,8 @@
                         <!-- profile picture -->
                         <div class="profile-img-container d-flex align-items-center">
                             <div class="profile-img">
-                                <img src="{{ secure_asset('images/portrait/small/avatar-s-2.jpg') }}"
-                                    class="rounded img-fluid" alt="Card image" />
+                                <img src="{{ asset('images/portrait/small/avatar-s-2.jpg') }}" class="rounded img-fluid"
+                                    alt="Card image" />
                             </div>
                             <!-- profile title -->
                             <div class="profile-title ms-3">
@@ -129,8 +129,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/12-small.png') }}" alt="avatar img"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/12-small.png') }}" alt="avatar img" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Peter Reed</h6>
@@ -141,8 +141,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/1-small.png') }}" alt="avatar"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/1-small.png') }}" alt="avatar" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Harriett Adkins</h6>
@@ -153,8 +153,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/10-small.png') }}" alt="avatar"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/10-small.png') }}" alt="avatar" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Juan Weaver</h6>
@@ -165,8 +165,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/3-small.png') }}" alt="avatar img"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/3-small.png') }}" alt="avatar img" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Claudia Chandler</h6>
@@ -177,8 +177,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/5-small.png') }}" alt="avatar img"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/5-small.png') }}" alt="avatar img" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Earl Briggs</h6>
@@ -191,8 +191,8 @@
                             <!-- user suggestions -->
                             <div class="d-flex justify-content-start align-items-center">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/avatars/6-small.png') }}" alt="avatar img"
-                                        height="40" width="40" />
+                                    <img src="{{ asset('images/avatars/6-small.png') }}" alt="avatar img" height="40"
+                                        width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Jonathan Lyons</h6>
@@ -212,7 +212,7 @@
                             <div class="profile-twitter-feed mt-1">
                                 <div class="d-flex justify-content-start align-items-center mb-1">
                                     <div class="avatar me-1">
-                                        <img src="{{ secure_asset('images/avatars/5-small.png') }}" alt="avatar img"
+                                        <img src="{{ asset('images/avatars/5-small.png') }}" alt="avatar img"
                                             height="40" width="40" />
                                     </div>
                                     <div class="profile-user-info">
@@ -236,7 +236,7 @@
                             <div class="profile-twitter-feed mt-2">
                                 <div class="d-flex justify-content-start align-items-center mb-1">
                                     <div class="avatar me-1">
-                                        <img src="{{ secure_asset('images/avatars/12-small.png') }}" alt="avatar img"
+                                        <img src="{{ asset('images/avatars/12-small.png') }}" alt="avatar img"
                                             height="40" width="40" />
                                     </div>
                                     <div class="profile-user-info">
@@ -260,7 +260,7 @@
                             <div class="profile-twitter-feed mt-2">
                                 <div class="d-flex justify-content-start align-items-center mb-1">
                                     <div class="avatar me-1">
-                                        <img src="{{ secure_asset('images/avatars/1-small.png') }}" alt="avatar img"
+                                        <img src="{{ asset('images/avatars/1-small.png') }}" alt="avatar img"
                                             height="40" width="40" />
                                     </div>
                                     <div class="profile-user-info">
@@ -294,8 +294,8 @@
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <!-- avatar -->
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-18.jpg') }}"
-                                        alt="avatar img" height="50" width="50" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-18.jpg') }}" alt="avatar img"
+                                        height="50" width="50" />
                                 </div>
                                 <!--/ avatar -->
                                 <div class="profile-user-info">
@@ -309,8 +309,8 @@
                                 can make the difference when presenting to clients who are looking for the perfect fit.
                             </p>
                             <!-- post img -->
-                            <img class="img-fluid rounded mb-75"
-                                src="{{ secure_asset('images/profile/post-media/2.jpg') }}" alt="avatar img" />
+                            <img class="img-fluid rounded mb-75" src="{{ asset('images/profile/post-media/2.jpg') }}"
+                                alt="avatar img" />
                             <!--/ post img -->
 
                             <!-- like share -->
@@ -326,28 +326,28 @@
                                         <div class="avatar-group ms-1">
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Trina Lynes" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-1.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-1.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Lilian Nenez" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-2.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-2.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Alberto Glotzbach"
                                                 class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-3.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-3.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="George Nordic" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-5.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-5.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Vinnie Mostowy" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-4.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-4.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                         </div>
@@ -376,7 +376,7 @@
                             <!-- comments -->
                             <div class="d-flex align-items-start mb-1">
                                 <div class="avatar mt-25 me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-6.jpg') }}" alt="Avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-6.jpg') }}" alt="Avatar"
                                         height="34" width="34" />
                                 </div>
                                 <div class="profile-user-info w-100">
@@ -393,7 +393,7 @@
                             </div>
                             <div class="d-flex align-items-start mb-1">
                                 <div class="avatar mt-25 me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-8.jpg') }}" alt="Avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-8.jpg') }}" alt="Avatar"
                                         height="34" width="34" />
                                 </div>
                                 <div class="profile-user-info w-100">
@@ -429,8 +429,8 @@
                             <!-- avatar image and title -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-22.jpg') }}"
-                                        alt="avatar img" height="50" width="50" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-22.jpg') }}" alt="avatar img"
+                                        height="50" width="50" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Rosa Walters</h6>
@@ -444,8 +444,8 @@
                                 can make the difference when presenting to clients who are looking for the perfect fit.
                             </p>
                             <!-- post img -->
-                            <img class="img-fluid rounded mb-75"
-                                src="{{ secure_asset('images/profile/post-media/25.jpg') }}" alt="avatar img" />
+                            <img class="img-fluid rounded mb-75" src="{{ asset('images/profile/post-media/25.jpg') }}"
+                                alt="avatar img" />
                             <!--/ post img -->
 
                             <!-- like share -->
@@ -461,28 +461,28 @@
                                         <div class="avatar-group ms-1">
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Trina Lynes" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-1.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-1.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Lilian Nenez" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-2.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-2.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Alberto Glotzbach"
                                                 class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-3.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-3.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="George Nordic" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-5.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-5.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Vinnie Mostowy" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-4.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-4.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                         </div>
@@ -511,7 +511,7 @@
                             <!-- comments -->
                             <div class="d-flex align-items-start mb-1">
                                 <div class="avatar mt-25 me-50">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
                                         height="34" width="34" />
                                 </div>
                                 <div class="profile-user-info w-100">
@@ -545,8 +545,8 @@
                             <!-- avatar image title -->
                             <div class="d-flex justify-content-start align-items-center mb-1">
                                 <div class="avatar me-1">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-15.jpg') }}"
-                                        alt="avatar img" height="50" width="50" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-15.jpg') }}" alt="avatar img"
+                                        height="50" width="50" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Charles Watson</h6>
@@ -579,28 +579,28 @@
                                         <div class="avatar-group ms-1">
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Vinnie Mostowy" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-5.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-5.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Elicia Rieske" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Julee Rossignol"
                                                 class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-10.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-10.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Darcey Nooner" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-8.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-8.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                             <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
                                                 data-bs-placement="bottom" title="Elicia Rieske" class="avatar pull-up">
-                                                <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}"
+                                                <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}"
                                                     alt="Avatar" height="26" width="26" />
                                             </div>
                                         </div>
@@ -629,7 +629,7 @@
                             <!-- comment -->
                             <div class="d-flex align-items-start mb-1">
                                 <div class="avatar mt-25 me-50">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
                                         height="34" width="34" />
                                 </div>
                                 <div class="profile-user-info w-100">
@@ -668,55 +668,55 @@
                             <div class="row">
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-13.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-13.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-02.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-02.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-03.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-03.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-04.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-04.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-05.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-05.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-06.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-06.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-07.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-07.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-08.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-08.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-6 profile-latest-img">
                                     <a href="#">
-                                        <img src="{{ secure_asset('images/profile/user-uploads/user-09.jpg') }}"
+                                        <img src="{{ asset('images/profile/user-uploads/user-09.jpg') }}"
                                             class="img-fluid rounded" alt="avatar img" />
                                     </a>
                                 </div>
@@ -731,7 +731,7 @@
                             <h5>Suggestions</h5>
                             <div class="d-flex justify-content-start align-items-center mt-2">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-9.jpg') }}" alt="avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-9.jpg') }}" alt="avatar"
                                         height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
@@ -744,8 +744,8 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mt-1">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-6.jpg') }}"
-                                        alt="avtar img holder" height="40" width="40" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-6.jpg') }}" alt="avtar img holder"
+                                        height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Harriett Adkins</h6>
@@ -757,7 +757,7 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mt-1">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}" alt="avatar"
+                                    <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}" alt="avatar"
                                         height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
@@ -770,8 +770,8 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mt-1">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-8.jpg') }}"
-                                        alt="avatar img" height="40" width="40" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-8.jpg') }}" alt="avatar img"
+                                        height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Claudia Chandler</h6>
@@ -783,8 +783,8 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mt-1">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-1.jpg') }}"
-                                        alt="avatar img" height="40" width="40" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-1.jpg') }}" alt="avatar img"
+                                        height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Earl Briggs</h6>
@@ -796,8 +796,8 @@
                             </div>
                             <div class="d-flex justify-content-start align-items-center mt-1">
                                 <div class="avatar me-75">
-                                    <img src="{{ secure_asset('images/portrait/small/avatar-s-10.jpg') }}"
-                                        alt="avatar img" height="40" width="40" />
+                                    <img src="{{ asset('images/portrait/small/avatar-s-10.jpg') }}" alt="avatar img"
+                                        height="40" width="40" />
                                 </div>
                                 <div class="profile-user-info">
                                     <h6 class="mb-0">Jonathan Lyons</h6>
@@ -834,105 +834,105 @@
                                 <div class="progress progress-bar-primary my-50">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="58" aria-valuemin="58"
                                         aria-valuemax="100" "
-                        ></div>
-                      </div>
-                      <!--/ progressbar -->
+                            ></div>
+                          </div>
+                          <!--/ progressbar -->
 
-                      <!-- avatar group with tooltip -->
-                      <div class="avatar-group my-1">
-                        <div
-                          data-bs-toggle="tooltip"
-                          data-popup="tooltip-custom"
-                          data-bs-placement="bottom"
-                          title="Tonia Seabold"
-                          class="avatar pull-up"
-                        >
-                          <img
-                            src="{{ secure_asset('images/portrait/small/avatar-s-12.jpg') }}"
-                            alt="Avatar"
-                            height="26"
-                            width="26"
-                          />
+                          <!-- avatar group with tooltip -->
+                          <div class="avatar-group my-1">
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="bottom"
+                              title="Tonia Seabold"
+                              class="avatar pull-up"
+                            >
+                              <img
+                                src="{{ asset('images/portrait/small/avatar-s-12.jpg') }}"
+                                alt="Avatar"
+                                height="26"
+                                width="26"
+                              />
+                            </div>
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="bottom"
+                              title="Carissa Dolle"
+                              class="avatar pull-up"
+                            >
+                              <img
+                                src="{{ asset('images/portrait/small/avatar-s-5.jpg') }}"
+                                alt="Avatar"
+                                height="26"
+                                width="26"
+                              />
+                            </div>
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="bottom"
+                              title="Kelle Herrick"
+                              class="avatar pull-up"
+                            >
+                              <img
+                                src="{{ asset('images/portrait/small/avatar-s-9.jpg') }}"
+                                alt="Avatar"
+                                height="26"
+                                width="26"
+                              />
+                            </div>
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="bottom"
+                              title="Len Bregantini"
+                              class="avatar pull-up"
+                            >
+                              <img
+                                src="{{ asset('images/portrait/small/avatar-s-10.jpg') }}"
+                                alt="Avatar"
+                                height="26"
+                                width="26"
+                              />
+                            </div>
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="bottom"
+                              title="John Doe"
+                              class="avatar pull-up"
+                            >
+                              <img
+                                src="{{ asset('images/portrait/small/avatar-s-11.jpg') }}"
+                                alt="Avatar"
+                                height="26"
+                                width="26"
+                              />
+                            </div>
+                          </div>
+                          <!--/ avatar group with tooltip -->
                         </div>
-                        <div
-                          data-bs-toggle="tooltip"
-                          data-popup="tooltip-custom"
-                          data-bs-placement="bottom"
-                          title="Carissa Dolle"
-                          class="avatar pull-up"
-                        >
-                          <img
-                            src="{{ secure_asset('images/portrait/small/avatar-s-5.jpg') }}"
-                            alt="Avatar"
-                            height="26"
-                            width="26"
-                          />
-                        </div>
-                        <div
-                          data-bs-toggle="tooltip"
-                          data-popup="tooltip-custom"
-                          data-bs-placement="bottom"
-                          title="Kelle Herrick"
-                          class="avatar pull-up"
-                        >
-                          <img
-                            src="{{ secure_asset('images/portrait/small/avatar-s-9.jpg') }}"
-                            alt="Avatar"
-                            height="26"
-                            width="26"
-                          />
-                        </div>
-                        <div
-                          data-bs-toggle="tooltip"
-                          data-popup="tooltip-custom"
-                          data-bs-placement="bottom"
-                          title="Len Bregantini"
-                          class="avatar pull-up"
-                        >
-                          <img
-                            src="{{ secure_asset('images/portrait/small/avatar-s-10.jpg') }}"
-                            alt="Avatar"
-                            height="26"
-                            width="26"
-                          />
-                        </div>
-                        <div
-                          data-bs-toggle="tooltip"
-                          data-popup="tooltip-custom"
-                          data-bs-placement="bottom"
-                          title="John Doe"
-                          class="avatar pull-up"
-                        >
-                          <img
-                            src="{{ secure_asset('images/portrait/small/avatar-s-11.jpg') }}"
-                            alt="Avatar"
-                            height="26"
-                            width="26"
-                          />
-                        </div>
-                      </div>
-                      <!--/ avatar group with tooltip -->
-                    </div>
 
-                    <div class="profile-polls-info mt-2">
-                      <div class="d-flex justify-content-between">
-                        <!-- custom radio -->
-                        <div class="form-check">
-                          <input type="radio" id="bestActorPoll2" name="bestActorPoll" class="form-check-input" />
-                          <label class="form-check-label" for="bestActorPoll2">Chris Hemswort</label>
-                        </div>
-                        <!--/ custom radio -->
-                        <div class="text-end">67%</div>
-                      </div>
-                      <!-- progressbar -->
-                      <div class="progress progress-bar-primary my-50">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          aria-valuenow="16"
-                          aria-valuemin="16"
-                          aria-valuemax="100"
-                         "></div>
+                        <div class="profile-polls-info mt-2">
+                          <div class="d-flex justify-content-between">
+                            <!-- custom radio -->
+                            <div class="form-check">
+                              <input type="radio" id="bestActorPoll2" name="bestActorPoll" class="form-check-input" />
+                              <label class="form-check-label" for="bestActorPoll2">Chris Hemswort</label>
+                            </div>
+                            <!--/ custom radio -->
+                            <div class="text-end">67%</div>
+                          </div>
+                          <!-- progressbar -->
+                          <div class="progress progress-bar-primary my-50">
+                            <div
+                              class="progress-bar"
+                              role="progressbar"
+                              aria-valuenow="16"
+                              aria-valuemin="16"
+                              aria-valuemax="100"
+                             "></div>
                                 </div>
                                 <!--/ progressbar -->
 
@@ -940,18 +940,18 @@
                                 <div class="avatar-group mt-1">
                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom"
                                         title="Liliana Pecor" class="avatar pull-up">
-                                        <img src="{{ secure_asset('images/portrait/small/avatar-s-9.jpg') }}"
-                                            alt="Avatar" height="26" width="26" />
+                                        <img src="{{ asset('images/portrait/small/avatar-s-9.jpg') }}" alt="Avatar"
+                                            height="26" width="26" />
                                     </div>
                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom"
                                         title="Kasandra NaleVanko" class="avatar pull-up">
-                                        <img src="{{ secure_asset('images/portrait/small/avatar-s-1.jpg') }}"
-                                            alt="Avatar" height="26" width="26" />
+                                        <img src="{{ asset('images/portrait/small/avatar-s-1.jpg') }}" alt="Avatar"
+                                            height="26" width="26" />
                                     </div>
                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom"
                                         title="Jonathan Lyons" class="avatar pull-up">
-                                        <img src="{{ secure_asset('images/portrait/small/avatar-s-8.jpg') }}"
-                                            alt="Avatar" height="26" width="26" />
+                                        <img src="{{ asset('images/portrait/small/avatar-s-8.jpg') }}" alt="Avatar"
+                                            height="26" width="26" />
                                     </div>
                                 </div>
                                 <!--/ avatar group with tooltips-->
@@ -978,5 +978,5 @@
 
 @section('page-script')
     {{-- Page js files --}}
-    <script src="{{ secure_asset(mix('js/scripts/pages/page-profile.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/page-profile.js')) }}"></script>
 @endsection

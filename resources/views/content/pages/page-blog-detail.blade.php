@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/base/pages/page-blog.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/base/pages/page-blog.css') }}" />
 @endsection
 
 @section('content-sidebar')

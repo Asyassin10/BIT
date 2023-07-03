@@ -65,8 +65,8 @@
                                                 </div>
                                             </td>
                                             <td class="py-1">
-                                                <img src="{{ secure_asset('melody/images/faces/face13.jpg') }}"
-                                                    alt="profile" class="img-sm rounded-circle" />
+                                                <img src="{{ asset('melody/images/faces/face13.jpg') }}" alt="profile"
+                                                    class="img-sm rounded-circle" />
                                             </td>
                                             <td class="font-weight-bold">
                                                 Andrew Bowen
@@ -90,8 +90,8 @@
                                                 </div>
                                             </td>
                                             <td class="py-1">
-                                                <img src="{{ secure_asset('melody/images/faces/face2.jpg') }}"
-                                                    alt="profile" class="img-sm rounded-circle" />
+                                                <img src="{{ asset('melody/images/faces/face2.jpg') }}" alt="profile"
+                                                    class="img-sm rounded-circle" />
                                             </td>
                                             <td class="font-weight-bold">
                                                 Mae Saunders
@@ -139,8 +139,8 @@
                                                 </div>
                                             </td>
                                             <td class="py-1">
-                                                <img src="{{ secure_asset('melody/images/faces/face2.jpg') }}"
-                                                    alt="profile" class="img-sm rounded-circle" />
+                                                <img src="{{ asset('melody/images/faces/face2.jpg') }}" alt="profile"
+                                                    class="img-sm rounded-circle" />
                                             </td>
                                             <td class="font-weight-bold">
                                                 Marguerite Phillips

@@ -129,7 +129,7 @@
         </svg>
         <div id="wrapper">
 
-            <e-page-transition preloader-type="image" preloader-image-url="{{ secure_asset('images/Logo-1.svg') }}"
+            <e-page-transition preloader-type="image" preloader-image-url="{{ asset('images/Logo-1.svg') }}"
                 class="e-page-transition--entering" exclude="^https\:\/\/bti\-advisory\.com\/wp\-admin\/">
             </e-page-transition>
             <div id="page" class="hfeed site">
@@ -158,10 +158,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -318,8 +318,8 @@
                                                             display: inline-block
                                                         }
                                                     </style> <img width="1024" height="683"
-                                                        src="{{ secure_asset('images/404/5802664-1024x683.webp') }}"
-                                                        data-src="{{ secure_asset('images/404/5802664-1024x683.webp') }}"
+                                                        src="{{ asset('images/404/5802664-1024x683.webp') }}"
+                                                        data-src="{{ asset('images/404/5802664-1024x683.webp') }}"
                                                         class="attachment-large size-large lazy" alt=""
                                                         data-sizes="(max-width: 1024px) 100vw, 1024px" />
                                                 </div>
@@ -654,7 +654,7 @@
         </script>
 
 
-        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -675,6 +675,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

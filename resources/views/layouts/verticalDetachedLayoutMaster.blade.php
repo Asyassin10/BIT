@@ -2,7 +2,7 @@
     class="vertical-layout vertical-menu-modern {{ $configData['contentLayout'] }} {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{ $configData['verticalMenuNavbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }}"
     data-open="click" data-menu="vertical-menu-modern"
     data-col="{{ $configData['showMenu'] ? $configData['contentLayout'] : '1-column' }}" data-framework="laravel"
-    data-asset-path="{{ secure_asset('/') }}">
+    data-asset-path="{{ asset('/') }}">
 
     {{-- Include Sidebar --}}
     @if (isset($configData['showMenu']) && $configData['showMenu'] === true)

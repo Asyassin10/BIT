@@ -8,7 +8,7 @@
         Redis::set('client_navbar', json_encode($data));
     } */
     $data = Category::all();
-    
+
 @endphp
 @include('Includes/navbar_mobile_view')
 {{-- d-md-block --}}
@@ -250,4 +250,4 @@
         </div>
     </div>
 </div>
-<script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+<script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
