@@ -87,6 +87,10 @@
     margin-top: 3%;
 }
 
+/* #pilotage {
+    margin-top: 10%;
+} */
+
 #title_form {
     margin-left: 8%;
 }
@@ -94,7 +98,7 @@
 #form_container {
     width: 45%;
     margin-left: 27%;
-    margin-top: 0%;
+    margin-top: 50%;
     z-index: 1;
     position: relative;
 }
@@ -118,13 +122,21 @@
 }
 
 .section_container_paragraph {
-    width: 80%;
+    width: 95%;
+
 }
 
 #description_paragraph {
     font-size: 20px;
     margin-left: 12%;
     padding-bottom: 450px;
+}
+
+#description_paragraph_reb {
+    font-size: 20px;
+    margin-left: 12%;
+    margin-top: 15%;
+
 }
 
 #experiance_user_description_paragraph {
@@ -152,10 +164,36 @@
     margin-top: 15%;
 }
 
+#starter_content_container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
 /* Default style for all devices */
 .app_header_img {
     width: 50%;
-    margin-top: -250px;
+    height: auto;
+
+    position: absolute;
+    background: red;
+
+    top: 380px;
+    bottom: 0px;
+    /* left: 0; */
+    /* position: absolute; */
+    /* margin-top: -150px; */
+    /* top: -50; */
+
+    /* Adjust the value as needed */
+    /*  left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; */
+    /*  margin-top: -15%; */
+    /*  margin-top: -250px; */
+    /* position: absolute;
+    top: 0; */
 }
 
 
@@ -166,7 +204,7 @@
 
 .first_div {
     width: 75%;
-    margin-top: -930px;
+    /* margin-top: -44%; */
 }
 
 .tout_nos_services_container {
@@ -231,7 +269,7 @@
     }
 
     .first_div {
-        margin-top: -760px;
+        /*  margin-top: -760px; */
     }
 
     .app_header_img {
@@ -262,6 +300,13 @@
 .h1_title {
     color: #000000;
     font-weight: bold;
+
+}
+
+.title_spacing {
+
+    margin-left: 100px;
+    padding-top: 55px;
 }
 
 .select2-container.select2-container--default .select2-selection--single {
