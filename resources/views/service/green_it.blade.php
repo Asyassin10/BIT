@@ -204,7 +204,7 @@
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
                                 <h1 class="main_app_header ubuntu_font_family">
-                                    Accompagner la mise en œuvre
+                                    Green IT
                                 </h1>
                             </div>
                         </section>
@@ -217,8 +217,8 @@
                             <div class="w-100" is="starter_content_container" style="">
                                 <div class="d-flex justify-content-center bg-white" id=""
                                     style="width: 100%;height: auto;">
-                                    <img src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
-                                        width="50%" class="app_header_img">
+                                    <img src="{{ asset('images/webp/green_it.webp') }}" width="50%"
+                                        class="app_header_img">
                                 </div>
 
                                 <p id="pilotage."></p>
