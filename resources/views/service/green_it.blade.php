@@ -1,171 +1,171 @@
 @extends('master')
 @section('body')
 
-<body
-    class="page-template-default page page-id-59 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-59 elementor-page-7230">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0.49803921568627" />
-                    <feFuncG type="table" tableValues="0 0.49803921568627" />
-                    <feFuncB type="table" tableValues="0 0.49803921568627" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 0.27843137254902" />
-                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0" />
-                    <feFuncG type="table" tableValues="0 0.64705882352941" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.78039215686275 1" />
-                    <feFuncG type="table" tableValues="0 0.94901960784314" />
-                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.098039215686275 1" />
-                    <feFuncG type="table" tableValues="0 0.66274509803922" />
-                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <div id="wrapper">
-        <div id="page" class="hfeed site" style="background: #FAFAFA;">
-            <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
-                        title="BTI &#8211; Advisory" rel="home">BTI &#8211; Advisory</a></p>
-                <div data-elementor-type="wp-post" data-elementor-id="127" class="elementor elementor-127">
-                    <header
-                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-92c7c6e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                        data-id="92c7c6e" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9e00ba4 ae-bg-gallery-type-default"
-                                data-id="9e00ba4" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-550c103 elementor-absolute elementor-widget__width-initial e-transform elementor-widget elementor-widget-site-logo"
-                                        data-id="550c103" data-element_type="widget"
-                                        data-settings="{&quot;align&quot;:&quot;left&quot;,&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:94,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_position&quot;:&quot;absolute&quot;,&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                        name="home_link" data-widget_type="site-logo.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="hfe-site-logo">
-                                                <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                    href="{{ route('home') }}" aria-label="home">
-                                                    <div class="hfe-site-logo-set">
-                                                        <div class="hfe-site-logo-container">
-                                                            <picture>
-                                                                <source type="image/webp"
-                                                                    srcset="{{ asset('images/navbar/logo.webp') }}">
-                                                                <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="{{ asset('images/navbar/logo.svg') }}"
-                                                                    data-src="{{ asset('images/navbar/logo.svg') }}"
-                                                                    id="image_lolo_webp" alt="">
-                                                            </picture>
+    <body
+        class="page-template-default page page-id-59 wp-custom-logo ehf-header ehf-footer ehf-template-consulting ehf-stylesheet-consulting-child site_layout_1  header_style_6 sticky_menu header_inverse mobile_grid_landscape vc_sidebar_page wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-59 elementor-page-7230">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-dark-grayscale">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 0.49803921568627" />
+                        <feFuncG type="table" tableValues="0 0.49803921568627" />
+                        <feFuncB type="table" tableValues="0 0.49803921568627" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-grayscale">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 1" />
+                        <feFuncG type="table" tableValues="0 1" />
+                        <feFuncB type="table" tableValues="0 1" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-purple-yellow">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                        <feFuncG type="table" tableValues="0 1" />
+                        <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-blue-red">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 1" />
+                        <feFuncG type="table" tableValues="0 0.27843137254902" />
+                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-midnight">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 0" />
+                        <feFuncG type="table" tableValues="0 0.64705882352941" />
+                        <feFuncB type="table" tableValues="0 1" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-magenta-yellow">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0.78039215686275 1" />
+                        <feFuncG type="table" tableValues="0 0.94901960784314" />
+                        <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-purple-green">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                        <feFuncG type="table" tableValues="0 1" />
+                        <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-blue-orange">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0.098039215686275 1" />
+                        <feFuncG type="table" tableValues="0 0.66274509803922" />
+                        <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+        </svg>
+        <div id="wrapper">
+            <div id="page" class="hfeed site" style="background: #FAFAFA;">
+                <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+                    <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
+                            title="BTI &#8211; Advisory" rel="home">BTI &#8211; Advisory</a></p>
+                    <div data-elementor-type="wp-post" data-elementor-id="127" class="elementor elementor-127">
+                        <header
+                            class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-92c7c6e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                            data-id="92c7c6e" data-element_type="section"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="has_ae_slider elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9e00ba4 ae-bg-gallery-type-default"
+                                    data-id="9e00ba4" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-550c103 elementor-absolute elementor-widget__width-initial e-transform elementor-widget elementor-widget-site-logo"
+                                            data-id="550c103" data-element_type="widget"
+                                            data-settings="{&quot;align&quot;:&quot;left&quot;,&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:94,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_position&quot;:&quot;absolute&quot;,&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scaleY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                            name="home_link" data-widget_type="site-logo.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="hfe-site-logo">
+                                                    <a data-elementor-open-lightbox="" class='elementor-clickable'
+                                                        href="{{ route('home') }}" aria-label="home">
+                                                        <div class="hfe-site-logo-set">
+                                                            <div class="hfe-site-logo-container">
+                                                                <picture>
+                                                                    <source type="image/webp"
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                    <img class="hfe-site-logo-img elementor-animation- lazy"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        id="image_lolo_webp" alt="">
+                                                                </picture>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </a>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <script>
-                                window.addEventListener('scroll', function() {
+                                <script>
+                                    window.addEventListener('scroll', function() {
                                         var image = document.getElementById('image_lolo_webp');
                                         var scrollPosition = window.scrollY;
                                         var pageHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -189,290 +189,369 @@
                                         image.style.width = newSize + 'px';
                                         image.style.height = newSize * 1 + 'px'; // Maintain the aspect ratio if necessary
                                     });
-                            </script>
-                            @include('navbar')
+                                </script>
+                                @include('navbar')
+
+                            </div>
+                        </header>
+                    </div>
+                </header>
+                <div class="container-fluid m-0 p-0">
+                    <div data-elementor-type="single-page" data-elementor-id="7230"
+                        class="elementor elementor-7230 elementor-location-single post-59 page type-page status-publish hentry">
+                        <section
+                            class="has_ae_slider  elementor-section elementor-top-section elementor-element elementor-element-24d79048 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default "
+                            id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
+                                <h1 class="main_app_header ubuntu_font_family">
+                                    Accompagner la mise en œuvre
+                                </h1>
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <section style="width: 100%;" class="mt-50 mt-sm-25">
+                        <div class="elementor-container elementor-column-gap-no bg_black text-white "
+                            style=" margin-top:310px;height: 1600px;"> {{-- height: 1400px; --}}
+                            <div class="w-100" is="starter_content_container" style="">
+                                <div class="d-flex justify-content-center bg-white" id=""
+                                    style="width: 100%;height: auto;">
+                                    <img src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                        width="50%" class="app_header_img">
+                                </div>
+
+                                <p id="pilotage."></p>
+                                <p class="w-75" id="description_paragraph_reb">
+                                    Intégrer les enjeux RSE dans les activités numériques est aujourd’hui un enjeu majeur
+                                    pour les DSI. Réduction de l’empreinte environnementale, maîtrise des coûts, inclusion
+                                    de critères sociaux, sont d’autant plus de challenge à relever. Une stratégie Green IT
+                                    permet d’inclure le développement durable pour rendre nos transformations digitales
+                                    pérennes et à impacts réduits.
+                                </p>
+                            </div>
+
+                            <div id="pilotage"
+                                class="mx-auto shadow-lg bg-white rounded text-dark first_div section_separator ">
+
+                                <p class="h1_sup_title title_spacing h2 ">
+                                    Audit
+                                </p>
+
+
+                                <div class="d-flex justify-content-start"
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph ">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Mesurer et analyser l’empreinte environnementale du numérique. Nos outils
+                                            d’analyse
+                                            de cycle de vie des systèmes d’information permettent de cartographier
+                                            précisément et
+                                            sur un ensemble d’indicateurs environnementaux, les impacts du numérique dans
+                                            une entreprise
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-start  "
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Evaluer votre maturité sur les usages du numérique. Comparer vos applications
+                                            de bonnes pratiques et leurs états d’avancement par rapport à vos objectifs de
+                                            développement numérique responsable.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <br>
+                                <div class="d-flex justify-content-center  div_contacter_expert">
+                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                        Contacter un expert
+                                    </a>
+                                </div>
+                                <p id="réalisation."></p>
+                                <br>
+                                <br>
+
+                            </div>
+                            <div id="pilotage"
+                                class="mx-auto shadow-lg bg-white rounded text-dark first_div  section_separator ">
+
+                                <p class="h1_sup_title title_spacing h2 ">
+                                    Actions
+                                </p>
+
+
+                                <div class="d-flex justify-content-start"
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph ">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Coconstruire un plan d’actions. Notre intervention permet de construire une
+                                            feuille de route
+                                            des étapes structurantes de la transformation qui s’inclue dans les process en
+                                            cours de la DSI
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-start  "
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Piloter, suivre et mesurer. Notre accompagnement permet d’ancrer les bonnes
+                                            pratiques
+                                            en les suivant dans le temps pour garantir leur réussite. Nous nous adaptons à
+                                            vos sujets :
+                                            politique d’achats responsables, mise en place de GreenOps et de
+                                            l’éco-conception,
+                                            change management…
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-start  "
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Accompagner opérationnellement . Nous intervenons pour réaliser les actions
+                                            de la feuille de route : de la formation, sensibilisation à l’accompagnement à
+                                            l’éco-conception
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                                <br>
+                                <br>
+                                <div class="d-flex justify-content-center  div_contacter_expert">
+                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                        Contacter un expert
+                                    </a>
+                                </div>
+                                <p id="réalisation."></p>
+                                <br>
+                                <br>
+
+                            </div>
+                            <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div ">
+
+                                <p class="h1_sup_title title_spacing h2 ">
+                                    Sensibilisation
+                                </p>
+
+
+                                <div class="d-flex justify-content-start"
+                                    style="width:80%;margin-left: 8%;margin-top: 3%;">
+                                    <div class="d-none d-md-block" style="width: 8%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                            viewBox="0 0 40 40">
+                                            <g id="ic_check" transform="translate(9.089 9.089)">
+                                                <g id="Groupe_1" data-name="Groupe 1"
+                                                    transform="translate(-9.089 -9.089)">
+                                                    <path id="Tracé_2" data-name="Tracé 2"
+                                                        d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                        transform="translate(9.089 9.089)" fill="#44b351" />
+                                                </g>
+                                                <g id="Groupe_2" data-name="Groupe 2"
+                                                    transform="translate(2.515 5.175)">
+                                                    <path id="Tracé_3" data-name="Tracé 3"
+                                                        d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                        transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 section_container_paragraph ">
+
+                                        <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                            Nous vous proposons de sensibiliser vos collaborateurs grâce à la Fresque du
+                                            Numérique.
+                                            Nos animateurs et animatrices apporteront connaissance et pédagogie pour
+                                            embarquer
+                                            vos équipes sur les sujets du numérique responsable.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <br>
+                                <div class="d-flex justify-content-center  div_contacter_expert">
+                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                        Contacter un expert
+                                    </a>
+                                </div>
+                                <p id="réalisation."></p>
+                                <br>
+                                <br>
+
+                            </div>
 
                         </div>
-                    </header>
-                </div>
-            </header>
-            <div class="container-fluid m-0 p-0">
-                <div data-elementor-type="single-page" data-elementor-id="7230"
-                    class="elementor elementor-7230 elementor-location-single post-59 page type-page status-publish hentry">
-                    <section
-                        class="has_ae_slider  elementor-section elementor-top-section elementor-element elementor-element-24d79048 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default "
-                        id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
-                            <h1 class="main_app_header ubuntu_font_family">
-                                Accompagner la mise en œuvre
-                            </h1>
+
+                        {{-- <div style="margin-top:10%;"></div> --}}
+                        <div id="form_container" class=" shadow-lg  bg-white rounded">
+                            <br>
+                            <p class="h4 pt-4" id="title_form">
+                                Construisons votre vision ensemble
+                            </p>
+                            <div class="mb-3 divs_form">
+                                <p for="exampleFormControlInput1" class="form-label">Nom complet*</p>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    style="background:#F5F5F5;">
+                            </div>
+                            <div class="mb-3 divs_form">
+                                <p for="exampleFormControlInput1" class="form-label">Address email*</p>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    style="background:#F5F5F5;">
+                            </div>
+                            <div class="mb-3 divs_form">
+                                <p for="exampleFormControlInput1" class="form-label">Numéro de téléphone*</p>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    style="background:#F5F5F5;">
+                            </div>
+                            <div class="mb-3 divs_form" id="div_select_option">
+                                <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
+                                <select class="form-select " id="drop_down_list" style="">
+                                    <option></option>
+
+                                </select>
+
+
+                            </div>
+                            <div id="div_textarea" class="mb-3">
+                                <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
+                                <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
+                            </div>
+
+                            <br>
+                            <div class="d-flex justify-content-end" id="div_btn_form">
+                                <button id="btn_form" class="px-3 py-2 text-dark">
+                                    Envoyer
+                                </button>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div id="footer_div" class=" shadow-lg  bg_black rounded">
+                            <div class="svg-container">
+                                <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                    srcset="" style="margin-top: 150px;">
+                            </div>
                         </div>
                     </section>
-
                 </div>
-
-                <section style="width: 100%;" class="mt-50 mt-sm-25">
-                    <div class="elementor-container elementor-column-gap-no bg_black text-white "
-                        style=" height: 1400px; margin-top:310px;">
-                        <div class="w-100" is="starter_content_container" style="">
-                            <div class="d-flex justify-content-center bg-white" id="" style="width: 100%;height: auto;">
-                                <img src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}" width="50%"
-                                    class="app_header_img">
-                            </div>
-
-                            <p id="pilotage."></p>
-                            <p class="w-75" id="description_paragraph_reb">
-                                Aujourd’hui, les entreprises doivent adopter des démarches orientées produit pour
-                                renforcer
-                                leur maturité
-                                technologique et métier.  Que vous souhaitiez construire un nouveau produit ou
-                                transformer
-                                votre système
-                                d’information, nous avons les compétences pour co-construire avec vous des produits
-                                performants, responsables
-                                et utiles, en nous concentrant sur les aspects techniques et non techniques.
-                            </p>
-                        </div>
-
-                        <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div">
-
-                            <p class="h1_sup_title title_spacing h2 ">
-                                Pilotage
-                            </p>
-                            <p class="h1_title title_spacing h4 pt-4 mt-4">
-                                Delivery Management
-                            </p>
-                            <p class="pt-4 title_spacing">
-                                Nous vous accompagnons dans la coordination des évolutions de votre système
-                                d’information,
-                                en respectant les exigences métiers et technologiques
-                            </p>
-                            <div class="d-flex justify-content-start" style="width:80%;margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph ">
-
-                                    <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Mener vos programmes et vos projets pour l’atteinte des objectifs définis en
-                                        prenant
-                                        en compte
-                                        la multiplicité des parties prenantes et des intérêts divergents
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  "
-                                style="width:80%;margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Accompagner la montée en maturité des équipes en adoptant de meilleures
-                                        pratiques en
-                                        matière
-                                        de réalisation de projets, pour améliorer la performance, l’engagement et la
-                                        qualité
-                                        de vie de vos
-                                        collaborateurs.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <p class="h1_title h4 pt-4 mt-4" style="margin-left: 8%;">
-                                Product Design
-                            </p>
-                            <p class="pt-4" style="margin-left: 8%;">
-                                Nous pouvons renforcer vos équipes pour construire de nouveaux produits ou ajouter des
-                                fonctionnalités à des produits existants.
-                            </p>
-                            <div class="d-flex justify-content-start "
-                                style="width:80%;margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Comprendre les besoins de vos utilisateurs et concevoir votre stratégie produit
-                                        adaptée
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start" style="width:80%;margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="w-100" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Construire et prioriser le backlog pour partager une vision claire et commune du
-                                        produit
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start "
-                                style="width:80%;margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Gérer les évolutions du produit et coordonner la stratégie de releases du
-                                        produit à
-                                        court terme
-                                    </p>
-                                </div>
-                            </div>
-                            <br>
-                            <br>
-                            <div class="d-flex justify-content-center  div_contacter_expert">
-                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
-                                    Contacter un expert
-                                </a>
-                            </div>
-                            <p id="réalisation."></p>
-                            <br>
-                            <br>
-
-                        </div>
-                    </div>
-                    {{-- <div style="margin-top:10%;"></div> --}}
-                    <div id="form_container" class=" shadow-lg  bg-white rounded">
-                        <br>
-                        <p class="h4 pt-4" id="title_form">
-                            Construisons votre vision ensemble
-                        </p>
-                        <div class="mb-3 divs_form">
-                            <p for="exampleFormControlInput1" class="form-label">Nom complet*</p>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                style="background:#F5F5F5;">
-                        </div>
-                        <div class="mb-3 divs_form">
-                            <p for="exampleFormControlInput1" class="form-label">Address email*</p>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                style="background:#F5F5F5;">
-                        </div>
-                        <div class="mb-3 divs_form">
-                            <p for="exampleFormControlInput1" class="form-label">Numéro de téléphone*</p>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                style="background:#F5F5F5;">
-                        </div>
-                        <div class="mb-3 divs_form" id="div_select_option">
-                            <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
-                            <select class="form-select " id="drop_down_list" style="">
-                                <option></option>
-
-                            </select>
-
-
-                        </div>
-                        <div id="div_textarea" class="mb-3">
-                            <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
-                            <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2"
-                                cols="500"></textarea>
-                        </div>
-
-                        <br>
-                        <div class="d-flex justify-content-end" id="div_btn_form">
-                            <button id="btn_form" class="px-3 py-2 text-dark">
-                                Envoyer
-                            </button>
-                        </div>
-                        <br>
-                        <br>
-                    </div>
-                    <div id="footer_div" class=" shadow-lg  bg_black rounded">
-                        <div class="svg-container">
-                            <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt="" srcset=""
-                                style="margin-top: 150px;">
-                        </div>
-                    </div>
-                </section>
             </div>
+
+
         </div>
+        @include('footer')
 
-
-    </div>
-    @include('footer')
-
-    <script type='text/javascript' id='ae-pro-js-js-extra'>
-        /* <![CDATA[ */
+        <script type='text/javascript' id='ae-pro-js-js-extra'>
+            /* <![CDATA[ */
             var aepro = {
                 "ajaxurl": "https:\/\/bti-advisory.com\/wp-admin\/admin-ajax.php",
                 "current_url": "https%3A%2F%2Fbti-advisory.com%2Fnos-services%2F",
@@ -492,10 +571,10 @@
                 "access_level": "2"
             };
             /* ]]> */
-    </script>
+        </script>
 
-    <script type='text/javascript' id='aep-build-js-extra'>
-        /* <![CDATA[ */
+        <script type='text/javascript' id='aep-build-js-extra'>
+            /* <![CDATA[ */
             var aepro = {
                 "ajaxurl": "https:\/\/bti-advisory.com\/wp-admin\/admin-ajax.php",
                 "current_url": "https%3A%2F%2Fbti-advisory.com%2Fnos-services%2F",
@@ -515,15 +594,15 @@
                 "access_level": "2"
             };
             /* ]]> */
-    </script>
+        </script>
 
 
 
 
 
 
-    <script type='text/javascript' id='stm-hfe-js-extra'>
-        /* <![CDATA[ */
+        <script type='text/javascript' id='stm-hfe-js-extra'>
+            /* <![CDATA[ */
             var consulting_ehf_position_127 = {
                 "id": "127",
                 "header_view": "",
@@ -620,14 +699,14 @@
                 "header_position": "relative"
             };
             /* ]]> */
-    </script>
-    <script type='text/javascript' id='wp-i18n-js-after'>
-        wp.i18n.setLocaleData({
+        </script>
+        <script type='text/javascript' id='wp-i18n-js-after'>
+            wp.i18n.setLocaleData({
                 'text direction\u0004ltr': ['ltr']
             });
-    </script>
-    <script type='text/javascript' id='elementor-pro-frontend-js-translations'>
-        (function(domain, translations) {
+        </script>
+        <script type='text/javascript' id='elementor-pro-frontend-js-translations'>
+            (function(domain, translations) {
                 var localeData = translations.locale_data[domain] || translations.locale_data.messages;
                 localeData[""].domain = domain;
                 wp.i18n.setLocaleData(localeData, domain);
@@ -638,9 +717,9 @@
                     }
                 }
             });
-    </script>
-    <script type='text/javascript' id='elementor-pro-frontend-js-before'>
-        var ElementorProFrontendConfig = {
+        </script>
+        <script type='text/javascript' id='elementor-pro-frontend-js-before'>
+            var ElementorProFrontendConfig = {
                 "ajaxurl": "https:\/\/bti-advisory.com\/wp-admin\/admin-ajax.php",
                 "nonce": "84ed784449",
                 "urls": {
@@ -720,9 +799,9 @@
                     "defaultAnimationUrl": "https:\/\/bti-advisory.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
                 }
             };
-    </script>
-    <script type='text/javascript' id='elementor-frontend-js-before'>
-        var elementorFrontendConfig = {
+        </script>
+        <script type='text/javascript' id='elementor-frontend-js-before'>
+            var elementorFrontendConfig = {
                 "environmentMode": {
                     "edit": false,
                     "wpPreview": false,
@@ -843,12 +922,12 @@
                     "featuredImage": false
                 }
             };
-    </script>
+        </script>
 
 
-    <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
-    <script>
-        window.w3tc_lazyload = 1, window.lazyLoadOptions = {
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script>
+            window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
                 callback_loaded: function(t) {
                     var e;
@@ -866,7 +945,7 @@
                     window.dispatchEvent(e)
                 }
             }
-    </script>
-    <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
-</body>
+        </script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+    </body>
 @endsection

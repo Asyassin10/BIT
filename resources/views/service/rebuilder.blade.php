@@ -204,7 +204,7 @@
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
                                 <h1 class="main_app_header ubuntu_font_family">
-                                    Accompagner la mise en œuvre
+                                    Accompagner la mise en œuvre 
                                 </h1>
                             </div>
                         </section>

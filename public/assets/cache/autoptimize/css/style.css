@@ -98,7 +98,7 @@
 #form_container {
     width: 45%;
     margin-left: 27%;
-    margin-top: 50%;
+    margin-top: 70%;
     z-index: 1;
     position: relative;
 }
@@ -136,7 +136,12 @@
     font-size: 20px;
     margin-left: 12%;
     margin-top: 15%;
+    margin-bottom: 3%;
 
+}
+
+.section_separator {
+    margin-bottom: 10%;
 }
 
 #experiance_user_description_paragraph {
