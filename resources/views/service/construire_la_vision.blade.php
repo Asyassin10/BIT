@@ -353,7 +353,7 @@
                                 <br>
                                 <br>
                                 <div class="d-flex justify-content-center  div_contacter_expert">
-                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                    <a href="#form_container" class="p-3 text-dark">
                                         Contacter un expert
                                     </a>
                                 </div>
@@ -481,7 +481,7 @@
                                 <br>
                                 <br>
                                 <div class="d-flex justify-content-center  div_contacter_expert">
-                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                    <a href="#form_container" class="p-3 text-dark">
                                         Contacter un expert
                                     </a>
                                 </div>
