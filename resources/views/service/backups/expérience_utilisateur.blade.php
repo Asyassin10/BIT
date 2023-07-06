@@ -213,420 +213,334 @@
 
                     <section style="width: 100%;" class="mt-50 mt-sm-25">
                         <div class="elementor-container elementor-column-gap-no bg_black text-white "
-                            style=" margin-top:310px;height: 1600px;"> {{-- height: 1400px; --}}
-                            <div class="w-100" is="starter_content_container" style="">
-                                <div class="d-flex justify-content-center bg-white" id=""
-                                    style="width: 100%;height: auto;">
-                                    <img src="{{ asset('images/webp/Expérience_Utilisateur.webp') }}" width="50%"
-                                        class="app_header_img">
-                                </div>
+                            style="margin-top:350px;height:1700px">
 
-                                <p id="pilotage."></p>
-                                <p class="w-75" id="description_paragraph_reb" style="margin-top: 13%;">
-                                    Selon UX Planet, un investissement de 1$ dans l’UX peut générer en moyenne de 2$ à 100$
-                                    de profits. C’est pourquoi nous mettons en place des méthodologies pour être au plus
-                                    près de vos utilisateurs et vous aider à créer de la valeur. Nous sommes convaincus que
-                                    les enjeux de demain se construisent aujourd’hui, c’est pourquoi nous intégrons
-                                    l’écoconception dans nos réalisations, lorsque cela est possible.
-                                </p>
+                            <div class="d-flex justify-content-center">
+                                <img src="{{ asset('images/webp/Expérience_Utilisateur.webp') }}" width="50%"
+                                    class="app_header_img">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="w-75" style="margin-bottom: 10%;" id="experiance_user_description_paragraph">
+                                Selon UX Planet, un investissement de 1$ dans l’UX peut générer en moyenne de 2$ à 100$ de
+                                profits.
+                                C’est pourquoi nous mettons en place des méthodologies pour être au plus près de vos
+                                utilisateurs et vous aider
+                                à créer de la valeur. Nous sommes convaincus que les enjeux de demain se construisent
+                                aujourd’hui, c’est pourquoi
+                                nous intégrons l’écoconception dans nos réalisations, lorsque cela est possible.
+                            </p>
+                        </div>
+                        <div id="experiance_user_content_container" class="mx-auto shadow-lg bg-white rounded">
+                            <br>
+                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                                Stratégie UX
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous co-construisons la vision de votre produit en identifiant les KPI associés et en
+                                anticipant la mise en œuvre <br> pour fluidifier le bon déroulement global de vos projets.
+                                Nos
+                                services comprennent :
+                            </p>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="">
+                                        La définition d’une vision stratégique à long terme, avec les étapes clés à réaliser
+                                        et les actions <br>
+                                        concrètes pour créer une dynamique de travail positive
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        La cartographie multi-sensorielle de l’expérience (Empathy map)
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        La cartographie du parcours client (Customer journey map)
+                                    </p>
+                                </div>
                             </div>
 
-                            <div id="pilotage"
-                                class="mx-auto shadow-lg bg-white rounded text-dark first_div section_separator">
 
-                                <p class="h1_sup_title title_spacing h2 ">
-                                    Stratégie UX
-                                </p>
-                                <p class=" title_spacing  pt-4">
-                                    Nous co-construisons la vision de votre produit en identifiant les KPI associés et en
-                                    anticipant la mise en œuvre
-                                    pour fluidifier le bon déroulement global de vos projets. Nos services comprennent :
-                                </p>
 
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    La définition d’une vision stratégique à long terme, avec les étapes
-                                                    clés à réaliser et les actions
-                                                    concrètes pour créer une dynamique de travail positive
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                            <br>
+                            <br>
+                            <div class="d-flex justify-content-center  div_contacter_expert">
+                                <a class="p-3 text-dark" href="#construisons-votre-vision-ensemble">Contacter un
+                                    expert</a>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
+                            <br>
+                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                                Recherche Utilisateur
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Il est essentiel de bien comprendre les utilisateurs en observant leur activité réelle et en
+                                vérifiant <br> des hypothèses.
+                            </p>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
                                 </div>
-                                <hr>
+                                <div class="flex-grow-1 section_container_paragraph">
 
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    La cartographie multi-sensorielle de l’expérience (Empathy map)
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p class="">
+                                        Rédiger un rapport sur les habitudes d’utilisation avec les opinions, les
+                                        frustrations ou les désirs <br>
+                                        de vos utilisateurs (étude ethnographique, Observation contextuelle)
+                                    </p>
                                 </div>
-                                <hr>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    La cartographie du parcours client (Customer journey map)
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
                                 </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
-
-
-                                <br>
-                                <br>
-                                <div class="d-flex justify-content-center  div_contacter_expert">
-                                    <a href="#form_container" class="p-3 text-dark">
-                                        Contacter un expert
-                                    </a>
+                                    <p class="">
+                                        Cartographier des différents personas pour mieux identifier à quelle(s) cible(s)
+                                        <br>
+                                        on souhaite s’adresser
+                                    </p>
                                 </div>
-                                <p id="réalisation."></p>
-                                <br>
-                                <br>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Élaborer des parcours utilisateurs qui vont aider à la conception du produit.
+                                    </p>
+                                </div>
                             </div>
 
-                            <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div"
-                                style="margin-bottom: 10%;">
-
-                                <p class="h1_sup_title title_spacing h2 ">
-                                    Recherche Utilisateur
-                                </p>
-
-                                <p class="pt-4 title_spacing">
-                                    Il est essentiel de bien comprendre les utilisateurs en observant leur activité réelle
-                                    et en vérifiant
-                                    des hypothèses.
-                                </p>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Rédiger un rapport sur les habitudes d’utilisation avec les opinions,
-                                                    les frustrations ou les désirs
-                                                    de vos utilisateurs (étude ethnographique, Observation contextuelle)
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Cartographier des différents personas pour mieux identifier à quelle(s)
-                                                    cible(s)
-                                                    on souhaite s’adresser
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Élaborer des parcours utilisateurs qui vont aider à la conception du
-                                                    produit.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
 
 
-
-                                <br>
-                                <br>
-                                <div class="d-flex justify-content-center  div_contacter_expert">
-                                    <a href="#form_container" class="p-3 text-dark">
-                                        Contacter un expert
-                                    </a>
-                                </div>
-                                <p id="réalisation."></p>
-                                <br>
-                                <br>
-
+                            <br>
+                            <br>
+                            <div class="d-flex justify-content-center  div_contacter_expert">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                    Contacter un expert
+                                </a>
                             </div>
-                            <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div">
-
-                                <p class="h1_sup_title title_spacing h2 ">
-                                    UX/UI Design
-                                </p>
-
-                                <p class="pt-4 title_spacing">
-                                    Nous commençons par définir une architecture de l’information en structurant les
-                                    contenus d’un site ou en modélisant les différents scénarios utilisateurs dans le cas
-                                    d’une application.
-                                </p>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Construire des Users Flow et réaliser des maquettes Low et Hi Fidelity
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Co-construire les Personae en fonction des différents scénarios d’usages
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="d-flex align-items-center"
-                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
-                                    <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
-                                                    Construire des prototypes et mettre en place un design system
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-                                <br>
-                                <br>
-                                <div class="d-flex justify-content-center  div_contacter_expert">
-                                    <a href="#form_container" class="p-3 text-dark">
-                                        Contacter un expert
-                                    </a>
-                                </div>
-                                <p id="réalisation."></p>
-                                <br>
-                                <br>
-
-                            </div>
+                            <br>
+                            <br>
 
                         </div>
-                        <div class="w-100 bg-white" style="margin-top: 85%;">
-                            <div class="d-flex justify-content-between py-5 px-4">
-                                @include('Includes.svgs.avoca')
-                                @include('Includes.svgs.avoca')
-                                @include('Includes.svgs.avoca')
-                                @include('Includes.svgs.avoca')
-                                @include('Includes.svgs.avoca')
-                                @include('Includes.svgs.avoca')
-                            </div>
-                        </div>
+                        <div style="width: 75%;margin-top:140px;" class="mx-auto shadow-lg bg-white rounded">
+                            <br>
+                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
+                                UX/UI Design
+                            </p>
+                            <p class="pt-4" style="margin-left: 8%;">
+                                Nous commençons par définir une architecture de l’information en structurant les contenus
+                                d’un site ou en modélisant les différents scénarios utilisateurs dans le cas d’une
+                                application.
+                            </p>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
 
-                        <div id="form_container" style="margin-top: 10%;" class=" shadow-lg  bg-white rounded">
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Construire des Users Flow et réaliser des maquettes Low et Hi Fidelity
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Co-construire les Personae en fonction des différents scénarios d’usages
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
+                                <div class="" style="width: 8%;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
+                                        viewBox="0 0 40 40">
+                                        <g id="ic_check" transform="translate(9.089 9.089)">
+                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
+                                                <path id="Tracé_2" data-name="Tracé 2"
+                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                    transform="translate(9.089 9.089)" fill="#44b351" />
+                                            </g>
+                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
+                                                <path id="Tracé_3" data-name="Tracé 3"
+                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 section_container_paragraph">
+
+                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
+                                        Construire des prototypes et mettre en place un design system
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="d-flex justify-content-center  div_contacter_expert">
+                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                    Contacter un expert
+                                </a>
+                            </div>
+                            <br>
+                            <br>
+                            <p id="construisons-votre-vision-ensemble"></p>
+
+                        </div>
+                        <div style="margin-top:10%;"></div>
+                        <div id="form_container" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
                                 Construisons votre vision ensemble
@@ -647,7 +561,7 @@
                                     style="background:#F5F5F5;">
                             </div>
                             <div class="mb-3 divs_form" id="div_select_option">
-                                <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
+                                <p for="exampleFormControlInput1" class="form-label">Suject*</p>
                                 <select class="form-select " id="drop_down_list" style="">
                                     <option></option>
 
