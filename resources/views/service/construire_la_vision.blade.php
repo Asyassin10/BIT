@@ -203,7 +203,7 @@
                             class="has_ae_slider  elementor-section elementor-top-section elementor-element elementor-element-24d79048 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default "
                             id="has_ae_slider_app_style" data-id="24d79048" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no mb-0 mb-md-4 ">
-                                <h1 class="main_app_header  ubuntu_font_family">
+                                <h1 class="main_app_header ubuntu_font_family">
                                     Construire la vision
                                 </h1>
                             </div>
@@ -213,237 +213,297 @@
 
                     <section style="width: 100%;" class="mt-50 mt-sm-25">
                         <div class="elementor-container elementor-column-gap-no bg_black text-white "
-                            style="height:20%;margin-top:350px;">
+                            style=" margin-top:310px;height: 1000px;"> {{-- height: 1400px; --}}
+                            <div class="w-100" is="starter_content_container" style="">
+                                <div class="d-flex justify-content-center bg-white" id=""
+                                    style="width: 100%;height: auto;">
+                                    <img src="{{ asset('images/webp/Construire-la-vision.webp') }}" width="50%"
+                                        class="app_header_img">
+                                </div>
 
-                            <div class="d-flex justify-content-center">
-                                <img src="{{ asset('images/webp/Construire-la-vision.webp') }}" width="50%"
-                                    class="app_header_img">
+                                <p id="pilotage."></p>
+                                <p class="w-75" id="description_paragraph_reb" style="margin-top: 21%;">
+                                    Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
+                                    d’innovation de plus
+                                    en plus courts. Chez BTI-Advisory, nous sommes convaincus que pour réussir cette
+                                    transformation, il est essentiel
+                                    de construire une vision technologique solide qui puisse évoluer au fil du temps. Nous
+                                    accompagnons nos clients
+                                    pour développer une stratégie technologique claire, alignée sur leurs objectifs
+                                    commerciaux
+                                    et capable de faire
+                                    face à la concurrence et aux contraintes réglementaires.
+                                </p>
                             </div>
-                            <br>
-                            <br>
-                            <br>
-                            <p id="construire-votre-stratégie-technologique"></p>
-                            <p class="w-75" id="description_paragraph">
-                                Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
-                                d’innovation de plus
-                                en plus courts. Chez BTI-Advisory, nous sommes convaincus que pour réussir cette
-                                transformation, il est essentiel
-                                de construire une vision technologique solide qui puisse évoluer au fil du temps. Nous
-                                accompagnons nos clients
-                                pour développer une stratégie technologique claire, alignée sur leurs objectifs commerciaux
-                                et capable de faire
-                                face à la concurrence et aux contraintes réglementaires.
-                            </p>
+
+                            <div id="pilotage"
+                                class="mx-auto shadow-lg bg-white rounded text-dark first_div section_separator">
+
+                                <p class="h1_sup_title title_spacing h2 ">
+                                    Co-construire votre stratégie technologique
+                                </p>
+                                <p class=" title_spacing  pt-4">
+                                    Pour vous permettre de réfléchir aux questions stratégiques et à aligner la technologie
+                                    sur vos objectifs :
+                                </p>
+
+                                <div class="d-flex align-items-center"
+                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Co-construire des organisations responsables en adoptant le modèle
+                                                    opérationnel,
+                                                    le sourcing et les investissements
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <div class="d-flex align-items-center"
+                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Concevoir avec vous la cible technologique en favorisant la sobriété
+                                                    numérique et l’agilité
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <div class="d-flex align-items-center"
+                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Identifier un portefeuille de programmes et de projets en orchestrant la
+                                                    mise en œuvre et la bonne allocation de moyens
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <br>
+                                <div class="d-flex justify-content-center  div_contacter_expert">
+                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                        Contacter un expert
+                                    </a>
+                                </div>
+                                <p id="réalisation."></p>
+                                <br>
+                                <br>
+
+                            </div>
+
+                            <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div">
+
+                                <p class="h1_sup_title title_spacing h2 ">
+                                    Architecture
+                                </p>
+
+                                <p class="pt-4 title_spacing">
+                                    Pour vous donner les capacités de construire des solutions performantes, responsables et
+                                    utiles.
+                                </p>
+
+                                <div class="d-flex align-items-center"
+                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Cadrer l’usage des produits et services numériques en valorisant les
+                                                    impacts métier,
+                                                    technologique et RSE
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <div class="d-flex align-items-center"
+                                    style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Aider à construire des architectures logicielles adaptées à vos enjeux
+                                                    et
+                                                    à votre contexte
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <div class="d-flex align-items-center" style="width:100%;margin-left: 0%;margin-top: 3%;">
+                                    <div class="d-flex container_content_spacing" style="">
+                                        <div class="bg-white" style="width: 5%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 40 40">
+                                                <g id="ic_check" transform="translate(9.089 9.089)">
+                                                    <g id="Groupe_1" data-name="Groupe 1"
+                                                        transform="translate(-9.089 -9.089)">
+                                                        <path id="Tracé_2" data-name="Tracé 2"
+                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                                    </g>
+                                                    <g id="Groupe_2" data-name="Groupe 2"
+                                                        transform="translate(2.515 5.175)">
+                                                        <path id="Tracé_3" data-name="Tracé 3"
+                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="" style="width: 90%;">
+                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                <p>
+                                                    Penser « Plateforme hybride » pour faire face aux nouveaux défis
+                                                    du numérique (Cloud, Data, IA)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <br>
+                                <br>
+                                <div class="d-flex justify-content-center  div_contacter_expert">
+                                    <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
+                                        Contacter un expert
+                                    </a>
+                                </div>
+                                <p id="réalisation."></p>
+                                <br>
+                                <br>
+
+                            </div>
 
                         </div>
-                        {{--  margin-top:-360px;  width: 75%;margin-top:140px; --}}
-                        <div id="co-construire-votre-stratégie-technologique" style=""
-                            class="mx-auto shadow-lg bg-white rounded">
-                            <br>
-                            <p class="h1_title h2 pt-4" style="margin-left: 8%;">
-                                Co-construire votre stratégie technologique
-                            </p>
-
-
-                            <p class="pt-4" style="margin-left: 8%;">
-                                Pour vous permettre de réfléchir aux questions stratégiques et à aligner la technologie sur
-                                vos objectifs :
-                            </p>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="">
-                                        Co-construire des organisations responsables en adoptant le modèle opérationnel,
-                                        <br>
-                                        le sourcing et les investissements
-                                    </p>
-                                </div>
+                        <div class="w-100 bg-white" style="margin-top: 78%;">
+                            <div class="d-flex justify-content-between py-5 px-4">
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
                             </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Concevoir avec vous la cible technologique en favorisant la sobriété numérique et
-                                        l’agilité
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="">
-                                        Identifier un portefeuille de programmes et de projets
-                                        en orchestrant la mise en œuvre et la bonne allocation de moyens
-                                    </p>
-                                </div>
-                            </div>
-
-
-
-                            <br>
-                            <br>
-                            <div class="d-flex justify-content-center  div_contacter_expert">
-                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
-                                    Contacter un expert
-                                </a>
-                            </div>
-                            <p id="architecture."></p>
-                            <br>
-                            <br>
                         </div>
-                        <div id="architecture" style="" class="mx-auto shadow-lg bg-white rounded">
-                            <br>
-                            <p class="h1_title h2 pt-4" id="architecture_header" style="margin-left: 8%;">
-                                Architecture
-                            </p>
-                            <p class="pt-4" style="margin-left: 8%;">Pour vous donner les capacités de construire des
-                                solutions performantes, responsables et
-                                utiles. </p>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 6%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
 
-                                    <p class="">
-                                        Cadrer l’usage des produits et services numériques en valorisant les impacts métier,
-                                        <br>
-                                        technologique et RSE
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start  w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph">
-
-                                    <p class="" style="padding-top: 1.5%;padding-bottom: 1.5%;">
-                                        Construire des architectures favorisant l’ouverture, l’interopérabilité et
-                                        l’enrichissement des données
-                                    </p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex justify-content-start w-75" style="margin-left: 8%;margin-top: 3%;">
-                                <div class="d-none d-md-block" style="width: 8%;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%"
-                                        viewBox="0 0 40 40">
-                                        <g id="ic_check" transform="translate(9.089 9.089)">
-                                            <g id="Groupe_1" data-name="Groupe 1" transform="translate(-9.089 -9.089)">
-                                                <path id="Tracé_2" data-name="Tracé 2"
-                                                    d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                    transform="translate(9.089 9.089)" fill="#44b351" />
-                                            </g>
-                                            <g id="Groupe_2" data-name="Groupe 2" transform="translate(2.515 5.175)">
-                                                <path id="Tracé_3" data-name="Tracé 3"
-                                                    d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                    transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 section_container_paragraph ">
-                                    <p>
-                                        Penser « Plateforme hybride » pour faire face aux nouveaux défis <br>
-                                        du numérique (Cloud, Data, IA)
-                                    </p>
-                                </div>
-                            </div>
-                            <br>
-                            <br>
-                            <div class="d-flex justify-content-center  div_contacter_expert">
-                                <a href="#construisons-votre-vision-ensemble" class="p-3 text-dark">
-                                    Contacter un expert
-                                </a>
-                            </div>
-                            <br>
-                            <br>
-                            <p id="construisons-votre-vision-ensemble"></p>
-                        </div>
-                        <div id="form_container" class=" shadow-lg  bg-white rounded">
+                        <div id="form_container" style="margin-top: 10%;" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
                                 Construisons votre vision ensemble
@@ -469,11 +529,14 @@
                                     <option></option>
 
                                 </select>
+
+
                             </div>
                             <div id="div_textarea" class="mb-3">
                                 <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
                                 <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
                             </div>
+
                             <br>
                             <div class="d-flex justify-content-end" id="div_btn_form">
                                 <button id="btn_form" class="px-3 py-2 text-dark">
