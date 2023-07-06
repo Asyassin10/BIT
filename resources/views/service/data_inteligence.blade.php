@@ -213,7 +213,7 @@
 
                     <section style="width: 100%;" class="mt-50 mt-sm-25">
                         <div class="elementor-container elementor-column-gap-no bg_black text-white "
-                            style=" margin-top:310px;height: 1000px;"> {{-- height: 1400px; --}}
+                            style=" margin-top:310px;height: 1600px;"> {{-- height: 1400px; --}}
                             <div class="w-100" is="starter_content_container" style="">
                                 <div class="d-flex justify-content-center bg-white" id=""
                                     style="width: 100%;height: auto;">
@@ -556,7 +556,7 @@
                             </div>
 
                         </div>
-                        <div class="w-100 bg-white" style="margin-top: 124%;">
+                        <div class="w-100 bg-white" style="margin-top: 85%;">
                             <div class="d-flex justify-content-between py-5 px-4">
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')
