@@ -608,9 +608,18 @@
                             </div>
 
                         </div>
+                        <div class="w-100 bg-white" style="margin-top: 87%;">
+                            <div class="d-flex justify-content-between py-5 px-4">
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                                @include('Includes.svgs.avoca')
+                            </div>
+                        </div>
 
-
-                        <div id="form_container" style="margin-top: 95%;" class=" shadow-lg  bg-white rounded">
+                        <div id="form_container" style="margin-top: 10%;" class=" shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
                                 Construisons votre vision ensemble
