@@ -222,7 +222,7 @@
                                 </div>
 
                                 <p id="pilotage."></p>
-                                <p class="w-75" id="description_paragraph_reb">
+                                <p class="w-75 description_paragraph_reb_mob" id="description_paragraph_reb">
                                     Intégrer les enjeux RSE dans les activités numériques est aujourd’hui un enjeu majeur
                                     pour les DSI. Réduction de l’empreinte environnementale, maîtrise des coûts, inclusion
                                     de critères sociaux, sont d’autant plus de challenge à relever. Une stratégie Green IT
@@ -234,7 +234,7 @@
                             <div id="pilotage"
                                 class="mx-auto shadow-lg bg-white rounded text-dark first_div section_separator ">
 
-                                <p class="h1_sup_title title_spacing h2 ">
+                                <p class=" title_spacing h2 ">
                                     Audit
                                 </p>
 
@@ -493,7 +493,8 @@
                         </div>
 
                         {{-- <div style="margin-top:10%;"></div> --}}
-                        <div id="form_container" style="margin-top: 70%;" class=" shadow-lg  bg-white rounded">
+                        <div id="form_container" style=""
+                            class=" green_it_form_container_margin_top shadow-lg  bg-white rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
                                 Construisons votre vision ensemble
