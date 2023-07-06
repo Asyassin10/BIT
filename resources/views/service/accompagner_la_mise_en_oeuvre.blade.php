@@ -606,7 +606,7 @@
                             </div>
 
                         </div>
-                        <div class="w-100 bg-white" style="margin-top: 87%;">
+                        <div class="w-100 bg-white" style="margin-top: 80%;">
                             <div class="d-flex justify-content-between py-5 px-4">
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')
