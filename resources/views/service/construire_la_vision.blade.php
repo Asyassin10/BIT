@@ -221,7 +221,7 @@
                                         class="app_header_img">
                                 </div>
 
-                                <p id="pilotage."></p>
+                                <p id="construire-votre-stratégie-technologique"></p>
                                 <p class="w-75" id="description_paragraph_reb" style="margin-top: 21%;">
                                     Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
                                     d’innovation de plus
@@ -357,13 +357,13 @@
                                         Contacter un expert
                                     </a>
                                 </div>
-                                <p id="réalisation."></p>
+                                <p id="architecture."></p>
                                 <br>
                                 <br>
 
                             </div>
 
-                            <div id="pilotage" class="mx-auto shadow-lg bg-white rounded text-dark first_div">
+                            <div id="architecture" class="mx-auto shadow-lg bg-white rounded text-dark first_div">
 
                                 <p class="h1_sup_title title_spacing h2 ">
                                     Architecture

@@ -335,14 +335,14 @@
     z-index: 1;
 }
 
-#architecture {
+/* #architecture {
     position: relative;
     left: 0;
     right: 0;
     transform: translateY(-50%);
     width: 75%;
     margin-top: 5%;
-}
+} */
 
 #halaloya_navbar_overlay {
     position: fixed;
