@@ -222,7 +222,8 @@
                                 </div>
 
                                 <p id="pilotage."></p>
-                                <p class="w-75" id="description_paragraph_reb" style="margin-top: 21%;">
+                                <p class="w-75 description_paragraph_reb_data_intelligence" id="description_paragraph_reb"
+                                    style="margin-top: 21%;">
                                     Avec la croissance exponentielle des données dans les entreprises et de ses enjeux
                                     associés, la Business Intelligence (BI), le Big Data et les Data Labs sont devenus
                                     essentiels pour les directions informatiques. Chez BTI-Advisory, nous sommes spécialisés
@@ -249,7 +250,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -284,7 +285,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -347,7 +348,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -382,7 +383,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -442,7 +443,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -477,7 +478,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -509,7 +510,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 0%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -556,7 +557,7 @@
                             </div>
 
                         </div>
-                        <div class="w-100 bg-white" style="margin-top: 85%;">
+                        <div class="w-100 bg-white data_intelugence_form_container_margin_top" style="">
                             <div class="d-flex justify-content-between py-5 px-4">
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')

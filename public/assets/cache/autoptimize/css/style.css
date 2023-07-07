@@ -212,6 +212,9 @@
 .cloud_form_container_margin_top{
     margin-top: 85%;
 }
+.data_intelugence_form_container_margin_top{
+    margin-top: 85%;
+}
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
     .container_content_spacing {
@@ -219,6 +222,9 @@
     }
     .cloud_form_container_margin_top{
         margin-top: 445%;
+    }
+    .data_intelugence_form_container_margin_top{
+        margin-top: 550%;
     }
     .green_it_form_container_margin_top{
          margin-top: 190%;
@@ -228,8 +234,11 @@
         margin-top: 40%;
     }
     .description_paragraph_reb_cloud{
-    margin-top: 35% !important;
-}
+        margin-top: 35% !important;
+    }
+      .description_paragraph_reb_data_intelligence{
+        margin-top: 35% !important;
+    }
     .title_spacing {
         /* margin-left: 10%; */
         /* padding-top: 55px; */
