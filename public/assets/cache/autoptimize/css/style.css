@@ -209,8 +209,14 @@
 .description_paragraph_reb_cloud{
     margin-top: 20% !important;
 }
+.description_paragraph_reb_accompagnage{
+    margin-top: 12% !important;
+}
 .cloud_form_container_margin_top{
     margin-top: 85%;
+}
+.accompagnage_form_container_margin_top{
+    margin-top: 80%;
 }
 .experiance_form_container_margin_top{
     margin-top: 85%;
@@ -247,6 +253,9 @@
     .construire_la_vision_form_container_margin_top{
         margin-top: 445%;
     }
+    .accompagnage_form_container_margin_top{
+    margin-top: 640%;
+}
  
     #description_paragraph_reb{
         margin-top: 40%;
@@ -254,6 +263,9 @@
     .description_paragraph_reb_cloud{
         margin-top: 35% !important;
     }
+    .description_paragraph_reb_accompagnage{
+    margin-top: 35% !important;
+}
      .description_paragraph_reb_user_experience{
         margin-top: 35% !important;
     }
