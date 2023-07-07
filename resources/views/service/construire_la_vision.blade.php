@@ -222,7 +222,8 @@
                                 </div>
 
                                 <p id="construire-votre-stratégie-technologique"></p>
-                                <p class="w-75" id="description_paragraph_reb" style="margin-top: 21%;">
+                                <p class="w-75 description_paragraph_reb_construire_la_vision"
+                                    id="description_paragraph_reb">
                                     Les entreprises sont confrontées à des défis de transformation majeurs, avec des cycles
                                     d’innovation de plus
                                     en plus courts. Chez BTI-Advisory, nous sommes convaincus que pour réussir cette
@@ -250,7 +251,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -285,7 +286,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -319,7 +320,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -377,7 +378,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -412,7 +413,7 @@
                                 <div class="d-flex align-items-center"
                                     style="width:100%;margin-left: 0%;margin-top: 3%;margin-bottom: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -446,7 +447,7 @@
 
                                 <div class="d-flex align-items-center" style="width:100%;margin-left: 0%;margin-top: 3%;">
                                     <div class="d-flex container_content_spacing" style="">
-                                        <div class="bg-white" style="width: 5%;">
+                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                                 viewBox="0 0 40 40">
                                                 <g id="ic_check" transform="translate(9.089 9.089)">
@@ -492,7 +493,7 @@
                             </div>
 
                         </div>
-                        <div class="w-100 bg-white" style="margin-top: 78%;">
+                        <div class="w-100 bg-white construire_la_vision_form_container_margin_top">
                             <div class="d-flex justify-content-between py-5 px-4">
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')
