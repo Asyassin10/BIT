@@ -212,13 +212,22 @@
 .cloud_form_container_margin_top{
     margin-top: 85%;
 }
+.experiance_form_container_margin_top{
+    margin-top: 85%;
+}
 .data_intelugence_form_container_margin_top{
     margin-top: 85%;
+}
+.description_paragraph_reb_user_experience{
+    margin-top: 13% !important;
 }
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
     .container_content_spacing {
         display: none;
+    }
+    .experiance_form_container_margin_top{
+        margin-top: 495%;
     }
     .cloud_form_container_margin_top{
         margin-top: 445%;
@@ -234,6 +243,9 @@
         margin-top: 40%;
     }
     .description_paragraph_reb_cloud{
+        margin-top: 35% !important;
+    }
+     .description_paragraph_reb_user_experience{
         margin-top: 35% !important;
     }
       .description_paragraph_reb_data_intelligence{
