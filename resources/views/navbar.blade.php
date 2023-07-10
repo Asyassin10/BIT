@@ -21,9 +21,9 @@
             data-widget_type="navigation-menu.default">
             <div class="elementor-widget-container">
                 <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__underline hfe-animation__grow"
-                    data-layout="horizontal">
+                    data-layout="horizontal"> 
 
-                    <div style="background: #FAFAFA;text-align: right;" class="elementor-clickable d-block d-sm-none "
+                    <div style="background: #FAFAFA;text-align: right;" class="elementor-clickable d-block d-sm-none displayed_on_laptop "
                         id="three_slides_mobile_view">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px"
                             height="50px">

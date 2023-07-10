@@ -202,7 +202,7 @@
     margin-top: 20% !important;
 }
 .description_paragraph_reb_accompagnage {
-    margin-top: 12% !important;
+    margin-top: 15% !important;
 }
 .cloud_form_container_margin_top {
     margin-top: 85%;
@@ -367,6 +367,7 @@
 
 .title_spacing {
     margin-left: 100px;
+    margin-right: 130px;
     padding-top: 55px;
 }
 
@@ -519,5 +520,10 @@
 
     .nos_centres_links {
         margin-top: 5%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .displayed_on_laptop {
+        display: block !important ;
     }
 }
