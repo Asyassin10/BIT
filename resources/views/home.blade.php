@@ -3269,6 +3269,7 @@
         </script>
         <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
         <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+        <script defer src="{{ asset('vendors/js/extensions/swiper.min.js') }}"></script>
 
 
     </body>

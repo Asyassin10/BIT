@@ -2964,5 +2964,6 @@
             }
         </script>
         <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script defer src="{{ asset('vendors/js/extensions/swiper.min.js') }}"></script>
     </body>
 @endsection
