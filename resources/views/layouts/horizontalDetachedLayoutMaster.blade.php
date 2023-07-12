@@ -2,7 +2,7 @@
     class="horizontal-layout horizontal-menu {{ $configData['contentLayout'] }} {{ $configData['horizontalMenuType'] }} {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{ $configData['footerType'] }}"
     data-open="hover" data-menu="horizontal-menu"
     data-col="{{ $configData['showMenu'] ? $configData['contentLayout'] : '1-column' }}" data-framework="laravel"
-    data-asset-path="{{ asset('/') }}">
+    data-asset-path="{{ secure_asset('/') }}">
 
     <!-- BEGIN: Header-->
     @include('panels.navbar')

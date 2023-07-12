@@ -1,6 +1,5 @@
 @extends('layouts/contentLayoutMaster')
-
-@section('title', 'Les articles')
+@section('title', 'Les Catégorie')
 
 @section('vendor-style')
     {{-- vendor css files --}}
@@ -12,46 +11,52 @@
 
 @section('content')
     <div class="row">
-        <div class="col-12">
+        <div class="form-modal-ex">
+            <!-- Button trigger modal -->
+            {{-- <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#create-category">
+                Créer une catégorie
+            </button> --}}
+            <!-- Modal -->
+            <div class="modal fade text-start" id="create-category" tabindex="-1" aria-labelledby="myModalLabel33"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel33">Créer une catégorie</h4>
+                        </div>
+                        <form class="forms-sample" method="POST" action="{{ route('CreateCategoryPost') }}">
+                            @csrf
+                            <div class="modal-body">
+                                <div class="mb-1">
+                                    <input type="text" placeholder="Nom de catégorie..." class="form-control"
+                                        name="category_name" required />
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Enregistrer</button>
+                                <button type="button" class="btn btn-outline-secondary waves-effect "
+                                    data-bs-dismiss="modal"aria-label="Close">Annuler</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Basic table -->
+    <br>
     <section id="basic-datatable">
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <table class=" table">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Article</th>
-                                <th>Operations</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach ($all_articles as $key => $article)
-                                <tr class="odd">
-                                    <td>{{ $key }}</td>
-                                    <td>{{ $article->article_slug }}</td>
-                                    </td>
-                                    <td style="">
-                                        <a href="{{ route('update_articles', ['article_id' => $article->article_id]) }}"
-                                            class="item-edit"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="feather feather-edit font-small-4">
-                                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                                            </svg></a>
-                                    </td>
-                                </tr>
-                            @endforeach
-                        </tbody>
-
-                    </table>
+                    @foreach ($inages as $inage)
+                        <img src="{{ secure_asset("app/carousel_imgs/".$inage->carousel_image_full_name) }}" alt="">
+                    @endforeach
                 </div>
             </div>
         </div>
+
     </section>
     <!--/ Basic table -->
 

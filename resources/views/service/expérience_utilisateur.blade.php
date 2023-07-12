@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -217,7 +217,7 @@
                             <div class="w-100" is="starter_content_container" style="">
                                 <div class="d-flex justify-content-center bg-white" id=""
                                     style="width: 100%;height: auto;">
-                                    <img src="{{ asset('images/webp/Expérience_Utilisateur.webp') }}" width="50%"
+                                    <img src="{{ secure_asset('images/webp/Expérience_Utilisateur.webp') }}" width="50%"
                                         class="app_header_img">
                                 </div>
 
@@ -616,7 +616,7 @@
                             </div>
 
                         </div>
-                        <div class="w-100 bg-white experiance_form_container_margin_top" style="">
+                        {{-- <div class="w-100 bg-white experiance_form_container_margin_top" style="">
                             <div class="d-flex justify-content-between py-5 px-4">
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')
@@ -625,9 +625,9 @@
                                 @include('Includes.svgs.avoca')
                                 @include('Includes.svgs.avoca')
                             </div>
-                        </div>
-
-                        <div id="form_container" style="margin-top: 10%;" class=" shadow-lg  bg-white rounded">
+                        </div> --}}
+                        {{-- style="margin-top: 10%;"  --}}
+                        <div id="form_container" class=" shadow-lg  bg-white experiance_form_container_margin_top rounded">
                             <br>
                             <p class="h4 pt-4" id="title_form">
                                 Construisons votre vision ensemble
@@ -672,7 +672,7 @@
                         </div>
                         <div id="footer_div" class=" shadow-lg  bg_black rounded">
                             <div class="svg-container">
-                                <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                <img id="footer-image" src="{{ secure_asset('images/webp/ss.webp') }}" alt=""
                                     srcset="" style="margin-top: 150px;">
                             </div>
                         </div>
@@ -1059,7 +1059,7 @@
         </script>
 
 
-        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -1080,6 +1080,6 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/page-knowledge-base.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/page-knowledge-base.css')) }}">
 @endsection
 
 @section('content')
@@ -54,7 +54,7 @@
                             how frequent their misunderstandings, how eager they are to kill one another, how fervent their
                             hatreds.
                         </p>
-                        <img src="{{ asset('images/pages/kb-image.jpg') }}" class="img-fluid rounded w-100 my-1"
+                        <img src="{{ secure_asset('images/pages/kb-image.jpg') }}" class="img-fluid rounded w-100 my-1"
                             alt="article-img" />
                         <h5 class="my-1">Houston</h5>
                         <p>

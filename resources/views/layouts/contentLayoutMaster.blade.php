@@ -23,8 +23,8 @@
         content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>@yield('title') - BTI - Advisory</title>
-    <link rel="apple-touch-icon" href="{{ asset('assets/uploads/2022/01/Logo-1.svg') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/uploads/2022/01/Logo-1.svg') }}">
+    <link rel="apple-touch-icon" href="{{ secure_asset('assets/uploads/2022/01/Logo-1.svg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ secure_asset('assets/uploads/2022/01/Logo-1.svg') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
         rel="stylesheet">
 

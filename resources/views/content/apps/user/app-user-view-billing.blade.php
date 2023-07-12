@@ -4,15 +4,15 @@
 
 @section('vendor-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/animate/animate.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/animate/animate.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
 @endsection
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
 @endsection
 
 @section('content')
@@ -26,7 +26,7 @@
                         <div class="user-avatar-section">
                             <div class="d-flex align-items-center flex-column">
                                 <img class="img-fluid rounded mt-3 mb-2"
-                                    src="{{ asset('images/portrait/small/avatar-s-2.jpg') }}" height="110" width="110"
+                                    src="{{ secure_asset('images/portrait/small/avatar-s-2.jpg') }}" height="110" width="110"
                                     alt="User avatar" />
                                 <div class="user-info text-center">
                                     <h4>Gertrude Barton</h4>
@@ -142,31 +142,31 @@
                 <!-- User Pills -->
                 <ul class="nav nav-pills mb-2">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/account') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/account') }}">
                             <i data-feather="user" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Account</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/security') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/security') }}">
                             <i data-feather="lock" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Security</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ asset('app/user/view/billing') }}">
+                        <a class="nav-link active" href="{{ secure_asset('app/user/view/billing') }}">
                             <i data-feather="bookmark" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Billing & Plans</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/notifications') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/notifications') }}">
                             <i data-feather="bell" class="font-medium-3 me-50"></i><span
                                 class="fw-bold">Notifications</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/connections') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/connections') }}">
                             <i data-feather="link" class="font-medium-3 me-50"></i><span
                                 class="fw-bold">Connections</span>
                         </a>
@@ -240,7 +240,7 @@
                                 <div class="d-flex justify-content-between flex-sm-row flex-column">
                                     <div class="card-information">
                                         <img class="mb-1 img-fluid"
-                                            src="{{ asset('images/icons/payments/mastercard.png') }}"
+                                            src="{{ secure_asset('images/icons/payments/mastercard.png') }}"
                                             alt="Master Card" />
                                         <div class="d-flex align-items-center mb-50">
                                             <h6 class="mb-0">Tom McBride</h6>
@@ -263,7 +263,7 @@
                             <div class="cardMaster border rounded p-2 mb-1">
                                 <div class="d-flex justify-content-between flex-sm-row flex-column">
                                     <div class="card-information">
-                                        <img class="mb-1 img-fluid" src="{{ asset('images/icons/payments/visa.png') }}"
+                                        <img class="mb-1 img-fluid" src="{{ secure_asset('images/icons/payments/visa.png') }}"
                                             alt="Visa Card" />
                                         <h6>Mildred Wagner</h6>
                                         <span class="card-number">∗∗∗∗ ∗∗∗∗ 5896</span>
@@ -284,7 +284,7 @@
                                 <div class="d-flex justify-content-between flex-sm-row flex-column">
                                     <div class="card-information">
                                         <img class="mb-1 img-fluid"
-                                            src="{{ asset('images/icons/payments/american-ex.png') }}" alt="Visa Card" />
+                                            src="{{ secure_asset('images/icons/payments/american-ex.png') }}" alt="Visa Card" />
                                         <h6>Mildred Wagner</h6>
                                         <span class="card-number">∗∗∗∗ ∗∗∗∗ 5896</span>
                                     </div>
@@ -367,20 +367,20 @@
 
 @section('vendor-script')
     {{-- Vendor js files --}}
-    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/extensions/polyfill.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/extensions/polyfill.min.js')) }}"></script>
 @endsection
 
 @section('page-script')
     {{-- Page js files --}}
-    <script src="{{ asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/modal-add-new-cc.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/modal-edit-cc.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/modal-add-new-address.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/app-user-view-billing.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/app-user-view.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-add-new-cc.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-edit-cc.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-add-new-address.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/app-user-view-billing.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/app-user-view.js')) }}"></script>
 @endsection

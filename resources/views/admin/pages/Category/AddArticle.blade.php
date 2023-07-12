@@ -1,6 +1,6 @@
 @extends('admin\layout\AdminLayout')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('melody/vendors/summernote/dist/summernote-bs4.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('melody/vendors/summernote/dist/summernote-bs4.css') }}">
 @endsection
 @section('content')
     <div class="main-panel">
@@ -82,12 +82,12 @@
     </div>
 @endsection
 @section('costomJsPlugons')
-    <script src="{{ asset('melody/vendors/tinymce/tinymce.min.js') }}"></script>
-    <script src="{{ asset('melody/vendors/tinymce/themes/modern/theme.js') }}"></script>
-    <script src="{{ asset('melody/vendors/summernote/dist/summernote-bs4.min.js') }}"></script>
+    <script src="{{ secure_asset('melody/vendors/tinymce/tinymce.min.js') }}"></script>
+    <script src="{{ secure_asset('melody/vendors/tinymce/themes/modern/theme.js') }}"></script>
+    <script src="{{ secure_asset('melody/vendors/summernote/dist/summernote-bs4.min.js') }}"></script>
 @endsection
 @section('js')
-    <script src="{{ asset('melody/js/editorDemo.js') }}"></script>
+    <script src="{{ secure_asset('melody/js/editorDemo.js') }}"></script>
 
     <script>
         /*Summernote editor*/

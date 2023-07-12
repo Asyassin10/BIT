@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/page-knowledge-base.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/page-knowledge-base.css')) }}">
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="card knowledge-base-bg text-center"
-                    style="background-image: url('{{ asset('images/banner/banner.png') }}')">
+                    style="background-image: url('{{ secure_asset('images/banner/banner.png') }}')">
                     <div class="card-body">
                         <h2 class="text-primary">Dedicated Source Used on Website</h2>
                         <p class="card-text mb-2">
@@ -46,15 +46,15 @@
                         </h6>
 
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Secure Is My Password?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Can I Change My Username?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Where Can I Upload My Avatar?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I Change My Timezone?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I Change My Password?</a>
                         </div>
                     </div>
@@ -70,15 +70,15 @@
                             <span>API Questions (5)</span>
                         </h6>
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">What Technologies Are Used?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">What Are The API Limits?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Why Was My Application Rejected?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Where can I find the documentation?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I Get An API Key?</a>
                         </div>
                     </div>
@@ -95,15 +95,15 @@
                         </h6>
 
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Can I Contact A Salés Rep?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Do I Need To Pay VAT?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Can I Get A Refund?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Difference Annual & Monthly Billing</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">What Happens If The Price Increases?</a>
                         </div>
                     </div>
@@ -120,15 +120,15 @@
                         </h6>
 
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I Contact Legal?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Where Are Your Offices Located?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Who Owns The Copyright On Text?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Our Content Policy</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I File A DMCA?</a>
                         </div>
                     </div>
@@ -145,15 +145,15 @@
                         </h6>
 
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How Do I Download The Android App?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">How To Download Our iPad App</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Where Can I Upload My Avatar?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Can I Use My Android Phone?</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Is There An iOS App?</a>
                         </div>
                     </div>
@@ -169,13 +169,13 @@
                             <span>Using KnowHow (4)</span>
                         </h6>
                         <div class="list-group list-group-circle mt-2">
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Customization</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Upgrading</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Customizing Your Theme</a>
-                            <a href="{{ asset('page/knowledge-base/category/question') }}"
+                            <a href="{{ secure_asset('page/knowledge-base/category/question') }}"
                                 class="list-group-item text-body">Upgrading Your Theme</a>
                         </div>
                     </div>
@@ -192,5 +192,5 @@
 
 @section('page-script')
     {{-- Page js files --}}
-    <script src="{{ asset(mix('js/scripts/pages/page-knowledge-base.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/page-knowledge-base.js')) }}"></script>
 @endsection

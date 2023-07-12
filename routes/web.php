@@ -37,6 +37,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\MiscellaneousController;
 use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\ChartsController;
+use App\Http\Controllers\CarouselImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,6 +78,9 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     })->name('admin.dashboard');
+    // images
+    Route::get("carousel-images", [CarouselImageController::class, "GetCarouselImages"])->name("GetCarouselImages");
+
     //categories
     Route::get("all-categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");
     Route::get("create-category", [AdminCategoryController::class, "CreateCategory"])->name("CreateCategory");
