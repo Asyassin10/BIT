@@ -3,6 +3,7 @@
 use App\Http\Controllers\AppsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarouselImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get("/getAllPermissions",[AppsController::class,"getAllPermissions"]);
+Route::prefix('admin')->middleware(['admin'])->group(function () {
+});

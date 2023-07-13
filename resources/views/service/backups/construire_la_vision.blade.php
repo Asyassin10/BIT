@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -216,7 +216,7 @@
                             style="height:20%;margin-top:350px;">
 
                             <div class="d-flex justify-content-center">
-                                <img src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}" width="50%"
+                                <img src="{{ asset('images/webp/Construire-la-vision.webp') }}" width="50%"
                                     class="app_header_img">
                             </div>
                             <br>
@@ -485,7 +485,7 @@
                         </div>
                         <div id="footer_div" class=" shadow-lg  bg_black rounded">
                             <div class="svg-container">
-                                <img id="footer-image" src="{{ secure_asset('images/webp/ss.webp') }}" alt=""
+                                <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
                                     srcset="" style="margin-top: 150px;">
                             </div>
                         </div>
@@ -883,7 +883,7 @@
         </script>
 
 
-        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -904,6 +904,6 @@
                 }
             }
         </script>
-        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

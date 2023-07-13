@@ -4,14 +4,14 @@
 
 @section('vendor-style')
     <!-- vendor css files -->
-    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/forms/select/select2.min.css')) }}">
-    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/animate/animate.min.css')) }}">
-    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
+    <link rel='stylesheet' href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel='stylesheet' href="{{ asset(mix('vendors/css/animate/animate.min.css')) }}">
+    <link rel='stylesheet' href="{{ asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
 @endsection
 @section('page-style')
     <!-- Page css files -->
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
 @endsection
 
 @section('content')
@@ -20,35 +20,35 @@
             <ul class="nav nav-pills mb-2">
                 <!-- Account -->
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ secure_asset('admin/account-settings-account') }}">
+                    <a class="nav-link active" href="{{ asset('admin/account-settings-account') }}">
                         <i data-feather="user" class="font-medium-3 me-50"></i>
                         <span class="fw-bold">Account</span>
                     </a>
                 </li>
                 <!-- security -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ secure_asset('admin/account-settings-security') }}">
+                    <a class="nav-link" href="{{ asset('admin/account-settings-security') }}">
                         <i data-feather="lock" class="font-medium-3 me-50"></i>
                         <span class="fw-bold">Security</span>
                     </a>
                 </li>
                 <!-- billing and plans -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ secure_asset('admin/account-settings-billing') }}">
+                    <a class="nav-link" href="{{ asset('admin/account-settings-billing') }}">
                         <i data-feather="bookmark" class="font-medium-3 me-50"></i>
                         <span class="fw-bold">Billings &amp; Plans</span>
                     </a>
                 </li>
                 <!-- notification -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ secure_asset('admin/account-settings-notifications') }}">
+                    <a class="nav-link" href="{{ asset('admin/account-settings-notifications') }}">
                         <i data-feather="bell" class="font-medium-3 me-50"></i>
                         <span class="fw-bold">Notifications</span>
                     </a>
                 </li>
                 <!-- connection -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ secure_asset('admin/account-settings-connections') }}">
+                    <a class="nav-link" href="{{ asset('admin/account-settings-connections') }}">
                         <i data-feather="link" class="font-medium-3 me-50"></i>
                         <span class="fw-bold">Connections</span>
                     </a>
@@ -284,13 +284,13 @@
 
 @section('vendor-script')
     <!-- vendor files -->
-    <script src="{{ secure_asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
 @endsection
 @section('page-script')
     <!-- Page js files -->
-    <script src="{{ secure_asset(mix('js/scripts/pages/page-account-settings-account.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/page-account-settings-account.js')) }}"></script>
 @endsection

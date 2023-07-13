@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/page-knowledge-base.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/page-knowledge-base.css')) }}">
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="card knowledge-base-bg text-center"
-                    style="background-image: url('{{ secure_asset('images/banner/banner.png') }}')">
+                    style="background-image: url('{{ asset('images/banner/banner.png') }}')">
                     <div class="card-body">
                         <h2 class="text-primary">Dedicated Source Used on Website</h2>
                         <p class="card-text mb-2">
@@ -38,8 +38,8 @@
             <!-- sales card -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/sales.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/sales.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
 
                         <div class="card-body text-center">
@@ -55,8 +55,8 @@
             <!-- marketing -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/marketing.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/marketing.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
                         <div class="card-body text-center">
                             <h4>Marketing Automation</h4>
@@ -71,8 +71,8 @@
             <!-- api -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/api.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/api.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
                         <div class="card-body text-center">
                             <h4>API Questions</h4>
@@ -86,8 +86,8 @@
             <!-- personalization -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/personalization.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/personalization.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
                         <div class="card-body text-center">
                             <h4>Personalization</h4>
@@ -101,8 +101,8 @@
             <!-- email -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/email.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/email.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
                         <div class="card-body text-center">
                             <h4>Email Marketing</h4>
@@ -116,8 +116,8 @@
             <!-- demand -->
             <div class="col-md-4 col-sm-6 col-12 kb-search-content">
                 <div class="card">
-                    <a href="{{ secure_asset('page/knowledge-base/category') }}">
-                        <img src="{{ secure_asset('images/illustration/demand.svg') }}" class="card-img-top"
+                    <a href="{{ asset('page/knowledge-base/category') }}">
+                        <img src="{{ asset('images/illustration/demand.svg') }}" class="card-img-top"
                             alt="knowledge-base-image" />
                         <div class="card-body text-center">
                             <h4>Demand Generation</h4>
@@ -138,5 +138,5 @@
 
 @section('page-script')
     {{-- Page js files --}}
-    <script src="{{ secure_asset(mix('js/scripts/pages/page-knowledge-base.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/page-knowledge-base.js')) }}"></script>
 @endsection

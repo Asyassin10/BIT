@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/base/pages/page-blog.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/base/pages/page-blog.css') }}" />
 @endsection
 
 @section('content-sidebar')
@@ -18,13 +18,13 @@
             <!-- Blog -->
             <div class="col-12">
                 <div class="card">
-                    <img src="{{ secure_asset('images/banner/banner-12.jpg') }}" class="img-fluid card-img-top"
+                    <img src="{{ asset('images/banner/banner-12.jpg') }}" class="img-fluid card-img-top"
                         alt="Blog Detail Pic" />
                     <div class="card-body">
                         <h4 class="card-title">The Best Features Coming to iOS and Web design</h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar" width="24"
+                                <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar" width="24"
                                     height="24" />
                             </div>
                             <div class="author-info">
@@ -88,7 +88,7 @@
                         </ul>
                         <div class="d-flex align-items-start">
                             <div class="avatar me-2">
-                                <img src="{{ secure_asset('images/portrait/small/avatar-s-6.jpg') }}" width="60" height="60"
+                                <img src="{{ asset('images/portrait/small/avatar-s-6.jpg') }}" width="60" height="60"
                                     alt="Avatar" />
                             </div>
                             <div class="author-info">
@@ -154,7 +154,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-start">
                             <div class="avatar me-75">
-                                <img src="{{ secure_asset('images/portrait/small/avatar-s-9.jpg') }}" width="38"
+                                <img src="{{ asset('images/portrait/small/avatar-s-9.jpg') }}" width="38"
                                     height="38" alt="Avatar" />
                             </div>
                             <div class="author-info">

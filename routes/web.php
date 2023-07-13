@@ -80,6 +80,9 @@ Route::prefix('admin')->middleware(['admin'])->group(function () {
     })->name('admin.dashboard');
     // images
     Route::get("carousel-images", [CarouselImageController::class, "GetCarouselImages"])->name("GetCarouselImages");
+    Route::post("carousel-upload-images", [CarouselImageController::class, "UploadImageCarouselPost"])->name("UploadImageCarouselPost");
+    Route::get("carousel-delete-image/{carousel_image_id}", [CarouselImageController::class, "DeleteImageCarousel"])->name("DeleteImageCarousel");
+    Route::post("carousel-update-image", [CarouselImageController::class, "UpdateUploadedImageCarouselPost"])->name("UpdateUploadedImageCarouselPost");
 
     //categories
     Route::get("all-categories", [AdminCategoryController::class, "allCategories"])->name("allCategories");

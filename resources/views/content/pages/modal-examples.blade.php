@@ -4,14 +4,14 @@
 
 @section('vendor-style')
     <!-- vendor css files -->
-    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/forms/wizard/bs-stepper.min.css')) }}">
-    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel='stylesheet' href="{{ asset(mix('vendors/css/forms/wizard/bs-stepper.min.css')) }}">
+    <link rel='stylesheet' href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
 @endsection
 @section('page-style')
     <!-- Page css files -->
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-wizard.css')) }}">
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
-    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/modal-create-app.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-wizard.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/modal-create-app.css')) }}">
 @endsection
 
 @section('content')
@@ -181,19 +181,19 @@
 
 @section('vendor-script')
     <!-- vendor files -->
-    <script src="{{ secure_asset(mix('vendors/js/forms/wizard/bs-stepper.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
-    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/wizard/bs-stepper.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
+    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
 @endsection
 @section('page-script')
     <!-- Page js files -->
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-add-new-cc.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/page-pricing.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-add-new-address.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-create-app.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-two-factor-auth.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
-    <script src="{{ secure_asset(mix('js/scripts/pages/modal-share-project.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-add-new-cc.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/page-pricing.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-add-new-address.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-create-app.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-two-factor-auth.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
+    <script src="{{ asset(mix('js/scripts/pages/modal-share-project.js')) }}"></script>
 @endsection
