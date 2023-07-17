@@ -182,63 +182,63 @@
                                             <div class="w-100 row">
                                                 <div class="col-md-6">
                                                     <input type="text"
-                                                        class="form-control @error('cr_carousel_title') is-invalid @enderror "
+                                                        class="form-control @error('cr_carousel_title_update') is-invalid @enderror "
                                                         value="{{ $inage->carousel_title }}"
-                                                        placeholder="First name" name="cr_carousel_title"
+                                                        placeholder="First name" name="cr_carousel_title_update"
                                                         aria-label="le titre">
-                                                    @if ($errors->has('cr_carousel_title'))
+                                                    @if ($errors->has('cr_carousel_title_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_title') }}</div>
+                                                            {{ $errors->first('cr_carousel_title_update') }}</div>
                                                     @endif
                                                 </div>
                                                 <div class="col-md-6">
                                                     <input type="text"
-                                                        class="form-control @error('cr_carousel_footer') is-invalid @enderror "
+                                                        class="form-control @error('cr_carousel_footer_update') is-invalid @enderror "
                                                         value="{{ $inage->carousel_footer }}"
-                                                        placeholder="First name" name="cr_carousel_footer"
+                                                        placeholder="First name" name="cr_carousel_footer_update"
                                                         aria-label="sous titre">
-                                                    @if ($errors->has('cr_carousel_footer'))
+                                                    @if ($errors->has('cr_carousel_footer_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_footer') }}</div>
+                                                            {{ $errors->first('cr_carousel_footer_update') }}</div>
                                                     @endif
                                                 </div>
                                                 <div class="col-md-12">
                                                     <label for="exampleFormControlTextarea1"
                                                         class="form-label">description
                                                     </label>
-                                                    <textarea class="form-control @error('cr_carousel_desc') is-invalid @enderror" name="cr_carousel_desc"
+                                                    <textarea class="form-control @error('cr_carousel_desc_update') is-invalid @enderror" name="cr_carousel_desc_update"
                                                         id="exampleFormControlTextarea1" rows="3">
                                                     {{  $inage->carousel_desc}}
                                                     </textarea>
-                                                    @if ($errors->has('cr_carousel_desc'))
+                                                    @if ($errors->has('cr_carousel_desc_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_desc') }}</div>
-                                                    @endif
-                                                </div>
-                                                {{-- <div class="mb-3 col-md-12">
-                                                    <label for="formFile" class="form-label">Default file input
-                                                        example</label>
-                                                    <input
-                                                        class="form-control @error('cr_carousel_image_background') is-invalid @enderror"
-                                                        name="cr_carousel_image_background" type="file"
-                                                        id="formFile">
-                                                    @if ($errors->has('cr_carousel_image_background'))
-                                                        <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_image_background') }}</div>
+                                                            {{ $errors->first('cr_carousel_desc_update') }}</div>
                                                     @endif
                                                 </div>
                                                 <div class="mb-3 col-md-12">
                                                     <label for="formFile" class="form-label">Default file input
                                                         example</label>
                                                     <input
-                                                        class="form-control @error('cr_carousel_image_logo_fullname') is-invalid @enderror"
-                                                        name="cr_carousel_image_logo_fullname" type="file"
+                                                        class="form-control @error('cr_carousel_image_background_update') is-invalid @enderror"
+                                                        name="cr_carousel_image_background_update" type="file"
                                                         id="formFile">
-                                                    @if ($errors->has('cr_carousel_image_logo_fullname'))
+                                                    @if ($errors->has('cr_carousel_image_background_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_image_logo_fullname') }}</div>
+                                                            {{ $errors->first('cr_carousel_image_background_update') }}</div>
                                                     @endif
-                                                </div> --}}
+                                                </div>
+                                                <div class="mb-3 col-md-12">
+                                                    <label for="formFile" class="form-label">Default file input
+                                                        example</label>
+                                                    <input
+                                                        class="form-control @error('cr_carousel_image_logo_fullname_update') is-invalid @enderror"
+                                                        name="cr_carousel_image_logo_fullname_update" type="file"
+                                                        id="formFile">
+                                                    @if ($errors->has('cr_carousel_image_logo_fullname_update'))
+                                                        <div class="text-danger text-start ">
+                                                            {{ $errors->first('cr_carousel_image_logo_fullname_update') }}</div>
+                                                    @endif
+                                                </div>
                                             </div>
                                             <br>
                                             <br>
