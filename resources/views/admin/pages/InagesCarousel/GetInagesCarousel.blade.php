@@ -59,7 +59,6 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -87,6 +86,7 @@
                                             @endif
                                         </div>
                                         <div class="col-md-12">
+                                            <br>
                                             <label for="exampleFormControlTextarea1" class="form-label">description
                                             </label>
                                             <textarea class="form-control @error('cr_carousel_desc') is-invalid @enderror" name="cr_carousel_desc"
@@ -96,7 +96,9 @@
                                                     {{ $errors->first('cr_carousel_desc') }}</div>
                                             @endif
                                         </div>
+                                        <br>
                                         <div class="mb-3 col-md-12">
+                                            <br>
                                             <label for="formFile" class="form-label">Default file input example</label>
                                             <input
                                                 class="form-control @error('cr_carousel_image_background') is-invalid @enderror"
@@ -136,28 +138,51 @@
                 <br>
                 <div class="row">
                     @foreach ($inages as $inage)
-                        <div class="col-md-4">
-                            <div class="card" style="width: 100%;height:auto;">
-                                <img src="{{ asset('images/home/' . $inage->carousel_image_full_name) }}"
-                                    class="card-img-top" alt="...">
+                        <div class="col-md-4 mt-4">
+                            <div class="card " style="width: 100%;height:100%;">
+                                <img src="{{ asset('images/home/' . $inage->carousel_image_full_name) }}" width="100"
+                                    height="250" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">
-                                        {{ $inage->carousel_title }}
-                                    </p>
-                                    <p class="card-text">
-                                        {{ $inage->carousel_desc }}
-                                    </p>
-                                    <p class="card-text">
-                                        {{ $inage->carousel_footer }}
-                                    </p>
+                                    <span class="" style="background-size: cover">
+                                        <img class="round"
+                                            src="{{ asset('images/home/' . $inage->carousel_image_logo_fullname_webp) }}"
+                                            alt="avatar" height="80" width="80">
+                                    </span>
+                                    <br><br>
+                                    <div class="text_div" style="height: 150px;">
+                                        <p class="card-text font-weight-bold">
+                                            <strong>{{ $inage->carousel_title }}</strong>
+                                        </p>
+                                        <p class="card-text">
+                                            {{ $inage->carousel_desc }}
+                                        </p>
+                                        <p class="card-text">
+                                            {{ $inage->carousel_footer }}
+                                        </p>
+                                    </div>
+
+
                                     <!-- Button trigger modal -->
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal{{ $inage->carousel_image_id }}">
-                                        Launch demo modal
+                                        édité <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-edit font-small-4">
+                                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7">
+                                            </path>
+                                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                                        </svg>
                                     </button>
                                     <a href="{{ route('DeleteImageCarousel', ['carousel_image_id' => $inage->carousel_image_id]) }}"
                                         class="btn btn-danger">
-                                        dddd</a>
+                                        Supprimer  <svg xmlns="http://www.w3.org/2000/svg" class="feather feather-edit font-small-4"" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <path d="M20 6a1 1 0 0 1 .117 1.993l-.117 .007h-.081l-.919 11a3 3 0 0 1 -2.824 2.995l-.176 .005h-8c-1.598 0 -2.904 -1.249 -2.992 -2.75l-.005 -.167l-.923 -11.083h-.08a1 1 0 0 1 -.117 -1.993l.117 -.007h16zm-9.489 5.14a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
+                                            <path d="M14 2a2 2 0 0 1 2 2a1 1 0 0 1 -1.993 .117l-.007 -.117h-4l-.007 .117a1 1 0 0 1 -1.993 -.117a2 2 0 0 1 1.85 -1.995l.15 -.005h4z" stroke-width="0" fill="currentColor" />
+                                          </svg></a>
                                 </div>
                             </div>
 
@@ -178,14 +203,14 @@
                                         <form action="{{ route('UpdateUploadedImageCarouselPost') }}" method="POST"
                                             enctype="multipart/form-data">
                                             @csrf
-                                        <input type="hidden" name="cr_carousel_image_id" value="{{$inage->carousel_image_id }}">
+                                            <input type="hidden" name="cr_carousel_image_id"
+                                                value="{{ $inage->carousel_image_id }}">
                                             <div class="w-100 row">
                                                 <div class="col-md-6">
                                                     <input type="text"
                                                         class="form-control @error('cr_carousel_title_update') is-invalid @enderror "
-                                                        value="{{ $inage->carousel_title }}"
-                                                        placeholder="First name" name="cr_carousel_title_update"
-                                                        aria-label="le titre">
+                                                        value="{{ $inage->carousel_title }}" placeholder="First name"
+                                                        name="cr_carousel_title_update" aria-label="le titre">
                                                     @if ($errors->has('cr_carousel_title_update'))
                                                         <div class="text-danger text-start ">
                                                             {{ $errors->first('cr_carousel_title_update') }}</div>
@@ -194,9 +219,8 @@
                                                 <div class="col-md-6">
                                                     <input type="text"
                                                         class="form-control @error('cr_carousel_footer_update') is-invalid @enderror "
-                                                        value="{{ $inage->carousel_footer }}"
-                                                        placeholder="First name" name="cr_carousel_footer_update"
-                                                        aria-label="sous titre">
+                                                        value="{{ $inage->carousel_footer }}" placeholder="First name"
+                                                        name="cr_carousel_footer_update" aria-label="sous titre">
                                                     @if ($errors->has('cr_carousel_footer_update'))
                                                         <div class="text-danger text-start ">
                                                             {{ $errors->first('cr_carousel_footer_update') }}</div>
@@ -208,7 +232,7 @@
                                                     </label>
                                                     <textarea class="form-control @error('cr_carousel_desc_update') is-invalid @enderror" name="cr_carousel_desc_update"
                                                         id="exampleFormControlTextarea1" rows="3">
-                                                    {{  $inage->carousel_desc}}
+                                                    {{ $inage->carousel_desc }}
                                                     </textarea>
                                                     @if ($errors->has('cr_carousel_desc_update'))
                                                         <div class="text-danger text-start ">
@@ -224,7 +248,8 @@
                                                         id="formFile">
                                                     @if ($errors->has('cr_carousel_image_background_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_image_background_update') }}</div>
+                                                            {{ $errors->first('cr_carousel_image_background_update') }}
+                                                        </div>
                                                     @endif
                                                 </div>
                                                 <div class="mb-3 col-md-12">
@@ -236,7 +261,8 @@
                                                         id="formFile">
                                                     @if ($errors->has('cr_carousel_image_logo_fullname_update'))
                                                         <div class="text-danger text-start ">
-                                                            {{ $errors->first('cr_carousel_image_logo_fullname_update') }}</div>
+                                                            {{ $errors->first('cr_carousel_image_logo_fullname_update') }}
+                                                        </div>
                                                     @endif
                                                 </div>
                                             </div>
