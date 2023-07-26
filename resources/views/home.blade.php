@@ -691,7 +691,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -1752,834 +1752,160 @@
                                                             class="ae-post-collection ae-swiper-container swiper-container">
                                                             <div
                                                                 class="ae-post-widget-wrapper ae-swiper-wrapper swiper-wrapper">
+                                                                @foreach ($carousels as $carousel)
+                                                                    <article
+                                                                        class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
+                                                                        <div
+                                                                            class="ae-post-item-inner ae-swiper-slide-wrapper">
+                                                                            <div class="ae_data elementor elementor-3493">
+                                                                                <div data-elementor-type="wp-post"
+                                                                                    data-elementor-id="3493"
+                                                                                    class="elementor elementor-3493">
+                                                                                    <section
+                                                                                        class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                        data-id="82e7375"
+                                                                                        data-element_type="section">
+                                                                                        <div
+                                                                                            class="elementor-container elementor-column-gap-no">
+                                                                                            <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
+                                                                                                data-id="4202038"
+                                                                                                data-element_type="column">
+                                                                                                <div
+                                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                                    <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
+                                                                                                        data-id="30a001d"
+                                                                                                        data-element_type="widget"
+                                                                                                        data-widget_type="image.default">
+                                                                                                        <div
+                                                                                                            class="elementor-widget-container">
+                                                                                                            <picture>
+                                                                                                                <source
+                                                                                                                    type="image/webp"
+                                                                                                                    srcset="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}">
+                                                                                                                <img width="683"
+                                                                                                                    height="346"
+                                                                                                                    class="hfe-site-logo-img elementor-animation- lazy"
+                                                                                                                    src="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}"
+                                                                                                                    data-src="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}"
+                                                                                                                    class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
+                                                                                                                    alt="">
+                                                                                                            </picture>
 
-                                                                <article
-                                                                    class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
-                                                                    <div
-                                                                        class="ae-post-item-inner ae-swiper-slide-wrapper">
-                                                                        <div class="ae_data elementor elementor-3493">
-                                                                            <div data-elementor-type="wp-post"
-                                                                                data-elementor-id="3493"
-                                                                                class="elementor elementor-3493">
-                                                                                <section
-                                                                                    class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                    data-id="82e7375"
-                                                                                    data-element_type="section">
-                                                                                    <div
-                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                        <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
-                                                                                            data-id="4202038"
-                                                                                            data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                                                                                    data-id="30a001d"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="image.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10019.webp') }}">
-                                                                                                            <img width="683"
-                                                                                                                height="346"
-                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10019.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10019.svg') }}"
-                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                alt="">
-                                                                                                        </picture>
-
+                                                                                                        </div>
                                                                                                     </div>
-                                                                                                </div>
-                                                                                                <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                    data-id="05aa56c"
-                                                                                                    data-element_type="section"
-                                                                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                    <div
-                                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
-                                                                                                            data-id="98ca8e2"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                                                                                                    data-id="93c2f2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="image.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
+                                                                                                    <section
+                                                                                                        data-ae-url="#"
+                                                                                                        class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
+                                                                                                        data-id="05aa56c"
+                                                                                                        data-element_type="section"
+                                                                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                        <div
+                                                                                                            class="elementor-container elementor-column-gap-no">
+                                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
+                                                                                                                data-id="98ca8e2"
+                                                                                                                data-element_type="column">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                    <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
+                                                                                                                        data-id="93c2f2b"
+                                                                                                                        data-element_type="widget"
+                                                                                                                        data-widget_type="image.default">
+                                                                                                                        <div
+                                                                                                                            class="elementor-widget-container">
 
-                                                                                                                        <picture>
-                                                                                                                            <source
-                                                                                                                                type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/TotalEnergies_Logo_RGB.webp') }}">
-                                                                                                                            <img width="118"
-                                                                                                                                height="93"
-                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/TotalEnergies_Logo_RGB.png') }}"
-                                                                                                                                alt="">
-                                                                                                                        </picture>
+                                                                                                                            <picture>
+                                                                                                                                <source
+                                                                                                                                    type="image/webp"
+                                                                                                                                    srcset="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}">
+                                                                                                                                <img width="118"
+                                                                                                                                    height="93"
+                                                                                                                                    class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
+                                                                                                                                    src="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
+                                                                                                                                    data-src="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
+                                                                                                                                    alt="">
+                                                                                                                            </picture>
+                                                                                                                        </div>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
-                                                                                                        </div>
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
-                                                                                                            data-id="ae9ce94"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="0333663"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <h5
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Total
-                                                                                                                            Marketing
-                                                                                                                            France
-                                                                                                                        </h5>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="fc918ed"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <p
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Accompagnement
-                                                                                                                            dans
-                                                                                                                            la
-                                                                                                                            transformation
-                                                                                                                            du
-                                                                                                                            domaine
-                                                                                                                            métier
-                                                                                                                            certificat
-                                                                                                                            d’économie
-                                                                                                                            d’énergie
-                                                                                                                            (CEE)
-                                                                                                                        </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="236ed2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <span
-                                                                                                                            class="elementor-heading-title elementor-size-default"><span>Architecture
-                                                                                                                                Digitale</span></span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                                                                                    data-id="dbf4b4c"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="button.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
+                                                                                                            <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
+                                                                                                                data-id="ae9ce94"
+                                                                                                                data-element_type="column">
+                                                                                                                <div
+                                                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                    <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
+                                                                                                                        data-id="0333663"
+                                                                                                                        data-element_type="widget"
+                                                                                                                        data-widget_type="heading.default">
                                                                                                                         <div
-                                                                                                                            class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="#"
-                                                                                                                                aria-label="post"
-                                                                                                                                class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                                role="button">
-                                                                                                                                <span
-                                                                                                                                    class="elementor-button-content-wrapper">
+                                                                                                                            class="elementor-widget-container">
+                                                                                                                            <h5
+                                                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                                                {{ $carousel->carousel_title }}
+                                                                                                                            </h5>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
+                                                                                                                        data-id="fc918ed"
+                                                                                                                        data-element_type="widget"
+                                                                                                                        data-widget_type="heading.default">
+                                                                                                                        <div
+                                                                                                                            class="elementor-widget-container">
+                                                                                                                            <p
+                                                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                                                {{ $carousel->carousel_desc }}
+                                                                                                                            </p>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
+                                                                                                                        data-id="236ed2b"
+                                                                                                                        data-element_type="widget"
+                                                                                                                        data-widget_type="heading.default">
+                                                                                                                        <div
+                                                                                                                            class="elementor-widget-container">
+                                                                                                                            <span
+                                                                                                                                class="elementor-heading-title elementor-size-default"><span>{{ $carousel->carousel_footer }}</span></span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                                                                                                        data-id="dbf4b4c"
+                                                                                                                        data-element_type="widget"
+                                                                                                                        data-widget_type="button.default">
+                                                                                                                        <div
+                                                                                                                            class="elementor-widget-container">
+                                                                                                                            <div
+                                                                                                                                class="elementor-button-wrapper icon_align_left  ">
+                                                                                                                                <a href="#"
+                                                                                                                                    aria-label="post"
+                                                                                                                                    class="elementor-button-link elementor-button elementor-size-sm"
+                                                                                                                                    role="button">
                                                                                                                                     <span
-                                                                                                                                        class="elementor-button-icon elementor-align-icon-left">
-                                                                                                                                        <i aria-hidden="true"
-                                                                                                                                            class="fas fa-arrow-right"></i>
+                                                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                                                        <span
+                                                                                                                                            class="elementor-button-icon elementor-align-icon-left">
+                                                                                                                                            <i aria-hidden="true"
+                                                                                                                                                class="fas fa-arrow-right"></i>
+                                                                                                                                        </span>
+                                                                                                                                        <span
+                                                                                                                                            class="elementor-button-text"></span>
                                                                                                                                     </span>
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-text"></span>
-                                                                                                                                </span>
-                                                                                                                            </a>
+                                                                                                                                </a>
+                                                                                                                            </div>
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
-                                                                                                    </div>
-                                                                                                </section>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-
-
-                                                                <article
-                                                                    class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
-                                                                    <div
-                                                                        class="ae-post-item-inner ae-swiper-slide-wrapper">
-                                                                        <div class="ae_data elementor elementor-3493">
-                                                                            <div data-elementor-type="wp-post"
-                                                                                data-elementor-id="3493"
-                                                                                class="elementor elementor-3493">
-                                                                                <section
-                                                                                    class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                    data-id="82e7375"
-                                                                                    data-element_type="section">
-                                                                                    <div
-                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                        <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
-                                                                                            data-id="4202038"
-                                                                                            data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                                                                                    data-id="30a001d"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="image.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10021.webp') }}">
-                                                                                                            <img width="683"
-                                                                                                                height="346"
-                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10021.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10021.svg') }}"
-                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                alt="">
-                                                                                                        </picture>
-                                                                                                    </div>
+                                                                                                    </section>
                                                                                                 </div>
-                                                                                                <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                    data-id="05aa56c"
-                                                                                                    data-element_type="section"
-                                                                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                    <div
-                                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
-                                                                                                            data-id="98ca8e2"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                                                                                                    data-id="93c2f2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="image.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <picture>
-                                                                                                                            <source
-                                                                                                                                type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.webp') }}">
-                                                                                                                            <img width="118"
-                                                                                                                                height="93"
-                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO-Conseil-national-des-barreaux.png') }}"
-                                                                                                                                alt="">
-                                                                                                                        </picture>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
-                                                                                                            data-id="ae9ce94"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="0333663"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <h5
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Conseil
-                                                                                                                            National
-                                                                                                                            des
-                                                                                                                            Barreaux
-                                                                                                                        </h5>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="fc918ed"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <p
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Accompagnement
-                                                                                                                            dans
-                                                                                                                            la
-                                                                                                                            refonte
-                                                                                                                            des
-                                                                                                                            applications
-                                                                                                                            web
-                                                                                                                            et
-                                                                                                                            mobiles
-                                                                                                                            (back
-                                                                                                                            office
-                                                                                                                            et
-                                                                                                                            front
-                                                                                                                            office)
-                                                                                                                            pour
-                                                                                                                            les
-                                                                                                                            avocats
-                                                                                                                        </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="236ed2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <span
-                                                                                                                            class="elementor-heading-title elementor-size-default"><span>Digital
-                                                                                                                                Factory</span></span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                                                                                    data-id="dbf4b4c"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="button.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <div
-                                                                                                                            class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="#"
-                                                                                                                                aria-label="post"
-                                                                                                                                class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                                role="button">
-                                                                                                                                <span
-                                                                                                                                    class="elementor-button-content-wrapper">
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-icon elementor-align-icon-left">
-                                                                                                                                        <i aria-hidden="true"
-                                                                                                                                            class="fas fa-arrow-right"></i>
-                                                                                                                                    </span>
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-text"></span>
-                                                                                                                                </span>
-                                                                                                                            </a>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </section>
                                                                                             </div>
                                                                                         </div>
-                                                                                    </div>
-                                                                                </section>
+                                                                                    </section>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
-                                                                    </div>
-                                                                </article>
-
-
-                                                                <article
-                                                                    class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
-                                                                    <div
-                                                                        class="ae-post-item-inner ae-swiper-slide-wrapper">
-                                                                        <div class="ae_data elementor elementor-3493">
-                                                                            <div data-elementor-type="wp-post"
-                                                                                data-elementor-id="3493"
-                                                                                class="elementor elementor-3493">
-                                                                                <section
-                                                                                    class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                    data-id="82e7375"
-                                                                                    data-element_type="section">
-                                                                                    <div
-                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                        <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
-                                                                                            data-id="4202038"
-                                                                                            data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                                                                                    data-id="30a001d"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="image.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10023.webp') }}">
-                                                                                                            <img width="683"
-                                                                                                                height="346"
-                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10023.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10023.svg') }}"
-                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                alt="">
-                                                                                                        </picture>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                    data-id="05aa56c"
-                                                                                                    data-element_type="section"
-                                                                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                    <div
-                                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
-                                                                                                            data-id="98ca8e2"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                                                                                                    data-id="93c2f2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="image.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <picture>
-                                                                                                                            <source
-                                                                                                                                type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ROUSSELET.webp') }}">
-                                                                                                                            <img width="118"
-                                                                                                                                height="93"
-                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ROUSSELET.png') }}"
-                                                                                                                                alt="">
-                                                                                                                        </picture>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
-                                                                                                            data-id="ae9ce94"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="0333663"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <h5
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Rousselet
-                                                                                                                        </h5>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="fc918ed"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <p
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Mise
-                                                                                                                            en
-                                                                                                                            place
-                                                                                                                            et
-                                                                                                                            animation
-                                                                                                                            de
-                                                                                                                            la
-                                                                                                                            cellule
-                                                                                                                            de
-                                                                                                                            gouvernance
-                                                                                                                            du
-                                                                                                                            SI.
-                                                                                                                        </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="236ed2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <span
-                                                                                                                            class="elementor-heading-title elementor-size-default"><span>Architecture
-                                                                                                                                Digitale</span></span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                                                                                    data-id="dbf4b4c"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="button.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <div
-                                                                                                                            class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="#"
-                                                                                                                                aria-label="post"
-                                                                                                                                class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                                role="button">
-                                                                                                                                <span
-                                                                                                                                    class="elementor-button-content-wrapper">
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-icon elementor-align-icon-left">
-                                                                                                                                        <i aria-hidden="true"
-                                                                                                                                            class="fas fa-arrow-right"></i>
-                                                                                                                                    </span>
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-text"></span>
-                                                                                                                                </span>
-                                                                                                                            </a>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </section>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-
-
-                                                                <article
-                                                                    class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
-                                                                    <div
-                                                                        class="ae-post-item-inner ae-swiper-slide-wrapper">
-                                                                        <div class="ae_data elementor elementor-3493">
-                                                                            <div data-elementor-type="wp-post"
-                                                                                data-elementor-id="3493"
-                                                                                class="elementor elementor-3493">
-                                                                                <section
-                                                                                    class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                    data-id="82e7375"
-                                                                                    data-element_type="section">
-                                                                                    <div
-                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                        <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
-                                                                                            data-id="4202038"
-                                                                                            data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                                                                                    data-id="30a001d"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="image.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10015.webp') }}">
-                                                                                                            <img width="683"
-                                                                                                                height="346"
-                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10015.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10015.svg') }}"
-                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                alt="">
-                                                                                                        </picture>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                    data-id="05aa56c"
-                                                                                                    data-element_type="section"
-                                                                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                    <div
-                                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
-                                                                                                            data-id="98ca8e2"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                                                                                                    data-id="93c2f2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="image.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <picture>
-                                                                                                                            <source
-                                                                                                                                type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/LOGO_ENEDIS.webp') }}">
-                                                                                                                            <img width="118"
-                                                                                                                                height="93"
-                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/LOGO_ENEDIS.png') }}"
-                                                                                                                                alt="">
-                                                                                                                        </picture>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
-                                                                                                            data-id="ae9ce94"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="0333663"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <h5
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Enedis
-                                                                                                                        </h5>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="fc918ed"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <p
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Définition
-                                                                                                                            de
-                                                                                                                            la
-                                                                                                                            stratégie
-                                                                                                                            et
-                                                                                                                            des
-                                                                                                                            bonnes
-                                                                                                                            pratiques
-                                                                                                                            de
-                                                                                                                            tests
-                                                                                                                            de
-                                                                                                                            la
-                                                                                                                            plateforme
-                                                                                                                            de
-                                                                                                                            tests
-                                                                                                                            automatisées.
-                                                                                                                        </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="236ed2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <span
-                                                                                                                            class="elementor-heading-title elementor-size-default"><span>Assistance
-                                                                                                                                à
-                                                                                                                                maîtrise
-                                                                                                                                d'ouvrage
-                                                                                                                                et
-                                                                                                                                pilotage</span></span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                                                                                    data-id="dbf4b4c"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="button.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <div
-                                                                                                                            class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="#"
-                                                                                                                                aria-label="post"
-                                                                                                                                class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                                role="button">
-                                                                                                                                <span
-                                                                                                                                    class="elementor-button-content-wrapper">
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-icon elementor-align-icon-left">
-                                                                                                                                        <i aria-hidden="true"
-                                                                                                                                            class="fas fa-arrow-right"></i>
-                                                                                                                                    </span>
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-text"></span>
-                                                                                                                                </span>
-                                                                                                                            </a>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </section>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-
-
-                                                                <article
-                                                                    class="ae-post-item ae-post-item-5caf354e ae-swiper-slide swiper-slide">
-                                                                    <div
-                                                                        class="ae-post-item-inner ae-swiper-slide-wrapper">
-                                                                        <div class="ae_data elementor elementor-3493">
-                                                                            <div data-elementor-type="wp-post"
-                                                                                data-elementor-id="3493"
-                                                                                class="elementor elementor-3493">
-                                                                                <section
-                                                                                    class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-82e7375 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                    data-id="82e7375"
-                                                                                    data-element_type="section">
-                                                                                    <div
-                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                        <div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4202038 ae-bg-gallery-type-default"
-                                                                                            data-id="4202038"
-                                                                                            data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                <div class="elementor-element elementor-element-30a001d elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                                                                                    data-id="30a001d"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="image.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-                                                                                                        <picture>
-                                                                                                            <source
-                                                                                                                type="image/webp"
-                                                                                                                srcset="{{ asset('images/home/10017.webp') }}">
-                                                                                                            <img width="683"
-                                                                                                                height="346"
-                                                                                                                class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                src="{{ asset('images/home/10017.svg') }}"
-                                                                                                                data-src="{{ asset('images/home/10017.svg') }}"
-                                                                                                                class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
-                                                                                                                alt="">
-                                                                                                        </picture>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <section data-ae-url="#"
-                                                                                                    class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-05aa56c reference-content-card elementor-section-content-middle ae-link-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default"
-                                                                                                    data-id="05aa56c"
-                                                                                                    data-element_type="section"
-                                                                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                    <div
-                                                                                                        class="elementor-container elementor-column-gap-no">
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98ca8e2 ae-bg-gallery-type-default"
-                                                                                                            data-id="98ca8e2"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-93c2f2b elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                                                                                                    data-id="93c2f2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="image.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <picture>
-                                                                                                                            <source
-                                                                                                                                type="image/webp"
-                                                                                                                                srcset="{{ asset('images/home/Logo_Oui_sncf.webp') }}">
-                                                                                                                            <img width="118"
-                                                                                                                                height="93"
-                                                                                                                                class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
-                                                                                                                                data-src="{{ asset('images/home/Logo_Oui_sncf.png') }}"
-                                                                                                                                alt="">
-                                                                                                                        </picture>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ae9ce94 ae-bg-gallery-type-default"
-                                                                                                            data-id="ae9ce94"
-                                                                                                            data-element_type="column">
-                                                                                                            <div
-                                                                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                <div class="elementor-element elementor-element-0333663 elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="0333663"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <h5
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            OUI.sncf
-                                                                                                                        </h5>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-fc918ed elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="fc918ed"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <p
-                                                                                                                            class="elementor-heading-title elementor-size-default">
-                                                                                                                            Refonte
-                                                                                                                            et
-                                                                                                                            migration
-                                                                                                                            de
-                                                                                                                            l’application
-                                                                                                                            OUI.SNCF
-                                                                                                                        </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-236ed2b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                                                                                                    data-id="236ed2b"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="heading.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <span
-                                                                                                                            class="elementor-heading-title elementor-size-default"><span>Data
-                                                                                                                                Intelligence</span></span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-element elementor-element-dbf4b4c elementor-widget__width-auto elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                                                                                    data-id="dbf4b4c"
-                                                                                                                    data-element_type="widget"
-                                                                                                                    data-widget_type="button.default">
-                                                                                                                    <div
-                                                                                                                        class="elementor-widget-container">
-                                                                                                                        <div
-                                                                                                                            class="elementor-button-wrapper icon_align_left  ">
-                                                                                                                            <a href="#"
-                                                                                                                                aria-label="post"
-                                                                                                                                class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                                                role="button">
-                                                                                                                                <span
-                                                                                                                                    class="elementor-button-content-wrapper">
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-icon elementor-align-icon-left">
-                                                                                                                                        <i aria-hidden="true"
-                                                                                                                                            class="fas fa-arrow-right"></i>
-                                                                                                                                    </span>
-                                                                                                                                    <span
-                                                                                                                                        class="elementor-button-text"></span>
-                                                                                                                                </span>
-                                                                                                                            </a>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </section>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
+                                                                    </article>
+                                                                @endforeach
 
                                                             </div>
 

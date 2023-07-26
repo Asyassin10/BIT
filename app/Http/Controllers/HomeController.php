@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CarouselImage;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
@@ -27,6 +28,7 @@ class HomeController extends Controller
         $title = "BTI - Advisory - Cabinet de conseil en IT";
         $categories = Category::where("url_presentation",$title)->first();
         //Redis::set("BTI_Advisory_Cabinet_de_conseil_en_IT", json_encode($categories->articles));
-         return view('home')->with('title', $title)->with("articles",$categories->articles);
+        $carousels= CarouselImage::all();
+         return view('home')->with('title', $title)->with("articles",$categories->articles)->with('carousels',$carousels);
     }
 }

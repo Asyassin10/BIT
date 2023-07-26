@@ -1,5 +1,5 @@
 @extends('layouts/contentLayoutMaster')
-@section('title', 'Les Catégorie')
+@section('title', 'Carousel')
 
 @section('vendor-style')
     {{-- vendor css files --}}
@@ -51,7 +51,7 @@
             <div class="col-12 w-100">
                 {{-- <a href="{{ route("UploadImageCarousel") }}" class="btn btn-primary">dd</a> --}}
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Ajouter une image
+                    Ajouter
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -70,7 +70,7 @@
                                         <div class="col-md-6">
                                             <input type="text"
                                                 class="form-control @error('cr_carousel_title') is-invalid @enderror "
-                                                placeholder="First name" name="cr_carousel_title" aria-label="le titre">
+                                                placeholder="Titre" name="cr_carousel_title" aria-label="le titre">
                                             @if ($errors->has('cr_carousel_title'))
                                                 <div class="text-danger text-start ">
                                                     {{ $errors->first('cr_carousel_title') }}</div>
@@ -79,7 +79,7 @@
                                         <div class="col-md-6">
                                             <input type="text"
                                                 class="form-control @error('cr_carousel_footer') is-invalid @enderror "
-                                                placeholder="First name" name="cr_carousel_footer" aria-label="sous titre">
+                                                placeholder="Service" name="cr_carousel_footer" aria-label="sous titre">
                                             @if ($errors->has('cr_carousel_footer'))
                                                 <div class="text-danger text-start ">
                                                     {{ $errors->first('cr_carousel_footer') }}</div>
@@ -99,7 +99,7 @@
                                         <br>
                                         <div class="mb-3 col-md-12">
                                             <br>
-                                            <label for="formFile" class="form-label">Default file input example</label>
+                                            <label for="formFile" class="form-label">Image de fond</label>
                                             <input
                                                 class="form-control @error('cr_carousel_image_background') is-invalid @enderror"
                                                 name="cr_carousel_image_background" type="file" id="formFile">
@@ -109,7 +109,7 @@
                                             @endif
                                         </div>
                                         <div class="mb-3 col-md-12">
-                                            <label for="formFile" class="form-label">Default file input example</label>
+                                            <label for="formFile" class="form-label">Logo</label>
                                             <input
                                                 class="form-control @error('cr_carousel_image_logo_fullname') is-invalid @enderror"
                                                 name="cr_carousel_image_logo_fullname" type="file" id="formFile">
@@ -145,7 +145,7 @@
                                 <div class="card-body">
                                     <span class="" style="background-size: cover">
                                         <img class="round"
-                                            src="{{ asset('images/home/' . $inage->carousel_image_logo_fullname_webp) }}"
+                                            src="{{ asset('images/home/' . $inage->carousel_image_logo_fullname) }}"
                                             alt="avatar" height="80" width="80">
                                     </span>
                                     <br><br>
@@ -174,18 +174,82 @@
                                             <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
                                         </svg>
                                     </button>
-                                    <a href="{{ route('DeleteImageCarousel', ['carousel_image_id' => $inage->carousel_image_id]) }}"
-                                        class="btn btn-danger">
-                                        Supprimer  <svg xmlns="http://www.w3.org/2000/svg" class="feather feather-edit font-small-4"" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                            <path d="M20 6a1 1 0 0 1 .117 1.993l-.117 .007h-.081l-.919 11a3 3 0 0 1 -2.824 2.995l-.176 .005h-8c-1.598 0 -2.904 -1.249 -2.992 -2.75l-.005 -.167l-.923 -11.083h-.08a1 1 0 0 1 -.117 -1.993l.117 -.007h16zm-9.489 5.14a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
-                                            <path d="M14 2a2 2 0 0 1 2 2a1 1 0 0 1 -1.993 .117l-.007 -.117h-4l-.007 .117a1 1 0 0 1 -1.993 -.117a2 2 0 0 1 1.85 -1.995l.15 -.005h4z" stroke-width="0" fill="currentColor" />
-                                          </svg></a>
+                                    <a class="btn btn-danger" data-bs-toggle="modal"
+                                        href="#delete_modal{{ $inage->carousel_image_id }}" role="button">Supprimer <svg
+                                            xmlns="http://www.w3.org/2000/svg" class="feather feather-edit font-small-4"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M20 6a1 1 0 0 1 .117 1.993l-.117 .007h-.081l-.919 11a3 3 0 0 1 -2.824 2.995l-.176 .005h-8c-1.598 0 -2.904 -1.249 -2.992 -2.75l-.005 -.167l-.923 -11.083h-.08a1 1 0 0 1 -.117 -1.993l.117 -.007h16zm-9.489 5.14a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z"
+                                                stroke-width="0" fill="currentColor" />
+                                            <path
+                                                d="M14 2a2 2 0 0 1 2 2a1 1 0 0 1 -1.993 .117l-.007 -.117h-4l-.007 .117a1 1 0 0 1 -1.993 -.117a2 2 0 0 1 1.85 -1.995l.15 -.005h4z"
+                                                stroke-width="0" fill="currentColor" />
+                                        </svg></a>
+
                                 </div>
                             </div>
 
+                        </div>
+                        <style>
+                            .icon-box {
+                                width: 80px;
+                                height: 80px;
+                                margin: 0 auto;
+                                border-radius: 50%;
+                                z-index: 9;
+                                text-align: center;
+                                border: 3px solid #f15e5e;
+                            }
+
+                            .icon-box svg {
+                                color: #f15e5e;
+                                height: 79px !important;
+                                width: 40px !important;
+                            }
+                        </style>
+                        {{-- modal delete --}}
+                        <div class="modal fade" id="delete_modal{{ $inage->carousel_image_id }}" aria-hidden="true"
+                            aria-labelledby="delete_modalLabel" tabindex="-1">
+
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="icon-box">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="feather feather-edit font-small-4"
+                                            width="405" height="654" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M20 6a1 1 0 0 1 .117 1.993l-.117 .007h-.081l-.919 11a3 3 0 0 1 -2.824 2.995l-.176 .005h-8c-1.598 0 -2.904 -1.249 -2.992 -2.75l-.005 -.167l-.923 -11.083h-.08a1 1 0 0 1 -.117 -1.993l.117 -.007h16zm-9.489 5.14a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z"
+                                                stroke-width="0" fill="currentColor" />
+                                            <path
+                                                d="M14 2a2 2 0 0 1 2 2a1 1 0 0 1 -1.993 .117l-.007 -.117h-4l-.007 .117a1 1 0 0 1 -1.993 -.117a2 2 0 0 1 1.85 -1.995l.15 -.005h4z"
+                                                stroke-width="0" fill="currentColor" />
+                                        </svg>
+                                    </div>
+                                    <div class="modal-body">
+                                        <center>
+                                            <h4 class="modal-title w-100 mb-2">Es-tu sûr?</h4>
+                                            <p class="text-dark">Voulez-vous vraiment supprimer ? <br> Ce processus ne peut
+                                                pas être annulé.</p>
+
+                                        </center>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a data-bs-dismiss="modal" aria-label="Close" class="btn btn-dark">Annuler</a>
+                                        <a type="submit" class="btn btn-danger"
+                                            href="{{ route('DeleteImageCarousel', ['carousel_image_id' => $inage->carousel_image_id]) }}">Supprimer</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 

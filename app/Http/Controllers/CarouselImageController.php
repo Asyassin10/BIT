@@ -35,7 +35,7 @@ class CarouselImageController extends Controller
                 "carousel_desc" => $request->cr_carousel_desc,
                 "carousel_footer" => $request->cr_carousel_footer,
                 "carousel_footer_link" => "#",
-                "carousel_image_logo_fullname_webp" => "dddd",
+                "carousel_image_logo_fullname_webp" => $cr_carousel_image_logo_fullname_img_full_path,
                 "carousel_image_logo_fullname" => $cr_carousel_image_logo_fullname_img_full_path,
             ]);
             return redirect()->back()->with("success", "sss");
