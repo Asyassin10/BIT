@@ -38,6 +38,7 @@ use App\Http\Controllers\MiscellaneousController;
 use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\ChartsController;
 use App\Http\Controllers\CarouselImageController;
+use App\Http\Controllers\StudyCaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -178,3 +179,4 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
     Route::get('app', [AuthController::class, 'app'])->name('app');
     Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
 });
+Route::get("study_cases/total_marketing_france",[StudyCaseController::class,"total_marketing_france"])->name("total_marketing_france");

@@ -527,3 +527,65 @@
         display: block !important ;
     }
 }
+/*--  etude de cas total_marketing_france --- */
+@media only screen and (max-width: 767px) {
+    .study_cases_image_header {
+        order: 1;
+        background: red !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+.vertical-line {
+  /*   border: 3px solid red; */
+    height: 100%;
+   /*  width: 2%; */
+   background: red;
+   width: 2%;
+
+}
+.vertical-line_part{
+    background: white;
+    height: 40px;
+    width: 100%;
+   /*  margin-top: 50%; */
+   position: relative;
+   top: 11%;
+}
+
+.cercle-line_part{
+    background: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+   /*  margin-top: 50%; */
+   position: relative;
+   top: 30%;
+   left: -30px;
+
+}
+.div_content_container{
+    margin-top: 11%;
+}
+
+.bg_white_content_container{
+    background: #ffffff;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.bg_white_content_header{
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+#form_container_service {
+    width: 60%;
+    margin-left: 15%;
+/*     margin-left: 2%; */
+
+    z-index: 1;
+    position: relative;
+}
