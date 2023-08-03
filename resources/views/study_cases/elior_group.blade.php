@@ -269,7 +269,7 @@
                                     <div class="cercle-line_part "></div> --}}
                                     <div class="vertical-line_part " style="top: 7%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 10%;">1</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 64%;">2</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 62%;">2</div>
                                 </div>
 
                             </div>
