@@ -180,3 +180,5 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
     Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
 });
 Route::get("study_cases/total_marketing_france",[StudyCaseController::class,"total_marketing_france"])->name("total_marketing_france");
+Route::get("study_cases/rousselet",[StudyCaseController::class,"rousselet"])->name("rousselet");
+
