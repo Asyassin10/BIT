@@ -13,4 +13,7 @@ class StudyCaseController extends Controller
     public function rousselet(){
         return view("study_cases.rousselet");
     }
+    public function disneyland_paris(){
+        return view("study_cases.disneyland_paris");
+    }
 }

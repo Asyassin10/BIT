@@ -181,4 +181,6 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
 });
 Route::get("study_cases/total_marketing_france",[StudyCaseController::class,"total_marketing_france"])->name("total_marketing_france");
 Route::get("study_cases/rousselet",[StudyCaseController::class,"rousselet"])->name("rousselet");
+Route::get("study_cases/disneyland-paris",[StudyCaseController::class,"disneyland_paris"])->name("disneyland_paris");
+
 
