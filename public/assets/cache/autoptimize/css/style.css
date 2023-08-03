@@ -551,18 +551,18 @@
     width: 100%;
    /*  margin-top: 50%; */
    position: relative;
-   top: 11%;
+
 }
 
 .cercle-line_part{
     background: white;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
    /*  margin-top: 50%; */
    position: relative;
-   top: 30%;
-   left: -30px;
+
+   left: -35px;
 
 }
 .div_content_container{
