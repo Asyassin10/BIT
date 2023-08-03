@@ -264,9 +264,12 @@
                             style="background: #1c1c1a !important;">
 
                             <div class="col-md-2 d-flex justify-content-center">
-                                <div class="vertical-line p-0 m-0" style="height: 83%;">
-                                    <div class="vertical-line_part "></div>
-                                    <div class="cercle-line_part "></div>
+                                <div class="vertical-line p-0 m-0" style="height: 82%;">
+                                    {{-- <div class="vertical-line_part "></div>
+                                    <div class="cercle-line_part "></div> --}}
+                                    <div class="vertical-line_part " style="top: 7%;"></div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 10%;">1</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 64%;">2</div>
                                 </div>
 
                             </div>
@@ -278,7 +281,7 @@
                                     DSI d’Elior pour réaliser le schéma directeur SI. Ce SDSI a résultat en plusieurs
                                     éléments de transformation avec notamment : </p>
                                 <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4">
+                                    <p class="bg_white_content_header  h4" style="padding-top: 7%;">
                                         Transformation des processus métiers</p>
 
                                     <div class="d-flex align-items-center w-100"
@@ -666,7 +669,7 @@
 
                                 </div>
                                 <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4">
+                                    <p class="bg_white_content_header h4" style="padding-top: 9%;">
                                         Au niveau de l’architecture, nous avons fixé les ambitions suivantes :</p>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
