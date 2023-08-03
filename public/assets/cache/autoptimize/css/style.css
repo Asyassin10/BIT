@@ -539,9 +539,9 @@
 }
 .vertical-line {
   /*   border: 3px solid red; */
-    height: 100%;
+
    /*  width: 2%; */
-   background: red;
+   background: gray;
    width: 2%;
 
 }
