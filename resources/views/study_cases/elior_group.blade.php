@@ -224,16 +224,14 @@
                                 </p>
                                 <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;"
                                     class="ubuntu_font_family">
-                                    Total Marketing France
+                                    Elior Group
                                 </h1>
                                 <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;">
-                                    Accompagnement dans la transofrmation du domain métier certificat d'économied'énergie (
-                                    CFE)
-                                </p>
+                                    Accompagnement à la définition et la mise en œuvre du SDSI et définition de l’offre de
+                                    service de la DSI </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ asset('images/blogimage/total_marketing_french.webp') }}"
-                                    class="m-0 p-0 w-100">
+                                <img src="{{ asset('images/blogimage/Elior Group.png') }}" class="m-0 p-0 w-100">
 
 
                             </div>
@@ -247,16 +245,17 @@
                                         Contexte client
                                     </h4>
                                     <p class="text-left my-4 " style="padding-top: 3%;">
-                                        Le dispositif des CEE repose sur une obligation de réalisation
-                                        d'économies d'énergie imposée par les pouvoirs publics aux
-                                        vendeurs d'énergie appelés les « obligés » (électricité, gaz, GPL,
-                                        chaleur et froid, fioul domestique et carburants pour
-                                        automobiles).
+                                        Fondé en 1991 à partir de la Générale de Restauration (groupe Accor à l’époque), le
+                                        groupe Elior est aujourd’hui un acteur majeur de la restauration collective et de
+                                        concession en France.
                                     </p>
                                     <p class="text-left mt-2">
-                                        Dans le cadre de la fusion de plusieurs filiales de Total sous Total Marketing
-                                        France, nous avons accompagnés la DOSI dans l'étude des processus métiers CEE
-                                        des différentes filiales et dans la proposition de cible organisationnelle et de
+                                        En 2018, l’arrivée d’un nouveau Directeur des Systèmes d’Information (DSI) a donné
+                                        un nouvel élan stratégique à l’entreprise, avec des investissements accrus dans les
+                                        initiatives stratégiques. Ces initiatives comprennent une stratégie de croissance
+                                        par acquisitions aux États-Unis et en Asie, le développement de nouvelles activités
+                                        axées sur l’expérience client intelligente, ainsi que la mise en place de processus
+                                        industrialisés et sécurisés au niveau du groupe.
                                     </p>
                                 </div>
                             </div>
@@ -266,24 +265,22 @@
 
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div class="vertical-line p-0 m-0" style="height: 83%;">
-                                    <div class="vertical-line_part" style="top: 5.5%;"></div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 9%;">1</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 38%;">2</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 57%;">3</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 69%;">4</div>
+                                    <div class="vertical-line_part "></div>
+                                    <div class="cercle-line_part "></div>
                                 </div>
 
                             </div>
                             <div class="col-md-9 div_content_container">
 
                                 <h3 class="text-white mb-4" style="margin-left: 5%;">Nos réalisations et méthodologie
-                                    adoptée :</h3>
-                                <p class="text-white" style="margin-left: 5%;">Dans ce contexte, notre intervention a
-                                    porté sur :</p>
+                                    adoptée : </h3>
+                                <p class="text-white" style="margin-left: 5%;">Nous avons accompagné le CIO Office de la
+                                    DSI d’Elior pour réaliser le schéma directeur SI. Ce SDSI a résultat en plusieurs
+                                    éléments de transformation avec notamment : </p>
                                 <div class="bg_white_content_container">
                                     <p class="bg_white_content_header h4">
-                                        Aide à l'analyse de l'existant pour l'ensemble des :
-                                    </p>
+                                        Transformation des processus métiers</p>
+
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
@@ -309,8 +306,9 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Comprendre la stratégie avec les partenaires et relation avec les
-                                                        nouveaux acteurs
+                                                        Mise en place d’un système de back-office commun et intégré pour les
+                                                        finances et la production, offrant des processus, des outils et des
+                                                        KPI standardisés à tous les niveaux de l’organisation
                                                     </p>
                                                 </div>
                                             </div>
@@ -342,8 +340,48 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Conduire des entretiens pour confirmer la compréhension de la
-                                                        stratégie actuelle avec
+                                                        Rapports de gestion en temps réel pour suivre et contrôler les
+                                                        opérations </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <p class="bg_white_content_header h4">
+                                        Amélioration des systèmes opérationnels</p>
+
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Renforcement du poste de travail des gestionnaires de site pour leur
+                                                        donner plus de pouvoir dans la gestion numérique, y compris la
+                                                        gestion des menus, des coûts, des marges, de la demande et de la
+                                                        main-d’œuvre
                                                     </p>
                                                 </div>
                                             </div>
@@ -375,7 +413,113 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Analyse des processus métiers existants.
+                                                        Flexibilité des systèmes de front office pour répondre aux besoins
+                                                        locaux tout en bénéficiant des innovations provenant du groupe ou
+                                                        d’autres pays / BU </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4 pb-4"
+                                                    style="height: 100%">
+                                                    <p>
+                                                        Mise en place d’outils flexibles pour la gestion et la planification
+                                                        de la main-d’œuvre</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4 pb-4"
+                                                    style="height: 100%">
+                                                    <p>
+                                                        Utilisation de systèmes de points de vente intelligents, flexibles
+                                                        et connectés</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="bg_white_content_header h4">
+                                        Exploitation des capacités d’analyse et de données</p>
+
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Utilisation de données sur les consommateurs et de sources externes
+                                                        pour mieux prévoir la demande et améliorer l’efficacité des ventes
                                                     </p>
                                                 </div>
                                             </div>
@@ -407,7 +551,151 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Analyse des impacts sur le SI de Total Marketing France
+                                                        Traçabilité, hygiène et anticipation des risques de qualité </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4 pb-4"
+                                                    style="height: 100%">
+                                                    <p>
+                                                        Offre d’une nouvelle expérience au consommateur grâce à des
+                                                        capacités numériques</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <p class="bg_white_content_header h4">
+                                        Modernisation des systèmes financiers</p>
+
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Mise en place d’un système financier basé sur SAP et d’outils
+                                                        complémentaires pour la trésorerie et la consolidation
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Définition d’un modèle et de systèmes financiers capables de fournir
+                                                        une gestion de la performance et de la rentabilité à tous les
+                                                        niveaux de l’organisation </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                                <div class="bg_white_content_container">
+                                    <p class="bg_white_content_header h4">
+                                        Au niveau de l’architecture, nous avons fixé les ambitions suivantes :</p>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Utilisation d’une architecture ouverte pour faciliter l’intégration
+                                                        d’applications mobiles, de solutions cloud externes et d’autres
+                                                        innovations, tout en adoptant une approche agile
                                                     </p>
                                                 </div>
                                             </div>
@@ -439,7 +727,9 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Analyse des contrats d'interfaces existants
+                                                        Adoption d’une architecture cible « orientée API » pour décomposer
+                                                        les fonctionnalités actuellement intégrées verticalement dans les
+                                                        solutions POS
                                                     </p>
                                                 </div>
                                             </div>
@@ -471,7 +761,9 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Analyse des contrats d'interfaces existants
+                                                        Mise en place de composants de canaux numériques tels que PIM / PCM,
+                                                        CRM et API/SOA, connectés aux systèmes de back-office
+                                                        transactionnels
                                                     </p>
                                                 </div>
                                             </div>
@@ -503,72 +795,9 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Formalisation d'une cartographie fonctionnelle de l'existant
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Formalisation de diagrammes de séquences pour l'ensemble des
-                                                        filiales
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Identifiant pour points communs et de points divergents
+                                                        Développement d’une start-up agile et légère pour les nouveaux
+                                                        services, en utilisant des approches telles que MVP (Minimum Viable
+                                                        Product) et Proof of Concept.
                                                     </p>
                                                 </div>
                                             </div>
@@ -600,377 +829,13 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Comprendre la relation actuelle métier / SI et la perception du
-                                                        service mis en place par
-                                                    </p>
+                                                        Adoption d’une approche « Cloud + Mobile d’abord » pour soutenir les
+                                                        processus numériques </p>
                                                 </div>
                                             </div>
                                         </div>
 
                                     </div>
-
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4">
-                                        Appui à la définition du scénario cible de
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Projeter les besoins recueillis sur les cartographies afin d'obtenir
-                                                        les premiers contours de
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Conduire une analyse d'écarts en comparant la cible (modélisée à
-                                                        partir de cartographies)
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Modéliser les scénarios cible répondant aux besoins de la fusion des
-                                                        filiales.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        La définition de la cible passe par l'établissement de plusieurs
-                                                        scénarios d'évolution plus
-                                                        ou moins en rupture avec l'existant. Les scénarios seront préparés
-                                                        par nos soins et
-                                                        analysés avec l'équipe projet lors de 2 demi-journées de travail.
-                                                        Cette analyse de
-                                                        scénarios, faite sur la base des enjeux métiers et SI, doit
-                                                        permettre de conforter des choix
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 9%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Organiser des ateliers avec les parties prenantes pour discuter des
-                                                        propositions et valider
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4">
-                                        Aide à la définition de la roadmap et assistance au
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Prioriser les initiatives en fonction des gains attendus (nouvelles
-                                                        fonctionnalités,
-                                                        nouveaux services, optimisation des processus,) au regard du coût et
-                                                        de la complexité de
-                                                        mise en oeuvre (impact sur les Métiers, impact sur les ressources
-                                                        actuelles)
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Projeter les besoins recueillis sur les cartographies afin d'obtenir
-                                                        les premiers contours de
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4">
-                                        Appui au pilotage du plan de transformation du
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Mise en place et animation de la gouvernance du projet
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Aide à la décision et conseil
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Rédaction des livrables du projet (tableau de bord, compte-rendu de
-                                                        réunion, maj de la
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
 
                                 </div>
                                 <div id="form_container_service" style="margin-top: 5%;"

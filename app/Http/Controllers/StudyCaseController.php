@@ -16,4 +16,7 @@ class StudyCaseController extends Controller
     public function disneyland_paris(){
         return view("study_cases.disneyland_paris");
     }
+    public function elior_group(){
+        return view("study_cases.elior_group");
+    }
 }
