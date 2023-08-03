@@ -269,8 +269,9 @@
 
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div class="vertical-line p-0 m-0" style="height: 83%;">
-                                    <div class="vertical-line_part "></div>
-                                    <div class="cercle-line_part "></div>
+                                    <div class="vertical-line_part " style="top: 9%;"></div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 13%;">1</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 26%;">2</div>
                                 </div>
 
                             </div>
@@ -282,7 +283,7 @@
                                     porté sur :</p>
                                 <div class="bg_white_content_container">
                                     <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        style="width:100%;margin-left: 0%;padding-top: 4%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
                                             <div class="bg-white d-none d-md-block" style="width: 5%;">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
