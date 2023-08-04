@@ -28,4 +28,7 @@ class StudyCaseController extends Controller
     public function randstad(){
         return view("study_cases.randstad");
     }
+    public function Médiamétrie(){
+        return view("study_cases.Médiamétrie");
+    }
 }

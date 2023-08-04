@@ -186,6 +186,8 @@ Route::get("study_cases/elior-group",[StudyCaseController::class,"elior_group"])
 Route::get("study_cases/servier",[StudyCaseController::class,"servier"])->name("servier");
 Route::get("study_cases/enedis",[StudyCaseController::class,"enedis"])->name("enedis");
 Route::get("study_cases/randstad",[StudyCaseController::class,"randstad"])->name("randstad");
+Route::get("study_cases/médiamétrie",[StudyCaseController::class,"Médiamétrie"])->name("Médiamétrie");
+
 
 
 
