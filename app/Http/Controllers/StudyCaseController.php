@@ -22,4 +22,7 @@ class StudyCaseController extends Controller
     public function servier(){
         return view("study_cases.servier");
     }
+    public function enedis(){
+        return view("study_cases.enedis");
+    }
 }

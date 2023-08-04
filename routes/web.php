@@ -184,6 +184,8 @@ Route::get("study_cases/rousselet",[StudyCaseController::class,"rousselet"])->na
 Route::get("study_cases/disneyland-paris",[StudyCaseController::class,"disneyland_paris"])->name("disneyland_paris");
 Route::get("study_cases/elior-group",[StudyCaseController::class,"elior_group"])->name("elior_group");
 Route::get("study_cases/servier",[StudyCaseController::class,"servier"])->name("servier");
+Route::get("study_cases/enedis",[StudyCaseController::class,"enedis"])->name("enedis");
+
 
 
 
