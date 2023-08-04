@@ -25,4 +25,7 @@ class StudyCaseController extends Controller
     public function enedis(){
         return view("study_cases.enedis");
     }
+    public function randstad(){
+        return view("study_cases.randstad");
+    }
 }
