@@ -224,14 +224,13 @@
                                 </p>
                                 <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;"
                                     class="ubuntu_font_family">
-                                    Médiamétrie
+                                    Docaposte
                                 </h1>
                                 <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;">
-                                    Assistance à maîtrise d’ouvrage et pilotage de projets Agile pour les projets de la DSI.
-                                </p>
+                                    Refonte du SI Digiposte. </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ asset('images/blogimage/Médiamétrie.webp') }}" class="m-0 p-0 w-100">
+                                <img src="{{ asset('images/blogimage/Docaposte.webp') }}" class="m-0 p-0 w-100">
 
 
                             </div>
@@ -245,14 +244,16 @@
                                         Contexte client
                                     </h4>
                                     <p class="text-left my-4 " style="padding-top: 3%;">
-                                        Dans le cadre de sa transition vers le numérique, Médiamétrie, société spécialisée
-                                        dans l’étude des usages des médias, a décidé de renforcer sa mesure d’audience en
-                                        incluant la mesure des programmes visionnés sur les téléphones, ordinateurs,
-                                        tablettes ainsi que ceux regardés en dehors du domicile.
+                                        Digiposte est un service de coffre-fort numérique qui simplifie la vie personnelle
+                                        et administrative des utilisateurs en leur permettant de collecter et de gérer leurs
+                                        documents factures, justificatifs et de réaliser des démarches en ligne.
                                     </p>
                                     <p class="text-left mt-2">
-                                        L’objectif est d’offrir une vision complète des audiences, en plus de celles des
-                                        chaînes de télévision.
+                                        Le service propose également le partage sécurisé de documents à valeur probante avec
+                                        des tiers. Digiposte est accessible via un site web, une application mobile dédiée
+                                        et des applications partenaires utilisant l’API Digiposte. Le service compte plus
+                                        d’un million d’utilisateurs et est en constante évolution pour répondre aux besoins
+                                        des clients.
                                     </p>
                                 </div>
                             </div>
@@ -261,14 +262,15 @@
                             style="background: #1c1c1a !important;">
 
                             <div class="col-md-2 d-flex justify-content-center">
-                                <div class="vertical-line p-0 m-0" style="height: 82%;">
-                                    {{-- <div class="vertical-line_part "></div>
-                                    <div class="cercle-line_part "></div> --}}
+                                <div class="vertical-line p-0 m-0" style="height: 78%;">
                                     <div class="vertical-line_part " style="top: 7%;"></div>
+                                    {{-- <div class="cercle-line_part "></div> --}}
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 10%;">1</div>
+                                        style="top: 12%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 62%;">2</div>
+                                        style="top: 28%;">2</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
+                                        style="top: 57%;">3</div>
                                 </div>
 
                             </div>
@@ -276,12 +278,11 @@
 
                                 <h3 class="text-white mb-4" style="margin-left: 5%;">Nos réalisations et méthodologie
                                     adoptée : </h3>
-                                <p class="text-white" style="margin-left: 5%;">Dans ce contexte, notre intervention a
-                                    porté sur : </p>
+                                <p class="text-white" style="margin-left: 5%;">Au sein de la direction technique de
+                                    Digiposte, notre équipe d’experts a réalisé les travaux suivants :</p>
                                 <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header  h4" style="padding-top: 7%;">
-                                        Mise en place d’une activité de pilotage transverse du programme</p>
-
+                                    <p class=" h4">
+                                    </p>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
@@ -307,8 +308,7 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Pilotage des délais : définition et mise en œuvre de tableaux de
-                                                        bord pour suivre l’avancement des projets
+                                                        Développement de l’API Digiposte et de l’interface web en Angular
                                                     </p>
                                                 </div>
                                             </div>
@@ -340,15 +340,77 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Planning, organisation et suivi : établissement de plannings
-                                                        détaillés de migration en accord avec les orientations stratégiques
-                                                        et le calendrier des fusions</p>
+                                                        Automatisation et industrialisation des tests, du build, de la
+                                                        gestion des livrables et du déploiement en production
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
 
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Ajout et configuration de VMs avec Ansible et migration de
+                                                        l’applicatif PHP sur les VMs
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Mise en place d’un cache pour le coffre-fort de documents avec Vault
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
@@ -375,247 +437,15 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Cohérence transverse : veiller à la séquence des activités et aux
-                                                        interdépendances entre les projets
+                                                        Mise en place d’une application de supervision du routage de
+                                                        documents et du provisioning d’utilisateurs
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header h4" style="padding-top: 9%;">
-                                        Assistance à maîtrise d’ouvrage Agile pour les projets du programme</p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Définition de la roadmap et élaboration du plan de charge pour le
-                                                        budget N+1
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Cadrage des projets et animation d’ateliers avec les parties
-                                                        prenantes
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Priorisation des user stories dans le product backlog
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Rédaction de spécifications fonctionnelles, d’épics et de user
-                                                        stories
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                    style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                    <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
-                                                    </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>Vérification des livrables à la fin de chaque sprint, coordination
-                                                    des déploiements et communication de l’état d’avancement des projets
-                                                    aux parties prenantes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Planification et priorisation des sujets pour les sprints, en
-                                                        soutien à l’équipe de développement</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
-                                                        Accompagnement et conduite du changement pour les utilisateurs
-                                                        finaux</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
+
                                 <div id="form_container_service" style="margin-top: 5%;"
                                     class=" shadow-lg  bg-white rounded">
                                     <br>
@@ -636,47 +466,48 @@
                                         <p for="exampleFormControlInput1" class="form-label">Numéro de téléphone*</p>
                                         <input type="email" class="form-control" id="exampleFormControlInput1"
                                             style="background:#F5F5F5;">
-                                    </div <div class="mb-3 divs_form" id="div_select_option">
-                                    <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
-                                    <select class="form-select " id="drop_down_list" style="">
-                                        <option></option>
+                                    </div>
+                                    <div class="mb-3 divs_form" id="div_select_option">
+                                        <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
+                                        <select class="form-select " id="drop_down_list" style="">
+                                            <option></option>
 
-                                    </select>
+                                        </select>
 
 
+                                    </div>
+                                    <div id="div_textarea" class="mb-3">
+                                        <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
+                                        <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
+                                    </div>
+
+                                    <br>
+                                    <div class="d-flex justify-content-end" id="div_btn_form">
+                                        <button id="btn_form" class="px-3 py-2 text-dark">
+                                            Envoyer
+                                        </button>
+                                    </div>
+                                    <br>
+                                    <br>
                                 </div>
-                                <div id="div_textarea" class="mb-3">
-                                    <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
-                                    <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
-                                </div>
 
-                                <br>
-                                <div class="d-flex justify-content-end" id="div_btn_form">
-                                    <button id="btn_form" class="px-3 py-2 text-dark">
-                                        Envoyer
-                                    </button>
-                                </div>
-                                <br>
-                                <br>
                             </div>
-
                         </div>
-                </div>
 
 
-                <div class="w-100" style="background: #1c1c1a;">
+                        <div class="w-100" style="background: #1c1c1a;">
 
 
-                    <div id="footer_div" class=" shadow-lg  bg_black rounded">
-                        <div class="svg-container">
-                            <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
-                                srcset="" style="margin-top: 150px;">
+                            <div id="footer_div" class=" shadow-lg  bg_black rounded">
+                                <div class="svg-container">
+                                    <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                        srcset="" style="margin-top: 150px;">
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
-                </section>
             </div>
-        </div>
 
 
         </div>

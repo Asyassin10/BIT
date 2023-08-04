@@ -31,4 +31,7 @@ class StudyCaseController extends Controller
     public function Médiamétrie(){
         return view("study_cases.Médiamétrie");
     }
+    public function docaposte(){
+        return view("study_cases.docaposte");
+    }
 }
