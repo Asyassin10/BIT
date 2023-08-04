@@ -19,4 +19,7 @@ class StudyCaseController extends Controller
     public function elior_group(){
         return view("study_cases.elior_group");
     }
+    public function servier(){
+        return view("study_cases.servier");
+    }
 }
