@@ -568,6 +568,9 @@
 .div_content_container{
     margin-top: 11%;
 }
+.div_content_container p{
+    width: 70%;
+}
 
 .bg_white_content_container{
     background: #ffffff;
