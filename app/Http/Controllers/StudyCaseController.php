@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class StudyCaseController extends Controller
 {
     //
+    public function index(){
+        return view("study_cases.index");
+    }
     public function total_marketing_france(){
         return view("study_cases.total_marketing_france");
     }
