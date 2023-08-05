@@ -43,4 +43,7 @@ class StudyCaseController extends Controller
     public function entoria(){
         return view("study_cases.entoria");
     }
+    public function ratp(){
+        return view("study_cases.ratp");
+    }
 }

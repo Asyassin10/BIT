@@ -191,6 +191,7 @@ Route::get("study_cases/médiamétrie",[StudyCaseController::class,"Médiamétri
 Route::get("study_cases/docaposte",[StudyCaseController::class,"docaposte"])->name("docaposte");
 Route::get("study_cases/ouisncf",[StudyCaseController::class,"ouisncf"])->name("ouisncf");
 Route::get("study_cases/entoria",[StudyCaseController::class,"entoria"])->name("entoria");
+Route::get("study_cases/ratp",[StudyCaseController::class,"ratp"])->name("ratp");
 
 
 

@@ -584,6 +584,9 @@
     padding-top: 7%;
     padding-bottom: 7%;
 }
+.bg_white_content_header_flex{
+    margin-left: 5%;
+}
 #form_container_service {
     width: 60%;
     margin-left: 15%;
@@ -591,4 +594,17 @@
 
     z-index: 1;
     position: relative;
+}
+/* .list_style_app_unorder{
+    list-style: none;
+} */
+.list_style_app_unorder li{
+  /*   content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; */
+    color: #FF9900;
+
 }
