@@ -40,4 +40,7 @@ class StudyCaseController extends Controller
     public function ouisncf(){
         return view("study_cases.ouisncf");
     }
+    public function entoria(){
+        return view("study_cases.entoria");
+    }
 }
