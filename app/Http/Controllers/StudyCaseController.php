@@ -37,4 +37,7 @@ class StudyCaseController extends Controller
     public function docaposte(){
         return view("study_cases.docaposte");
     }
+    public function ouisncf(){
+        return view("study_cases.ouisncf");
+    }
 }
