@@ -270,15 +270,15 @@
 
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div class="vertical-line p-0 m-0" style="height: 83%;">
-                                    <div class="vertical-line_part" style="top: 5.5%;"></div>
+                                    <div class="vertical-line_part" style="top: 7%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 9%;">1</div>
+                                        style="top: 11%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 38%;">2</div>
+                                        style="top: 25%;">2</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 57%;">3</div>
+                                        style="top: 42%;">3</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 69%;">4</div>
+                                        style="top: 56%;">4</div>
                                 </div>
 
                             </div>
