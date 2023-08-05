@@ -46,4 +46,11 @@ class StudyCaseController extends Controller
     public function ratp(){
         return view("study_cases.ratp");
     }
+    public function edenred(){
+        return view("study_cases.edenred");
+    }
+    public function federation(){
+        return view("study_cases.federation");
+
+    }
 }

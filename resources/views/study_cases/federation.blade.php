@@ -224,17 +224,15 @@
                                 </p>
                                 <h1 style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;"
                                     class="ubuntu_font_family">
-                                    RATP
+                                    Fédération Française de
+Football
                                 </h1>
                                 <p style="text-align:left;margin-left: 10%;margin-right: 10%;width:80%;">
-                                    Participation à la définition de la stratégie Cloud de l'Usine Digitale de
-                                    la RATP Group.
+                                    Sortie des Ligues & Districts du réseau MPLS la FFF
                                 </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ asset('images/blogimage/RATP.webp') }}" class="m-0 p-0 w-100">
-
-
+                                <img src="{{ asset('images/blogimage/federation_francaise_de_football.webp') }}" class="m-0 p-0 w-100">
                             </div>
                         </div>
                         <div class=" row w-100  tout_nos_services_container" id="">
@@ -246,22 +244,30 @@
                                         Contexte client
                                     </h4>
                                     <p class="text-left my-4 " style="padding-top: 3%;">
-                                        Dans le cadre de la digitalisation de ses règles métier, nous avons
-                                        été sollicités en tant qu'experts Cloud pour accompagner la RATP
-                                        Groupe et ses filiales sur différents enjeux liés à leur système
-                                        d'information.
+                                        La Fédération Française de Football (FFF) fournit des services
+                                        informatiques aux ligues et aux districts, axés sur la structuration et
+                                        la centralisation des données du football, les données financières et
+                                        les outils de communication.
                                     </p>
-                                    <p class="text-left mt-2">
-                                        Notre mission consistait à :
+                                    <p class="text-left my-4 " style="padding-top: 3%;">
+                                        Afin d'améliorer les interactions avec les ligues et les districts dans une optique
+                                        << gagnant-gagnant », la Direction des Systèmes d'Information (DSI) a mis en place
+                                        plusieurs services informatiques, notamment :
                                     </p>
                                     <ul class="list_style_app_unorder">
-                                        <li><span class="text-dark">Définir la stratégie et la gouvernance Cloud;</span>
+                                        <li><span class="text-dark">Un réseau d'interconnexion national Completel (SDSL/fibre/lignes spécialisées), un
+                                            hébergement national et un annuaire de sécurité.</span>
                                         </li>
-                                        <li><span class="text-dark">Apporter un soutien au pilotage du programme de l'Usine
-                                                Digitale;</span></li>
-                                        <li><span class="text-dark">Élaborer le Plan de Sécurité des Systèmes d'Information
-                                                (PSSI).</span></li>
+                                        <li><span class="text-dark">Des applications telles que FOOT 2000, Footclubs, Feuille de Match Informatisée,
+                                            Compta CEGID et Open Portal.</span></li>
+                                        <li><span class="text-dark">Des sites internet, une application mobile LFA, une messagerie M@ilodie, des
+                                            services de visioconférence et le Réseau Bleu.</span></li>
+
                                     </ul>
+                                    <p class="text-left" style="padding-top: 5%;">
+                                        Nous sommes intervenus dans le cadre du projet de sorties du MPLS des ligues et
+                                        des districts.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -269,20 +275,12 @@
                             style="background: #1c1c1a !important;">
 
                             <div class="col-md-2 d-flex justify-content-center">
-                                <div class="vertical-line p-0 m-0" style="height: 85%;">
-                                    <div class="vertical-line_part" style="top: 6%;"></div>
+                                <div class="vertical-line p-0 m-0" style="height:78%;">
+                                    <div class="vertical-line_part" style="top: 9%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 8%;">1</div>
+                                        style="top: 12%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 22%;">2</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 30.5%;">3</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 40%;">4</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 48%;">5</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 58%;">6</div>
+                                        style="top: 35%;">2</div>
 
                                 </div>
 
@@ -291,16 +289,184 @@
 
                                 <h3 class="text-white mb-4" style="margin-left: 5%;">Nos réalisations et méthodologie
                                     adoptée :</h3>
-                                <p class="text-white" style="margin-left: 5%;">Dans ce contexte, notre intervention a
-                                    porté sur :</p>
+                                <p class="text-white" style="margin-left: 5%;">
+                                    Voici les principales activités que nous avons réalisées :
+                                </p>
                                 <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex h4" style="padding-top: 7%;">
-                                        Définition de la gouvernance du SI entre la RATP
-                                    </p>
-                                    <p class="bg_white_content_header_flex h4"
-                                        style="padding-top: 1%;padding-bottom: 3%;">
-                                        Groupe et ses filiales
-                                    </p>
+                                    <p class="bg_white_content_header h4">
+                                        Réalisation d'un Proof of Concept (POC) pour
+                                        démontrer la faisabilité technique </p>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;padding-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p class="w-100">
+                                                        Diagnostic de l'environnement des Ligues et Districts (L&D) ainsi que de la FFF en termes
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p class="w-100">
+                                                        Mise en place des prérequis techniques pour le POC, notamment la création d'un réseau
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p class="w-100">
+                                                        Configuration du Cloud Azure, activation des licences d'évaluation M365 E3 et F1,
+                                                        configuration de la messagerie et de l'AD premium P1, et configuration d'Intune et de
+                                                        l'exploration AD join
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Mise en œuvre de l'AD existant, création du sous-domaine avec déploiement du RODC
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="bg_white_content_container">
+                                    <p class="bg_white_content_header h4">
+                                        Lancement du déploiement par lotissement
+                                        les Ligues et Districts </p>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;padding-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Migration vers Windows 10 E3: audit des postes de travail et migration des anciennes
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
@@ -326,7 +492,39 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Identification des acteurs clés (RACI)
+                                                        Attribution des licences aux utilisateurs, paramétrage du pare-feu et configuration du
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Mise en place de la jointure Azure AD, synchronisation Azure AD et AD, rupture du RODC
                                                     </p>
                                                 </div>
                                             </div>
@@ -358,120 +556,14 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p>
-                                                        Mise en place d'une pipeline (CI/CD) et définition des livrables
+                                                        Mise en place de l'infrastructure, enregistrement Intune des appareils mobiles,
+                                                        configuration des collections SharePoint, migration des fichiers vers SharePoint et
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
 
                                     </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Définition des niveaux de services, des responsables et des
-                                                        intervenants
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Mise en place d'une stratégie FinOps
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Harmonisation des technologies utilisées entre les différentes
-                                                        filiales
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex  h4"
-                                        style="padding-top: 8%;padding-bottom: 4%;">
-                                        Définition et implémentation de l'organisation
-                                    </p>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
@@ -496,10 +588,40 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Mise en place de processus et d'outils favorisant la collaboration
-                                                        entre les équipes de
-                                                        développement et d'exploitation
+                                                    <p>
+                                                        Configuration des appareils mobiles, configuration de la connexion CEGID via le client
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>
+                                                        Montée en maturité du correspondant, prise en main d'Azure AD et d'Intune, prise en
                                                     </p>
                                                 </div>
                                             </div>
@@ -531,8 +653,7 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
                                                     <p class="w-100">
-                                                        Définition des rôles et responsabilités au sein de l'organisation
-                                                        DevOps
+                                                        Accompagnement au changement des utilisateurs : guides utilisateurs sur les nouveaux
                                                     </p>
                                                 </div>
                                             </div>
@@ -541,339 +662,7 @@
                                     </div>
 
 
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex  h4"
-                                        style="padding-top: 8%;padding-bottom: 4%;">
-                                        Elaboration du Document d'Architecture
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Définition de la structure du DAT couvrant l'ensemble du système
-                                                        d'information
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Elaboration d'un DAT complet, prenant en compte les aspects
-                                                        technologiques,
-                                                        organisationnels et de sécurité
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex  h4"
-                                        style="padding-top: 8%;padding-bottom: 4%;">
-                                        Plan d'Assurance Sécurité et sécurisation des
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Élaboration du Plan d'Assurance Sécurité (PAS) pour sécuriser les
-                                                        applications déployées
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Sensibilisation des Tech Lead aux enjeux de la RGPD (Règlement
-                                                        Général sur la Protection
-                                                        des Données) et déploiement d'un plan d'action de sécurisation
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex  h4"
-                                        style="padding-top: 8%;padding-bottom: 4%;">
-                                        Diagnostic de maturité de l'exploitation et
-                                        lancement des ateliers d'acculturation
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Évaluation de la maturité de l'exploitation par rapport aux
-                                                        objectifs fixés
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Organisation d'ateliers d'acculturation, de formation et de partage
-                                                        de bonnes pratiques
-                                                        techniques, notamment sur l'utilisation des outils Terraform et Yaml
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="bg_white_content_container">
-                                    <p class="bg_white_content_header_flex  h4"
-                                        style="padding-top: 8%;padding-bottom: 4%;">
-                                        Assistance à la mise en œuvre d'appels d'offres
-                                        pour l'externalisation
-                                    </p>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Rédaction d'une demande d'informations (RFI) pour challenger les
-                                                        candidats
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Définition des critères de sélection et organisation des soutenances
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-flex align-items-center w-100"
-                                        style="width:100%;margin-left: 0%;margin-top: 0%;padding-bottom: 8%;">
-                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                    viewBox="0 0 40 40">
-                                                    <g id="ic_check" transform="translate(9.089 9.089)">
-                                                        <g id="Groupe_1" data-name="Groupe 1"
-                                                            transform="translate(-9.089 -9.089)">
-                                                            <path id="Tracé_2" data-name="Tracé 2"
-                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                                transform="translate(9.089 9.089)" fill="#44b351" />
-                                                        </g>
-                                                        <g id="Groupe_2" data-name="Groupe 2"
-                                                            transform="translate(2.515 5.175)">
-                                                            <path id="Tracé_3" data-name="Tracé 3"
-                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="" style="width: 90%;">
-                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p class="w-100">
-                                                        Choix du partenaire et contractualisation, incluant la rédaction
-                                                        d'un Plan d'Assurance
-                                                        Qualité (PAQ) et la gestion des avenants
-
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
 
 
                                 </div>
@@ -882,7 +671,7 @@
                                     class=" shadow-lg  bg-white rounded">
                                     <br>
                                     <p class="h4 pt-4" id="title_form">
-                                        Construisons votre vision ensemble
+                                        Contacter nos experts
                                     </p>
                                     <div class="mb-3 divs_form">
                                         <p for="exampleFormControlInput1" class="form-label">Nom complet*</p>
