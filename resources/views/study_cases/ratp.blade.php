@@ -268,7 +268,7 @@
                         <div class=" row   tout_nos_services_container " id=""
                             style="background: #1c1c1a !important;">
 
-                            <div class="col-md-2 d-flex justify-content-center">
+                            <div class="col-md-2 d-flex justify-content-center display_only_on_mobile">
                                 <div class="vertical-line p-0 m-0" style="height: 85%;">
                                     <div class="vertical-line_part" style="top: 6%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
