@@ -205,8 +205,8 @@
                                     </li>
                                     <li id="menu-item-79"
                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                        <a href="#"
-                                            class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
+                                        <a href="{{ route('references') }}"
+                                            class="hfe-sub-menu-item">{{ $data[18]->categorie_name }} </a>
                                     </li>
                                 </ul>
                             </li>

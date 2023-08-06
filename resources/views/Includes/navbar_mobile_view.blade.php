@@ -253,7 +253,7 @@
             </div>
 
         </a>
-        <a class="d-flex align-items-center mb-3" href="#">
+        <a class="d-flex align-items-center mb-3" href="{{ route('references') }}">
             <div class="w-75 d-flex align-items-center">
                 <h2 class="mobile_view_navigation_title">
                     Nos études de cas

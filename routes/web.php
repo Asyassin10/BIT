@@ -179,21 +179,24 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
     Route::get('app', [AuthController::class, 'app'])->name('app');
     Route::post('logout/office', 'Auth\AuthController@logout_office')->name('logout_office');
 });
-Route::get("study_cases/index",[StudyCaseController::class,"index"])->name("index");
-Route::get("study_cases/total_marketing_france",[StudyCaseController::class,"total_marketing_france"])->name("total_marketing_france");
-Route::get("study_cases/rousselet",[StudyCaseController::class,"rousselet"])->name("rousselet");
-Route::get("study_cases/disneyland-paris",[StudyCaseController::class,"disneyland_paris"])->name("disneyland_paris");
-Route::get("study_cases/elior-group",[StudyCaseController::class,"elior_group"])->name("elior_group");
-Route::get("study_cases/servier",[StudyCaseController::class,"servier"])->name("servier");
-Route::get("study_cases/enedis",[StudyCaseController::class,"enedis"])->name("enedis");
-Route::get("study_cases/randstad",[StudyCaseController::class,"randstad"])->name("randstad");
-Route::get("study_cases/médiamétrie",[StudyCaseController::class,"Médiamétrie"])->name("Médiamétrie");
-Route::get("study_cases/docaposte",[StudyCaseController::class,"docaposte"])->name("docaposte");
-Route::get("study_cases/ouisncf",[StudyCaseController::class,"ouisncf"])->name("ouisncf");
-Route::get("study_cases/entoria",[StudyCaseController::class,"entoria"])->name("entoria");
-Route::get("study_cases/ratp",[StudyCaseController::class,"ratp"])->name("ratp");
-Route::get("study_cases/edenred",[StudyCaseController::class,"edenred"])->name("edenred");
-Route::get("study_cases/federation",[StudyCaseController::class,"federation"])->name("federation");
+
+Route::get("references",[StudyCaseController::class,"index"])->name("references");
+Route::prefix('references')->group(function () {
+    Route::get("/total-marketing-france",[StudyCaseController::class,"total_marketing_france"])->name("total_marketing_france");
+    Route::get("/rousselet",[StudyCaseController::class,"rousselet"])->name("rousselet");
+    Route::get("/disneyland-paris",[StudyCaseController::class,"disneyland_paris"])->name("disneyland_paris");
+    Route::get("/elior-group",[StudyCaseController::class,"elior_group"])->name("elior_group");
+    Route::get("/servier",[StudyCaseController::class,"servier"])->name("servier");
+    Route::get("/enedis",[StudyCaseController::class,"enedis"])->name("enedis");
+    Route::get("/randstad",[StudyCaseController::class,"randstad"])->name("randstad");
+    Route::get("/médiamétrie",[StudyCaseController::class,"Médiamétrie"])->name("Médiamétrie");
+    Route::get("/docaposte",[StudyCaseController::class,"docaposte"])->name("docaposte");
+    Route::get("/oui-sncf",[StudyCaseController::class,"ouisncf"])->name("ouisncf");
+    Route::get("/entoria",[StudyCaseController::class,"entoria"])->name("entoria");
+    Route::get("/ratp",[StudyCaseController::class,"ratp"])->name("ratp");
+    Route::get("/edenred",[StudyCaseController::class,"edenred"])->name("edenred");
+    Route::get("/fédération-française-de-football",[StudyCaseController::class,"federation"])->name("federation");
+});
 
 
 

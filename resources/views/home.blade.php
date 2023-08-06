@@ -427,7 +427,7 @@
                                                                     </li>
                                                                     <li id="menu-item-79"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page stm_col_width_default stm_mega_cols_inside_default stm_mega_col_width_banner_default hfe-creative-menu">
-                                                                        <a href="#"
+                                                                        <a href="{{ route('references') }}"
                                                                             class="hfe-sub-menu-item">{{ $data[18]->categorie_name }}</a>
                                                                     </li>
                                                                 </ul>
@@ -691,7 +691,7 @@
                                                         /*! elementor - v3.8.1 - 13-11-2022 */
                                                         /* .elementor-element{
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        } */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } */
                                                         .elementor-widget-image {
                                                             text-align: center
                                                         }
@@ -2328,7 +2328,7 @@
         </script>
 
         <script type='module' src='/assets/plugins/elementor-pro/assets/lib/instant-page/instant-page.min.js@ver=3.6.4'
-		id='instant-page-js'></script>
+            id='instant-page-js'></script>
 
 
 
