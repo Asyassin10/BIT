@@ -238,8 +238,8 @@
                         </div>
                         <div class=" row w-100  tout_nos_services_container" id="">
                             <div
-                                class="col-12  tout_nos_services_child_b_1 d-flex align-items-center justify-content-center">
-                                <div class="w-50">
+                                class="col-12  tout_nos_services_child_b_1  d-flex align-items-center justify-content-center">
+                                <div class="w-100 w-md-50  content_centered">
 
                                     <h4 class="text-left my-4" style="color:#FF9900;">
                                         Contexte client
@@ -261,7 +261,7 @@
                         <div class=" row   tout_nos_services_container " id=""
                             style="background: #1c1c1a !important;">
 
-                            <div class="col-md-2 d-flex justify-content-center">
+                            <div class="col-md-2 d-flex justify-content-center display_only_on_mobile">
                                 <div class="vertical-line p-0 m-0" style="height:70%;">
                                     <div class="vertical-line_part" style="top: 15%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
@@ -304,7 +304,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Cadrage des évolutions avec les métiers pour les versions évolutives
                                                     </p>
                                                 </div>
@@ -336,7 +336,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Suivi des versions des applications en production et organisation
                                                         des versions correctives
                                                     </p>
@@ -369,7 +369,7 @@
                                         </div>
                                         <div class="" style="width: 90%;">
                                             <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>
+                                                <p class="w-100">
                                                     Développement et refonte de plusieurs services de l'API Rest
 
                                                 </p>
@@ -402,7 +402,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Développement d'un portail web à bord des TGV
                                                     </p>
                                                 </div>
@@ -434,7 +434,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Initiation de la migration de Angular 1.6 vers React avec création
                                                         de tests
 
@@ -468,7 +468,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Développement, maintenance et intégration
 
                                                     </p>
