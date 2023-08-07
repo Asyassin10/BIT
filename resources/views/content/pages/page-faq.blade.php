@@ -4,13 +4,13 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('css/base/pages/page-faq.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/pages/page-faq.css')) }}">
 @endsection
 
 @section('content')
     <!-- search header -->
     <section id="faq-search-filter">
-        <div class="card faq-search" style="background-image: url('{{ asset('images/banner/banner.png') }}')">
+        <div class="card faq-search" style="background-image: url('{{ secure_asset('images/banner/banner.png') }}')">
             <div class="card-body text-center">
                 <!-- main title -->
                 <h2 class="text-primary">Let's answer some questions</h2>
@@ -87,7 +87,7 @@
                     </ul>
 
                     <!-- FAQ image -->
-                    <img src="{{ asset('images/illustration/faq-illustrations.svg') }}" class="img-fluid d-none d-md-block"
+                    <img src="{{ secure_asset('images/illustration/faq-illustrations.svg') }}" class="img-fluid d-none d-md-block"
                         alt="demand img" />
                 </div>
             </div>

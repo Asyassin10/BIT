@@ -4,19 +4,19 @@
 
 @section('vendor-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/animate/animate.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/animate/animate.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')) }}">
 @endsection
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css')) }}">
 @endsection
 
 @section('content')
@@ -30,7 +30,7 @@
                         <div class="user-avatar-section">
                             <div class="d-flex align-items-center flex-column">
                                 <img class="img-fluid rounded mt-3 mb-2"
-                                    src="{{ asset('images/portrait/small/avatar-s-2.jpg') }}" height="110" width="110"
+                                    src="{{ secure_asset('images/portrait/small/avatar-s-2.jpg') }}" height="110" width="110"
                                     alt="User avatar" />
                                 <div class="user-info text-center">
                                     <h4>Gertrude Barton</h4>
@@ -146,30 +146,30 @@
                 <!-- User Pills -->
                 <ul class="nav nav-pills mb-2">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ asset('app/user/view/account') }}">
+                        <a class="nav-link active" href="{{ secure_asset('app/user/view/account') }}">
                             <i data-feather="user" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Account</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/security') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/security') }}">
                             <i data-feather="lock" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Security</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/billing') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/billing') }}">
                             <i data-feather="bookmark" class="font-medium-3 me-50"></i>
                             <span class="fw-bold">Billing & Plans</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/notifications') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/notifications') }}">
                             <i data-feather="bell" class="font-medium-3 me-50"></i><span
                                 class="fw-bold">Notifications</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('app/user/view/connections') }}">
+                        <a class="nav-link" href="{{ secure_asset('app/user/view/connections') }}">
                             <i data-feather="link" class="font-medium-3 me-50"></i><span
                                 class="fw-bold">Connections</span>
                         </a>
@@ -221,7 +221,7 @@
                                     <p>React Project meeting with john @10:15am</p>
                                     <div class="d-flex flex-row align-items-center mb-50">
                                         <div class="avatar me-50">
-                                            <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar"
+                                            <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar"
                                                 width="38" height="38" />
                                         </div>
                                         <div class="user-info">
@@ -250,7 +250,7 @@
                                     </div>
                                     <p class="mb-0">Create new Invoices and send to Leona Watkins</p>
                                     <div class="d-flex flex-row align-items-center mt-50">
-                                        <img class="me-1" src="{{ asset('images/icons/pdf.png') }}" alt="data.json"
+                                        <img class="me-1" src="{{ secure_asset('images/icons/pdf.png') }}" alt="data.json"
                                             height="25" />
                                         <h6 class="mb-0">Invoices.pdf</h6>
                                     </div>
@@ -288,30 +288,30 @@
 
 @section('vendor-script')
     {{-- Vendor js files --}}
-    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/cleave.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/cleave/addons/cleave-phone.us.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
     {{-- data table --}}
-    <script src="{{ asset(mix('vendors/js/extensions/moment.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/jszip.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/pdfmake.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/vfs_fonts.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.html5.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.print.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.rowGroup.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/extensions/polyfill.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/extensions/moment.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/jszip.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/pdfmake.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/vfs_fonts.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/buttons.html5.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/buttons.print.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/tables/datatable/dataTables.rowGroup.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/extensions/polyfill.min.js')) }}"></script>
 @endsection
 
 @section('page-script')
     {{-- Page js files --}}
-    <script src="{{ asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/app-user-view-account.js')) }}"></script>
-    <script src="{{ asset(mix('js/scripts/pages/app-user-view.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/modal-edit-user.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/app-user-view-account.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/app-user-view.js')) }}"></script>
 @endsection

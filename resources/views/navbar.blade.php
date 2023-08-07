@@ -248,4 +248,4 @@
         </div>
     </div>
 </div>
-<script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+<script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>

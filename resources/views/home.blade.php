@@ -160,10 +160,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -528,7 +528,7 @@
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2:not(.elementor-motion-effects-element-type-background),
                                                         .elementor-6996 .elementor-element.elementor-element-731a00b2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
                                                             background-color: var(--e-global-color-primary);
-                                                            background-image: url("{{ asset('images/home/10029.webp') }}");
+                                                            background-image: url("{{ secure_asset('images/home/10029.webp') }}");
                                                             background-repeat: no-repeat;
                                                             background-size: cover
                                                         }
@@ -730,11 +730,11 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10009.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10009.webp') }}">
                                                         <img width="800" height="447"
                                                             class="hfe-site-logo-img elementor-animation- lazy"
-                                                            src="{{ asset('images/home/10009.png') }}"
-                                                            data-src="{{ asset('images/home/10009.png') }}"
+                                                            src="{{ secure_asset('images/home/10009.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10009.png') }}"
                                                             alt=""
                                                             class="attachment-bloc-image-447x447-cropped size-bloc-image-447x447-cropped lazy">
                                                     </picture>
@@ -820,11 +820,11 @@
                                                 <div class="elementor-widget-container">
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10010.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10010.webp') }}">
                                                         <img style="height: 100%;width: 100%;"
                                                             class="attachment-accueil-nosservices-683x601-cropped size-accueil-nosservices-683x601-cropped lazy"
-                                                            src="{{ asset('images/home/10010.png') }}"
-                                                            data-src="{{ asset('images/home/10010.png') }}"
+                                                            src="{{ secure_asset('images/home/10010.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10010.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -1130,11 +1130,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/webp/Construire-la-vision.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Construire-la-vision.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/webp/Construire-la-vision.webp') }}"
-                                                                                                                    data-src="{{ asset('images/webp/Construire-la-vision.webp') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Construire-la-vision.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1435,11 +1435,11 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}">
+                                                                                                                    srcset="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}">
                                                                                                                 <img style="height: 100%;width: 100%"
                                                                                                                     class="attachment-service-accordeon-538x368-cropped size-service-accordeon-538x368-cropped lazy"
-                                                                                                                    src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
-                                                                                                                    data-src="{{ asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                                                                                                    src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
+                                                                                                                    data-src="{{ secure_asset('images/webp/Accompagner-la-mise-en-oeuvre.webp') }}"
                                                                                                                     alt="">
                                                                                                             </picture>
                                                                                                         </div>
@@ -1781,12 +1781,12 @@
                                                                                                             <picture>
                                                                                                                 <source
                                                                                                                     type="image/webp"
-                                                                                                                    srcset="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}">
+                                                                                                                    srcset="{{ secure_asset('images/home/' . $carousel->carousel_image_full_name) }}">
                                                                                                                 <img width="683"
                                                                                                                     height="346"
                                                                                                                     class="hfe-site-logo-img elementor-animation- lazy"
-                                                                                                                    src="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}"
-                                                                                                                    data-src="{{ asset('images/home/' . $carousel->carousel_image_full_name) }}"
+                                                                                                                    src="{{ secure_asset('images/home/' . $carousel->carousel_image_full_name) }}"
+                                                                                                                    data-src="{{ secure_asset('images/home/' . $carousel->carousel_image_full_name) }}"
                                                                                                                     class="attachment-reference-cover-819x346-cropped size-reference-cover-819x346-cropped lazy"
                                                                                                                     alt="">
                                                                                                             </picture>
@@ -1816,12 +1816,12 @@
                                                                                                                             <picture>
                                                                                                                                 <source
                                                                                                                                     type="image/webp"
-                                                                                                                                    srcset="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}">
+                                                                                                                                    srcset="{{ secure_asset('images/home/' . $carousel->carousel_image_logo_fullname) }}">
                                                                                                                                 <img width="118"
                                                                                                                                     height="93"
                                                                                                                                     class="attachment-slider-logo-118w-cropped size-slider-logo-118w-cropped lazy"
-                                                                                                                                    src="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
-                                                                                                                                    data-src="{{ asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
+                                                                                                                                    src="{{ secure_asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
+                                                                                                                                    data-src="{{ secure_asset('images/home/' . $carousel->carousel_image_logo_fullname) }}"
                                                                                                                                     alt="">
                                                                                                                             </picture>
                                                                                                                         </div>
@@ -2068,7 +2068,7 @@
                                                 data-widget_type="html.default">
                                                 <div class="elementor-widget-container">
                                                     {{-- <script src='https://www.welcomekit.co/assets/embed.js' type='text/javascript'></script> --}}
-                                                    <script src="{{ asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
+                                                    <script src="{{ secure_asset('assets/cache/autoptimize/js/embeded.js') }}"></script>
                                                     <script type='text/javascript'>
                                                         welcomeKitReady(function() {
                                                             var wk = new WelcomeKitEmbed('d4Mb2Yr')
@@ -2117,12 +2117,12 @@
 
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="{{ asset('images/home/10025.webp') }}">
+                                                            srcset="{{ secure_asset('images/home/10025.webp') }}">
                                                         <img style="width: 100%;height:100%;" width="493"
                                                             height="632"
                                                             class="attachment-accueil-nousrejoindre-493x632-cropped size-accueil-nousrejoindre-493x632-cropped lazy"
-                                                            src="{{ asset('images/home/10025.png') }}"
-                                                            data-src="{{ asset('images/home/10025.png') }}"
+                                                            src="{{ secure_asset('images/home/10025.png') }}"
+                                                            data-src="{{ secure_asset('images/home/10025.png') }}"
                                                             alt="">
                                                     </picture>
                                                 </div>
@@ -2593,9 +2593,9 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
-        <script src="{{ asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
-        <script defer src="{{ asset('vendors/js/extensions/swiper.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/cache/autoptimize/js/navbar.js') }}"></script>
+        <script defer src="{{ secure_asset('vendors/js/extensions/swiper.min.js') }}"></script>
 
 
     </body>

@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -232,7 +232,7 @@ Football
                                 </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ asset('images/blogimage/federation_francaise_de_football.webp') }}" class="m-0 p-0 w-100">
+                                <img src="{{ secure_asset('images/blogimage/federation_francaise_de_football.webp') }}" class="m-0 p-0 w-100">
                             </div>
                         </div>
                         <div class=" row w-100  tout_nos_services_container" id="">
@@ -721,7 +721,7 @@ Football
 
                             <div id="footer_div" class=" shadow-lg  bg_black rounded">
                                 <div class="svg-container">
-                                    <img id="footer-image" src="{{ asset('images/webp/ss.webp') }}" alt=""
+                                    <img id="footer-image" src="{{ secure_asset('images/webp/ss.webp') }}" alt=""
                                         srcset="" style="margin-top: 150px;">
                                 </div>
                             </div>
@@ -1127,7 +1127,7 @@ Football
         </script>
 
 
-        <script defer src="{{ asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
+        <script defer src="{{ secure_asset('assets/cache/autoptimize/js/autoptimize_fallback.js') }}"></script>
         <script>
             window.w3tc_lazyload = 1, window.lazyLoadOptions = {
                 elements_selector: ".lazy",
@@ -1148,6 +1148,6 @@ Football
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

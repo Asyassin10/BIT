@@ -9,10 +9,10 @@
                 <a class="navbar-brand" href="{{ route('admin.dashboard') }}">
                     <span class="brand-logo">
                         <picture>
-                            <source type="image/webp" srcset="{{ asset('images/navbar/logo.webp') }}">
+                            <source type="image/webp" srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                             <img class="hfe-site-logo-img elementor-animation- lazy loaded" style="border-radius: 10%;"
-                                src="{{ asset('images/navbar/logo.svg') }}"
-                                data-src="{{ asset('images/navbar/logo.svg') }}" alt=""
+                                src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                data-src="{{ secure_asset('images/navbar/logo.svg') }}" alt=""
                                 data-was-processed="true">
                         </picture>
                     </span>

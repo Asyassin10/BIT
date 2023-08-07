@@ -4,7 +4,7 @@
 
 @section('page-style')
     {{-- Page Css files --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/base/pages/page-blog.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/base/pages/page-blog.css') }}" />
 @endsection
 
 @section('content-sidebar')
@@ -18,18 +18,18 @@
         <div class="row">
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/02.jpg') }}" alt="Blog Post pic" />
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/02.jpg') }}" alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">The Best
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">The Best
                                 Features Coming to iOS and Web
                                 design</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar" width="24"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-7.jpg') }}" alt="Avatar" width="24"
                                     height="24" />
                             </div>
                             <div class="author-info">
@@ -52,13 +52,13 @@
                         </p>
                         <hr />
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="{{ asset('page/blog/detail#blogComment') }}">
+                            <a href="{{ secure_asset('page/blog/detail#blogComment') }}">
                                 <div class="d-flex align-items-center">
                                     <i data-feather="message-square" class="font-medium-1 text-body me-50"></i>
                                     <span class="text-body fw-bold">76 Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -66,18 +66,18 @@
 
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/06.jpg') }}" alt="Blog Post pic" />
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/06.jpg') }}" alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Latest
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Latest
                                 Quirky Opening Sentence or
                                 Paragraph</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-9.jpg') }}" alt="Avatar"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-9.jpg') }}" alt="Avatar"
                                     width="24" height="24" />
                             </div>
                             <div class="author-info">
@@ -106,7 +106,7 @@
                                     <span class="text-body fw-bold">2.1k Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -114,19 +114,19 @@
 
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/04.jpg') }}"
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/04.jpg') }}"
                             alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Share
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Share
                                 an Amazing and Shocking Fact or
                                 Statistic</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-3.jpg') }}" alt="Avatar"
                                     width="24" height="24" />
                             </div>
                             <div class="author-info">
@@ -155,7 +155,7 @@
                                     <span class="text-body fw-bold">243 Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -163,19 +163,19 @@
 
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/03.jpg') }}"
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/03.jpg') }}"
                             alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}"
+                            <a href="{{ secure_asset('page/blog/detail') }}"
                                 class="blog-title-truncate text-body-heading">Withhold a Compelling Piece of
                                 Information</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-14.jpg') }}" alt="Avatar"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-14.jpg') }}" alt="Avatar"
                                     width="24" height="24" />
                             </div>
                             <div class="author-info">
@@ -201,7 +201,7 @@
                                     <span class="text-body fw-bold">10 Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -209,18 +209,18 @@
 
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/09.jpg') }}"
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/09.jpg') }}"
                             alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}"
+                            <a href="{{ secure_asset('page/blog/detail') }}"
                                 class="blog-title-truncate text-body-heading">Unadvertised Bonus Opening: Share a Quote</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-13.jpg') }}" alt="Avatar"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-13.jpg') }}" alt="Avatar"
                                     width="24" height="24" />
                             </div>
                             <div class="author-info">
@@ -249,7 +249,7 @@
                                     <span class="text-body fw-bold">319 Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -257,19 +257,19 @@
 
             <div class="col-md-6 col-12">
                 <div class="card">
-                    <a href="{{ asset('page/blog/detail') }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('images/slider/10.jpg') }}"
+                    <a href="{{ secure_asset('page/blog/detail') }}">
+                        <img class="card-img-top img-fluid" src="{{ secure_asset('images/slider/10.jpg') }}"
                             alt="Blog Post pic" />
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="{{ asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Ships
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="blog-title-truncate text-body-heading">Ships
                                 at a distance have Every Man’s Wish on
                                 Board</a>
                         </h4>
                         <div class="d-flex">
                             <div class="avatar me-50">
-                                <img src="{{ asset('images/portrait/small/avatar-s-6.jpg') }}" alt="Avatar"
+                                <img src="{{ secure_asset('images/portrait/small/avatar-s-6.jpg') }}" alt="Avatar"
                                     width="24" height="24" />
                             </div>
                             <div class="author-info">
@@ -299,7 +299,7 @@
                                     <span class="text-body fw-bold">1.5k Comments</span>
                                 </div>
                             </a>
-                            <a href="{{ asset('page/blog/detail') }}" class="fw-bold">Read More</a>
+                            <a href="{{ secure_asset('page/blog/detail') }}" class="fw-bold">Read More</a>
                         </div>
                     </div>
                 </div>

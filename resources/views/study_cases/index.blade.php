@@ -166,10 +166,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source type="image/webp"
-                                                                        srcset="{{ asset('images/navbar/logo.webp') }}">
+                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ asset('images/navbar/logo.svg') }}"
+                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
                                                                         alt="">
                                                                 </picture>
                                                             </div>
@@ -293,7 +293,7 @@
                                                         <div class="ae_thumb_wrapper">
                                                             <a href="#" title="Disneyland Paris">
                                                                 <img width="683" height="685"
-                                                                    src="{{ asset('images/blogimage/Disneyland Paris.webp') }}"
+                                                                    src="{{ secure_asset('images/blogimage/Disneyland Paris.webp') }}"
                                                                     class="attachment-fifty-cover-683x685-cropped size-fifty-cover-683x685-cropped wp-post-image lazy"
                                                                     alt=""
                                                                     data-sizes="(max-width: 683px) 100vw, 683px" />
@@ -323,7 +323,7 @@
                                                     <div
                                                         class=" elementor-portfolio elementor-grid elementor-posts-container">
                                                         <article
-                                                            style=" background-image: url('{{ asset('images/blogimage/Disneyland Paris.webp') }}');"
+                                                            style=" background-image: url('{{ secure_asset('images/blogimage/Disneyland Paris.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-8035 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('disneyland_paris') }}">
@@ -335,7 +335,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Elior Group.png') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Elior Group.png') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7961 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('elior_group') }}">
@@ -346,7 +346,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style=" background-image: url('{{ asset('images/blogimage/Edenred.webp') }}');"
+                                                            style=" background-image: url('{{ secure_asset('images/blogimage/Edenred.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-7754 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('edenred') }}">
@@ -357,7 +357,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/RATP.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/RATP.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-25 post-2723 post type-post status-publish format-standard has-post-thumbnail hentry category-transformation-des-produits-it">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('ratp') }}">
@@ -368,7 +368,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Entoria.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Entoria.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2721 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('entoria') }}">
@@ -379,7 +379,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Docaposte.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Docaposte.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-22 post-2715 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('docaposte') }}">
@@ -390,7 +390,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Enedis.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Enedis.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 post-2713 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('enedis') }}">
@@ -402,7 +402,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Randstad.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Randstad.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-28 post-2711 post type-post status-publish format-standard has-post-thumbnail hentry category-autres">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('randstad') }}">
@@ -413,7 +413,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Servier.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Servier.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 post-2698 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('servier') }}">
@@ -424,7 +424,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Rousselet.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Rousselet.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-26 elementor-filter-27 post-2693 post type-post status-publish format-standard has-post-thumbnail hentry category-multispeed-it category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('rousselet') }}">
@@ -436,7 +436,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/Médiamétrie.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/Médiamétrie.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('Médiamétrie') }}">
@@ -448,7 +448,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/total_marketing_french.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/total_marketing_french.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('total_marketing_france') }}">
@@ -460,7 +460,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/federation_francaise_de_football.png') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/federation_francaise_de_football.png') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('federation') }}">
@@ -472,7 +472,7 @@
                                                             </a>
                                                         </article>
                                                         <article
-                                                            style="background-image: url('{{ asset('images/blogimage/OUI.SNCF.webp') }}');"
+                                                            style="background-image: url('{{ secure_asset('images/blogimage/OUI.SNCF.webp') }}');"
                                                             class="elementor-portfolio-item elementor-post elementor-filter-22 elementor-filter-27 post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-technologie-innovation category-transformation-ux">
                                                             <a class="elementor-post__thumbnail__link"
                                                                 href="{{ route('ouisncf') }}">
@@ -899,6 +899,6 @@
                 }
             }
         </script>
-        <script async src="{{ asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
+        <script async src="{{ secure_asset('assets/cache/autoptimize/js/lazyload.min.js') }}"></script>
     </body>
 @endsection

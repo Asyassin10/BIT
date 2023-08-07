@@ -4,12 +4,12 @@
 
 @section('vendor-style')
     <!-- vendor css files -->
-    <link rel='stylesheet' href="{{ asset(mix('vendors/css/forms/select/select2.min.css')) }}">
+    <link rel='stylesheet' href="{{ secure_asset(mix('vendors/css/forms/select/select2.min.css')) }}">
 @endsection
 
 @section('page-style')
     <!-- Page css files -->
-    <link rel="stylesheet" href="{{ asset(mix('css/base/plugins/forms/form-validation.css')) }}">
+    <link rel="stylesheet" href="{{ secure_asset(mix('css/base/plugins/forms/form-validation.css')) }}">
 @endsection
 
 @section('content')
@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-7 order-md-1 order-0">
                     <div class="text-center">
-                        <img class="img-fluid text-center" src="{{ asset('images/illustration/pricing-Illustration.svg') }}"
+                        <img class="img-fluid text-center" src="{{ secure_asset('images/illustration/pricing-Illustration.svg') }}"
                             alt="illustration" width="310" />
                     </div>
                 </div>
@@ -176,11 +176,11 @@
 
 @section('vendor-script')
     <!-- vendor files -->
-    <script src="{{ asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
-    <script src="{{ asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/select/select2.full.min.js')) }}"></script>
+    <script src="{{ secure_asset(mix('vendors/js/forms/validation/jquery.validate.min.js')) }}"></script>
 @endsection
 
 @section('page-script')
     <!-- Page js files -->
-    <script src="{{ asset(mix('js/scripts/pages/page-api-key.js')) }}"></script>
+    <script src="{{ secure_asset(mix('js/scripts/pages/page-api-key.js')) }}"></script>
 @endsection
