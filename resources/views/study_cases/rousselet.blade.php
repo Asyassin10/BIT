@@ -239,7 +239,7 @@
                         <div class=" row w-100  tout_nos_services_container" id="">
                             <div
                                 class="col-12  tout_nos_services_child_b_1 d-flex align-items-center justify-content-center">
-                                <div class="w-50">
+                                <div class="w-100 w-md-50  content_centered">
 
                                     <h4 class="text-left my-4" style="color:#FF9900;">
                                         Contexte client
