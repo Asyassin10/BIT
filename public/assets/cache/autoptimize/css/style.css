@@ -557,7 +557,7 @@
         background: #ffffff;
         border-radius: 10px;
         width: 90% !important;
-
+        margin-left: 5%;
         margin-top: 5%;
     }
 
@@ -633,7 +633,7 @@
     background: #ffffff;
     border-radius: 10px;
     width: 80%;
- /*    padding-left: 55% !important; */
+
     margin-top: 5%;
 }
 .bg_white_content_header{
