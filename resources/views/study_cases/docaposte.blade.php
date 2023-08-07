@@ -149,11 +149,11 @@
                                                         <div class="hfe-site-logo-set">
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
-                                                                    <source type="image/webp"
-                                                                        srcset="{{ secure_asset('images/navbar/logo.webp') }}">
+                                                                    <source
+                                                                    srcset="https://www.bti-advisory.com/images/navbar/logo.svg">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                        src="{{ secure_asset('images/navbar/logo.svg') }}"
-                                                                        data-src="{{ secure_asset('images/navbar/logo.svg') }}"
+                                                                    src="https://www.bti-advisory.com/images/navbar/logo.webp"
+                                                                    data-src="https://www.bti-advisory.com/images/navbar/logo.webp"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
