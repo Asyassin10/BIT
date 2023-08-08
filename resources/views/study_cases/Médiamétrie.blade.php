@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source
-                                                                    srcset="https://www.bti-advisory.com/images/navbar/logo.svg">
+                                                                        srcset="https://www.bti-advisory.com/images/navbar/logo.svg">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="https://www.bti-advisory.com/images/navbar/logo.webp"
-                                                                    data-src="https://www.bti-advisory.com/images/navbar/logo.webp"
+                                                                        src="https://www.bti-advisory.com/images/navbar/logo.webp"
+                                                                        data-src="https://www.bti-advisory.com/images/navbar/logo.webp"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -264,11 +264,11 @@
                                 <div class="vertical-line p-0 m-0" style="height: 82%;">
                                     {{-- <div class="vertical-line_part "></div>
                                     <div class="cercle-line_part "></div> --}}
-                                    <div class="vertical-line_part " style="top: 7%;"></div>
+                                    <div class="vertical-line_part " style="top: 9%;"></div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 10%;">1</div>
+                                        style="top: 13%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 62%;">2</div>
+                                        style="top: 35%;">2</div>
                                 </div>
 
                             </div>
@@ -520,37 +520,37 @@
 
                                     </div>
                                     <div class="d-flex align-items-center w-100"
-                                    style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
-                                    <div class="d-flex  w-100 " style=" margin-left: 5%;">
-                                        <div class="bg-white d-none d-md-block" style="width: 5%;">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                                                viewBox="0 0 40 40">
-                                                <g id="ic_check" transform="translate(9.089 9.089)">
-                                                    <g id="Groupe_1" data-name="Groupe 1"
-                                                        transform="translate(-9.089 -9.089)">
-                                                        <path id="Tracé_2" data-name="Tracé 2"
-                                                            d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
-                                                            transform="translate(9.089 9.089)" fill="#44b351" />
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
                                                     </g>
-                                                    <g id="Groupe_2" data-name="Groupe 2"
-                                                        transform="translate(2.515 5.175)">
-                                                        <path id="Tracé_3" data-name="Tracé 3"
-                                                            d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
-                                                            transform="translate(-10.11 -14.51)" fill="#44b351" />
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="" style="width: 90%;">
-                                            <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                <p>Vérification des livrables à la fin de chaque sprint, coordination
-                                                    des déploiements et communication de l’état d’avancement des projets
-                                                    aux parties prenantes</p>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p>Vérification des livrables à la fin de chaque sprint, coordination
+                                                        des déploiements et communication de l’état d’avancement des projets
+                                                        aux parties prenantes</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                </div>
+                                    </div>
                                     <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
@@ -620,7 +620,7 @@
                                     class=" shadow-lg  bg-white rounded">
                                     <br>
                                     <p class="h4 pt-4" id="title_form">
-                                        Construisons votre vision ensemble
+                                        Contacter nos experts
                                     </p>
                                     <div class="mb-3 divs_form">
                                         <p for="exampleFormControlInput1" class="form-label">Nom complet*</p>
@@ -636,18 +636,29 @@
                                         <p for="exampleFormControlInput1" class="form-label">Numéro de téléphone*</p>
                                         <input type="email" class="form-control" id="exampleFormControlInput1"
                                             style="background:#F5F5F5;">
-                                    </div <div class="mb-3 divs_form" id="div_select_option">
-                                    <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
-                                    <select class="form-select " id="drop_down_list" style="">
-                                        <option></option>
+                                    </div>
+                                    <div class="mb-3 divs_form" id="div_select_option">
+                                        <p for="exampleFormControlInput1" class="form-label">Sujet*</p>
+                                        <select class="form-select " id="drop_down_list" style="">
+                                            <option></option>
 
-                                    </select>
+                                        </select>
 
 
-                                </div>
-                                <div id="div_textarea" class="mb-3">
-                                    <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
-                                    <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
+                                    </div>
+                                    <div id="div_textarea" class="mb-3">
+                                        <p for="exampleFormControlTextarea1" class="form-label">Message*</p>
+                                        <textarea class="form-control" id="textarea" id="exampleFormControlTextarea1" rows="2" cols="500"></textarea>
+                                    </div>
+
+                                    <br>
+                                    <div class="d-flex justify-content-end" id="div_btn_form">
+                                        <button id="btn_form" class="px-3 py-2 text-dark">
+                                            Envoyer
+                                        </button>
+                                    </div>
+                                    <br>
+                                    <br>
                                 </div>
 
                                 <br>
