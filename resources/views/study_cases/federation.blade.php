@@ -280,7 +280,7 @@ Football
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
                                         style="top: 12%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 35%;">2</div>
+                                        style="top: 37%;">2</div>
 
                                 </div>
 
@@ -732,7 +732,7 @@ Football
 
 
         </div>
-        @include('footer')
+       {{--  @include('footer') --}}
 
         <script>
             window.onload = function() {

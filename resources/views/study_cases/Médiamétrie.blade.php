@@ -661,13 +661,13 @@
                                     <br>
                                 </div>
 
-                                <br>
+                               {{--  <br>
                                 <div class="d-flex justify-content-end" id="div_btn_form">
                                     <button id="btn_form" class="px-3 py-2 text-dark">
                                         Envoyer
                                     </button>
                                 </div>
-                                <br>
+                                <br> --}}
                                 <br>
                             </div>
 
@@ -691,7 +691,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {

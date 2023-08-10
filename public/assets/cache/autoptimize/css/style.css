@@ -526,6 +526,7 @@
     .displayed_on_laptop {
         display: block !important ;
     }
+
 }
 /*--  etude de cas total_marketing_france --- */
 @media only screen and (max-width: 767px) {
@@ -560,6 +561,15 @@
         margin-left: 5%;
         margin-top: 5%;
     }
+    .bg_white_content_header{
+        margin-left: 10% !important;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+  /*   .bg_white_content_header{
+        margin-left: 10% !important;
+
+    } */
 
 }
 
@@ -569,6 +579,11 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    .bg_white_content_header{
+    margin-left: 10% !important;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
 
     #form_container_service {
         width: 60%;
@@ -636,11 +651,7 @@
 
     margin-top: 5%;
 }
-.bg_white_content_header{
-    margin-left: 5%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-}
+
 .bg_white_content_header_flex{
     margin-left: 5%;
 }

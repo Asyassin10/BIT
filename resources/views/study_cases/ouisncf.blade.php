@@ -580,7 +580,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {

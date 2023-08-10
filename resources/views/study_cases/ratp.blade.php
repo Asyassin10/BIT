@@ -282,16 +282,16 @@
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
                                         style="top: 48%;">5</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 58%;">6</div>
+                                        style="top: 56.5%;">6</div>
 
                                 </div>
 
                             </div>
                             <div class="col-md-9 div_content_container">
 
-                                <h3 class="text-white mb-4" style="margin-left: 5%;">Nos réalisations et méthodologie
+                                <h3 class="text-white mb-4" style="margin-left: 0%;">Nos réalisations et méthodologie
                                     adoptée :</h3>
-                                <p class="text-white" style="margin-left: 5%;">Dans ce contexte, notre intervention a
+                                <p class="text-white" style="margin-left: 0%;">Dans ce contexte, notre intervention a
                                     porté sur :</p>
                                 <div class="bg_white_content_container">
                                     <p class="bg_white_content_header_flex h4" style="padding-top: 7%;">

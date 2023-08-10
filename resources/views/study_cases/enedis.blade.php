@@ -274,11 +274,11 @@
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
                                         style="top: 11%;">1</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 25%;">2</div>
+                                        style="top: 26%;">2</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 42%;">3</div>
+                                        style="top: 43%;">3</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 56%;">4</div>
+                                        style="top: 60%;">4</div>
                                 </div>
 
                             </div>
@@ -779,7 +779,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {

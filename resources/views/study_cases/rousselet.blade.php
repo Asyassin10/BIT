@@ -231,7 +231,7 @@
                                 </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ secure_asset('images/blogimage/rousselet.webp') }}" class="m-0 p-0 w-100">
+                                <img src="{{ secure_asset('images/blogimage/Rousselet.webp') }}" class="m-0 p-0 w-100">
 
 
                             </div>
@@ -277,11 +277,11 @@
                             style="background: #1c1c1a !important;">
 
                             <div class="col-md-2 d-flex justify-content-center display_only_on_mobile">
-                                <div class="vertical-line p-0 m-0" style="height: 78%;">
+                                <div class="vertical-line p-0 m-0" style="height: 80%;">
                                     <div class="vertical-line_part " style="top: 7%;"></div>
                                     {{-- <div class="cercle-line_part "></div> --}}
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 12%;">1</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 28%;">2</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 11%;">1</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 27%;">2</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 57%;">3</div>
                                 </div>
 
@@ -770,7 +770,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {

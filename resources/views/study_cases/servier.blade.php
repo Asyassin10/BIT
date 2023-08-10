@@ -271,7 +271,7 @@
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
                                         style="top: 32%;">2</div>
                                     <div class="cercle-line_part d-flex justify-content-center align-items-center"
-                                        style="top: 53%;">3</div>
+                                        style="top: 54%;">3</div>
                                 </div>
 
                             </div>
@@ -731,7 +731,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {

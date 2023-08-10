@@ -264,12 +264,12 @@
                             style="background: #1c1c1a !important;">
 
                             <div class="col-md-2 d-flex justify-content-center display_only_on_mobile">
-                                <div class="vertical-line p-0 m-0" style="height: 82%;">
+                                <div class="vertical-line p-0 m-0" style="height: 85%;">
                                     {{-- <div class="vertical-line_part "></div>
                                     <div class="cercle-line_part "></div> --}}
-                                    <div class="vertical-line_part " style="top: 7%;"></div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 10%;">1</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 62%;">2</div>
+                                    <div class="vertical-line_part " style="top: 6%;"></div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 8%;">1</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 60.5%;">2</div>
                                 </div>
 
                             </div>

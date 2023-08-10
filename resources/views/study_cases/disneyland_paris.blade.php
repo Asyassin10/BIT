@@ -150,10 +150,10 @@
                                                             <div class="hfe-site-logo-container">
                                                                 <picture>
                                                                     <source
-                                                                    srcset="https://www.bti-advisory.com/images/navbar/logo.svg">
+                                                                        srcset="https://www.bti-advisory.com/images/navbar/logo.svg">
                                                                     <img class="hfe-site-logo-img elementor-animation- lazy"
-                                                                    src="https://www.bti-advisory.com/images/navbar/logo.webp"
-                                                                    data-src="https://www.bti-advisory.com/images/navbar/logo.webp"
+                                                                        src="https://www.bti-advisory.com/images/navbar/logo.webp"
+                                                                        data-src="https://www.bti-advisory.com/images/navbar/logo.webp"
                                                                         id="image_lolo_webp" alt="">
                                                                 </picture>
                                                             </div>
@@ -230,7 +230,8 @@
                                     Refonte et modernisation du SI Disneyland Paris </p>
                             </div>
                             <div class="col-12 col-md-5 study_cases_image_header m-0 p-0" id="">
-                                <img src="{{ secure_asset('images/blogimage/Disneyland Paris.webp') }}" class="m-0 p-0 w-100">
+                                <img src="{{ secure_asset('images/blogimage/Disneyland Paris.webp') }}"
+                                    class="m-0 p-0 w-100">
 
 
                             </div>
@@ -269,9 +270,11 @@
 
                             <div class="col-md-2 d-flex justify-content-center display_only_on_mobile">
                                 <div class="vertical-line p-0 m-0" style="height: 83%;">
-                                    <div class="vertical-line_part " style="top: 9%;"></div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 13%;">1</div>
-                                    <div class="cercle-line_part d-flex justify-content-center align-items-center" style="top: 26%;">2</div>
+                                    <div class="vertical-line_part " style="top: 8%;"></div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
+                                        style="top: 11%;">1</div>
+                                    <div class="cercle-line_part d-flex justify-content-center align-items-center"
+                                        style="top: 23%;">2</div>
                                 </div>
 
                             </div>
@@ -306,7 +309,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Mise en place, Optimisation et Intégration des processus métiers des
                                                         systèmes Reservations, Property Management, Accounting & Reporting,
                                                         les rendant plus agiles et mieux tournés vers le service au client
@@ -340,7 +343,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Mise en place de la nouvelle architecture à base de microservices en
                                                         Cloud. </p>
                                                 </div>
@@ -349,6 +352,40 @@
 
                                     </div>
                                     <div class="d-flex align-items-center w-100"
+                                        style="width:100%;margin-left: 0%;margin-top: 0%;">
+                                        <div class="d-flex  w-100 " style=" margin-left: 5%;">
+                                            <div class="bg-white d-none d-md-block" style="width: 5%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                    viewBox="0 0 40 40">
+                                                    <g id="ic_check" transform="translate(9.089 9.089)">
+                                                        <g id="Groupe_1" data-name="Groupe 1"
+                                                            transform="translate(-9.089 -9.089)">
+                                                            <path id="Tracé_2" data-name="Tracé 2"
+                                                                d="M10.911,30.911a20,20,0,1,1,20-20,20,20,0,0,1-20,20Zm0-38.342A18.342,18.342,0,1,0,29.253,10.911,18.342,18.342,0,0,0,10.911-7.431Z"
+                                                                transform="translate(9.089 9.089)" fill="#44b351" />
+                                                        </g>
+                                                        <g id="Groupe_2" data-name="Groupe 2"
+                                                            transform="translate(2.515 5.175)">
+                                                            <path id="Tracé_3" data-name="Tracé 3"
+                                                                d="M16.529,25.988a1.116,1.116,0,0,1-.792-.326l-5.3-5.3a1.116,1.116,0,1,1,1.578-1.578L16.529,23.3l8.462-8.462a1.116,1.116,0,1,1,1.578,1.578l-9.248,9.248A1.142,1.142,0,0,1,16.529,25.988Z"
+                                                                transform="translate(-10.11 -14.51)" fill="#44b351" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="" style="width: 90%;">
+                                                <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
+                                                    <p class="w-100">
+                                                        Supervision de la mise en place du système de monitoring. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div style="margin-bottom: 3%;" class="my-2 py-2">
+
+                                    <p></p></div>
+                                   {{--  <div class="d-flex align-items-center w-100"
                                         style="width:100%;margin-left: 0%;margin-top: 0%;margin-bottom: 3%;">
                                         <div class="d-flex  w-100 " style=" margin-left: 5%;">
                                             <div class="bg-white d-none d-md-block" style="width: 5%;">
@@ -373,13 +410,13 @@
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4 pb-4"
                                                     style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Supervision de la mise en place du système de monitoring. </p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> --}}
 
 
 
@@ -412,7 +449,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Implémenter du POS et la cartographie SI à l’aide de CaseWise et
                                                         Mega HOPEX
                                                     </p>
@@ -445,7 +482,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Mise en place de l’API Management et la Gateway sous WS2O avec
                                                         l’équipe Technique
                                                     </p>
@@ -478,7 +515,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Définition des objets métiers, des services web/micro services
                                                         déployées sur Azure
                                                     </p>
@@ -511,7 +548,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Architecture fonctionnelle et applicative et support aux équipes
                                                         d’architecture technique
                                                     </p>
@@ -544,7 +581,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Définition du processus métier : processus de livraison, processus
                                                         métier. Processus stratégique avec la DSI et la sous DSI </p>
                                                 </div>
@@ -576,7 +613,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Réalisation de DAGT (Dossier d’architecture fonctionnel, applicatif
                                                         et technique) contenant le contexte, l’architecture fonctionnelle,
                                                         l’architecture d’application transmis aux différents Architectes
@@ -611,7 +648,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Définition du schéma directeur de l’architecture cible </p>
                                                 </div>
                                             </div>
@@ -642,7 +679,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Refonte de la stratégie BI vers BI interne et BI externe </p>
                                                 </div>
                                             </div>
@@ -673,7 +710,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Contact avec la R&D pour réaliser les POC</p>
                                                 </div>
                                             </div>
@@ -704,7 +741,7 @@
                                             </div>
                                             <div class="" style="width: 90%;">
                                                 <div class="d-flex align-items-center mt-2 mx-4" style="height: 100%">
-                                                    <p>
+                                                    <p class="w-100">
                                                         Mise à jour de la cartographie de l’entreprise par domaine
                                                         d’activité </p>
                                                 </div>

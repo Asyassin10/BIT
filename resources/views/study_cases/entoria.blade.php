@@ -273,9 +273,9 @@
                             </div>
                             <div class="col-md-9 div_content_container">
 
-                                <h3 class="text-white mb-4" style="margin-left: 5%;">Nos réalisations et méthodologie
+                                <h3 class="text-white mb-4" style="margin-left: 0%;">Nos réalisations et méthodologie
                                     adoptée :</h3>
-                                <p class="text-white" style="margin-left: 5%;">
+                                <p class="text-white" style="margin-left: 0%;">
                                     Dans le cadre de ce projet de refonte, nous avons réalisé les tâches
                                     suivantes :
                                 </p>
@@ -517,7 +517,7 @@
 
 
         </div>
-        @include('footer')
+        {{-- @include('footer') --}}
 
         <script>
             window.onload = function() {
